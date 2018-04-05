@@ -1,0 +1,52 @@
+
+/* ::::: https://widget.battleforthenet.com/iframe/css/min/banner.min.css ::::: */
+
+.spinner { position: relative; display: block; width: 100%; height: 100%; }
+.spinner .blade { position: absolute; left: 0%; top: 50%; margin-top: -4%; height: 8%; width: 100%; }
+.spinner .blade > div { width: 25%; margin: 0px 0px 0px auto; height: 100%; background: none repeat scroll 0% 0% rgb(248, 13, 27); border-radius: 1000px; opacity: 1; animation-duration: 2s; animation-name: bladeFade; animation-timing-function: linear; animation-iteration-count: infinite; }
+.spinner .blade.d02 { transform: rotate(-30deg); }
+.spinner .blade.d02 > div { animation-delay: -0.166667s; }
+.spinner .blade.d03 { transform: rotate(-60deg); }
+.spinner .blade.d03 > div { animation-delay: -0.333333s; }
+.spinner .blade.d04 { transform: rotate(-90deg); }
+.spinner .blade.d04 > div { animation-delay: -0.5s; }
+.spinner .blade.d05 { transform: rotate(-120deg); }
+.spinner .blade.d05 > div { animation-delay: -0.666667s; }
+.spinner .blade.d06 { transform: rotate(-150deg); }
+.spinner .blade.d06 > div { animation-delay: -0.833333s; }
+.spinner .blade.d07 { transform: rotate(-180deg); }
+.spinner .blade.d07 > div { animation-delay: -1s; }
+.spinner .blade.d08 { transform: rotate(-210deg); }
+.spinner .blade.d08 > div { animation-delay: -1.16667s; }
+.spinner .blade.d09 { transform: rotate(-240deg); }
+.spinner .blade.d09 > div { animation-delay: -1.33333s; }
+.spinner .blade.d10 { transform: rotate(-270deg); }
+.spinner .blade.d10 > div { animation-delay: -1.5s; }
+.spinner .blade.d11 { transform: rotate(-300deg); }
+.spinner .blade.d11 > div { animation-delay: -1.66667s; }
+.spinner .blade.d12 { transform: rotate(-330deg); }
+.spinner .blade.d12 > div { animation-delay: -1.83333s; }
+html { height: 100%; }
+body { height: 100%; font-family: 'Montserrat',Arial,sans-serif; margin: 0px; padding: 0px 0px 0px 10px; overflow: hidden; transition: opacity 0.75s ease-out 0s; }
+body.closed { opacity: 0; }
+body.closed a.close { opacity: 0; }
+#banner { display: none; cursor: pointer; position: relative; box-sizing: border-box; height: 94px; width: 100%; border-radius: 100px 0px 0px 100px; background: none repeat scroll 0% 0% rgba(255, 255, 255, 0.96); margin: 0px; box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.5); }
+#banner #loader { position: absolute; left: 8px; top: 7px; width: 79px; height: 79px; box-sizing: border-box; padding: 7px; border-radius: 100px; box-shadow: 0px 1px 1px -1px rgba(0, 0, 0, 0.8) inset; background: linear-gradient(to bottom, rgb(244, 244, 244) 0px, rgb(255, 255, 255) 100%) repeat scroll 0% 0% transparent; }
+#banner #text1, #banner #text2 { position: absolute; box-sizing: border-box; left: 0px; top: 0px; height: 100%; display: table; width: 100%; padding: 0px 40px 0px 105px; color: black; font-size: 18px; line-height: 23px; font-weight: normal; transition: opacity 1s ease-in 0s; }
+#banner #text1 .content, #banner #text2 .content { display: table-cell; text-align: left; vertical-align: middle; }
+#banner #text1 .content strong, #banner #text2 .content strong { display: block; font-weight: normal; color: rgb(248, 13, 27); }
+#banner #text1 .content em, #banner #text2 .content em { font-weight: bold; font-style: normal; }
+#banner #text1 .content > div, #banner #text2 .content > div { font-size: 12px; line-height: 20px; color: white; background: none repeat scroll 0% 0% rgb(248, 13, 27); display: inline-block; padding: 0px 20px; border-radius: 100px; margin-top: 3px; text-transform: uppercase; }
+#banner.dark { background: none repeat scroll 0% 0% rgba(44, 44, 44, 0.96); box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.5); }
+#banner.dark #loader { background: linear-gradient(to bottom, rgb(32, 32, 32) 0px, rgb(31, 31, 31) 100%) repeat scroll 0% 0% transparent; }
+#banner.dark #text1, #banner.dark #text2 { color: white; }
+a.close { position: absolute; right: 0px; top: 0px; text-decoration: none; box-sizing: border-box; width: 45px; height: 95px; transition: opacity 0.75s ease-out 0s; }
+a.close span { display: block; margin: 35px auto; box-sizing: border-box; width: 23px; height: 23px; border-radius: 23px; text-align: center; font-size: 20px; font-weight: 800; background: none repeat scroll 0% 0% rgb(216, 216, 216); color: white; line-height: 24px; transition: background-color 0.1s linear 0s; }
+a.close.dark span { color: black; background: none repeat scroll 0% 0% rgb(124, 124, 124); }
+a.close:hover span { background: none repeat scroll 0% 0% rgb(170, 170, 170); }
+@media (max-width: 429px) {
+  body { padding: 0px; }
+  #banner { border-radius: 0px; }
+  #banner #text1, #banner #text2 { font-size: 16px; line-height: 20px; padding: 0px 45px 0px 95px; }
+  #banner #text1 .content a, #banner #text2 .content a { font-weight: 600; }
+}

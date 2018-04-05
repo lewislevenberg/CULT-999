@@ -1,0 +1,6 @@
+
+/* ::::: null ::::: */
+
+body { display: table; height: 100%; width: 100%; text-align: center; margin: 0px; padding: 0px; }
+p { margin: 2px; font-family: Helvetica,Arial,sans-serif; font-size: 12px; }
+#content { display: table-cell; vertical-align: middle; text-align: center; }

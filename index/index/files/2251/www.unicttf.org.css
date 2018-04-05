@@ -1,0 +1,142 @@
+
+/* ::::: http://www.unicttf.org/unict.css ::::: */
+
+body { background-color: rgb(255, 255, 255); font-family: Verdana,Arial,Helvetica,sans-serif; color: rgb(0, 0, 0); font-size: small; text-decoration: none; margin: 0px; }
+p, div, td, li, span { font-size: small; }
+a.azul:link { font-family: Verdana,Arial,Helvetica,sans-serif; color: rgb(0, 102, 204); font-weight: bold; text-decoration: none; }
+a.azul:visited { font-family: Verdana,Arial,Helvetica,sans-serif; color: rgb(0, 102, 204); font-weight: bold; text-decoration: none; }
+a.azul:hover { font-family: Verdana,Arial,Helvetica,sans-serif; color: rgb(102, 153, 255); font-weight: bold; }
+a.vermelho:link { font-family: Verdana,Arial,Helvetica,sans-serif; color: rgb(170, 0, 0); font-weight: bold; text-decoration: none; }
+a.vermelho:visited { font-family: Verdana,Arial,Helvetica,sans-serif; color: rgb(170, 0, 0); font-weight: bold; text-decoration: none; }
+a.vermelho:hover { font-family: Verdana,Arial,Helvetica,sans-serif; color: rgb(255, 0, 0); font-weight: bold; }
+a.azul_button:link { font-family: Verdana,Arial,Helvetica,sans-serif; color: rgb(102, 153, 255); font-weight: bold; text-decoration: none; }
+a.azul_button:visited { font-family: Verdana,Arial,Helvetica,sans-serif; color: rgb(102, 153, 255); font-weight: bold; text-decoration: none; }
+a.azul_button:hover { font-family: Verdana,Arial,Helvetica,sans-serif; color: rgb(102, 153, 255); font-weight: bold; }
+a.azul_fino:link { font-family: Verdana,Arial,Helvetica,sans-serif; color: rgb(0, 102, 204); text-decoration: none; }
+a.azul_fino:visited { font-family: Verdana,Arial,Helvetica,sans-serif; color: rgb(0, 102, 204); text-decoration: none; }
+a.azul_fino:hover { font-family: Verdana,Arial,Helvetica,sans-serif; color: rgb(102, 153, 255); }
+a.azul_preto_fino:link { font-family: Verdana,Arial,Helvetica,sans-serif; color: rgb(0, 102, 204); text-decoration: none; }
+a.azul_preto_fino:visited { font-family: Verdana,Arial,Helvetica,sans-serif; color: rgb(0, 102, 204); text-decoration: none; }
+a.azul_preto_fino:hover { font-family: Verdana,Arial,Helvetica,sans-serif; color: rgb(0, 0, 0); }
+a.amarelo:link { font-family: Verdana,Arial,Helvetica,sans-serif; color: rgb(0, 0, 0); font-weight: bold; text-decoration: none; }
+a.amarelo:visited { font-family: Verdana,Arial,Helvetica,sans-serif; color: rgb(0, 0, 0); font-weight: bold; text-decoration: none; }
+a.amarelo:hover { font-family: Verdana,Arial,Helvetica,sans-serif; color: rgb(255, 204, 0); font-weight: bold; }
+a.branco:link { font-family: Verdana,Arial,Helvetica,sans-serif; color: rgb(255, 255, 255); font-weight: bold; text-decoration: none; }
+a.branco:visited { font-family: Verdana,Arial,Helvetica,sans-serif; color: rgb(255, 255, 255); font-weight: bold; text-decoration: none; }
+a.branco:hover { font-family: Verdana,Arial,Helvetica,sans-serif; color: rgb(255, 255, 255); font-weight: bold; text-decoration: underline; }
+a.preto:link { font-family: Verdana,Arial,Helvetica,sans-serif; color: rgb(0, 0, 0); font-weight: bold; text-decoration: none; }
+a.preto:visited { font-family: Verdana,Arial,Helvetica,sans-serif; color: rgb(0, 0, 0); font-weight: bold; text-decoration: none; }
+a.preto:hover { font-family: Verdana,Arial,Helvetica,sans-serif; color: rgb(0, 0, 0); font-weight: bold; text-decoration: underline; }
+a.preto_azul:link { font-family: Verdana,Arial,Helvetica,sans-serif; color: rgb(0, 0, 0); font-weight: bold; text-decoration: none; }
+a.preto_azul:visited { font-family: Verdana,Arial,Helvetica,sans-serif; color: rgb(0, 0, 0); font-weight: bold; text-decoration: none; }
+a.preto_azul:hover { font-family: Verdana,Arial,Helvetica,sans-serif; color: rgb(102, 153, 255); font-weight: bold; }
+a.preto_azul_fino:link { font-family: Verdana,Arial,Helvetica,sans-serif; color: rgb(0, 0, 0); text-decoration: none; }
+a.preto_azul_fino:visited { font-family: Verdana,Arial,Helvetica,sans-serif; color: rgb(0, 0, 0); text-decoration: none; }
+a.preto_azul_fino:hover { font-family: Verdana,Arial,Helvetica,sans-serif; color: rgb(102, 153, 255); }
+a.branco_preto:link { font-family: Verdana,Arial,Helvetica,sans-serif; color: rgb(255, 255, 255); text-decoration: none; }
+a.branco_preto:visited { font-family: Verdana,Arial,Helvetica,sans-serif; color: rgb(255, 255, 255); text-decoration: none; }
+a.branco_preto:hover { font-family: Verdana,Arial,Helvetica,sans-serif; color: rgb(0, 0, 0); }
+a.menu_preto_azul:link { font-family: Verdana,Arial,Helvetica,sans-serif; color: rgb(0, 0, 0); font-weight: normal; text-decoration: none; }
+a.menu_preto_azul:visited { font-family: Verdana,Arial,Helvetica,sans-serif; color: rgb(0, 0, 0); font-weight: normal; text-decoration: none; }
+a.menu_preto_azul:hover { color: rgb(0, 0, 170); font-weight: normal; font-family: Verdana,Arial,Helvetica,sans-serif; text-decoration: underline overline; }
+.borda { font-family: Verdana,Arial,Helvetica,sans-serif; font-size: 8pt; color: rgb(0, 0, 0); background-color: rgb(248, 248, 248); border: 1px solid rgb(51, 103, 153); }
+.form { font-family: verdana; font-size: 8pt; color: rgb(0, 0, 0); background-color: rgb(248, 248, 248); border: 1px solid rgb(0, 102, 204); }
+.form2 { font-family: verdana; font-size: 8pt; color: rgb(0, 0, 0); background-color: rgb(248, 248, 248); border: 1px solid rgb(0, 102, 204); }
+.CollabCombo { font-family: Arial,Helvetica,sans-serif; font-size: 7pt; font-weight: normal; color: rgb(0, 0, 0); background-color: rgb(255, 204, 0); }
+.SearchForm { font-family: Verdana,Arial,Helvetica,sans-serif; font-size: 7pt; color: rgb(0, 0, 0); background-color: rgb(244, 244, 244); border: 1px solid rgb(0, 0, 0); height: 14px; }
+.highlight { font-family: Verdana,Arial,Helvetica,sans-serif; font-size: x-small; border-top: 1px solid rgb(153, 204, 255); border-bottom: 1px solid rgb(153, 204, 255); text-decoration: none; }
+.news_btn { font-family: Verdana,Arial,Helvetica,sans-serif; font-size: x-small; border: 1px solid rgb(153, 204, 255); text-decoration: none; }
+#fscroller { position: relative; background-color: rgb(244, 244, 244); width: 400px; height: 75px; overflow: hidden; text-align: center; vertical-align: middle; font-family: Verdana,Arial,Helvetica,sans-serif; font-size: small; text-decoration: none; border-top: 1px solid rgb(153, 204, 255); border-bottom: 1px solid rgb(153, 204, 255); }
+#fscrollerns_sub { position: relative; background-color: rgb(244, 244, 244); width: 400px; height: 40px; text-align: center; vertical-align: middle; font-family: Verdana,Arial,Helvetica,sans-serif; font-size: small; text-decoration: none; border-top: 1px solid rgb(153, 204, 255); border-bottom: 1px solid rgb(153, 204, 255); }
+#top_menu { font-size: small; text-align: center; position: relative; top: 20px; left: -250px; width: auto; }
+#top_menu_bg { background-image: url('logo_bar.gif'); }
+#top_title { text-align: center; font-size: large; font-weight: bold; position: relative; top: 15px; left: -250px; width: auto; }
+a.top_menu_link:link { color: rgb(0, 0, 0); font-weight: bold; text-decoration: none; }
+a.top_menu_link:visited { color: rgb(0, 0, 0); font-weight: bold; text-decoration: none; }
+a.top_menu_link:hover { color: rgb(102, 153, 255); font-weight: bold; }
+td.left_right_border { border-left: 2px solid rgb(57, 181, 74); border-right: 2px solid rgb(57, 181, 74); background-color: rgb(238, 238, 238); padding: 0px 5px; }
+td.top_bottom_border { border-top: 2px solid rgb(57, 181, 74); border-bottom: 2px solid rgb(57, 181, 74); background-color: rgb(238, 238, 238); }
+td.top_border { border-top: 2px solid rgb(57, 181, 74); background-color: rgb(238, 238, 238); }
+td.bottom_border { border-bottom: 2px solid rgb(57, 181, 74); background-color: rgb(238, 238, 238); }
+td.left_border { border-left: 2px solid rgb(57, 181, 74); background-color: rgb(238, 238, 238); }
+td.right_border { border-right: 2px solid rgb(57, 181, 74); background-color: rgb(238, 238, 238); }
+.title { font-size: larger; font-weight: bold; color: rgb(0, 0, 0); }
+.bgtext { color: rgb(0, 0, 0); }
+.message { font-size: x-small; text-align: center; background: none repeat scroll 0% 0% lightgrey; color: red; border: thin solid red; width: 200px; }
+.ictmenu { text-align: left; background-color: rgb(238, 238, 238); vertical-align: top; font-weight: bold; font-size: xx-small; }
+.ictmenuelement { text-align: left; color: rgb(0, 0, 0); vertical-align: middle; padding-top: 2px; padding-left: 0px; font-weight: bold; font-size: x-small; }
+.ictmenuelement_hi { text-align: left; background-color: rgb(255, 255, 255); color: rgb(102, 153, 255); vertical-align: middle; padding-top: 2px; padding-left: 0px; font-weight: bold; font-size: x-small; }
+.ictmenusub { text-align: left; background-color: rgb(238, 238, 238); border: thin solid rgb(57, 181, 74); vertical-align: top; font-weight: bold; font-size: x-small; }
+.ictmenusubelement { text-align: left; background-color: rgb(238, 238, 238); color: rgb(0, 0, 0); vertical-align: middle; padding-top: 2px; padding-left: 5px; font-weight: bold; font-size: x-small; }
+.ictmenusubelement_hi { text-align: left; background-color: rgb(255, 255, 255); color: rgb(102, 153, 255); vertical-align: middle; padding-top: 2px; padding-left: 5px; font-weight: bold; font-size: x-small; }
+
+/* ::::: http://www.unicttf.org/unict.css ::::: */
+
+body { background-color: rgb(255, 255, 255); font-family: Verdana,Arial,Helvetica,sans-serif; color: rgb(0, 0, 0); font-size: small; text-decoration: none; margin: 0px; }
+p, div, td, li, span { font-size: small; }
+a.azul:link { font-family: Verdana,Arial,Helvetica,sans-serif; color: rgb(0, 102, 204); font-weight: bold; text-decoration: none; }
+a.azul:visited { font-family: Verdana,Arial,Helvetica,sans-serif; color: rgb(0, 102, 204); font-weight: bold; text-decoration: none; }
+a.azul:hover { font-family: Verdana,Arial,Helvetica,sans-serif; color: rgb(102, 153, 255); font-weight: bold; }
+a.vermelho:link { font-family: Verdana,Arial,Helvetica,sans-serif; color: rgb(170, 0, 0); font-weight: bold; text-decoration: none; }
+a.vermelho:visited { font-family: Verdana,Arial,Helvetica,sans-serif; color: rgb(170, 0, 0); font-weight: bold; text-decoration: none; }
+a.vermelho:hover { font-family: Verdana,Arial,Helvetica,sans-serif; color: rgb(255, 0, 0); font-weight: bold; }
+a.azul_button:link { font-family: Verdana,Arial,Helvetica,sans-serif; color: rgb(102, 153, 255); font-weight: bold; text-decoration: none; }
+a.azul_button:visited { font-family: Verdana,Arial,Helvetica,sans-serif; color: rgb(102, 153, 255); font-weight: bold; text-decoration: none; }
+a.azul_button:hover { font-family: Verdana,Arial,Helvetica,sans-serif; color: rgb(102, 153, 255); font-weight: bold; }
+a.azul_fino:link { font-family: Verdana,Arial,Helvetica,sans-serif; color: rgb(0, 102, 204); text-decoration: none; }
+a.azul_fino:visited { font-family: Verdana,Arial,Helvetica,sans-serif; color: rgb(0, 102, 204); text-decoration: none; }
+a.azul_fino:hover { font-family: Verdana,Arial,Helvetica,sans-serif; color: rgb(102, 153, 255); }
+a.azul_preto_fino:link { font-family: Verdana,Arial,Helvetica,sans-serif; color: rgb(0, 102, 204); text-decoration: none; }
+a.azul_preto_fino:visited { font-family: Verdana,Arial,Helvetica,sans-serif; color: rgb(0, 102, 204); text-decoration: none; }
+a.azul_preto_fino:hover { font-family: Verdana,Arial,Helvetica,sans-serif; color: rgb(0, 0, 0); }
+a.amarelo:link { font-family: Verdana,Arial,Helvetica,sans-serif; color: rgb(0, 0, 0); font-weight: bold; text-decoration: none; }
+a.amarelo:visited { font-family: Verdana,Arial,Helvetica,sans-serif; color: rgb(0, 0, 0); font-weight: bold; text-decoration: none; }
+a.amarelo:hover { font-family: Verdana,Arial,Helvetica,sans-serif; color: rgb(255, 204, 0); font-weight: bold; }
+a.branco:link { font-family: Verdana,Arial,Helvetica,sans-serif; color: rgb(255, 255, 255); font-weight: bold; text-decoration: none; }
+a.branco:visited { font-family: Verdana,Arial,Helvetica,sans-serif; color: rgb(255, 255, 255); font-weight: bold; text-decoration: none; }
+a.branco:hover { font-family: Verdana,Arial,Helvetica,sans-serif; color: rgb(255, 255, 255); font-weight: bold; text-decoration: underline; }
+a.preto:link { font-family: Verdana,Arial,Helvetica,sans-serif; color: rgb(0, 0, 0); font-weight: bold; text-decoration: none; }
+a.preto:visited { font-family: Verdana,Arial,Helvetica,sans-serif; color: rgb(0, 0, 0); font-weight: bold; text-decoration: none; }
+a.preto:hover { font-family: Verdana,Arial,Helvetica,sans-serif; color: rgb(0, 0, 0); font-weight: bold; text-decoration: underline; }
+a.preto_azul:link { font-family: Verdana,Arial,Helvetica,sans-serif; color: rgb(0, 0, 0); font-weight: bold; text-decoration: none; }
+a.preto_azul:visited { font-family: Verdana,Arial,Helvetica,sans-serif; color: rgb(0, 0, 0); font-weight: bold; text-decoration: none; }
+a.preto_azul:hover { font-family: Verdana,Arial,Helvetica,sans-serif; color: rgb(102, 153, 255); font-weight: bold; }
+a.preto_azul_fino:link { font-family: Verdana,Arial,Helvetica,sans-serif; color: rgb(0, 0, 0); text-decoration: none; }
+a.preto_azul_fino:visited { font-family: Verdana,Arial,Helvetica,sans-serif; color: rgb(0, 0, 0); text-decoration: none; }
+a.preto_azul_fino:hover { font-family: Verdana,Arial,Helvetica,sans-serif; color: rgb(102, 153, 255); }
+a.branco_preto:link { font-family: Verdana,Arial,Helvetica,sans-serif; color: rgb(255, 255, 255); text-decoration: none; }
+a.branco_preto:visited { font-family: Verdana,Arial,Helvetica,sans-serif; color: rgb(255, 255, 255); text-decoration: none; }
+a.branco_preto:hover { font-family: Verdana,Arial,Helvetica,sans-serif; color: rgb(0, 0, 0); }
+a.menu_preto_azul:link { font-family: Verdana,Arial,Helvetica,sans-serif; color: rgb(0, 0, 0); font-weight: normal; text-decoration: none; }
+a.menu_preto_azul:visited { font-family: Verdana,Arial,Helvetica,sans-serif; color: rgb(0, 0, 0); font-weight: normal; text-decoration: none; }
+a.menu_preto_azul:hover { color: rgb(0, 0, 170); font-weight: normal; font-family: Verdana,Arial,Helvetica,sans-serif; text-decoration: underline overline; }
+.borda { font-family: Verdana,Arial,Helvetica,sans-serif; font-size: 8pt; color: rgb(0, 0, 0); background-color: rgb(248, 248, 248); border: 1px solid rgb(51, 103, 153); }
+.form { font-family: verdana; font-size: 8pt; color: rgb(0, 0, 0); background-color: rgb(248, 248, 248); border: 1px solid rgb(0, 102, 204); }
+.form2 { font-family: verdana; font-size: 8pt; color: rgb(0, 0, 0); background-color: rgb(248, 248, 248); border: 1px solid rgb(0, 102, 204); }
+.CollabCombo { font-family: Arial,Helvetica,sans-serif; font-size: 7pt; font-weight: normal; color: rgb(0, 0, 0); background-color: rgb(255, 204, 0); }
+.SearchForm { font-family: Verdana,Arial,Helvetica,sans-serif; font-size: 7pt; color: rgb(0, 0, 0); background-color: rgb(244, 244, 244); border: 1px solid rgb(0, 0, 0); height: 14px; }
+.highlight { font-family: Verdana,Arial,Helvetica,sans-serif; font-size: x-small; border-top: 1px solid rgb(153, 204, 255); border-bottom: 1px solid rgb(153, 204, 255); text-decoration: none; }
+.news_btn { font-family: Verdana,Arial,Helvetica,sans-serif; font-size: x-small; border: 1px solid rgb(153, 204, 255); text-decoration: none; }
+#fscroller { position: relative; background-color: rgb(244, 244, 244); width: 400px; height: 75px; overflow: hidden; text-align: center; vertical-align: middle; font-family: Verdana,Arial,Helvetica,sans-serif; font-size: small; text-decoration: none; border-top: 1px solid rgb(153, 204, 255); border-bottom: 1px solid rgb(153, 204, 255); }
+#fscrollerns_sub { position: relative; background-color: rgb(244, 244, 244); width: 400px; height: 40px; text-align: center; vertical-align: middle; font-family: Verdana,Arial,Helvetica,sans-serif; font-size: small; text-decoration: none; border-top: 1px solid rgb(153, 204, 255); border-bottom: 1px solid rgb(153, 204, 255); }
+#top_menu { font-size: small; text-align: center; position: relative; top: 20px; left: -250px; width: auto; }
+#top_menu_bg { background-image: url('logo_bar.gif'); }
+#top_title { text-align: center; font-size: large; font-weight: bold; position: relative; top: 15px; left: -250px; width: auto; }
+a.top_menu_link:link { color: rgb(0, 0, 0); font-weight: bold; text-decoration: none; }
+a.top_menu_link:visited { color: rgb(0, 0, 0); font-weight: bold; text-decoration: none; }
+a.top_menu_link:hover { color: rgb(102, 153, 255); font-weight: bold; }
+td.left_right_border { border-left: 2px solid rgb(57, 181, 74); border-right: 2px solid rgb(57, 181, 74); background-color: rgb(238, 238, 238); padding: 0px 5px; }
+td.top_bottom_border { border-top: 2px solid rgb(57, 181, 74); border-bottom: 2px solid rgb(57, 181, 74); background-color: rgb(238, 238, 238); }
+td.top_border { border-top: 2px solid rgb(57, 181, 74); background-color: rgb(238, 238, 238); }
+td.bottom_border { border-bottom: 2px solid rgb(57, 181, 74); background-color: rgb(238, 238, 238); }
+td.left_border { border-left: 2px solid rgb(57, 181, 74); background-color: rgb(238, 238, 238); }
+td.right_border { border-right: 2px solid rgb(57, 181, 74); background-color: rgb(238, 238, 238); }
+.title { font-size: larger; font-weight: bold; color: rgb(0, 0, 0); }
+.bgtext { color: rgb(0, 0, 0); }
+.message { font-size: x-small; text-align: center; background: none repeat scroll 0% 0% lightgrey; color: red; border: thin solid red; width: 200px; }
+.ictmenu { text-align: left; background-color: rgb(238, 238, 238); vertical-align: top; font-weight: bold; font-size: xx-small; }
+.ictmenuelement { text-align: left; color: rgb(0, 0, 0); vertical-align: middle; padding-top: 2px; padding-left: 0px; font-weight: bold; font-size: x-small; }
+.ictmenuelement_hi { text-align: left; background-color: rgb(255, 255, 255); color: rgb(102, 153, 255); vertical-align: middle; padding-top: 2px; padding-left: 0px; font-weight: bold; font-size: x-small; }
+.ictmenusub { text-align: left; background-color: rgb(238, 238, 238); border: thin solid rgb(57, 181, 74); vertical-align: top; font-weight: bold; font-size: x-small; }
+.ictmenusubelement { text-align: left; background-color: rgb(238, 238, 238); color: rgb(0, 0, 0); vertical-align: middle; padding-top: 2px; padding-left: 5px; font-weight: bold; font-size: x-small; }
+.ictmenusubelement_hi { text-align: left; background-color: rgb(255, 255, 255); color: rgb(102, 153, 255); vertical-align: middle; padding-top: 2px; padding-left: 5px; font-weight: bold; font-size: x-small; }

@@ -1,0 +1,495 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
+<head>
+  <title>Page not found | Ghana IGF 2016</title>
+
+    <!-- HTML5 form of the declaration of the character set encoding -->
+    <meta charset="UTF-8">
+    
+	<link rel="stylesheet" type="text/css" media="all" href="http://ghanaigf.org/wp-content/themes/isoc-wp-master/css/html-reset.css" />
+	<link rel="stylesheet" type="text/css" media="all" href="http://ghanaigf.org/wp-content/themes/isoc-wp-master/style.css" />
+    <link rel="stylesheet" href="http://ghanaigf.org/wp-content/themes/isoc-wp-master/css/handheld.css" media="handheld"/>
+
+	<!--[if IE]>
+    <link rel="stylesheet" href="http://ghanaigf.org/wp-content/themes/isoc-wp-master/css/ie.css" media="screen"/>
+    <![endif]-->
+    
+    
+	<link rel="alternate" type="application/rss+xml" title="Ghana IGF 2016 &raquo; Feed" href="http://ghanaigf.org/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Ghana IGF 2016 &raquo; Comments Feed" href="http://ghanaigf.org/comments/feed/" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/72x72\/","ext":".png","source":{"concatemoji":"http:\/\/ghanaigf.org\/wp-includes\/js\/wp-emoji-release.min.js?ver=9feedde2fc8eac07955b74aec49882eb"}};
+			!function(a,b,c){function d(a){var c,d,e,f=b.createElement("canvas"),g=f.getContext&&f.getContext("2d"),h=String.fromCharCode;if(!g||!g.fillText)return!1;switch(g.textBaseline="top",g.font="600 32px Arial",a){case"flag":return g.fillText(h(55356,56806,55356,56826),0,0),f.toDataURL().length>3e3;case"diversity":return g.fillText(h(55356,57221),0,0),c=g.getImageData(16,16,1,1).data,d=c[0]+","+c[1]+","+c[2]+","+c[3],g.fillText(h(55356,57221,55356,57343),0,0),c=g.getImageData(16,16,1,1).data,e=c[0]+","+c[1]+","+c[2]+","+c[3],d!==e;case"simple":return g.fillText(h(55357,56835),0,0),0!==g.getImageData(16,16,1,1).data[0];case"unicode8":return g.fillText(h(55356,57135),0,0),0!==g.getImageData(16,16,1,1).data[0]}return!1}function e(a){var c=b.createElement("script");c.src=a,c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g,h,i;for(i=Array("simple","flag","unicode8","diversity"),c.supports={everything:!0,everythingExceptFlag:!0},h=0;h<i.length;h++)c.supports[i[h]]=d(i[h]),c.supports.everything=c.supports.everything&&c.supports[i[h]],"flag"!==i[h]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[i[h]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='stylesheet' id='bxslider-style-css'  href='http://ghanaigf.org/wp-content/plugins/gs-logo-slider/css/jquery.bxslider.css?ver=4.1.2' type='text/css' media='' />
+<link rel='stylesheet' id='gs-main-style-css'  href='http://ghanaigf.org/wp-content/plugins/gs-logo-slider/css/gs-main.css?ver=1.0.0' type='text/css' media='' />
+<link rel='stylesheet' id='bxslider-css-css'  href='http://ghanaigf.org/wp-content/plugins/kiwi-logo-carousel/third-party/jquery.bxslider/jquery.bxslider.css?ver=9feedde2fc8eac07955b74aec49882eb' type='text/css' media='' />
+<link rel='stylesheet' id='kiwi-logo-carousel-styles-css'  href='http://ghanaigf.org/wp-content/plugins/kiwi-logo-carousel/custom-styles.css?ver=9feedde2fc8eac07955b74aec49882eb' type='text/css' media='' />
+<link rel='stylesheet' id='ultimate-tables-style-css'  href='http://ghanaigf.org/wp-content/plugins/ultimate-tables/css/ultimate-tables.css?ver=9feedde2fc8eac07955b74aec49882eb' type='text/css' media='all' />
+<link rel='stylesheet' id='ultimate-datatables-style-css'  href='http://ghanaigf.org/wp-content/plugins/ultimate-tables/css/jquery.dataTables.css?ver=9feedde2fc8eac07955b74aec49882eb' type='text/css' media='all' />
+<link rel='stylesheet' id='contact-form-7-css'  href='http://ghanaigf.org/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=4.5' type='text/css' media='all' />
+<link rel='stylesheet' id='easy-facebook-likebox-plugin-styles-css'  href='http://ghanaigf.org/wp-content/plugins/easy-facebook-likebox/public/assets/css/public.css?ver=4.2.6' type='text/css' media='all' />
+<link rel='stylesheet' id='easy-facebook-likebox-popup-styles-css'  href='http://ghanaigf.org/wp-content/plugins/easy-facebook-likebox/public/assets/popup/magnific-popup.css?ver=4.2.6' type='text/css' media='all' />
+<link rel='stylesheet' id='events-manager-css'  href='http://ghanaigf.org/wp-content/plugins/events-manager/includes/css/events_manager.css?ver=5.64' type='text/css' media='all' />
+<link rel='stylesheet' id='jquery-ui-css'  href='http://ghanaigf.org/wp-content/plugins/form-maker/css/jquery-ui-1.10.3.custom.css?ver=9feedde2fc8eac07955b74aec49882eb' type='text/css' media='all' />
+<link rel='stylesheet' id='jquery-ui-spinner-css'  href='http://ghanaigf.org/wp-content/plugins/form-maker/css/jquery-ui-spinner.css?ver=9feedde2fc8eac07955b74aec49882eb' type='text/css' media='all' />
+<link rel='stylesheet' id='form_maker_calendar-jos-css'  href='http://ghanaigf.org/wp-content/plugins/form-maker/css/calendar-jos.css?ver=9feedde2fc8eac07955b74aec49882eb' type='text/css' media='all' />
+<link rel='stylesheet' id='form_maker_frontend-css'  href='http://ghanaigf.org/wp-content/plugins/form-maker/css/form_maker_frontend.css?ver=9feedde2fc8eac07955b74aec49882eb' type='text/css' media='all' />
+<link rel='stylesheet' id='mbpro-font-awesome-css'  href='http://ghanaigf.org/wp-content/plugins/maxbuttons/assets/libraries/font-awesome/css/font-awesome.min.css?ver=9feedde2fc8eac07955b74aec49882eb' type='text/css' media='all' />
+<link rel='stylesheet' id='shutter-0-css'  href='http://ghanaigf.org/wp-content/plugins/nextgen-gallery/products/photocrati_nextgen/modules/lightbox/static/shutter/shutter.min.css?ver=2.1.49' type='text/css' media='all' />
+<link rel='stylesheet' id='cssnews-css'  href='http://ghanaigf.org/wp-content/plugins/sp-news-and-widget/css/stylenews.css?ver=3.2.8' type='text/css' media='all' />
+<link rel='stylesheet' id='wen-logo-slider-slick-carousel-css'  href='http://ghanaigf.org/wp-content/plugins/wen-logo-slider/vendors/slick-carousel/slick.css?ver=1.3.2' type='text/css' media='all' />
+<link rel='stylesheet' id='wen-logo-slider-slick-theme-css'  href='http://ghanaigf.org/wp-content/plugins/wen-logo-slider/vendors/slick-carousel/slick-theme.css?ver=1.3.2' type='text/css' media='all' />
+<link rel='stylesheet' id='wen-logo-slider-css'  href='http://ghanaigf.org/wp-content/plugins/wen-logo-slider/public/css/wen-logo-slider-public.css?ver=2.0.3' type='text/css' media='all' />
+<link rel='stylesheet' id='tt-easy-google-fonts-css'  href='http://fonts.googleapis.com/css?family=Open+Sans%3A300&#038;subset=latin%2Call%2Call&#038;ver=9feedde2fc8eac07955b74aec49882eb' type='text/css' media='all' />
+<link rel='stylesheet' id='tablepress-default-css'  href='http://ghanaigf.org/wp-content/plugins/tablepress/css/default.min.css?ver=1.7' type='text/css' media='all' />
+<link rel='stylesheet' id='sccss_style-css'  href='http://ghanaigf.org?sccss=1&#038;ver=9feedde2fc8eac07955b74aec49882eb' type='text/css' media='all' />
+<link rel='stylesheet' id='__EPYT__style-css'  href='http://ghanaigf.org/wp-content/plugins/youtube-embed-plus/styles/ytprefs.min.css?ver=9feedde2fc8eac07955b74aec49882eb' type='text/css' media='all' />
+<style id='__EPYT__style-inline-css' type='text/css'>
+
+                .epyt-gallery-thumb {
+                        width: 33.333%;
+                }
+</style>
+<script type='text/javascript' src='http://ghanaigf.org/wp-includes/js/jquery/jquery.js?ver=1.12.4'></script>
+<script type='text/javascript' src='http://ghanaigf.org/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
+<script type='text/javascript' src='http://ghanaigf.org/wp-content/plugins/easy-facebook-likebox/public/assets/popup/jquery.magnific-popup.min.js?ver=4.2.6'></script>
+<script type='text/javascript' src='http://ghanaigf.org/wp-content/plugins/easy-facebook-likebox/public/assets/js/jquery.cookie.js?ver=4.2.6'></script>
+<script type='text/javascript' src='http://ghanaigf.org/wp-content/plugins/easy-facebook-likebox/public/assets/js/public.js?ver=4.2.6'></script>
+<script type='text/javascript' src='http://ghanaigf.org/wp-includes/js/jquery/ui/core.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='http://ghanaigf.org/wp-includes/js/jquery/ui/widget.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='http://ghanaigf.org/wp-includes/js/jquery/ui/position.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='http://ghanaigf.org/wp-includes/js/jquery/ui/mouse.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='http://ghanaigf.org/wp-includes/js/jquery/ui/sortable.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='http://ghanaigf.org/wp-includes/js/jquery/ui/datepicker.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='http://ghanaigf.org/wp-includes/js/jquery/ui/menu.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='http://ghanaigf.org/wp-includes/js/wp-a11y.min.js?ver=9feedde2fc8eac07955b74aec49882eb'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var uiAutocompleteL10n = {"noResults":"No search results.","oneResult":"1 result found. Use up and down arrow keys to navigate.","manyResults":"%d results found. Use up and down arrow keys to navigate."};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://ghanaigf.org/wp-includes/js/jquery/ui/autocomplete.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='http://ghanaigf.org/wp-includes/js/jquery/ui/resizable.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='http://ghanaigf.org/wp-includes/js/jquery/ui/draggable.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='http://ghanaigf.org/wp-includes/js/jquery/ui/button.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='http://ghanaigf.org/wp-includes/js/jquery/ui/dialog.min.js?ver=1.11.4'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var EM = {"ajaxurl":"http:\/\/ghanaigf.org\/wp-admin\/admin-ajax.php","locationajaxurl":"http:\/\/ghanaigf.org\/wp-admin\/admin-ajax.php?action=locations_search","firstDay":"1","locale":"en","dateFormat":"dd\/mm\/yy","ui_css":"http:\/\/ghanaigf.org\/wp-content\/plugins\/events-manager\/includes\/css\/jquery-ui.min.css","show24hours":"","is_ssl":"","bookingInProgress":"Please wait while the booking is being submitted.","tickets_save":"Save Ticket","bookingajaxurl":"http:\/\/ghanaigf.org\/wp-admin\/admin-ajax.php","bookings_export_save":"Export Bookings","bookings_settings_save":"Save Settings","booking_delete":"Are you sure you want to delete?","bb_full":"Sold Out","bb_book":"Book Now","bb_booking":"Booking...","bb_booked":"Booking Submitted","bb_error":"Booking Error. Try again?","bb_cancel":"Cancel","bb_canceling":"Canceling...","bb_cancelled":"Cancelled","bb_cancel_error":"Cancellation Error. Try again?","txt_search":"Search","txt_searching":"Searching...","txt_loading":"Loading..."};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://ghanaigf.org/wp-content/plugins/events-manager/includes/js/events-manager.js?ver=5.64'></script>
+<script type='text/javascript' src='https://maps.google.com/maps/api/js?v=3.exp&#038;key&#038;ver=9feedde2fc8eac07955b74aec49882eb'></script>
+<script type='text/javascript' src='http://ghanaigf.org/wp-content/plugins/form-maker/js/if_gmap_front_end.js?ver=9feedde2fc8eac07955b74aec49882eb'></script>
+<script type='text/javascript' src='http://ghanaigf.org/wp-content/plugins/form-maker/js/jelly.min.js?ver=9feedde2fc8eac07955b74aec49882eb'></script>
+<script type='text/javascript' src='http://ghanaigf.org/wp-content/plugins/form-maker/js/file-upload.js?ver=9feedde2fc8eac07955b74aec49882eb'></script>
+<script type='text/javascript' src='http://ghanaigf.org/wp-content/plugins/form-maker/js/calendar/calendar.js?ver=9feedde2fc8eac07955b74aec49882eb'></script>
+<script type='text/javascript' src='http://ghanaigf.org/wp-content/plugins/form-maker/js/calendar/calendar_function.js?ver=9feedde2fc8eac07955b74aec49882eb'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var mb_ajax = {"ajaxurl":"http:\/\/ghanaigf.org\/wp-admin\/admin-ajax.php"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://ghanaigf.org/wp-content/plugins/maxbuttons/js/min/front.js?ver=1'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var photocrati_ajax = {"url":"http:\/\/ghanaigf.org\/?photocrati_ajax=1","wp_home_url":"http:\/\/ghanaigf.org","wp_site_url":"http:\/\/ghanaigf.org","wp_root_url":"http:\/\/ghanaigf.org","wp_plugins_url":"http:\/\/ghanaigf.org\/wp-content\/plugins","wp_content_url":"http:\/\/ghanaigf.org\/wp-content","wp_includes_url":"http:\/\/ghanaigf.org\/wp-includes\/","ngg_param_slug":"nggallery"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://ghanaigf.org/wp-content/plugins/nextgen-gallery/products/photocrati_nextgen/modules/ajax/static/ajax.min.js?ver=2.1.49'></script>
+<script type='text/javascript' src='http://ghanaigf.org/wp-content/plugins/sp-news-and-widget/js/jquery.newstape.js?ver=3.2.8'></script>
+<script type='text/javascript' src='http://ghanaigf.org/wp-content/plugins/wen-logo-slider/vendors/slick-carousel/slick.min.js?ver=1.3.2'></script>
+<script type='text/javascript' src='http://ghanaigf.org/wp-content/plugins/wonderplugin-carousel/engine/wonderplugincarouselskins.js?ver=9.2'></script>
+<script type='text/javascript' src='http://ghanaigf.org/wp-content/plugins/wonderplugin-carousel/engine/wonderplugincarousel.js?ver=9.2'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var _EPYT_ = {"ajaxurl":"http:\/\/ghanaigf.org\/wp-admin\/admin-ajax.php","security":"1ac058c1e9","gallery_scrolloffset":"20","eppathtoscripts":"http:\/\/ghanaigf.org\/wp-content\/plugins\/youtube-embed-plus\/scripts\/","epresponsiveselector":"[\"iframe.__youtube_prefs_widget__\"]","epdovol":"1","version":"11.4","evselector":"iframe.__youtube_prefs__[src], iframe[src*=\"youtube.com\/embed\/\"], iframe[src*=\"youtube-nocookie.com\/embed\/\"]"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://ghanaigf.org/wp-content/plugins/youtube-embed-plus/scripts/ytprefs.min.js?ver=9feedde2fc8eac07955b74aec49882eb'></script>
+<script type='text/javascript' src='http://ghanaigf.org/wp-content/plugins/easy-logo-slider/js/jquery.jcarousel.min.js?ver=9feedde2fc8eac07955b74aec49882eb'></script>
+<script type='text/javascript' src='http://ghanaigf.org/wp-content/plugins/easy-logo-slider/js/jcarousel.responsive.js?ver=9feedde2fc8eac07955b74aec49882eb'></script>
+<link rel='https://api.w.org/' href='http://ghanaigf.org/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://ghanaigf.org/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://ghanaigf.org/wp-includes/wlwmanifest.xml" /> 
+
+<!-- <meta name="NextGEN" version="2.1.49" /> -->
+<script type="text/javascript">
+(function(url){
+	if(/(?:Chrome\/26\.0\.1410\.63 Safari\/537\.31|WordfenceTestMonBot)/.test(navigator.userAgent)){ return; }
+	var addEvent = function(evt, handler) {
+		if (window.addEventListener) {
+			document.addEventListener(evt, handler, false);
+		} else if (window.attachEvent) {
+			document.attachEvent('on' + evt, handler);
+		}
+	};
+	var removeEvent = function(evt, handler) {
+		if (window.removeEventListener) {
+			document.removeEventListener(evt, handler, false);
+		} else if (window.detachEvent) {
+			document.detachEvent('on' + evt, handler);
+		}
+	};
+	var evts = 'contextmenu dblclick drag dragend dragenter dragleave dragover dragstart drop keydown keypress keyup mousedown mousemove mouseout mouseover mouseup mousewheel scroll'.split(' ');
+	var logHuman = function() {
+		var wfscr = document.createElement('script');
+		wfscr.type = 'text/javascript';
+		wfscr.async = true;
+		wfscr.src = url + '&r=' + Math.random();
+		(document.getElementsByTagName('head')[0]||document.getElementsByTagName('body')[0]).appendChild(wfscr);
+		for (var i = 0; i < evts.length; i++) {
+			removeEvent(evts[i], logHuman);
+		}
+	};
+	for (var i = 0; i < evts.length; i++) {
+		addEvent(evts[i], logHuman);
+	}
+})('//ghanaigf.org/?wordfence_logHuman=1&hid=B4422DBC6696D0923DFD88FD56C6C019');
+</script><style type="text/css" id="custom-background-css">
+body.custom-background { background-color: #ffffff; background-image: url('http://ghanaigf.org/wp-content/uploads/2016/01/geometry2.png'); background-repeat: repeat; background-position: top left; background-attachment: scroll; }
+</style>
+<style id="tt-easy-google-font-styles" type="text/css">p { color: #000000; font-family: 'Open Sans'; font-size: 14px; font-style: normal; font-weight: 300; line-height: 1.5; }
+h1 { }
+h2 { }
+h3 { font-family: 'Open Sans'; font-size: 17px; font-style: normal; font-weight: 300; line-height: 0.8; }
+h4 { color: #000000; font-family: 'Open Sans'; font-size: 20px; font-style: normal; font-weight: 300; line-height: 0.8; }
+h5 { color: #1e73be; font-family: 'Open Sans'; font-size: 12px; font-style: normal; font-weight: 300; line-height: 2.3; margin-top: 8px; margin-bottom: 4px; border-top-style: dashed; border-bottom-color: #000000; border-bottom-style: dashed; border-bottom-width: 1px; }
+h6 { }
+</style>
+</head>
+
+<body class="error404 custom-background">
+
+<div id="headerutility"><div class="clear"></div></div> <!-- header utility -->
+
+<header id="header">
+
+  
+<form method="get" id="searchform" action="http://ghanaigf.org/">
+	<label for="s">Search</label>
+	<input type="text" value="" name="s" id="s" />
+
+	<input type="submit" id="searchsubmit" value="GO" />
+
+</form>
+  <h1><a href="http://ghanaigf.org" title=""><img src="http://ghanaigf.org/wp-content/uploads/2016/01/igflogo.jpg" alt="Ghana IGF 2016" /></a></h1>
+
+  <div class="clear"></div>
+
+</header> <!-- #header -->
+
+<nav id="nav">
+
+	<div class="menu-header"><ul id="menu-main-menu" class="menu"><li id="menu-item-23" class="first-menu-item menu-item menu-item-type-post_type menu-item-object-page menu-item-23"><a href="http://ghanaigf.org/">HOME</a></li>
+<li id="menu-item-22" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-22"><a href="http://ghanaigf.org/about-us/">ABOUT US</a></li>
+<li id="menu-item-21" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-21"><a href="http://ghanaigf.org/resource-links/">RESOURCES</a></li>
+<li id="menu-item-379" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-379"><a href="#">GALLERY</a>
+<ul class="sub-menu">
+	<li id="menu-item-19" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-19"><a href="http://ghanaigf.org/gallery/">PHOTOS</a></li>
+	<li id="menu-item-25" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-25"><a href="http://ghanaigf.org/videos/">VIDEOS</a></li>
+</ul>
+</li>
+<li id="menu-item-365" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-365"><a href="http://ghanaigf.org/opportunities-sponsorship/">SPONSORSHIP OPPORTUNITIES</a></li>
+<li id="menu-item-378" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-378"><a href="#">PREVIOUS IGF</a>
+<ul class="sub-menu">
+	<li id="menu-item-255" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-255"><a href="http://ghanaigf.org/igf-2015/">IGF 2015</a></li>
+</ul>
+</li>
+<li id="menu-item-18" class="menu-item menu-item-type-post_type menu-item-object-page last-menu-item menu-item-18"><a href="http://ghanaigf.org/contact-us/">CONTACT</a></li>
+</ul></div>
+    <div class="clear"></div>
+
+</nav><!-- #nav -->
+
+<div id="columns">
+
+ 	<aside id="aside-left">
+
+<div class="menu-sidebar"><h2><a href=""></a></h2><ul class="menu"><li class="page_item page-item-6"><a href="http://ghanaigf.org/about-us/">ABOUT US</a></li>
+<li class="page_item page-item-460"><a href="http://ghanaigf.org/aiti-kace/">AITI-KACE</a></li>
+<li class="page_item page-item-14"><a href="http://ghanaigf.org/contact-us/">CONTACT</a></li>
+<li class="page_item page-item-49 page_item_has_children"><a href="http://ghanaigf.org/events/">Events</a>
+<ul class='children'>
+	<li class="page_item page-item-52"><a href="http://ghanaigf.org/events/categories/">Categories</a></li>
+	<li class="page_item page-item-51"><a href="http://ghanaigf.org/events/locations/">Locations</a></li>
+	<li class="page_item page-item-54"><a href="http://ghanaigf.org/events/my-bookings/">My Bookings</a></li>
+	<li class="page_item page-item-53"><a href="http://ghanaigf.org/events/tags/">Tags</a></li>
+</ul>
+</li>
+<li class="page_item page-item-374"><a href="http://ghanaigf.org/gallery-2/">GALLERY</a></li>
+<li class="page_item page-item-4"><a href="http://ghanaigf.org/">HOME</a></li>
+<li class="page_item page-item-246"><a href="http://ghanaigf.org/igf-2015/">IGF 2015</a></li>
+<li class="page_item page-item-336"><a href="http://ghanaigf.org/igf2016/">IGF2016</a></li>
+<li class="page_item page-item-95"><a href="http://ghanaigf.org/video-channel/">My Channel</a></li>
+<li class="page_item page-item-96"><a href="http://ghanaigf.org/show-playlist/">My Playlist</a></li>
+<li class="page_item page-item-12"><a href="http://ghanaigf.org/gallery/">PHOTOS</a></li>
+<li class="page_item page-item-449"><a href="http://ghanaigf.org/press/">Press Release</a></li>
+<li class="page_item page-item-244"><a href="http://ghanaigf.org/previous-igfs/">PREVIOUS IGF</a></li>
+<li class="page_item page-item-10"><a href="http://ghanaigf.org/register/">Register</a></li>
+<li class="page_item page-item-8"><a href="http://ghanaigf.org/resource-links/">RESOURCES</a></li>
+<li class="page_item page-item-363"><a href="http://ghanaigf.org/opportunities-sponsorship/">SPONSORSHIP OPPORTUNITIES</a></li>
+<li class="page_item page-item-439"><a href="http://ghanaigf.org/success/">Success</a></li>
+<li class="page_item page-item-93"><a href="http://ghanaigf.org/video-more/">Video Categories</a></li>
+<li class="page_item page-item-24"><a href="http://ghanaigf.org/videos/">VIDEOS</a></li>
+<li class="page_item page-item-94"><a href="http://ghanaigf.org/video-home/">Videos</a></li>
+<li class="page_item page-item-98"><a href="http://ghanaigf.org/watch-history/">Watch History</a></li>
+<li class="page_item page-item-97"><a href="http://ghanaigf.org/watch-later/">Watch Later</a></li>
+</ul></div>
+</aside><!-- end aside-left --><section id="copy">
+	 
+<div id="content">
+    	
+
+		<h1>Page Cannot Be Found</h1>
+
+    <p>We're sorry, but that page is not available.
+		
+	<p>Please choose from the following options:</p>
+	<ul>
+    <li>Go to our <a href="http://ghanaigf.org">Home Page</a></li>
+    <li>Use the search box in the upper right to search our site.</li>
+	</ul>
+
+		</div> <!-- end content -->
+		
+    	
+	</section><!-- /end section -->
+<div class="clear"></div></div><!-- end container -->
+
+
+<footer id="footer">
+
+	
+    
+		<div id="block-block-1" class="block block-block ">
+
+			<ul><li id="black-studio-tinymce-10" class="widget-container widget_black_studio_tinymce"><div class="textwidget"><h3 style="text-align: left;"><code>    <div class="wrapper">
+                <p class="jw_easy_slider_name">SPONSORS</p>
+                 <div class="jcarousel-wrapper" id="p9TUGo">
+            <div class="jcarousel">
+                <ul>
+                                    <li>
+						 <style>
+                        	.easy-logo_image {height:90px !important}
+                         </style>
+
+                                                <a href="internetsociety.org" target="_blank" title="Internet Society"><img src='http://ghanaigf.org/wp-content/uploads/easy_logo_slider/30928isoc_logo_rgbblue.png' class="easy-logo_image" alt="" title="Internet Society" />
+                         </a>
+                       
+                                                <a href="internetsociety.org" target="_blank" title="Internet Society">
+                          <h3></h3>
+                         </a>
+                       
+                                                  
+                    </li>
+                                    </ul>
+            </div>
+            <a href="#" class="jcarousel-control-prev" title="Previous">&lsaquo;</a>
+
+            <a href="#" class="jcarousel-control-next" title="Next">&rsaquo;</a>
+
+            <p class="jcarousel-pagination"></p>
+
+        </div>
+        <script type='text/javascript'>create_jcarousel('p9TUGo');</script>
+    </div>
+  </code></h3>
+<h3><code>    <div class="wrapper">
+                <p class="jw_easy_slider_name">LOCAL PARTNERS</p>
+                 <div class="jcarousel-wrapper" id="RJOcou">
+            <div class="jcarousel">
+                <ul>
+                                    <li>
+						 <style>
+                        	.easy-logo_image {height:70px !important}
+                         </style>
+
+                                                <a href="nita.gov.gh" target="_blank" title="NITA"><img src='http://ghanaigf.org/wp-content/uploads/easy_logo_slider/926103nita1.png' class="easy-logo_image" alt="" title="NITA" />
+                         </a>
+                       
+                                                <a href="nita.gov.gh" target="_blank" title="NITA">
+                          <h3></h3>
+                         </a>
+                       
+                                                  
+                    </li>
+                                        <li>
+						 <style>
+                        	.easy-logo_image {height:70px !important}
+                         </style>
+
+                                                <a href="cert-gh.org.gh" target="_blank" title="CERT-GH"><img src='http://ghanaigf.org/wp-content/uploads/easy_logo_slider/259913cert-gh.jpg' class="easy-logo_image" alt="" title="CERT-GH" />
+                         </a>
+                       
+                                                <a href="cert-gh.org.gh" target="_blank" title="CERT-GH">
+                          <h3></h3>
+                         </a>
+                       
+                                                  
+                    </li>
+                                        <li>
+						 <style>
+                        	.easy-logo_image {height:70px !important}
+                         </style>
+
+                                                <a href="aiti-kace.com.gh" target="_blank" title="AITI-KACE"><img src='http://ghanaigf.org/wp-content/uploads/easy_logo_slider/560106aiti.jpg' class="easy-logo_image" alt="" title="AITI-KACE" />
+                         </a>
+                       
+                                                <a href="aiti-kace.com.gh" target="_blank" title="AITI-KACE">
+                          <h3></h3>
+                         </a>
+                       
+                                                  
+                    </li>
+                                        <li>
+						 <style>
+                        	.easy-logo_image {height:70px !important}
+                         </style>
+
+                                                <a href="google.com.gh" target="_blank" title="GOOGLE GHANA"><img src='http://ghanaigf.org/wp-content/uploads/easy_logo_slider/771867google.png' class="easy-logo_image" alt="" title="GOOGLE GHANA" />
+                         </a>
+                       
+                                                <a href="google.com.gh" target="_blank" title="GOOGLE GHANA">
+                          <h3></h3>
+                         </a>
+                       
+                                                  
+                    </li>
+                                        <li>
+						 <style>
+                        	.easy-logo_image {height:70px !important}
+                         </style>
+
+                                                <a href="data.gov.gh" target="_blank" title="GODI"><img src='http://ghanaigf.org/wp-content/uploads/easy_logo_slider/969291godi.png' class="easy-logo_image" alt="" title="GODI" />
+                         </a>
+                       
+                                                <a href="data.gov.gh" target="_blank" title="GODI">
+                          <h3></h3>
+                         </a>
+                       
+                                                  
+                    </li>
+                                        <li>
+						 <style>
+                        	.easy-logo_image {height:70px !important}
+                         </style>
+
+                                                <a href="nca.gov.gh" target="_blank" title="NCA"><img src='http://ghanaigf.org/wp-content/uploads/easy_logo_slider/101159nca.png' class="easy-logo_image" alt="" title="NCA" />
+                         </a>
+                       
+                                                <a href="nca.gov.gh" target="_blank" title="NCA">
+                          <h3></h3>
+                         </a>
+                       
+                                                  
+                    </li>
+                                        <li>
+						 <style>
+                        	.easy-logo_image {height:70px !important}
+                         </style>
+
+                                                <a href="mfwa.org" target="_blank" title="MFWA"><img src='http://ghanaigf.org/wp-content/uploads/easy_logo_slider/206227mfwa.png' class="easy-logo_image" alt="" title="MFWA" />
+                         </a>
+                       
+                                                <a href="mfwa.org" target="_blank" title="MFWA">
+                          <h3></h3>
+                         </a>
+                       
+                                                  
+                    </li>
+                                    </ul>
+            </div>
+            <a href="#" class="jcarousel-control-prev" title="Previous">&lsaquo;</a>
+
+            <a href="#" class="jcarousel-control-next" title="Next">&rsaquo;</a>
+
+            <p class="jcarousel-pagination"></p>
+
+        </div>
+        <script type='text/javascript'>create_jcarousel('RJOcou');</script>
+    </div>
+  </code></h3>
+</div></li></ul>
+
+		</div><!-- #footer-widget .widget-area -->
+
+	
+</footer>Copyright &copy; 2015 - 2016 | <a href="http://ghanaigf.org">Ghana Internet Governance Forum </a>| All Rights Reserved
+
+
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.5/jquery.min.js"></script>
+<script type="text/javascript" src="http://ghanaigf.org/wp-content/themes/isoc-wp-master/js/cycle.js"></script>
+<script type="text/javascript" src="http://ghanaigf.org/wp-content/themes/isoc-wp-master/js/util.js"></script>
+<script type="text/javascript" src="http://ghanaigf.org/wp-content/themes/isoc-wp-master/js/dropdown.js"></script>	
+<!--[if IE]><script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+<script type="text/javascript">
+jQuery(document).ready(function(){
+  jQuery('.gs_logo_container').bxSlider({
+  	slideWidth: 200,
+    minSlides: 1,
+    maxSlides: 5,
+    slideMargin: 10,
+  	moveSlides: 1,
+  	speed: 750,
+  	controls: true,
+  	autoHover: true,
+  	pager: false,
+  	auto: true
+  });
+ 
+});
+</script>
+<script>jQuery(document).ready(function(){jQuery(".kiwi-logo-carousel-default").bxSlider({mode:"horizontal",speed:500,slideMargin:0,infiniteLoop:true,hideControlOnEnd:true,captions:false,ticker:false,tickerHover:false,adaptiveHeight:true,responsive:true,pager:true,controls:true,autoControls:false,minSlides:5,maxSlides:4,moveSlides:1,slideWidth:976,auto:true,pause:4000,useCSS:false});jQuery(".kiwi-logo-carousel-new-update").bxSlider({mode:"horizontal",speed:500,slideMargin:0,infiniteLoop:true,hideControlOnEnd:false,captions:false,ticker:false,tickerHover:false,adaptiveHeight:false,responsive:true,pager:false,controls:true,autoControls:false,minSlides:1,maxSlides:4,moveSlides:1,slideWidth:200,auto:true,pause:4000,useCSS:false});});</script><link rel='stylesheet' id='jcarouselresponsive-css'  href='http://ghanaigf.org/wp-content/plugins/easy-logo-slider/css/jcarouselresponsive.css?ver=9feedde2fc8eac07955b74aec49882eb' type='text/css' media='all' />
+<link rel='stylesheet' id='style-admin-css'  href='http://ghanaigf.org/wp-content/plugins/easy-logo-slider/css/style-admin.css?ver=9feedde2fc8eac07955b74aec49882eb' type='text/css' media='all' />
+<script type='text/javascript' src='http://ghanaigf.org/wp-content/plugins/ultimate-tables/js/jquery.dataTables.min.js?ver=1.0'></script>
+<script type='text/javascript' src='http://ghanaigf.org/wp-content/plugins/contact-form-7/includes/js/jquery.form.min.js?ver=3.51.0-2014.06.20'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var _wpcf7 = {"loaderUrl":"http:\/\/ghanaigf.org\/wp-content\/plugins\/contact-form-7\/images\/ajax-loader.gif","recaptcha":{"messages":{"empty":"Please verify that you are not a robot."}},"sending":"Sending ..."};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://ghanaigf.org/wp-content/plugins/contact-form-7/includes/js/scripts.js?ver=4.5'></script>
+<script type='text/javascript' src='http://ghanaigf.org/wp-includes/js/jquery/ui/slider.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='http://ghanaigf.org/wp-includes/js/jquery/ui/spinner.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='http://ghanaigf.org/wp-includes/js/jquery/ui/effect.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='http://ghanaigf.org/wp-includes/js/jquery/ui/effect-shake.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='http://ghanaigf.org/wp-content/plugins/gs-logo-slider/js/jquery.bxslider.min.js?ver=4.1.2'></script>
+<script type='text/javascript' src='http://ghanaigf.org/wp-content/plugins/gs-logo-slider/js/jquery.easing.1.3.js?ver=1.3'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+
+var nextgen_lightbox_settings = {"static_path":"http:\/\/ghanaigf.org\/wp-content\/plugins\/nextgen-gallery\/products\/photocrati_nextgen\/modules\/lightbox\/static","context":"all_images"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://ghanaigf.org/wp-content/plugins/nextgen-gallery/products/photocrati_nextgen/modules/nextgen_gallery_display/static/common.min.js?ver=2.1.49'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+
+var nextgen_shutter_i18n = {"msgLoading":"L O A D I N G","msgClose":"Click to Close"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://ghanaigf.org/wp-content/plugins/nextgen-gallery/products/photocrati_nextgen/modules/lightbox/static/lightbox_context.min.js?ver=2.1.49'></script>
+<script type='text/javascript' src='http://ghanaigf.org/wp-content/plugins/nextgen-gallery/products/photocrati_nextgen/modules/lightbox/static/shutter/shutter.min.js?ver=2.1.49'></script>
+<script type='text/javascript' src='http://ghanaigf.org/wp-content/plugins/nextgen-gallery/products/photocrati_nextgen/modules/lightbox/static/shutter/nextgen_shutter.min.js?ver=2.1.49'></script>
+<script type='text/javascript' src='http://ghanaigf.org/wp-content/plugins/youtube-embed-plus/scripts/fitvids.min.js?ver=9feedde2fc8eac07955b74aec49882eb'></script>
+<script type='text/javascript' src='http://ghanaigf.org/wp-includes/js/wp-embed.min.js?ver=9feedde2fc8eac07955b74aec49882eb'></script>
+<script type='text/javascript' src='http://ghanaigf.org/wp-content/plugins/kiwi-logo-carousel/third-party/jquery.bxslider/jquery.bxslider.js?ver=9feedde2fc8eac07955b74aec49882eb'></script>
+
+</body>
+</html>

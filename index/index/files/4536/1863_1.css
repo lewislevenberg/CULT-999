@@ -1,0 +1,44 @@
+
+/* ::::: null ::::: */
+
+._form { position: relative; width: 400px; padding: 0px ! important; text-align: left; }
+._form em { color: rgb(154, 154, 154); }
+._form a { margin-left: 3px; }
+._form ._field { position: relative; width: 100%; cursor: move; font-style: normal; margin: 1.2em 0px; padding: 0px; overflow: hidden; }
+._form ._field input[type="text"] { width: 95%; padding: 8px; font-size: 16px; border: 1px solid rgb(182, 182, 182); }
+._form ._field ._label { display: block; margin: 0px 0px 0.5em; padding: 0px ! important; font-size: 15px; }
+._form ._field ._option input[type="checkbox"], ._form ._field ._option input[type="radio"] { position: relative; width: 13px; height: 13px; margin: -4px 0px 0px; cursor: pointer; vertical-align: middle; }
+._form ._field ._option input[type="submit"], ._form ._field ._option input[type="button"] { margin: 0px; cursor: pointer; height: 35px; width: auto; font-size: 15px; }
+._form ._field ._option select { display: block; margin: 0px; padding: 0px; width: auto; font-size: 15px; }
+._form ._type_radio ._option, ._form ._type_checkbox ._option { font-size: 13px; font-weight: normal; line-height: 1.8; }
+._form ._type_date ._option input[type="text"] { float: left; width: 100px; }
+._form ._type_date ._option input[type="button"] { width: 37px; height: 36px; margin-left: 5px; padding: 20px; background: transparent url('icon_calendar.gif') no-repeat scroll 0px 0px; border: medium none; outline: medium none; text-indent: -9999px; }
+._form ._type_captcha img { float: left; margin: 0px 6px 0px 0px; width: 70px; height: 33px; border: 1px solid rgb(182, 182, 182); }
+._form ._type_captcha input[type="text"] { margin: -14px 0px 0px ! important; width: 25%; }
+._form ._field table { width: 100% ! important; }
+._form ._field table tbody tr td { width: 50% ! important; font-size: 15px; }
+._form { width: 400px; padding: 10px 16px ! important; color: rgb(110, 110, 110); font-weight: normal; text-shadow: 1px 1px 1px rgb(255, 255, 255); }
+._form #notice { margin: 10px 0px 0px -3px ! important; padding: 0px; color: rgb(161, 163, 168); font-size: 11px; font-family: helvetica,arial,sans-serif; }
+._form #notice a:link, ._form #notice a:visited { color: rgb(161, 163, 168); text-decoration: underline; }
+._form ._field, ._form ._field ._label, ._form ._type_radio, ._form ._type_checkbox, ._form ._type_captcha, ._form ._field table { background: transparent none repeat scroll 0% 0%; }
+._form ._field { position: relative; width: 100%; cursor: default; font-style: normal; margin: 0px 0px 0.8em ! important; padding: 0px ! important; overflow: hidden; }
+._form ._field input[type="text"], ._form ._field input[type="email"] { width: 97%; margin: 0px ! important; padding: 4px ! important; font-size: 12px; background: rgb(255, 255, 255) none repeat scroll 0% 0%; border: 1px solid rgb(221, 221, 221); border-radius: 2px; }
+._form ._field ._label { margin: 0px 0px 0.6em ! important; color: rgb(79, 79, 79); font-size: 12px; font-family: verdana,arial,sans-serif; font-weight: 700; }
+._form ._field ._option { margin: 0px; padding: 0px; color: rgb(100, 100, 100); font-size: 13px; font-family: helvetica,arial,sans-serif; font-weight: normal; line-height: 20px; }
+._form ._type_header ._label { width: 100%; font-style: normal; font-size: 18px ! important; line-height: 24px; color: rgb(79, 79, 79); margin: 0px 0px 5px ! important; padding: 0px 10px ! important; overflow: hidden; background: transparent none repeat scroll 0% 0%; border-bottom: 1px solid rgb(224, 224, 224); }
+._form ._type_input ._option textarea { width: 98% ! important; background: rgb(255, 255, 255) none repeat scroll 0% 0%; border-width: 1px; border-style: solid; border-color: rgb(192, 203, 227) rgb(201, 212, 237) rgb(201, 212, 237); -moz-border-top-colors: none; -moz-border-right-colors: none; -moz-border-bottom-colors: none; -moz-border-left-colors: none; border-image: none; border-radius: 2px; }
+._form ._type_input ._option input[type="submit"], ._form ._type_input ._option input[type="button"] { width: auto; margin: 10px 0px 0px ! important; padding: 2px 15px ! important; cursor: pointer; font-family: verdana,arial,sans-serif; font-weight: 700; font-size: 12px; color: rgb(255, 255, 255); background: rgb(6, 81, 138) none repeat scroll 0% 0%; border: 1px solid rgb(5, 63, 107); text-align: center; }
+._form ._type_date ._option input[type="text"] { float: left; width: 100px; }
+._form ._type_radio { background: transparent none repeat scroll 0% 0%; }
+._form ._type_radio ._option label { display: inline; font-size: 12px; font-weight: normal; line-height: 22px; color: rgb(100, 100, 100); }
+._form ._type_radio ._option label input[type="radio"] { position: relative; width: 13px; height: 13px; margin: -4px 0px 0px ! important; cursor: pointer; vertical-align: middle; background: rgb(255, 255, 255) none repeat scroll 0% 0%; border: medium none; }
+._form ._type_date ._option input[type="button"] { width: 27px; height: 27px; margin: 0px 0px 0px 5px ! important; background: transparent url('icon_calendar.png') no-repeat scroll 0% 0%; border: medium none; outline: medium none; text-indent: -9999px; }
+._form ._type_date ._option input[type="button"]:hover { background: transparent url('icon_calendar.png') no-repeat scroll 0% 0%; }
+._form ._field ._option select { display: block; margin: 0px; padding: 0px; width: auto; font-size: 12px; border: 1px solid rgb(201, 212, 237); border-radius: 2px; }
+._form ._type_captcha img { float: left; width: 88px; height: 44px; margin: 0px 6px 0px 0px; border: 1px solid rgb(206, 206, 206); }
+._form ._type_captcha input[type="text"] { float: left; margin: 0px ! important; width: 40%; font-size: 12px; }
+._form ._field table { margin: 0px 0px 18px; padding: 0px; width: 100% ! important; table-layout: fixed; font-size: 13px ! important; border-collapse: collapse; border-spacing: 0px; }
+._form ._field table td { padding: 0px 10px 0px 0px ! important; line-height: 18px; text-align: left; font-size: 13px ! important; color: rgb(96, 96, 96); }
+._form ._type_input ._option table tbody#_forward_rcpt input { margin: 0px 0px 5px ! important; width: 96% ! important; }
+._form ._type_input ._option table tbody#_forward_rcpt img.image_addrcpt { cursor: pointer; }
+.form_errors { text-align: center; font-size: 15px; margin: 10px 10px 20px; color: rgb(153, 0, 0); font-family: Arial,Helvetica,sans-serif; font-weight: bold; }

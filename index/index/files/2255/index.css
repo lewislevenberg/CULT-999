@@ -1,0 +1,315 @@
+
+/* ::::: http://www.itu.int/res/templates/wsis/css/wsis-ns6.css ::::: */
+
+body { background-color: white; font-family: Verdana,Arial,Helvetica,sans-serif; font-size: 12px; color: rgb(51, 51, 51); margin: 0px; padding: 0px; }
+h2 { font-size: 16px; margin: 1px; }
+h3 { font-size: 12px; margin: 1px; }
+h4 { font-size: 12px; margin: 1px; }
+h5 { font-size: 11px; margin: 1px; }
+p { margin-top: 3px; }
+td { font-family: Verdana,Arial,Helvetica,sans-serif; font-size: 12px; }
+a { font-weight: normal; font-size: 12px; color: rgb(0, 0, 255); text-decoration: none; }
+a:hover { color: rgb(255, 0, 0); }
+.fp_a { font-weight: normal; font-size: 11px; color: rgb(0, 0, 255); text-decoration: none; }
+.fp_a:hover { color: rgb(255, 0, 0); }
+.linkBlue { font-weight: bold; font-size: 12px; color: rgb(102, 153, 204); text-decoration: none; }
+.linkBlueMini { font-size: 10px; font-weight: bold; color: rgb(102, 153, 204); text-decoration: none; }
+.linkGray { font-weight: bold; color: rgb(102, 102, 102); text-decoration: none; }
+.linkGreen { font-weight: bold; color: rgb(204, 204, 51); text-decoration: none; }
+.linkGreenMini { font-size: 10px; font-weight: bold; color: rgb(204, 204, 51); text-decoration: none; }
+.linkOrange { font-weight: bold; color: rgb(255, 153, 0); text-decoration: none; }
+.linkPurple { color: rgb(153, 51, 153); text-decoration: none; font-weight: bold; }
+.linkWhite { font-weight: bold; color: rgb(255, 255, 255); text-decoration: none; font-size: 12px; }
+.linkWhiteBig { font-weight: bold; color: rgb(255, 255, 255); text-decoration: none; font-size: 16px; }
+.textBlueWhite { font-weight: bold; background-color: rgb(102, 153, 204); color: rgb(255, 255, 255); text-decoration: none; }
+.subtitleBlue { font-size: 12px; font-weight: bold; color: rgb(102, 153, 204); text-decoration: none; border: 1px solid rgb(102, 153, 204); }
+.subtitleGray { font-size: 12px; font-weight: bold; color: rgb(102, 102, 102); text-decoration: none; border: 1px solid rgb(102, 102, 102); }
+.subtitleGreen { font-size: 12px; font-weight: bold; color: rgb(204, 204, 51); text-decoration: none; border: 1px solid rgb(204, 204, 51); padding: 2px; }
+.subtitlePurple { font-size: 12px; font-weight: bold; color: rgb(153, 51, 153); text-decoration: none; border: 1px solid rgb(153, 51, 153); }
+.subtitleOrange { font-size: 12px; font-weight: bold; color: rgb(255, 153, 0); text-decoration: none; border: 1px solid rgb(255, 153, 0); }
+.titleBlue { font-family: Verdana,Arial,Helvetica,sans-serif; font-size: 12px; font-weight: bold; color: rgb(102, 153, 204); text-decoration: none; border: 2px solid rgb(102, 153, 204); }
+.titleGray { font-size: 12px; font-weight: bold; color: rgb(102, 102, 102); text-decoration: none; border: 2px solid rgb(102, 102, 102); }
+.titleGreen { font-size: 12px; font-weight: bold; color: rgb(204, 204, 51); text-decoration: none; border: 2px solid rgb(204, 204, 51); }
+.titleOrange { font-size: 12px; font-weight: bold; color: rgb(255, 153, 0); text-decoration: none; border: 2px solid rgb(255, 153, 0); }
+.titleOrangeBottom { font-size: 12px; font-weight: bold; color: rgb(255, 153, 0); border-style: solid; border-color: rgb(255, 153, 0); -moz-border-top-colors: none; -moz-border-right-colors: none; -moz-border-bottom-colors: none; -moz-border-left-colors: none; border-image: none; border-width: 0px 2px 2px; }
+.titleOrangeTop { font-size: 12px; font-weight: bold; color: rgb(255, 153, 0); border-style: solid; border-color: rgb(255, 153, 0); -moz-border-top-colors: none; -moz-border-right-colors: none; -moz-border-bottom-colors: none; -moz-border-left-colors: none; border-image: none; border-width: 2px 2px 0px; }
+.titlePurple { font-size: 12px; font-weight: bold; color: rgb(153, 51, 153); text-decoration: none; border: 2px solid rgb(153, 51, 153); }
+.menutop { font-size: 8pt; color: rgb(0, 102, 153); font-family: Geneva,Arial,Helvetica,san-serif; text-decoration: none; }
+.menutop:active { color: rgb(0, 102, 153); text-decoration: none; }
+.menutop:hover { color: red; text-decoration: none; }
+.menutop:link { color: rgb(0, 102, 153); text-decoration: none; }
+.menutop:visited { color: rgb(0, 102, 153); }
+.navtop { font-size: 8pt; color: white; font-family: Geneva,Arial,Helvetica,san-serif; text-decoration: none; }
+.navtop:active { color: white; text-decoration: underline; }
+.navtop:hover { color: white; text-decoration: underline; }
+.navtop:link { color: white; text-decoration: none; }
+.navtop:visited { color: white; }
+.anorm { font-size: 12px; color: blue; text-decoration: none; }
+.anorm:active { color: blue; text-decoration: underline; }
+.anorm:hover { color: red; text-decoration: underline; }
+.anorm:link { color: blue; text-decoration: none; }
+.anorm:visited { color: blue; }
+.footeritems { margin-top: 0px; font-size: 8pt; color: rgb(102, 102, 102); }
+.footeritems:link { color: rgb(102, 102, 102); text-decoration: none; }
+.footeritems:visited { color: rgb(102, 102, 102); text-decoration: none; }
+.footeritems:hover { color: rgb(102, 153, 204); text-decoration: underline; }
+.footeritems:active { color: rgb(102, 102, 102); text-decoration: underline; }
+.blue_bg { font-weight: bold; background-color: rgb(186, 211, 233); color: rgb(0, 0, 0); }
+.m_blue_bg { font-family: Verdana,Arial,Helvetica,sans-serif; font-size: 12px; font-weight: bold; background-color: rgb(102, 153, 204); color: rgb(255, 255, 255); margin: 5px; }
+.m_doc_top_bg { font-size: 9pt; font-weight: bold; background-color: rgb(185, 198, 255); color: rgb(0, 0, 0); border: 1px solid rgb(51, 102, 153); }
+.m_doc_text_bg { font-size: 9pt; background-color: rgb(255, 255, 255); color: rgb(0, 0, 0); border-left: 1px solid rgb(51, 102, 153); border-right: 1px solid rgb(51, 102, 153); border-bottom: 1px solid rgb(51, 102, 153); }
+.m_doc_yellow_bg { font-size: 8pt; font-weight: bold; background-color: rgb(255, 255, 196); color: rgb(0, 0, 0); border-left: 1px solid rgb(51, 102, 153); border-right: 1px solid rgb(51, 102, 153); border-bottom: 1px solid rgb(51, 102, 153); }
+.m_doc_yellow_nl { font-size: 8pt; font-weight: bold; background-color: rgb(255, 255, 196); color: rgb(0, 0, 0); border-right: 1px solid rgb(51, 102, 153); border-bottom: 1px solid rgb(51, 102, 153); }
+.m_doc_blue_bg { font-size: 8pt; background-color: rgb(230, 234, 255); color: rgb(0, 0, 0); border-left: 1px solid rgb(51, 102, 153); border-right: 1px solid rgb(51, 102, 153); border-bottom: 1px solid rgb(51, 102, 153); }
+.m_doc_blue_nl { font-size: 8pt; background-color: rgb(230, 234, 255); color: rgb(0, 0, 0); border-right: 1px solid rgb(51, 102, 153); border-bottom: 1px solid rgb(51, 102, 153); }
+.m_doc_white_bg { font-size: 8pt; background-color: rgb(255, 255, 255); color: rgb(0, 0, 0); border-left: 1px solid rgb(51, 102, 153); border-right: 1px solid rgb(51, 102, 153); border-bottom: 1px solid rgb(51, 102, 153); }
+.m_doc_white_nl { font-size: 8pt; background-color: rgb(255, 255, 255); color: rgb(0, 0, 0); border-right: 1px solid rgb(51, 102, 153); border-bottom: 1px solid rgb(51, 102, 153); }
+.m_gray_bg { font-size: 12px; font-weight: bold; background-color: rgb(102, 102, 102); color: rgb(255, 255, 255); }
+.m_green_bg { font-size: 12px; font-weight: bold; background-color: rgb(204, 204, 51); color: rgb(255, 255, 255); }
+.m_orange_bg { font-size: 12px; font-weight: bold; background-color: rgb(255, 153, 0); color: rgb(255, 255, 255); }
+.m_purple_bg { font-size: 12px; font-weight: bold; background-color: rgb(153, 51, 153); color: rgb(255, 255, 255); }
+.gray_bg { font-weight: bold; background-color: rgb(102, 102, 102); color: rgb(255, 255, 255); }
+.general_text { font-size: 11px; }
+.general_title { font-size: 14px; }
+.bluebordertable { border: 1px solid rgb(102, 153, 204); font-size: 10px; }
+.list_arrow { list-style-image: url('arrow.gif'); margin-left: 20px; margin-top: 5px; margin-bottom: 10px; }
+.Go { font-family: Verdana,Arial; font-size: 11px; background-position: left center; padding-top: 2px; padding-left: 10px; padding-bottom: 2px; background-attachment: fixed; background-image: url('go.gif'); background-repeat: no-repeat; }
+table[height="135"] { margin-bottom: 45px; margin-left: 5px; }
+table[height="140"] { margin-bottom: 40px; }
+
+/* ::::: http://www.itu.int/res/templates/wsis/css/wsis-ns6.css ::::: */
+
+body { background-color: white; font-family: Verdana,Arial,Helvetica,sans-serif; font-size: 12px; color: rgb(51, 51, 51); margin: 0px; padding: 0px; }
+h2 { font-size: 16px; margin: 1px; }
+h3 { font-size: 12px; margin: 1px; }
+h4 { font-size: 12px; margin: 1px; }
+h5 { font-size: 11px; margin: 1px; }
+p { margin-top: 3px; }
+td { font-family: Verdana,Arial,Helvetica,sans-serif; font-size: 12px; }
+a { font-weight: normal; font-size: 12px; color: rgb(0, 0, 255); text-decoration: none; }
+a:hover { color: rgb(255, 0, 0); }
+.fp_a { font-weight: normal; font-size: 11px; color: rgb(0, 0, 255); text-decoration: none; }
+.fp_a:hover { color: rgb(255, 0, 0); }
+.linkBlue { font-weight: bold; font-size: 12px; color: rgb(102, 153, 204); text-decoration: none; }
+.linkBlueMini { font-size: 10px; font-weight: bold; color: rgb(102, 153, 204); text-decoration: none; }
+.linkGray { font-weight: bold; color: rgb(102, 102, 102); text-decoration: none; }
+.linkGreen { font-weight: bold; color: rgb(204, 204, 51); text-decoration: none; }
+.linkGreenMini { font-size: 10px; font-weight: bold; color: rgb(204, 204, 51); text-decoration: none; }
+.linkOrange { font-weight: bold; color: rgb(255, 153, 0); text-decoration: none; }
+.linkPurple { color: rgb(153, 51, 153); text-decoration: none; font-weight: bold; }
+.linkWhite { font-weight: bold; color: rgb(255, 255, 255); text-decoration: none; font-size: 12px; }
+.linkWhiteBig { font-weight: bold; color: rgb(255, 255, 255); text-decoration: none; font-size: 16px; }
+.textBlueWhite { font-weight: bold; background-color: rgb(102, 153, 204); color: rgb(255, 255, 255); text-decoration: none; }
+.subtitleBlue { font-size: 12px; font-weight: bold; color: rgb(102, 153, 204); text-decoration: none; border: 1px solid rgb(102, 153, 204); }
+.subtitleGray { font-size: 12px; font-weight: bold; color: rgb(102, 102, 102); text-decoration: none; border: 1px solid rgb(102, 102, 102); }
+.subtitleGreen { font-size: 12px; font-weight: bold; color: rgb(204, 204, 51); text-decoration: none; border: 1px solid rgb(204, 204, 51); padding: 2px; }
+.subtitlePurple { font-size: 12px; font-weight: bold; color: rgb(153, 51, 153); text-decoration: none; border: 1px solid rgb(153, 51, 153); }
+.subtitleOrange { font-size: 12px; font-weight: bold; color: rgb(255, 153, 0); text-decoration: none; border: 1px solid rgb(255, 153, 0); }
+.titleBlue { font-family: Verdana,Arial,Helvetica,sans-serif; font-size: 12px; font-weight: bold; color: rgb(102, 153, 204); text-decoration: none; border: 2px solid rgb(102, 153, 204); }
+.titleGray { font-size: 12px; font-weight: bold; color: rgb(102, 102, 102); text-decoration: none; border: 2px solid rgb(102, 102, 102); }
+.titleGreen { font-size: 12px; font-weight: bold; color: rgb(204, 204, 51); text-decoration: none; border: 2px solid rgb(204, 204, 51); }
+.titleOrange { font-size: 12px; font-weight: bold; color: rgb(255, 153, 0); text-decoration: none; border: 2px solid rgb(255, 153, 0); }
+.titleOrangeBottom { font-size: 12px; font-weight: bold; color: rgb(255, 153, 0); border-style: solid; border-color: rgb(255, 153, 0); -moz-border-top-colors: none; -moz-border-right-colors: none; -moz-border-bottom-colors: none; -moz-border-left-colors: none; border-image: none; border-width: 0px 2px 2px; }
+.titleOrangeTop { font-size: 12px; font-weight: bold; color: rgb(255, 153, 0); border-style: solid; border-color: rgb(255, 153, 0); -moz-border-top-colors: none; -moz-border-right-colors: none; -moz-border-bottom-colors: none; -moz-border-left-colors: none; border-image: none; border-width: 2px 2px 0px; }
+.titlePurple { font-size: 12px; font-weight: bold; color: rgb(153, 51, 153); text-decoration: none; border: 2px solid rgb(153, 51, 153); }
+.menutop { font-size: 8pt; color: rgb(0, 102, 153); font-family: Geneva,Arial,Helvetica,san-serif; text-decoration: none; }
+.menutop:active { color: rgb(0, 102, 153); text-decoration: none; }
+.menutop:hover { color: red; text-decoration: none; }
+.menutop:link { color: rgb(0, 102, 153); text-decoration: none; }
+.menutop:visited { color: rgb(0, 102, 153); }
+.navtop { font-size: 8pt; color: white; font-family: Geneva,Arial,Helvetica,san-serif; text-decoration: none; }
+.navtop:active { color: white; text-decoration: underline; }
+.navtop:hover { color: white; text-decoration: underline; }
+.navtop:link { color: white; text-decoration: none; }
+.navtop:visited { color: white; }
+.anorm { font-size: 12px; color: blue; text-decoration: none; }
+.anorm:active { color: blue; text-decoration: underline; }
+.anorm:hover { color: red; text-decoration: underline; }
+.anorm:link { color: blue; text-decoration: none; }
+.anorm:visited { color: blue; }
+.footeritems { margin-top: 0px; font-size: 8pt; color: rgb(102, 102, 102); }
+.footeritems:link { color: rgb(102, 102, 102); text-decoration: none; }
+.footeritems:visited { color: rgb(102, 102, 102); text-decoration: none; }
+.footeritems:hover { color: rgb(102, 153, 204); text-decoration: underline; }
+.footeritems:active { color: rgb(102, 102, 102); text-decoration: underline; }
+.blue_bg { font-weight: bold; background-color: rgb(186, 211, 233); color: rgb(0, 0, 0); }
+.m_blue_bg { font-family: Verdana,Arial,Helvetica,sans-serif; font-size: 12px; font-weight: bold; background-color: rgb(102, 153, 204); color: rgb(255, 255, 255); margin: 5px; }
+.m_doc_top_bg { font-size: 9pt; font-weight: bold; background-color: rgb(185, 198, 255); color: rgb(0, 0, 0); border: 1px solid rgb(51, 102, 153); }
+.m_doc_text_bg { font-size: 9pt; background-color: rgb(255, 255, 255); color: rgb(0, 0, 0); border-left: 1px solid rgb(51, 102, 153); border-right: 1px solid rgb(51, 102, 153); border-bottom: 1px solid rgb(51, 102, 153); }
+.m_doc_yellow_bg { font-size: 8pt; font-weight: bold; background-color: rgb(255, 255, 196); color: rgb(0, 0, 0); border-left: 1px solid rgb(51, 102, 153); border-right: 1px solid rgb(51, 102, 153); border-bottom: 1px solid rgb(51, 102, 153); }
+.m_doc_yellow_nl { font-size: 8pt; font-weight: bold; background-color: rgb(255, 255, 196); color: rgb(0, 0, 0); border-right: 1px solid rgb(51, 102, 153); border-bottom: 1px solid rgb(51, 102, 153); }
+.m_doc_blue_bg { font-size: 8pt; background-color: rgb(230, 234, 255); color: rgb(0, 0, 0); border-left: 1px solid rgb(51, 102, 153); border-right: 1px solid rgb(51, 102, 153); border-bottom: 1px solid rgb(51, 102, 153); }
+.m_doc_blue_nl { font-size: 8pt; background-color: rgb(230, 234, 255); color: rgb(0, 0, 0); border-right: 1px solid rgb(51, 102, 153); border-bottom: 1px solid rgb(51, 102, 153); }
+.m_doc_white_bg { font-size: 8pt; background-color: rgb(255, 255, 255); color: rgb(0, 0, 0); border-left: 1px solid rgb(51, 102, 153); border-right: 1px solid rgb(51, 102, 153); border-bottom: 1px solid rgb(51, 102, 153); }
+.m_doc_white_nl { font-size: 8pt; background-color: rgb(255, 255, 255); color: rgb(0, 0, 0); border-right: 1px solid rgb(51, 102, 153); border-bottom: 1px solid rgb(51, 102, 153); }
+.m_gray_bg { font-size: 12px; font-weight: bold; background-color: rgb(102, 102, 102); color: rgb(255, 255, 255); }
+.m_green_bg { font-size: 12px; font-weight: bold; background-color: rgb(204, 204, 51); color: rgb(255, 255, 255); }
+.m_orange_bg { font-size: 12px; font-weight: bold; background-color: rgb(255, 153, 0); color: rgb(255, 255, 255); }
+.m_purple_bg { font-size: 12px; font-weight: bold; background-color: rgb(153, 51, 153); color: rgb(255, 255, 255); }
+.gray_bg { font-weight: bold; background-color: rgb(102, 102, 102); color: rgb(255, 255, 255); }
+.general_text { font-size: 11px; }
+.general_title { font-size: 14px; }
+.bluebordertable { border: 1px solid rgb(102, 153, 204); font-size: 10px; }
+.list_arrow { list-style-image: url('arrow.gif'); margin-left: 20px; margin-top: 5px; margin-bottom: 10px; }
+.Go { font-family: Verdana,Arial; font-size: 11px; background-position: left center; padding-top: 2px; padding-left: 10px; padding-bottom: 2px; background-attachment: fixed; background-image: url('go.gif'); background-repeat: no-repeat; }
+table[height="135"] { margin-bottom: 45px; margin-left: 5px; }
+table[height="140"] { margin-bottom: 40px; }
+
+/* ::::: null ::::: */
+
+.unlinkedList { list-style-image: none; line-height: 100%; padding-left: 0px; }
+.unlinkedList .pList { padding: 3px 0px; line-height: 18px; margin: 0px auto; font-weight: bold; font-size: 11px; }
+.unlinkedList .pList a { font-weight: bold; font-size: 12px; }
+.unlinkedList li { background-image: url('vineta.jpg'); background-position: left 12px; background-repeat: no-repeat; line-height: 100%; list-style: none outside none; padding: 5px 2px 5px 20px; }
+
+/* ::::: null ::::: */
+
+.awmGeneric { background-color: transparent; }
+.AWMST0 { position: absolute; visibility: hidden; text-align: center; font: 9pt Verdana; color: rgb(255, 255, 255); background-color: rgb(255, 255, 255); border-style: none; border-width: 0px; border-color: rgb(0, 0, 0); cursor: move; z-index: 1000; }
+.AWMSTTD0 { border-style: none; border-width: 0px; text-align: center; padding: 0px; font: 9pt Verdana; color: rgb(255, 255, 255); background-color: transparent; }
+.AWMSTBG0 { position: absolute; border-style: none; border-width: 0px; border-color: rgb(0, 0, 0); background-color: rgb(255, 255, 255); z-index: -1000; }
+.AWMSTCBG0 { position: absolute; visibility: hidden; text-align: center; font: 9pt Verdana; color: rgb(255, 255, 255); background-color: transparent; border-style: none; border-width: 0px; border-color: rgb(0, 0, 0); cursor: move; }
+.AWMST1 { position: absolute; visibility: hidden; text-align: center; font: 9pt Verdana; color: rgb(255, 255, 255); background-color: rgb(255, 255, 255); border-style: none; border-width: 0px; border-color: rgb(0, 0, 0); cursor: move; z-index: 1000; }
+.AWMSTTD1 { border-style: none; border-width: 0px; text-align: center; padding: 0px; font: 9pt Verdana; color: rgb(255, 255, 255); background-color: transparent; }
+.AWMSTBG1 { position: absolute; border-style: none; border-width: 0px; border-color: rgb(0, 0, 0); background-color: rgb(255, 255, 255); z-index: -1000; }
+.AWMSTCBG1 { position: absolute; visibility: hidden; text-align: center; font: 9pt Verdana; color: rgb(255, 255, 255); background-color: transparent; border-style: none; border-width: 0px; border-color: rgb(0, 0, 0); cursor: move; }
+.AWMST2 { position: absolute; visibility: hidden; text-align: left; background-color: rgb(255, 255, 255); border-style: none; border-width: 0px; border-color: rgb(0, 0, 0); cursor: default; z-index: 1000; }
+.AWMSTTD2 { border-style: none; border-width: 0px; text-align: left; padding: 0px; background-color: transparent; }
+.AWMSTBG2 { position: absolute; border-style: none; border-width: 0px; border-color: rgb(0, 0, 0); background-color: rgb(255, 255, 255); z-index: -1000; }
+.AWMSTCBG2 { position: absolute; visibility: hidden; text-align: left; background-color: transparent; border-style: none; border-width: 0px; border-color: rgb(0, 0, 0); cursor: default; }
+.AWMST3 { position: absolute; visibility: hidden; text-align: left; font: bold 11px Verdana; color: rgb(51, 51, 51); background-color: rgb(255, 255, 255); border-style: none; border-width: 0px; border-color: rgb(0, 0, 0); z-index: 1000; }
+.AWMSTTD3 { border-style: none; border-width: 0px; text-align: left; padding: 2px; font: bold 11px Verdana; color: rgb(51, 51, 51); background-color: transparent; }
+.AWMSTBG3 { position: absolute; border-style: none; border-width: 0px; border-color: rgb(0, 0, 0); background-color: rgb(255, 255, 255); z-index: -1000; }
+.AWMSTCBG3 { position: absolute; visibility: hidden; text-align: left; font: bold 11px Verdana; color: rgb(51, 51, 51); background-color: transparent; border-style: none; border-width: 0px; border-color: rgb(0, 0, 0); }
+.AWMST4 { position: absolute; visibility: hidden; text-align: left; font: bold 11px Verdana; color: rgb(255, 255, 255); background-color: rgb(102, 102, 102); border-style: none; border-width: 0px; border-color: rgb(0, 0, 0); z-index: 1000; }
+.AWMSTTD4 { border-style: none; border-width: 0px; text-align: left; padding: 2px; font: bold 11px Verdana; color: rgb(255, 255, 255); background-color: transparent; }
+.AWMSTBG4 { position: absolute; border-style: none; border-width: 0px; border-color: rgb(0, 0, 0); background-color: rgb(102, 102, 102); z-index: -1000; }
+.AWMSTCBG4 { position: absolute; visibility: hidden; text-align: left; font: bold 11px Verdana; color: rgb(255, 255, 255); background-color: transparent; border-style: none; border-width: 0px; border-color: rgb(0, 0, 0); }
+.AWMST5 { position: absolute; visibility: hidden; text-align: left; font: bold 11px Verdana; color: rgb(255, 255, 255); background-color: rgb(255, 153, 0); border-style: none; border-width: 0px; border-color: rgb(0, 0, 0); z-index: 1000; }
+.AWMSTTD5 { border-style: none; border-width: 0px; text-align: left; padding: 2px; font: bold 11px Verdana; color: rgb(255, 255, 255); background-color: transparent; }
+.AWMSTBG5 { position: absolute; border-style: none; border-width: 0px; border-color: rgb(0, 0, 0); background-color: rgb(255, 153, 0); z-index: -1000; }
+.AWMSTCBG5 { position: absolute; visibility: hidden; text-align: left; font: bold 11px Verdana; color: rgb(255, 255, 255); background-color: transparent; border-style: none; border-width: 0px; border-color: rgb(0, 0, 0); }
+.AWMST6 { position: absolute; visibility: hidden; text-align: left; font: bold 11px Verdana; color: rgb(255, 255, 255); background-color: rgb(102, 153, 204); border-style: none; border-width: 0px; border-color: rgb(0, 0, 0); z-index: 1000; }
+.AWMSTTD6 { border-style: none; border-width: 0px; text-align: left; padding: 2px; font: bold 11px Verdana; color: rgb(255, 255, 255); background-color: transparent; }
+.AWMSTBG6 { position: absolute; border-style: none; border-width: 0px; border-color: rgb(0, 0, 0); background-color: rgb(102, 153, 204); z-index: -1000; }
+.AWMSTCBG6 { position: absolute; visibility: hidden; text-align: left; font: bold 11px Verdana; color: rgb(255, 255, 255); background-color: transparent; border-style: none; border-width: 0px; border-color: rgb(0, 0, 0); }
+.AWMST7 { position: absolute; visibility: hidden; text-align: left; font: bold 11px Verdana; color: rgb(255, 255, 255); background-color: rgb(204, 204, 51); border-style: none; border-width: 0px; border-color: rgb(0, 0, 0); z-index: 1000; }
+.AWMSTTD7 { border-style: none; border-width: 0px; text-align: left; padding: 2px; font: bold 11px Verdana; color: rgb(255, 255, 255); background-color: transparent; }
+.AWMSTBG7 { position: absolute; border-style: none; border-width: 0px; border-color: rgb(0, 0, 0); background-color: rgb(204, 204, 51); z-index: -1000; }
+.AWMSTCBG7 { position: absolute; visibility: hidden; text-align: left; font: bold 11px Verdana; color: rgb(255, 255, 255); background-color: transparent; border-style: none; border-width: 0px; border-color: rgb(0, 0, 0); }
+.AWMST8 { position: absolute; visibility: hidden; text-align: left; font: bold 11px Verdana; color: rgb(255, 255, 255); background-color: rgb(153, 51, 153); border-style: none; border-width: 0px; border-color: rgb(0, 0, 0); z-index: 1000; }
+.AWMSTTD8 { border-style: none; border-width: 0px; text-align: left; padding: 2px; font: bold 11px Verdana; color: rgb(255, 255, 255); background-color: transparent; }
+.AWMSTBG8 { position: absolute; border-style: none; border-width: 0px; border-color: rgb(0, 0, 0); background-color: rgb(153, 51, 153); z-index: -1000; }
+.AWMSTCBG8 { position: absolute; visibility: hidden; text-align: left; font: bold 11px Verdana; color: rgb(255, 255, 255); background-color: transparent; border-style: none; border-width: 0px; border-color: rgb(0, 0, 0); }
+.AWMST9 { position: absolute; visibility: hidden; text-align: center; font: 8pt Verdana; color: rgb(255, 255, 255); background-color: rgb(255, 255, 255); border-style: none; border-width: 0px; border-color: rgb(0, 0, 0); cursor: default; z-index: 1000; }
+.AWMSTTD9 { border-style: none; border-width: 0px; text-align: center; padding: 0px; font: 8pt Verdana; color: rgb(255, 255, 255); background-color: transparent; }
+.AWMSTBG9 { position: absolute; border-style: none; border-width: 0px; border-color: rgb(0, 0, 0); background-color: rgb(255, 255, 255); z-index: -1000; }
+.AWMSTCBG9 { position: absolute; visibility: hidden; text-align: center; font: 8pt Verdana; color: rgb(255, 255, 255); background-color: transparent; border-style: none; border-width: 0px; border-color: rgb(0, 0, 0); cursor: default; }
+.AWMST10 { position: absolute; visibility: hidden; text-align: center; font: 8pt Verdana; color: rgb(255, 255, 255); background-color: rgb(255, 255, 255); border-style: none; border-width: 0px; border-color: rgb(0, 0, 0); cursor: default; z-index: 1000; }
+.AWMSTTD10 { border-style: none; border-width: 0px; text-align: center; padding: 0px; font: 8pt Verdana; color: rgb(255, 255, 255); background-color: transparent; }
+.AWMSTBG10 { position: absolute; border-style: none; border-width: 0px; border-color: rgb(0, 0, 0); background-color: rgb(255, 255, 255); z-index: -1000; }
+.AWMSTCBG10 { position: absolute; visibility: hidden; text-align: center; font: 8pt Verdana; color: rgb(255, 255, 255); background-color: transparent; border-style: none; border-width: 0px; border-color: rgb(0, 0, 0); cursor: default; }
+.AWMST11 { position: absolute; visibility: hidden; text-align: left; background-color: rgb(255, 255, 255); border-style: solid; border-width: 1px; border-color: rgb(255, 255, 255); cursor: default; z-index: 1000; }
+.AWMSTTD11 { border-style: none; border-width: 0px; text-align: left; padding: 0px; background-color: transparent; }
+.AWMSTBG11 { position: absolute; border-style: solid; border-width: 1px; border-color: rgb(255, 255, 255); background-color: rgb(255, 255, 255); z-index: -1000; }
+.AWMSTCBG11 { position: absolute; visibility: hidden; text-align: left; background-color: transparent; border-style: solid; border-width: 1px; border-color: rgb(255, 255, 255); cursor: default; }
+.AWMST12 { position: absolute; visibility: hidden; text-align: left; font: 11px Verdana; color: rgb(51, 51, 51); background-color: rgb(255, 255, 255); border-style: solid; border-width: 1px; border-color: rgb(0, 0, 0); z-index: 1000; }
+.AWMSTTD12 { border-style: none; border-width: 0px; text-align: left; padding: 2px; font: 11px Verdana; color: rgb(51, 51, 51); background-color: transparent; }
+.AWMSTBG12 { position: absolute; border-style: solid; border-width: 1px; border-color: rgb(0, 0, 0); background-color: rgb(255, 255, 255); z-index: -1000; }
+.AWMSTCBG12 { position: absolute; visibility: hidden; text-align: left; font: 11px Verdana; color: rgb(51, 51, 51); background-color: transparent; border-style: solid; border-width: 1px; border-color: rgb(0, 0, 0); }
+.AWMST13 { position: absolute; visibility: hidden; text-align: left; font: 11px Verdana; color: rgb(255, 255, 255); background-color: rgb(102, 102, 102); border-style: solid; border-width: 1px; border-color: rgb(0, 0, 0); z-index: 1000; }
+.AWMSTTD13 { border-style: none; border-width: 0px; text-align: left; padding: 2px; font: 11px Verdana; color: rgb(255, 255, 255); background-color: transparent; }
+.AWMSTBG13 { position: absolute; border-style: solid; border-width: 1px; border-color: rgb(0, 0, 0); background-color: rgb(102, 102, 102); z-index: -1000; }
+.AWMSTCBG13 { position: absolute; visibility: hidden; text-align: left; font: 11px Verdana; color: rgb(255, 255, 255); background-color: transparent; border-style: solid; border-width: 1px; border-color: rgb(0, 0, 0); }
+.AWMST14 { position: absolute; visibility: hidden; text-align: left; font: 11px Verdana; color: rgb(255, 255, 255); background-color: rgb(255, 153, 0); border-style: solid; border-width: 1px; border-color: rgb(0, 0, 0); z-index: 1000; }
+.AWMSTTD14 { border-style: none; border-width: 0px; text-align: left; padding: 2px; font: 11px Verdana; color: rgb(255, 255, 255); background-color: transparent; }
+.AWMSTBG14 { position: absolute; border-style: solid; border-width: 1px; border-color: rgb(0, 0, 0); background-color: rgb(255, 153, 0); z-index: -1000; }
+.AWMSTCBG14 { position: absolute; visibility: hidden; text-align: left; font: 11px Verdana; color: rgb(255, 255, 255); background-color: transparent; border-style: solid; border-width: 1px; border-color: rgb(0, 0, 0); }
+.AWMST15 { position: absolute; visibility: hidden; text-align: left; font: 11px Verdana; color: rgb(255, 255, 255); background-color: rgb(102, 153, 204); border-style: solid; border-width: 1px; border-color: rgb(0, 0, 0); z-index: 1000; }
+.AWMSTTD15 { border-style: none; border-width: 0px; text-align: left; padding: 2px; font: 11px Verdana; color: rgb(255, 255, 255); background-color: transparent; }
+.AWMSTBG15 { position: absolute; border-style: solid; border-width: 1px; border-color: rgb(0, 0, 0); background-color: rgb(102, 153, 204); z-index: -1000; }
+.AWMSTCBG15 { position: absolute; visibility: hidden; text-align: left; font: 11px Verdana; color: rgb(255, 255, 255); background-color: transparent; border-style: solid; border-width: 1px; border-color: rgb(0, 0, 0); }
+.AWMST16 { position: absolute; visibility: hidden; text-align: left; font: 11px Verdana; color: rgb(255, 255, 255); background-color: rgb(204, 204, 51); border-style: solid; border-width: 1px; border-color: rgb(0, 0, 0); z-index: 1000; }
+.AWMSTTD16 { border-style: none; border-width: 0px; text-align: left; padding: 2px; font: 11px Verdana; color: rgb(255, 255, 255); background-color: transparent; }
+.AWMSTBG16 { position: absolute; border-style: solid; border-width: 1px; border-color: rgb(0, 0, 0); background-color: rgb(204, 204, 51); z-index: -1000; }
+.AWMSTCBG16 { position: absolute; visibility: hidden; text-align: left; font: 11px Verdana; color: rgb(255, 255, 255); background-color: transparent; border-style: solid; border-width: 1px; border-color: rgb(0, 0, 0); }
+.AWMST17 { position: absolute; visibility: hidden; text-align: left; font: 11px Verdana; color: rgb(255, 255, 255); background-color: rgb(153, 51, 153); border-style: solid; border-width: 1px; border-color: rgb(0, 0, 0); z-index: 1000; }
+.AWMSTTD17 { border-style: none; border-width: 0px; text-align: left; padding: 2px; font: 11px Verdana; color: rgb(255, 255, 255); background-color: transparent; }
+.AWMSTBG17 { position: absolute; border-style: solid; border-width: 1px; border-color: rgb(0, 0, 0); background-color: rgb(153, 51, 153); z-index: -1000; }
+.AWMSTCBG17 { position: absolute; visibility: hidden; text-align: left; font: 11px Verdana; color: rgb(255, 255, 255); background-color: transparent; border-style: solid; border-width: 1px; border-color: rgb(0, 0, 0); }
+
+/* ::::: null ::::: */
+
+.awmGeneric { background-color: transparent; }
+.AWMST0 { position: absolute; visibility: hidden; text-align: center; font: 9pt Verdana; color: rgb(255, 255, 255); background-color: rgb(255, 255, 255); border-style: none; border-width: 0px; border-color: rgb(0, 0, 0); cursor: move; z-index: 1000; }
+.AWMSTTD0 { border-style: none; border-width: 0px; text-align: center; padding: 0px; font: 9pt Verdana; color: rgb(255, 255, 255); background-color: transparent; }
+.AWMSTBG0 { position: absolute; border-style: none; border-width: 0px; border-color: rgb(0, 0, 0); background-color: rgb(255, 255, 255); z-index: -1000; }
+.AWMSTCBG0 { position: absolute; visibility: hidden; text-align: center; font: 9pt Verdana; color: rgb(255, 255, 255); background-color: transparent; border-style: none; border-width: 0px; border-color: rgb(0, 0, 0); cursor: move; }
+.AWMST1 { position: absolute; visibility: hidden; text-align: center; font: 9pt Verdana; color: rgb(255, 255, 255); background-color: rgb(255, 255, 255); border-style: none; border-width: 0px; border-color: rgb(0, 0, 0); cursor: move; z-index: 1000; }
+.AWMSTTD1 { border-style: none; border-width: 0px; text-align: center; padding: 0px; font: 9pt Verdana; color: rgb(255, 255, 255); background-color: transparent; }
+.AWMSTBG1 { position: absolute; border-style: none; border-width: 0px; border-color: rgb(0, 0, 0); background-color: rgb(255, 255, 255); z-index: -1000; }
+.AWMSTCBG1 { position: absolute; visibility: hidden; text-align: center; font: 9pt Verdana; color: rgb(255, 255, 255); background-color: transparent; border-style: none; border-width: 0px; border-color: rgb(0, 0, 0); cursor: move; }
+.AWMST2 { position: absolute; visibility: hidden; text-align: left; background-color: rgb(255, 255, 255); border-style: none; border-width: 0px; border-color: rgb(0, 0, 0); cursor: default; z-index: 1000; }
+.AWMSTTD2 { border-style: none; border-width: 0px; text-align: left; padding: 0px; background-color: transparent; }
+.AWMSTBG2 { position: absolute; border-style: none; border-width: 0px; border-color: rgb(0, 0, 0); background-color: rgb(255, 255, 255); z-index: -1000; }
+.AWMSTCBG2 { position: absolute; visibility: hidden; text-align: left; background-color: transparent; border-style: none; border-width: 0px; border-color: rgb(0, 0, 0); cursor: default; }
+.AWMST3 { position: absolute; visibility: hidden; text-align: left; font: bold 11px Verdana; color: rgb(51, 51, 51); background-color: rgb(255, 255, 255); border-style: none; border-width: 0px; border-color: rgb(0, 0, 0); z-index: 1000; }
+.AWMSTTD3 { border-style: none; border-width: 0px; text-align: left; padding: 2px; font: bold 11px Verdana; color: rgb(51, 51, 51); background-color: transparent; }
+.AWMSTBG3 { position: absolute; border-style: none; border-width: 0px; border-color: rgb(0, 0, 0); background-color: rgb(255, 255, 255); z-index: -1000; }
+.AWMSTCBG3 { position: absolute; visibility: hidden; text-align: left; font: bold 11px Verdana; color: rgb(51, 51, 51); background-color: transparent; border-style: none; border-width: 0px; border-color: rgb(0, 0, 0); }
+.AWMST4 { position: absolute; visibility: hidden; text-align: left; font: bold 11px Verdana; color: rgb(255, 255, 255); background-color: rgb(102, 102, 102); border-style: none; border-width: 0px; border-color: rgb(0, 0, 0); z-index: 1000; }
+.AWMSTTD4 { border-style: none; border-width: 0px; text-align: left; padding: 2px; font: bold 11px Verdana; color: rgb(255, 255, 255); background-color: transparent; }
+.AWMSTBG4 { position: absolute; border-style: none; border-width: 0px; border-color: rgb(0, 0, 0); background-color: rgb(102, 102, 102); z-index: -1000; }
+.AWMSTCBG4 { position: absolute; visibility: hidden; text-align: left; font: bold 11px Verdana; color: rgb(255, 255, 255); background-color: transparent; border-style: none; border-width: 0px; border-color: rgb(0, 0, 0); }
+.AWMST5 { position: absolute; visibility: hidden; text-align: left; font: bold 11px Verdana; color: rgb(255, 255, 255); background-color: rgb(255, 153, 0); border-style: none; border-width: 0px; border-color: rgb(0, 0, 0); z-index: 1000; }
+.AWMSTTD5 { border-style: none; border-width: 0px; text-align: left; padding: 2px; font: bold 11px Verdana; color: rgb(255, 255, 255); background-color: transparent; }
+.AWMSTBG5 { position: absolute; border-style: none; border-width: 0px; border-color: rgb(0, 0, 0); background-color: rgb(255, 153, 0); z-index: -1000; }
+.AWMSTCBG5 { position: absolute; visibility: hidden; text-align: left; font: bold 11px Verdana; color: rgb(255, 255, 255); background-color: transparent; border-style: none; border-width: 0px; border-color: rgb(0, 0, 0); }
+.AWMST6 { position: absolute; visibility: hidden; text-align: left; font: bold 11px Verdana; color: rgb(255, 255, 255); background-color: rgb(102, 153, 204); border-style: none; border-width: 0px; border-color: rgb(0, 0, 0); z-index: 1000; }
+.AWMSTTD6 { border-style: none; border-width: 0px; text-align: left; padding: 2px; font: bold 11px Verdana; color: rgb(255, 255, 255); background-color: transparent; }
+.AWMSTBG6 { position: absolute; border-style: none; border-width: 0px; border-color: rgb(0, 0, 0); background-color: rgb(102, 153, 204); z-index: -1000; }
+.AWMSTCBG6 { position: absolute; visibility: hidden; text-align: left; font: bold 11px Verdana; color: rgb(255, 255, 255); background-color: transparent; border-style: none; border-width: 0px; border-color: rgb(0, 0, 0); }
+.AWMST7 { position: absolute; visibility: hidden; text-align: left; font: bold 11px Verdana; color: rgb(255, 255, 255); background-color: rgb(204, 204, 51); border-style: none; border-width: 0px; border-color: rgb(0, 0, 0); z-index: 1000; }
+.AWMSTTD7 { border-style: none; border-width: 0px; text-align: left; padding: 2px; font: bold 11px Verdana; color: rgb(255, 255, 255); background-color: transparent; }
+.AWMSTBG7 { position: absolute; border-style: none; border-width: 0px; border-color: rgb(0, 0, 0); background-color: rgb(204, 204, 51); z-index: -1000; }
+.AWMSTCBG7 { position: absolute; visibility: hidden; text-align: left; font: bold 11px Verdana; color: rgb(255, 255, 255); background-color: transparent; border-style: none; border-width: 0px; border-color: rgb(0, 0, 0); }
+.AWMST8 { position: absolute; visibility: hidden; text-align: left; font: bold 11px Verdana; color: rgb(255, 255, 255); background-color: rgb(153, 51, 153); border-style: none; border-width: 0px; border-color: rgb(0, 0, 0); z-index: 1000; }
+.AWMSTTD8 { border-style: none; border-width: 0px; text-align: left; padding: 2px; font: bold 11px Verdana; color: rgb(255, 255, 255); background-color: transparent; }
+.AWMSTBG8 { position: absolute; border-style: none; border-width: 0px; border-color: rgb(0, 0, 0); background-color: rgb(153, 51, 153); z-index: -1000; }
+.AWMSTCBG8 { position: absolute; visibility: hidden; text-align: left; font: bold 11px Verdana; color: rgb(255, 255, 255); background-color: transparent; border-style: none; border-width: 0px; border-color: rgb(0, 0, 0); }
+.AWMST9 { position: absolute; visibility: hidden; text-align: center; font: 8pt Verdana; color: rgb(255, 255, 255); background-color: rgb(255, 255, 255); border-style: none; border-width: 0px; border-color: rgb(0, 0, 0); cursor: default; z-index: 1000; }
+.AWMSTTD9 { border-style: none; border-width: 0px; text-align: center; padding: 0px; font: 8pt Verdana; color: rgb(255, 255, 255); background-color: transparent; }
+.AWMSTBG9 { position: absolute; border-style: none; border-width: 0px; border-color: rgb(0, 0, 0); background-color: rgb(255, 255, 255); z-index: -1000; }
+.AWMSTCBG9 { position: absolute; visibility: hidden; text-align: center; font: 8pt Verdana; color: rgb(255, 255, 255); background-color: transparent; border-style: none; border-width: 0px; border-color: rgb(0, 0, 0); cursor: default; }
+.AWMST10 { position: absolute; visibility: hidden; text-align: center; font: 8pt Verdana; color: rgb(255, 255, 255); background-color: rgb(255, 255, 255); border-style: none; border-width: 0px; border-color: rgb(0, 0, 0); cursor: default; z-index: 1000; }
+.AWMSTTD10 { border-style: none; border-width: 0px; text-align: center; padding: 0px; font: 8pt Verdana; color: rgb(255, 255, 255); background-color: transparent; }
+.AWMSTBG10 { position: absolute; border-style: none; border-width: 0px; border-color: rgb(0, 0, 0); background-color: rgb(255, 255, 255); z-index: -1000; }
+.AWMSTCBG10 { position: absolute; visibility: hidden; text-align: center; font: 8pt Verdana; color: rgb(255, 255, 255); background-color: transparent; border-style: none; border-width: 0px; border-color: rgb(0, 0, 0); cursor: default; }
+.AWMST11 { position: absolute; visibility: hidden; text-align: left; background-color: rgb(255, 255, 255); border-style: solid; border-width: 1px; border-color: rgb(255, 255, 255); cursor: default; z-index: 1000; }
+.AWMSTTD11 { border-style: none; border-width: 0px; text-align: left; padding: 0px; background-color: transparent; }
+.AWMSTBG11 { position: absolute; border-style: solid; border-width: 1px; border-color: rgb(255, 255, 255); background-color: rgb(255, 255, 255); z-index: -1000; }
+.AWMSTCBG11 { position: absolute; visibility: hidden; text-align: left; background-color: transparent; border-style: solid; border-width: 1px; border-color: rgb(255, 255, 255); cursor: default; }
+.AWMST12 { position: absolute; visibility: hidden; text-align: left; font: 11px Verdana; color: rgb(51, 51, 51); background-color: rgb(255, 255, 255); border-style: solid; border-width: 1px; border-color: rgb(0, 0, 0); z-index: 1000; }
+.AWMSTTD12 { border-style: none; border-width: 0px; text-align: left; padding: 2px; font: 11px Verdana; color: rgb(51, 51, 51); background-color: transparent; }
+.AWMSTBG12 { position: absolute; border-style: solid; border-width: 1px; border-color: rgb(0, 0, 0); background-color: rgb(255, 255, 255); z-index: -1000; }
+.AWMSTCBG12 { position: absolute; visibility: hidden; text-align: left; font: 11px Verdana; color: rgb(51, 51, 51); background-color: transparent; border-style: solid; border-width: 1px; border-color: rgb(0, 0, 0); }
+.AWMST13 { position: absolute; visibility: hidden; text-align: left; font: 11px Verdana; color: rgb(255, 255, 255); background-color: rgb(102, 102, 102); border-style: solid; border-width: 1px; border-color: rgb(0, 0, 0); z-index: 1000; }
+.AWMSTTD13 { border-style: none; border-width: 0px; text-align: left; padding: 2px; font: 11px Verdana; color: rgb(255, 255, 255); background-color: transparent; }
+.AWMSTBG13 { position: absolute; border-style: solid; border-width: 1px; border-color: rgb(0, 0, 0); background-color: rgb(102, 102, 102); z-index: -1000; }
+.AWMSTCBG13 { position: absolute; visibility: hidden; text-align: left; font: 11px Verdana; color: rgb(255, 255, 255); background-color: transparent; border-style: solid; border-width: 1px; border-color: rgb(0, 0, 0); }
+.AWMST14 { position: absolute; visibility: hidden; text-align: left; font: 11px Verdana; color: rgb(255, 255, 255); background-color: rgb(255, 153, 0); border-style: solid; border-width: 1px; border-color: rgb(0, 0, 0); z-index: 1000; }
+.AWMSTTD14 { border-style: none; border-width: 0px; text-align: left; padding: 2px; font: 11px Verdana; color: rgb(255, 255, 255); background-color: transparent; }
+.AWMSTBG14 { position: absolute; border-style: solid; border-width: 1px; border-color: rgb(0, 0, 0); background-color: rgb(255, 153, 0); z-index: -1000; }
+.AWMSTCBG14 { position: absolute; visibility: hidden; text-align: left; font: 11px Verdana; color: rgb(255, 255, 255); background-color: transparent; border-style: solid; border-width: 1px; border-color: rgb(0, 0, 0); }
+.AWMST15 { position: absolute; visibility: hidden; text-align: left; font: 11px Verdana; color: rgb(255, 255, 255); background-color: rgb(102, 153, 204); border-style: solid; border-width: 1px; border-color: rgb(0, 0, 0); z-index: 1000; }
+.AWMSTTD15 { border-style: none; border-width: 0px; text-align: left; padding: 2px; font: 11px Verdana; color: rgb(255, 255, 255); background-color: transparent; }
+.AWMSTBG15 { position: absolute; border-style: solid; border-width: 1px; border-color: rgb(0, 0, 0); background-color: rgb(102, 153, 204); z-index: -1000; }
+.AWMSTCBG15 { position: absolute; visibility: hidden; text-align: left; font: 11px Verdana; color: rgb(255, 255, 255); background-color: transparent; border-style: solid; border-width: 1px; border-color: rgb(0, 0, 0); }
+.AWMST16 { position: absolute; visibility: hidden; text-align: left; font: 11px Verdana; color: rgb(255, 255, 255); background-color: rgb(204, 204, 51); border-style: solid; border-width: 1px; border-color: rgb(0, 0, 0); z-index: 1000; }
+.AWMSTTD16 { border-style: none; border-width: 0px; text-align: left; padding: 2px; font: 11px Verdana; color: rgb(255, 255, 255); background-color: transparent; }
+.AWMSTBG16 { position: absolute; border-style: solid; border-width: 1px; border-color: rgb(0, 0, 0); background-color: rgb(204, 204, 51); z-index: -1000; }
+.AWMSTCBG16 { position: absolute; visibility: hidden; text-align: left; font: 11px Verdana; color: rgb(255, 255, 255); background-color: transparent; border-style: solid; border-width: 1px; border-color: rgb(0, 0, 0); }
+.AWMST17 { position: absolute; visibility: hidden; text-align: left; font: 11px Verdana; color: rgb(255, 255, 255); background-color: rgb(153, 51, 153); border-style: solid; border-width: 1px; border-color: rgb(0, 0, 0); z-index: 1000; }
+.AWMSTTD17 { border-style: none; border-width: 0px; text-align: left; padding: 2px; font: 11px Verdana; color: rgb(255, 255, 255); background-color: transparent; }
+.AWMSTBG17 { position: absolute; border-style: solid; border-width: 1px; border-color: rgb(0, 0, 0); background-color: rgb(153, 51, 153); z-index: -1000; }
+.AWMSTCBG17 { position: absolute; visibility: hidden; text-align: left; font: 11px Verdana; color: rgb(255, 255, 255); background-color: transparent; border-style: solid; border-width: 1px; border-color: rgb(0, 0, 0); }

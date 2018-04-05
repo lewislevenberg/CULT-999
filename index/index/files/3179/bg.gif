@@ -1,0 +1,1228 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+
+
+<head>
+<title>Institute for Ethics and Emerging Technologies</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="Author" content="Institute for Ethics and Emerging Technologies"/>
+<meta name="keywords" content="science,technology,virtual,metaverse,future,bioethics,mp3,political,politics,policy,progressive,radical,radio,religion,science fiction,scientific,scifi,sex,university,technoprogressive,transhumanist, transhumanism,Bostrom,Hughes,nanotechnology"/>
+<meta name="description" content="Website of the Institute for Ethics and Emerging Technologies"/>
+
+<link rel='stylesheet' type='text/css' media='all' href='http://ieet.org/index.php?css=IEET/channel_css.v.1395376459' />
+<style type='text/css' media='screen'>@import "http://ieet.org/index.php?css=IEET/channel_css.v.1395376459";</style>
+
+
+<link rel="alternate" type="application/rss+xml" title="IEET Blog" href="http://feeds.feedburner.com/EthicalTechnology" />
+
+</head>
+
+<body>
+<!------START OF INDEX SHADOW CSS------>
+
+
+<style type="text/css">
+.th {width:922px;
+hight:100%;
+background-color:rgb(255, 255, 255);
+box-shadow:7px 7px 7px 7px #888;
+-moz-box-shadow:7px 7px 7px 7px #888;
+ -webkit-box-shadow:7px 7px 7px 7px #888;
+margin: 0 auto;}
+
+.th, .ti .tj{
+padding:0px;
+text-align:left;}
+.tk{width:917px;
+hight:100%;
+margin: 0 auto;}
+
+</style><div class='th'><div class='ti'><div class='tj'><div class='tk'>
+<!------END OF INDEX SHADOW CSS------>
+
+
+<style type="text/css">
+.ieethead2 { 
+   position: relative; 
+   width: 100%; /* for IE 6 */
+}
+
+h57 { 
+   position: absolute; 
+   top: 1px; 
+   left: 845px; 
+   width: 8px; 
+}
+</style>
+<style type="text/css">
+.ieethead { 
+   position: relative; 
+   width: 100%; /* for IE 6 */
+}
+
+h56 { 
+   position: absolute; 
+   top: 130px; 
+   left: 0px; 
+   width: 874px; 
+}
+</style>
+<table border="0" style="border-collapse: collapse" width="870" align="center" cellpadding="0" >
+<tr><td>
+<div>
+<a href="http://www.ieet.org">​<div  class="ieethead" class="ieethead2" <a href="http://www.ieet.org">​<img alt="" src="http://www.ieet.org/images/uploads/ieetheaderethicaltechnology3.jpg" style="width: 875px; height: 179px;" /></a></a>
+
+  <h56> <table width="100%" align="center" border="0">
+    <tr>
+      <td><div align="center">
+        <table width="400" border="0">
+          <tr>
+            
+            <td width="400"><table width="875" align="center" border="0">
+                <tr>
+                  <td><a href="http://www.ieet.org/index.php/IEET/IEETblog" class="ieet_b">Blog</a></td>
+                  <td><a href="http://www.ieet.org/index.php/IEET/calendar" class="ieet_b">Events</a></td>
+                  <td><a href="http://ieet.org/index.php/IEET/media" class="ieet_b">Multimedia</a></td>
+                  <td><a href="http://www.ieet.org/index.php/IEET/about" class="ieet_b">About</a></td>
+                  <td><a href="http://www.ieet.org/index.php/IEET/purpose" class="ieet_b">Purpose</a></td>
+                  
+            
+                  <td><a href="http://www.ieet.org/index.php/IEET/publications" class="ieet_b">Publications</a></td>
+                  <td><a href="http://www.ieet.org/index.php/IEET/staff" class="ieet_b">Staff</a></td>
+                  <td><a href="http://www.ieet.org/index.php/IEET/contact" class="ieet_b">Contact</a></td>
+                  <td><a href="http://www.ieet.org/index.php/IEET/support" class="ieet_b">Join</a></td>
+                  <td><a href="http://www.ieet.org/index.php/IEET/programs" class="ieet_b">Programs</a></td>
+
+
+<td><a href="http://ieet.org/index.php/member/login" class="ieet_c">Login</a></td>
+<td><a href="http://ieet.org/index.php/member/register" class="ieet_c">Register</a></td>
+
+<td>
+
+                </tr>
+            </table></td>
+          </tr>
+        </table>
+      </div></td>
+    </tr>
+  </table></h56>
+
+
+
+</div>
+</div>
+
+</td></tr>
+<style type="text/css">
+.ieet_c {
+	-moz-box-shadow:inset 0px 1px 0px 0px #97c4fe;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #97c4fe;
+	box-shadow:inset 0px 1px 0px 0px #97c4fe;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #3d94f6), color-stop(1, #1e62d0) );
+	background:-moz-linear-gradient( center top, #3d94f6 5%, #1e62d0 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#3d94f6', endColorstr='#1e62d0');
+	background-color:#3d94f6;
+	-webkit-border-top-left-radius:22px;
+	-moz-border-radius-topleft:22px;
+	border-top-left-radius:22px;
+	-webkit-border-top-right-radius:22px;
+	-moz-border-radius-topright:22px;
+	border-top-right-radius:22px;
+	-webkit-border-bottom-right-radius:22px;
+	-moz-border-radius-bottomright:22px;
+	border-bottom-right-radius:22px;
+	-webkit-border-bottom-left-radius:22px;
+	-moz-border-radius-bottomleft:22px;
+	border-bottom-left-radius:22px;
+	text-indent:0;
+	border:1px solid #337fed;
+	display:inline-block;
+	color:white;
+	font-family:Arial;
+	font-size:12px;
+	font-weight:bold;
+	font-style:italic;
+	height:33px;
+	line-height:33px;
+	width:83px;
+	text-decoration:none;
+	text-align:center;
+	text-shadow:1px 1px 0px #1570cd;
+}
+.ieet_c:hover {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #1e62d0), color-stop(1, #3d94f6) );
+	background:-moz-linear-gradient( center top, #1e62d0 5%, #3d94f6 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#1e62d0', endColorstr='#3d94f6');
+	background-color:#1e62d0;
+}.ieet_c:active {
+	position:relative;
+	top:1px;
+}</style>
+<style type="text/css">
+.ieet_b {
+	-moz-box-shadow:inset 0px 1px 0px 0px #bee2f9;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #bee2f9;
+	box-shadow:inset 0px 1px 0px 0px #bee2f9;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #63b8ee), color-stop(1, #468ccf) );
+	background:-moz-linear-gradient( center top, #63b8ee 5%, #468ccf 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#63b8ee', endColorstr='#468ccf');
+	background-color:#63b8ee;
+	-webkit-border-top-left-radius:0px;
+	-moz-border-radius-topleft:0px;
+	border-top-left-radius:0px;
+	-webkit-border-top-right-radius:0px;
+	-moz-border-radius-topright:0px;
+	border-top-right-radius:0px;
+	-webkit-border-bottom-right-radius:0px;
+	-moz-border-radius-bottomright:0px;
+	border-bottom-right-radius:0px;
+	-webkit-border-bottom-left-radius:0px;
+	-moz-border-radius-bottomleft:0px;
+	border-bottom-left-radius:0px;
+	text-indent:0;
+	display:inline-block;
+	color:white;
+	font-family:Arial;
+	font-size:10px;
+	font-weight:bold;
+	font-style:normal;
+	height:29px;
+	line-height:29px;
+	width:65px;
+	text-decoration:none;
+	text-align:center;
+	text-shadow:1px 1px 0px #7cacde;
+}
+.ieet_b:hover {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #468ccf), color-stop(1, #63b8ee) );
+	background:-moz-linear-gradient( center top, #468ccf 5%, #63b8ee 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#468ccf', endColorstr='#63b8ee');
+	background-color:#468ccf;
+}.ieet_b:active {
+	position:relative;
+	top:1px;
+}</style>
+
+</td></tr></table>
+
+<div align="center">
+
+
+	<table align="center" border="0" style="border-collapse: collapse" width="870" cellpadding="0">
+
+	<tr>
+		<td width="170" align="left" valign="top">
+
+<br />
+
+<p>​<a href="https://donatenow.networkforgood.org/ieet" target="_blank"><img alt="" src="http://www.ieet.org/images/uploads/pleasedonate_ieet2.jpg" style="width: 163px; height: 122px;" /></a>​</p>
+<!------GOOGLE SEARCH CODE------>
+<b>Search the IEET</b>
+<script>
+  (function() {
+    var cx = '000933817175725020347:vk152c_xpea';
+    var gcse = document.createElement('script');
+    gcse.type = 'text/javascript';
+    gcse.async = true;
+    gcse.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') +
+        '//www.google.com/cse/cse.js?cx=' + cx;
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(gcse, s);
+  })();
+</script>
+<gcse:search></gcse:search>
+
+
+<!------SUBSCRIPTION BUTTONS------>
+<b>Subscribe and Contribute to:</b>
+<img src="http://www.ieet.org/images/uploads/sidebaricons2014a.png" width="160" height="231" border="0" usemap="#Map" />
+<map name="Map" id="Map"><area shape="rect" coords="8,2,72,74" href="https://mailman-mail5.webfaction.com/listinfo/ieet-announce" target="_blank" />
+<area shape="rect" coords="90,2,151,71" href="https://mailman-mail5.webfaction.com/listinfo/ieet-news" target="_blank" />
+<area shape="rect" coords="3,74,76,142" href="https://plus.google.com/+IeetOrg/posts" target="_blank" />
+<area shape="rect" coords="86,74,158,144" href="https://www.facebook.com/ieet.org" target="_blank" />
+<area shape="rect" coords="9,150,75,229" href="http://ieet.org/index.php/tpwiki/Introduction" target="_blank" />
+<area shape="rect" coords="87,149,155,228" href="https://twitter.com/IEET" target="_blank" />
+</map>
+<br><br>
+
+<a href="http://ieet.org/index.php/IEET/biopolitics">
+<b>Technoprogressive?</b> BioConservative? Huh?<br>
+Quick overview of biopolitical points of view</a>
+
+<br>
+
+
+<style type="text/css">
+.tx {width:150px;
+background-color:rgb(255, 255, 255);
+box-shadow:5px 5px 5px 3px black;
+-moz-box-shadow:5px 5px 5px 3px black;
+ -webkit-box-shadow:5px 5px 5px 3px black;}
+
+.tz, .ty .tx{
+padding:10px;
+text-align:left;}
+
+.to{width:130px;}
+
+</style>
+<b>
+<br>
+<br><div class='tx'><div class='tz'><div class='ty'><div class='to'>
+<h2>Submit to the IEET</h2><br>
+
+
+<div class="entry">
+<a href="http://ieet.org/index.php/IEET/more/pellissier20120531">IEET is seeking technoprogressive policy essays and white papers</a><br><br></div>
+
+<div class="entry">
+<a href="http://ieet.org/index.php/IEET/more/ieet-interns-contributors_2013">Opportunity - Become an IEET Intern or Contributor!</a><br><br></div>
+
+</div></div></div></div><br><br></b>
+</div></div>
+<!------LINKS------>
+<table width="168" border="0">
+  <tr>
+    <td>
+<b>
+<a href="http://ieet.org/index.php/ieet/africa"><img alt="" src="http://www.ieet.org/images/uploads/AFP2014b.jpg" style="width: 162px; height: 162px;" /></a><br><br>
+</td>
+  </tr>
+</table>
+
+<!------BOOKS------>
+
+<a href="http://ieet.org/index.php/IEET/publications#books"><img src="http://images.ieet.org/ieetbooks.jpg"  style="margin:20px 0px 0px 0px"  border="0" alt="ieet books" /></a><br /><br />
+
+
+
+<div style="text-align:left" class="entry">
+<i><a href="http://ieet.org/index.php/IEET/publications#books"><b>Virtually Human: The Promise&#8212;-and the Peril&#8212;-of Digital Immortality </b></i><br />
+<img alt="Author" style="align:right; margin:10px 0px 10px 0px"  width="160" src="http://ieet.org/images/71nXzrktJmL._SL1500_.jpg" /><br />
+by Martine Rothblatt
+</a> 
+</div><br />
+
+
+
+
+
+<div style="text-align:left"  class="entry">
+<i><a href="http://ieet.org/index.php/IEET/publications#books">Intelligence Unbound: The Future of Uploaded and Machine Minds</a></i> <br> by Russell Blackford and Damien Broderick eds.
+</div><br />
+
+
+
+<div style="text-align:left"  class="entry">
+<i><a href="http://ieet.org/index.php/IEET/publications#books">Between Ape and Artilect: Conversations with Pioneers of AGI and Other Transformative Technologies</a></i> <br> by Ben Goertzel ed.
+</div><br />
+
+
+
+<div style="text-align:left"  class="entry">
+<i><a href="http://ieet.org/index.php/IEET/publications#books">Human Purpose and Transhuman Potential: A Cosmic Vision for Our Future Evolution</a></i> <br> by Ted Chu
+</div><br />
+
+
+<br>
+
+
+<!------IEET CALENDAR ITEMS------>
+
+<!------IEET CALENDAR ITEMS------>
+
+<a href="http://ieet.org/index.php/IEET/calendar"><img src="http://images.ieet.org/new_events.jpg" border="0" alt="ieet events" /></a><br /><br />
+
+
+<font style="FONT-SIZE: 12px; LINE-HEIGHT: 14px; FONT-STYLE: normal; FONT-FAMILY: 'Trebuchet MS', Verdana, Arial, helvetica, sans-serif; TEXT-DECORATION: none">
+<b><a target="_blank" href="http://ieet.org/index.php/IEET/eventinfo/climate_engineering_conference_2014">Cascio @ Climate Engineering Conference 2014</a></b><br />
+August 18
+-21, 2014
+<br />
+Potsdamer Platz, Berlin, Germany</font><br /><br />
+
+<font style="FONT-SIZE: 12px; LINE-HEIGHT: 14px; FONT-STYLE: normal; FONT-FAMILY: 'Trebuchet MS', Verdana, Arial, helvetica, sans-serif; TEXT-DECORATION: none">
+<b><a target="_blank" href="http://ieet.org/index.php/IEET/eventinfo/siegel20140826">Siegel @ Palenque Norte, Burning Man</a></b><br />
+August 26
+-29, 2014
+<br />
+Camp Soft Landing, Black Rock City, NV</font><br /><br />
+
+<font style="FONT-SIZE: 12px; LINE-HEIGHT: 14px; FONT-STYLE: normal; FONT-FAMILY: 'Trebuchet MS', Verdana, Arial, helvetica, sans-serif; TEXT-DECORATION: none">
+<b><a target="_blank" href="http://ieet.org/index.php/IEET/eventinfo/tedx_in_marin2014">Cascio @ TEDx in Marin</a></b><br />
+September 18
+, 2014
+<br />
+Marin</font><br /><br />
+
+<font style="FONT-SIZE: 12px; LINE-HEIGHT: 14px; FONT-STYLE: normal; FONT-FAMILY: 'Trebuchet MS', Verdana, Arial, helvetica, sans-serif; TEXT-DECORATION: none">
+<b><a target="_blank" href="http://ieet.org/index.php/IEET/eventinfo/sorgner20140925">Sorgner @ Posthuman Politics</a></b><br />
+September 25
+-28, 2014
+<br />
+University of the Aegean, Lesbos, Greece</font><br /><br />
+
+<font style="FONT-SIZE: 12px; LINE-HEIGHT: 14px; FONT-STYLE: normal; FONT-FAMILY: 'Trebuchet MS', Verdana, Arial, helvetica, sans-serif; TEXT-DECORATION: none">
+<b><a target="_blank" href="http://ieet.org/index.php/IEET/eventinfo/siegel_indiecade">Siegel @ Indiecade</a></b><br />
+October 9
+-12, 2014
+<br />
+Culver City, CA USA</font><br /><br />
+
+<font style="FONT-SIZE: 12px; LINE-HEIGHT: 14px; FONT-STYLE: normal; FONT-FAMILY: 'Trebuchet MS', Verdana, Arial, helvetica, sans-serif; TEXT-DECORATION: none">
+<b><a target="_blank" href="http://ieet.org/index.php/IEET/eventinfo/lagrandeur20141009">LaGrandeur @ Society for Literature, Science, and the Arts</a></b><br />
+October 9
+-12, 2014
+<br />
+Dallas, TX USA</font><br /><br />
+
+<font style="FONT-SIZE: 12px; LINE-HEIGHT: 14px; FONT-STYLE: normal; FONT-FAMILY: 'Trebuchet MS', Verdana, Arial, helvetica, sans-serif; TEXT-DECORATION: none">
+<b><a target="_blank" href="http://ieet.org/index.php/IEET/eventinfo/buddhist_geeks_conference">Siegel @ Buddhist Geeks Conference</a></b><br />
+October 16
+-18, 2014
+<br />
+Boulder, Colorado</font><br /><br />
+
+<font style="FONT-SIZE: 12px; LINE-HEIGHT: 14px; FONT-STYLE: normal; FONT-FAMILY: 'Trebuchet MS', Verdana, Arial, helvetica, sans-serif; TEXT-DECORATION: none">
+<b><a target="_blank" href="http://ieet.org/index.php/IEET/eventinfo/siegel20141022">Siegel @ Science and Non-Duality</a></b><br />
+October 22
+-27, 2014
+<br />
+San Jose, CA USA</font><br /><br />
+
+<font style="FONT-SIZE: 12px; LINE-HEIGHT: 14px; FONT-STYLE: normal; FONT-FAMILY: 'Trebuchet MS', Verdana, Arial, helvetica, sans-serif; TEXT-DECORATION: none">
+<b><a target="_blank" href="http://ieet.org/index.php/IEET/eventinfo/sorgner20141030">Sorgner @ 3rd World Humanities Forum</a></b><br />
+October 30
+-1, 2014
+<br />
+Daejeon City, Korea </font><br /><br />
+
+<font style="FONT-SIZE: 12px; LINE-HEIGHT: 14px; FONT-STYLE: normal; FONT-FAMILY: 'Trebuchet MS', Verdana, Arial, helvetica, sans-serif; TEXT-DECORATION: none">
+<b><a target="_blank" href="http://ieet.org/index.php/IEET/eventinfo/TV2014">Hughes, Vita-More, de Grey, Roux @ TransVision 2014</a></b><br />
+November 20
+-22, 2014
+<br />
+Paris, France</font><br /><br />
+
+<font style="FONT-SIZE: 12px; LINE-HEIGHT: 14px; FONT-STYLE: normal; FONT-FAMILY: 'Trebuchet MS', Verdana, Arial, helvetica, sans-serif; TEXT-DECORATION: none">
+<b><a target="_blank" href="http://ieet.org/index.php/IEET/eventinfo/201507juniata">Hughes @ Juniata H+ Conference</a></b><br />
+July 26
+-30, 2015
+<br />
+Juniata College, Huntingdon, PA USA</font><br /><br />
+
+
+
+
+</td></div></div></div></div></div></div>
+
+
+
+<td style="text-decoration: none"  width="530" align="left" valign="top">
+
+<!----------------BEGINNING OF CENTER COLUMN-------->
+
+
+<table width="100%"  cellpadding="10" cellspacing ="10" >
+    <tr>
+        <td >
+
+
+<!------NEWS----->
+
+<a href="http://ieet.org/index.php/IEET/IEETnews"><img src="http://images.ieet.org/new_ieet_news.jpg" border="0" alt="ieet news" /></a>
+            <br /><br />
+            
+            
+           
+                        <font style="FONT-SIZE: 14px; LINE-HEIGHT: 14px; FONT-STYLE: normal; FONT-FAMILY: 'Trebuchet MS', Verdana, Arial, helvetica, sans-serif; TEXT-DECORATION: none"><b>
+             <a href="http://ieet.org/index.php/IEET/more/naam20140809">IEET Fellow Ramez Naam&#8217;s Nexus is a Finalist for the Endeavour Award </a></b><br> (Aug 9, 2014)</font><p>&nbsp;<em><a href="http://rameznaam.com/nexus/">Nexus</a>&nbsp;</em>is a finalist for the <a href="http://www.osfci.org/endeavour/" target="_blank">2014 Endeavour Award</a>, for the best SF or fantasy book written by a Pacific Northwest author in the previous year.&nbsp;</p>
+             
+           
+                        <font style="FONT-SIZE: 14px; LINE-HEIGHT: 14px; FONT-STYLE: normal; FONT-FAMILY: 'Trebuchet MS', Verdana, Arial, helvetica, sans-serif; TEXT-DECORATION: none"><b>
+             <a href="http://ieet.org/index.php/IEET/more/caplan20140809">CBS Gives Pilot Production Commitment to Drama Based on Bioethicist Arthur L. Caplan </a></b><br> (Aug 9, 2014)</font><p>CBS has given a pilot production commitment to “Austen’s Razor,” a drama from Legendary Television and CBS Television Studios that’s inspired by the career of bioethics expert Arthur L. Caplan.</p>
+             
+       <br>
+            
+             <b><a href="http://ieet.org/index.php/IEET/more/pelletier20140722">The Sad Passing of a Positive Futurist </a></b> (Jul 22, 2014)<br><br>
+             
+             <b><a href="http://ieet.org/index.php/IEET/more/pelletier20140715">IEET Affiliate Scholar, Dick Pelletier, Hospitalized for Stage 5 Parkinson&#8217;s Disease </a></b> (Jul 15, 2014)<br><br>
+             
+
+            <br />
+
+
+<!------NEWEST ARTICLES------>
+
+<a href="http://ieet.org/index.php/IEET/IEETblog"><img src="http://images.ieet.org/new_articles.jpg" border="0" alt="ieet articles" /></a>     
+<br />   <br />    <br />
+
+
+
+
+
+                     <a href="http://ieet.org/index.php/IEET/more/eskow20140812"><img style="float:left; margin:00px 10px 2px 0px"  width="100" src="http://www.ieet.org/images/uploads/esk20140812fr.png" /></a>
+          
+            <font style="FONT-SIZE: 14px; LINE-HEIGHT: 14px; FONT-STYLE: normal; FONT-FAMILY: 'Trebuchet MS', Verdana, Arial, helvetica, sans-serif; TEXT-DECORATION: none"><b>
+             <a href="http://ieet.org/index.php/IEET/more/eskow20140812">&#8220;Running as Dems While Sounding Republican.&#8221; Hey, What Could Go Wrong?</a></b></font> <br />
+ 
+            by <a href="http://ieet.org/index.php/IEET/bio/eskow/">Richard Eskow</a> <br />                        
+            Aug 12, 2014  &bull;   (0) <a href="http://ieet.org/index.php/IEET/comments/eskow20140812">Comments</a> &bull;  <a href="http://ieet.org/index.php/IEET/more/eskow20140812">Permalink</a><p>They say that one swallow doesn&rsquo;t make a summer, and one Politico story certainly doesn&rsquo;t make a campaign season. But if <a href="http://dyn.politico.com/printstory.cfm?uuid=42DA5255-B18C-4BA0-B0F0-B8694459C7D1">a recent article</a> there is correct &ndash; if the Democratic Party&rsquo;s strategy this year really is &ldquo;Running as a Dem (while) sounding like a Republican&rdquo; &ndash; then the party may be headed for a disaster of epic but eminently predictable proportions.</p>
+            
+           <br />
+          <p></p>
+
+
+    
+
+
+                     <a href="http://ieet.org/index.php/IEET/more/danaher20140812"><img style="float:left; margin:00px 10px 2px 0px"  width="100" src="http://www.ieet.org/images/uploads/danaher20140812a.png" /></a>
+          
+            <font style="FONT-SIZE: 14px; LINE-HEIGHT: 14px; FONT-STYLE: normal; FONT-FAMILY: 'Trebuchet MS', Verdana, Arial, helvetica, sans-serif; TEXT-DECORATION: none"><b>
+             <a href="http://ieet.org/index.php/IEET/more/danaher20140812">An Ethical Framework for the Use of Enhancement Drugs</a></b></font> <br />
+ 
+            by <a href="http://ieet.org/index.php/IEET/bio/danaher/">John Danaher</a> <br />                        
+            Aug 12, 2014  &bull;   (0) <a href="http://ieet.org/index.php/IEET/comments/danaher20140812">Comments</a> &bull;  <a href="http://ieet.org/index.php/IEET/more/danaher20140812">Permalink</a><p>Debate about the merits of enhancement tends to pretty binary. There are some — generally called bioconservatives — who are opposed to it; and others — transhumanists, libertarians and the like — who embrace it wholeheartedly. Is there any hope for an intermediate approach? One that doesn&#8217;t fall into the extremes of reactionary reject or uncritical endorsement?</p>
+            
+           <br />
+          <p></p>
+
+
+    
+
+
+                     <a href="http://ieet.org/index.php/IEET/more/dvorsky20140811"><img style="float:left; margin:00px 10px 2px 0px"  width="100" src="http://www.ieet.org/images/uploads/dv20140811fr.png" /></a>
+          
+            <font style="FONT-SIZE: 14px; LINE-HEIGHT: 14px; FONT-STYLE: normal; FONT-FAMILY: 'Trebuchet MS', Verdana, Arial, helvetica, sans-serif; TEXT-DECORATION: none"><b>
+             <a href="http://ieet.org/index.php/IEET/more/dvorsky20140811">The Radical Plan To Phase Out Earth&#8217;s Predatory Species</a></b></font> <br />
+ 
+            by <a href="http://ieet.org/index.php/IEET/bio/dvorsky/">George Dvorsky</a> <br />                        
+            Aug 11, 2014  &bull;   (3) <a href="http://ieet.org/index.php/IEET/comments/dvorsky20140811">Comments</a> &bull;  <a href="http://ieet.org/index.php/IEET/more/dvorsky20140811">Permalink</a><p>Should animals be permitted to hunt and kill other animals? Some futurists believe that humans should intervene, and solve the &#8220;problem&#8221; of predator vs. prey once and for all. We talked to the man who wants to use radical ecoengineering to put an end to the carnage. A world without predators certainly sounds extreme, and it is. But British philosopher David Pearce can&#8217;t imagine a future in which animals continue to be trapped in the never-ending cycle of blind Darwinian processes.</p>
+            
+           <br />
+          <p></p>
+
+
+    
+
+
+                     <a href="http://ieet.org/index.php/IEET/more/cannon20140811"><img style="float:left; margin:00px 10px 2px 0px"  width="100" src="http://www.ieet.org/images/uploads/cannon20140811fr.png" /></a>
+          
+            <font style="FONT-SIZE: 14px; LINE-HEIGHT: 14px; FONT-STYLE: normal; FONT-FAMILY: 'Trebuchet MS', Verdana, Arial, helvetica, sans-serif; TEXT-DECORATION: none"><b>
+             <a href="http://ieet.org/index.php/IEET/more/cannon20140811">Resuscitation, by Cryonics or Otherwise, Is a Religious Mandate</a></b></font> <br />
+ 
+            by <a href="http://ieet.org/index.php/IEET/bio/cannon/">Lincoln Cannon</a> <br />                        
+            Aug 11, 2014  &bull;   (2) <a href="http://ieet.org/index.php/IEET/comments/cannon20140811">Comments</a> &bull;  <a href="http://ieet.org/index.php/IEET/more/cannon20140811">Permalink</a><p>A well known and atheist-minded Transhumanist,&nbsp;<a href="http://www.huffingtonpost.com/zoltan-istvan/transhumanists-are-prepar_b_5615580.html">Zoltan Istvan blames religion</a>&nbsp;for an&nbsp;<a href="http://www.leg.bc.ca/37th5th/1st_read/gov03-1.htm#section014">anti-cryonics law in Canada</a>. Basically,&nbsp;<a href="https://en.wikipedia.org/wiki/Transhumanist">Transhumanism</a>&nbsp;is the ethical use of technology to extend human abilities, and&nbsp;<a href="https://en.wikipedia.org/wiki/Cryonics">cryonics</a>&nbsp;is low-temperature preservation of a legally-dead body for resuscitation when new technology might cure the cause of death. Zoltan&rsquo;s concern is that the religious views of Canadian lawmakers may have informed the law, and that this may influence other lawmakers around the world to inhibit access to cryonics likewise.</p>
+            
+           <br />
+          <p></p>
+
+
+    
+
+
+                     <a href="http://ieet.org/index.php/IEET/more/benford20140810"><img style="float:left; margin:00px 10px 2px 0px"  width="100" src="http://www.ieet.org/images/uploads/ben20140810c.jpg" /></a>
+          
+            <font style="FONT-SIZE: 14px; LINE-HEIGHT: 14px; FONT-STYLE: normal; FONT-FAMILY: 'Trebuchet MS', Verdana, Arial, helvetica, sans-serif; TEXT-DECORATION: none"><b>
+             <a href="http://ieet.org/index.php/IEET/more/benford20140810">An Interview with: Professor George Slusser &#8211; Eaton science fiction collection&#8217;s Curator</a></b></font> <br />
+ 
+            by <a href="http://ieet.org/index.php/IEET/bio/benford/">Gregory Benford</a> <br />                        
+            Aug 10, 2014  &bull;   (0) <a href="http://ieet.org/index.php/IEET/comments/benford20140810">Comments</a> &bull;  <a href="http://ieet.org/index.php/IEET/more/benford20140810">Permalink</a><p><em>George Slusser is Professor Emeritus of Comparative Literature at the University of California in Riverside (</em><a href="http://www.ucr.edu/"><em>UCR, CA, U.S.A.),</em></a><em> Ph.D., Comparative Literature (Harvard University),</em> <em>the first Curator (Emeritus) of the </em><a href="http://eaton.ucr.edu/"><strong><em>J. Lloyd Eaton Collection of Science Fiction &amp;Fantasy Utopian and Horror Literature</em></strong></a><em> (UCR, CA, U.S.A. &ndash; &nbsp;the world&rsquo;s biggest SF collection), &nbsp;&nbsp;Harvard Traveling Fellow,&nbsp; Fulbright Lecturer, Coordinator of twenty three Eaton SF Conferences, Author of numerous books, studies and articles in the science fiction studies domain.</em></p>
+            
+           <br />
+          <p></p>
+
+
+    
+
+
+                     <a href="http://ieet.org/index.php/IEET/more/danaher20140809"><img style="float:left; margin:00px 10px 2px 0px"  width="100" src="http://www.ieet.org/images/uploads/dan20140810fr.png" /></a>
+          
+            <font style="FONT-SIZE: 14px; LINE-HEIGHT: 14px; FONT-STYLE: normal; FONT-FAMILY: 'Trebuchet MS', Verdana, Arial, helvetica, sans-serif; TEXT-DECORATION: none"><b>
+             <a href="http://ieet.org/index.php/IEET/more/danaher20140809">Bostrom on Superintelligence (5): Limiting an AI&#8217;s Capabilities</a></b></font> <br />
+ 
+            by <a href="http://ieet.org/index.php/IEET/bio/danaher/">John Danaher</a> <br />                        
+            Aug 10, 2014  &bull;   (0) <a href="http://ieet.org/index.php/IEET/comments/danaher20140809">Comments</a> &bull;  <a href="http://ieet.org/index.php/IEET/more/danaher20140809">Permalink</a><p>This is the fifth part of my series on Nick Bostrom&rsquo;s book <em><a href="http://www.amazon.com/Superintelligence-Dangers-Strategies-Nick-Bostrom/dp/0199678111">Superintelligence: Paths, Dangers, Strategies</a></em>. So far in the series, we&rsquo;ve covered why Bostrom thinks superintelligent AIs might pose an existential risk to human beings. We&rsquo;ve done this by looking at some of his key claims about the nature of artificial intelligence (<em><a href="http://philosophicaldisquisitions.blogspot.ie/2014/07/bostrom-on-superintelligence-1.html">the orthogonality thesis</a></em> and <em><a href="http://philosophicaldisquisitions.blogspot.ie/2014/07/bostrom-on-superintelligence-2.html">the instrumental convergence thesis</a></em>); and at the structure of his<a href="http://philosophicaldisquisitions.blogspot.ie/2014/07/bostrom-on-superintelligence-3-doom-and.html"> existential risk argument</a>.</p>
+            
+           <br />
+          <p></p>
+
+
+    
+
+
+                     <a href="http://ieet.org/index.php/IEET/more/khanna20140808"><img style="float:left; margin:00px 10px 2px 0px"  width="100" src="http://www.ieet.org/images/uploads/kh20140808fr.png" /></a>
+          
+            <font style="FONT-SIZE: 14px; LINE-HEIGHT: 14px; FONT-STYLE: normal; FONT-FAMILY: 'Trebuchet MS', Verdana, Arial, helvetica, sans-serif; TEXT-DECORATION: none"><b>
+             <a href="http://ieet.org/index.php/IEET/more/khanna20140808">Is Singapore the next Silicon Valley?</a></b></font> <br />
+ 
+            by <a href="http://ieet.org/index.php/IEET/bio/khanna/">Ayesha Khanna</a> <br />                        
+            Aug 8, 2014  &bull;   (0) <a href="http://ieet.org/index.php/IEET/comments/khanna20140808">Comments</a> &bull;  <a href="http://ieet.org/index.php/IEET/more/khanna20140808">Permalink</a><p>Tech giants like Google, Microsoft, Apple and Facebook are winning the war for talent and Silicon Valley office space, encouraging start-ups to go on a global hunt for a new heartland. In Asia, Singapore wants to be the answer. The government has established numerous schemes and initiatives to encourage entrepreneurs and venture capitalists to set up shop there.</p>
+            
+           <br />
+          <p></p>
+
+
+    
+
+
+                     <a href="http://ieet.org/index.php/IEET/more/istvan20140807"><img style="float:left; margin:00px 10px 2px 0px"  width="100" src="http://www.ieet.org/images/uploads/z20140807fr.png" /></a>
+          
+            <font style="FONT-SIZE: 14px; LINE-HEIGHT: 14px; FONT-STYLE: normal; FONT-FAMILY: 'Trebuchet MS', Verdana, Arial, helvetica, sans-serif; TEXT-DECORATION: none"><b>
+             <a href="http://ieet.org/index.php/IEET/more/istvan20140807">Baggage Culture and Why Embracing Transhumanism Doesn&#8217;t Come Easy</a></b></font> <br />
+ 
+            by <a href="http://ieet.org/index.php/IEET/bio/istvan">Zoltan Istvan</a> <br />                        
+            Aug 7, 2014  &bull;   (1) <a href="http://ieet.org/index.php/IEET/comments/istvan20140807">Comments</a> &bull;  <a href="http://ieet.org/index.php/IEET/more/istvan20140807">Permalink</a><p>Twenty years ago, while in college and wondering why everyone else in the world wasn&#39;t hell-bent on trying to live indefinitely via the promising fields of <a href="http://en.wikipedia.org/wiki/Transhumanism" target="_hplink">transhumanist </a>science, I began working on the idea of what mass culture is and if it was holding back people from wanting to maximize their lifespans and human potential. I came up with the concept <em>baggage culture</em>, which is explored in detail in my novel <em>The Transhumanist Wager</em> and its philosophy Teleological Egocentric Functionalism (TEF).</p>
+            
+           <br />
+          <p></p>
+
+
+    
+
+
+                     <a href="http://ieet.org/index.php/IEET/more/tarico20140807"><img style="float:left; margin:00px 10px 2px 0px"  width="100" src="http://www.ieet.org/images/uploads/tar20140807z.png" /></a>
+          
+            <font style="FONT-SIZE: 14px; LINE-HEIGHT: 14px; FONT-STYLE: normal; FONT-FAMILY: 'Trebuchet MS', Verdana, Arial, helvetica, sans-serif; TEXT-DECORATION: none"><b>
+             <a href="http://ieet.org/index.php/IEET/more/tarico20140807">Party Time! Excellent! Educators and Health Professionals Celebrate a Drop in Teen Pregnancy</a></b></font> <br />
+ 
+            by <a href="http://ieet.org/index.php/IEET/bio/tarico/">Valerie Tarico</a> <br />                        
+            Aug 7, 2014  &bull;   (0) <a href="http://ieet.org/index.php/IEET/comments/tarico20140807">Comments</a> &bull;  <a href="http://ieet.org/index.php/IEET/more/tarico20140807">Permalink</a><p>Public health officials, educators, and parents of teens have reason to party! According to a new report from the Guttmacher Institute, American teen pregnancy rates are <a href="http://www.cdc.gov/nchs/fastats/teen-births.htm" sl-processed="1" target="_blank">lower currently</a> than they were back in 1975 when top 40 dance music included &ldquo;Kung Fu Fighting&rdquo; and &ldquo;The Hustle.&rdquo;</p>
+            
+           <br />
+          <p></p>
+
+
+    
+
+
+                     <a href="http://ieet.org/index.php/IEET/more/schulke20140806"><img style="float:left; margin:00px 10px 2px 0px"  width="100" src="http://www.ieet.org/images/uploads/e20140806fr.png" /></a>
+          
+            <font style="FONT-SIZE: 14px; LINE-HEIGHT: 14px; FONT-STYLE: normal; FONT-FAMILY: 'Trebuchet MS', Verdana, Arial, helvetica, sans-serif; TEXT-DECORATION: none"><b>
+             <a href="http://ieet.org/index.php/IEET/more/schulke20140806">How would you spend $5k to spread info &amp; raise awareness about indefinite life extension?</a></b></font> <br />
+ 
+            by <a href="http://ieet.org/index.php/IEET/bio/schulke/">Eric Schulke</a> <br />                        
+            Aug 6, 2014  &bull;   (1) <a href="http://ieet.org/index.php/IEET/comments/schulke20140806">Comments</a> &bull;  <a href="http://ieet.org/index.php/IEET/more/schulke20140806">Permalink</a><p>Movement for indefinite life extension (MILE) activist contest II: How would you spend $5,000 to spread information and raise awareness about people, projects &amp;organizations working toward indefinite life extension?</p>
+            
+           <br />
+          <p></p>
+
+
+    
+
+
+                     <a href="http://ieet.org/index.php/IEET/more/hills20140806"><img style="float:left; margin:00px 10px 2px 0px"  width="100" src="http://www.ieet.org/images/uploads/hills20140806fr.png" /></a>
+          
+            <font style="FONT-SIZE: 14px; LINE-HEIGHT: 14px; FONT-STYLE: normal; FONT-FAMILY: 'Trebuchet MS', Verdana, Arial, helvetica, sans-serif; TEXT-DECORATION: none"><b>
+             <a href="http://ieet.org/index.php/IEET/more/hills20140806">Ebola, Paternalism, and the Need for WHO&#8217;s Medical Ethics Review of Experimental Treatments</a></b></font> <br />
+ 
+            by <a href="http://ieet.org/index.php/IEET/bio/hills/">Kelly Hills</a> <br />                        
+            Aug 6, 2014  &bull;   (1) <a href="http://ieet.org/index.php/IEET/comments/hills20140806">Comments</a> &bull;  <a href="http://ieet.org/index.php/IEET/more/hills20140806">Permalink</a><p>The World Health Organization has released a statement (in full, bottom of blog post) that they are going to convene, early next week, a panel of medical ethicists to “explore the use of experimental treatment in the ongoing Ebola outbreak in West Africa.” The statement goes on to say that &#8220;the recent treatment of two health workers from Samaritan’s Purse with experimental medicine has raised questions about whether medicine that has never been tested and shown to be safe in people should be used in the outbreak.&#8221;</p>
+            
+           <br />
+          <p></p>
+
+
+    
+
+
+                     <a href="http://ieet.org/index.php/IEET/more/swan20140806"><img style="float:left; margin:00px 10px 2px 0px"  width="100" src="http://www.ieet.org/images/uploads/swan20140806a.png" /></a>
+          
+            <font style="FONT-SIZE: 14px; LINE-HEIGHT: 14px; FONT-STYLE: normal; FONT-FAMILY: 'Trebuchet MS', Verdana, Arial, helvetica, sans-serif; TEXT-DECORATION: none"><b>
+             <a href="http://ieet.org/index.php/IEET/more/swan20140806">Machine Ethics Interfaces</a></b></font> <br />
+ 
+            by <a href="http://ieet.org/index.php/IEET/bio/swan/">Melanie Swan</a> <br />                        
+            Aug 6, 2014  &bull;   (1) <a href="http://ieet.org/index.php/IEET/comments/swan20140806">Comments</a> &bull;  <a href="http://ieet.org/index.php/IEET/more/swan20140806">Permalink</a><p>Machine ethics is a term used in different ways. The basic use is in the sense of people attempting to instill some sort of human-centric ethics or morality in the machines we build like robots, self-driving vehicles, and artificial intelligence (Wallach 2010) so that machines do not harm humans either maliciously or unintentionally.</p>
+            
+           <br />
+          <p></p>
+
+
+    
+
+</div></div></div></div></div>
+
+<center><a href="http://ieet.org/index.php/IEET/IEETblog"><b> PREVIOUS ARTICLES</a></b></center>
+<br><br>
+
+<!------HOTTEST ARTICLES------>
+<style type="text/css">
+.tr {
+background-color:rgb(187, 191, 195);
+box-shadow:5px 5px 5px 3px black;
+-moz-box-shadow:5px 5px 5px 3px black;
+ -webkit-box-shadow:5px 5px 5px 3px black;}
+
+.td, .th .tr{
+padding:10px;
+text-align:left;}
+
+
+</style>
+<div class='tr'><div class='td'>
+<table border="0" cellpadding="2" cellspacing="10" width="100%">
+
+<tr><td>
+<center><h1>Hottest Articles of the Last Month</h1></center>
+</td></tr>
+
+ 
+ 
+
+
+<tr><td>
+
+                     <img style="float:left; margin:00px 10px 2px 0px"  width="100" src="http://www.ieet.org/images/uploads/la20140729fr.png" />
+                      
+
+         
+ 
+            <font style="FONT-SIZE: 14px; LINE-HEIGHT: 14px; FONT-STYLE: normal; FONT-FAMILY: 'Trebuchet MS', Verdana, Arial, helvetica, sans-serif; TEXT-DECORATION: none"><b>
+             <a href="http://ieet.org/index.php/IEET/more/lagrandeur20140729">What is the Difference between Posthumanism and Transhumanism?</a></b></font> <br /><br>
+            by <a href="http://ieet.org/index.php/IEET/bio/lagrandeur/">Kevin LaGrandeur</a>                                     <br />
+            Jul 28, 2014   <br /><br>
+            (7057) Hits &bull;   (6) <a href="http://ieet.org/index.php/IEET/comments/lagrandeur20140729">Comments</a> 
+            
+           <br />
+          <p>
+        
+</td></tr>
+
+     
+
+
+<tr><td>
+
+                     <img style="float:left; margin:00px 10px 2px 0px"  width="100" src="http://www.ieet.org/images/uploads/anti-work2.png" />
+                      
+
+         
+ 
+            <font style="FONT-SIZE: 14px; LINE-HEIGHT: 14px; FONT-STYLE: normal; FONT-FAMILY: 'Trebuchet MS', Verdana, Arial, helvetica, sans-serif; TEXT-DECORATION: none"><b>
+             <a href="http://ieet.org/index.php/IEET/more/danaher20140720">Should we have a right not to work?</a></b></font> <br /><br>
+            by <a href="http://ieet.org/index.php/IEET/bio/danaher/">John Danaher</a>                                     <br />
+            Jul 20, 2014   <br /><br>
+            (6057) Hits &bull;   (1) <a href="http://ieet.org/index.php/IEET/comments/danaher20140720">Comments</a> 
+            
+           <br />
+          <p>
+        
+</td></tr>
+
+     
+
+
+<tr><td>
+
+                     <img style="float:left; margin:00px 10px 2px 0px"  width="100" src="http://www.ieet.org/images/uploads/chu20140727fr.png" />
+                      
+
+         
+ 
+            <font style="FONT-SIZE: 14px; LINE-HEIGHT: 14px; FONT-STYLE: normal; FONT-FAMILY: 'Trebuchet MS', Verdana, Arial, helvetica, sans-serif; TEXT-DECORATION: none"><b>
+             <a href="http://ieet.org/index.php/IEET/more/chu20140727">Beauty Is Skin-deep&#8212;But That&#8217;s Where Genetic Engineering Is Going Next</a></b></font> <br /><br>
+            by <a href="http://ieet.org/index.php/IEET/bio/chu/">Ted Chu</a>                                     <br />
+            Jul 27, 2014   <br /><br>
+            (3374) Hits &bull;   (1) <a href="http://ieet.org/index.php/IEET/comments/chu20140727">Comments</a> 
+            
+           <br />
+          <p>
+        
+</td></tr>
+
+     
+
+
+<tr><td>
+
+                     <img style="float:left; margin:00px 10px 2px 0px"  width="100" src="http://www.ieet.org/images/uploads/l20140724fr.png" />
+                      
+
+         
+ 
+            <font style="FONT-SIZE: 14px; LINE-HEIGHT: 14px; FONT-STYLE: normal; FONT-FAMILY: 'Trebuchet MS', Verdana, Arial, helvetica, sans-serif; TEXT-DECORATION: none"><b>
+             <a href="http://ieet.org/index.php/IEET/more/loosemore20140724">The Maverick Nanny with a Dopamine Drip: Debunking Fallacies in the Theory of AI Motivation</a></b></font> <br /><br>
+            by <a href="http://ieet.org/index.php/IEET/bio/loosemore/">Richard Loosemore</a>                                     <br />
+            Jul 24, 2014   <br /><br>
+            (3291) Hits &bull;   (2) <a href="http://ieet.org/index.php/IEET/comments/loosemore20140724">Comments</a> 
+            
+           <br />
+          <p>
+        
+</td></tr>
+
+     
+
+
+<tr><td>
+
+                     <img style="float:left; margin:00px 10px 2px 0px"  width="100" src="http://www.ieet.org/images/uploads/ba20140804a.png" />
+                      
+
+         
+ 
+            <font style="FONT-SIZE: 14px; LINE-HEIGHT: 14px; FONT-STYLE: normal; FONT-FAMILY: 'Trebuchet MS', Verdana, Arial, helvetica, sans-serif; TEXT-DECORATION: none"><b>
+             <a href="http://ieet.org/index.php/IEET/more/abbott20140804">Gaza Is a Transhumanist Issue!</a></b></font> <br /><br>
+            by <a href="http://ieet.org/index.php/IEET/bio/abbott/">Benjamin Abbott</a>                                     <br />
+            Aug 4, 2014   <br /><br>
+            (3089) Hits &bull;   (102) <a href="http://ieet.org/index.php/IEET/comments/abbott20140804">Comments</a> 
+            
+           <br />
+          <p>
+        
+</td></tr>
+
+    
+
+</table>
+
+</div></div></div>
+<br><br>
+
+<center><a href="http://ieet.org/index.php/IEET/IEETblog"><b> PREVIOUS ARTICLES</a></b></center>
+
+        </td>    </tr></table>
+ 
+</td>
+<td align="right" valign="top">
+<br>
+
+<!------NETWORK FOR GOOD AND PAYPAL------>
+
+<a target="_blank" href="https://donatenow.networkforgood.org/ieet"><img src="http://images.ieet.org/network_for_good.gif"></a><br><br>
+<small>The IEET is a 501(c)3 non-profit, tax-exempt organization registered in the State of Connecticut in the United States. Please give as you are able, and help support our work for a brighter future.</small>
+<br>
+<br>
+
+
+<!------MULTIMEDIA------>
+
+<a href="http://ieet.org/index.php/IEET/media"><img src="http://images.ieet.org/multimedia.jpg"  style="margin:20px 0px 0px 0px"  border="0" alt="ieet multimedia" /></a><br /><br />
+
+
+
+<div style="text-align:right" class="entry">
+<a href="http://ieet.org/index.php/IEET/more/ford20140812"><b>Philosophy of Science - Intro and the Demarcation Problem - Science &amp; Pseudoscience </b><br />
+<img alt="Guest image" style="align:right; margin:10px 0px 10px 0px"  width="100" src="http://www.ieet.org/images/uploads/fs20140812fr.png" /><br />
+John Wilkins
+</a> 
+</div><br />
+
+
+
+<div style="text-align:right" class="entry">
+<a href="http://ieet.org/index.php/IEET/more/tyson20140812"><b>Neil deGrasse Tyson Testifies Before Senate Science Committee and We Stopped Dreaming (2) </b><br />
+<img alt="Guest image" style="align:right; margin:10px 0px 10px 0px"  width="100" src="http://www.ieet.org/images/uploads/neil-degrasse-tyson_w100.png" /><br />
+Neil deGrasse Tyson
+</a> 
+</div><br />
+
+
+
+<div style="text-align:right" class="entry">
+<a href="http://ieet.org/index.php/IEET/more/perry20140811"><b>What Does Utopia Look Like? </b><br />
+<img alt="Guest image" style="align:right; margin:10px 0px 10px 0px"  width="100" src="http://www.ieet.org/images/uploads/025-300x3000.png" /><br />
+Jon Perry and Ted Kupper
+</a> 
+</div><br />
+
+
+
+
+
+<div style="text-align:right"  class="entry">
+<a href="http://ieet.org/index.php/IEET/more/tyson20140811">Neil deGrasse Tyson - We Stopped Dreaming (Episode 1)</a> <br>(Aug 11, 2014)  
+</div><br />
+
+
+
+<div style="text-align:right"  class="entry">
+<a href="http://ieet.org/index.php/IEET/more/ford20140810">High Tech Jainism</a> <br>(Aug 10, 2014)  
+</div><br />
+
+
+
+<div style="text-align:right"  class="entry">
+<a href="http://ieet.org/index.php/IEET/more/pearce20140808">On Lab Meat / in vitro meat</a> <br>(Aug 8, 2014)  
+</div><br />
+
+
+
+<br>
+<script type="text/javascript" charset="utf-8" src="http://static.polldaddy.com/p/8180208.js"></script>
+<noscript><a href="http://polldaddy.com/poll/8180208/">Should DIY biohackers be subject to the same safety regulations and oversight as corporate biological research labs?</a></noscript>
+<br>
+
+
+<!------RECENT COMMENTS CODE------>
+
+<a href="http://ieet.org/index.php/IEET/IEETblog"><img src="http://images.ieet.org/comments.jpg" border="0" alt="comments" /></a>
+<br><br>
+
+
+
+<b>David Pearce</b> on '<a href="http://ieet.org/index.php/IEET/comments//ford20140810">High Tech Jainism</a>'  (Aug 12, 2014)<br><br>
+
+
+
+<b>David Pearce</b> on '<a href="http://ieet.org/index.php/IEET/comments//dvorsky20140811">The Radical Plan To Phase Out Earth's Predatory Species</a>'  (Aug 12, 2014)<br><br>
+
+
+
+<b>Daryl Wennemann</b> on '<a href="http://ieet.org/index.php/IEET/comments//dvorsky20140811">The Radical Plan To Phase Out Earth's Predatory Species</a>'  (Aug 12, 2014)<br><br>
+
+
+
+<b>mwk555</b> on '<a href="http://ieet.org/index.php/IEET/comments//ford20140810">High Tech Jainism</a>'  (Aug 11, 2014)<br><br>
+
+
+
+<b>CygnusX1</b> on '<a href="http://ieet.org/index.php/IEET/comments//dvorsky20140811">The Radical Plan To Phase Out Earth's Predatory Species</a>'  (Aug 11, 2014)<br><br>
+
+
+
+<b>Lincoln Cannon</b> on '<a href="http://ieet.org/index.php/IEET/comments//cannon20140811">Resuscitation, by Cryonics or Otherwise, Is a Religious Mandate</a>'  (Aug 11, 2014)<br><br>
+
+
+
+<b>hankpellissier</b> on '<a href="http://ieet.org/index.php/IEET/comments//cannon20140811">Resuscitation, by Cryonics or Otherwise, Is a Religious Mandate</a>'  (Aug 11, 2014)<br><br>
+
+
+
+
+<!------RECENT ON JET ------>
+
+<a href="http://ieet.org/index.php/IEET/JET"><img src="http://images.ieet.org/JETsidebar.jpg" border="0" alt="JET" /></a>
+<br><br>
+
+
+
+<a href="http://ieet.org/index.php/IEET/jcomments/hmarxism">Transhumanism and Marxism: Philosophical Connections</a> <br><br>
+
+
+
+<a href="http://ieet.org/index.php/IEET/jcomments/jetdanaher201403">Sex Work, Technological Unemployment  and the Basic Income Guarantee</a> <br><br>
+
+
+
+<a href="http://ieet.org/index.php/IEET/jcomments/jetgajewska201403">Technological Unemployment but Still a Lot of Work&#8230;</a> <br><br>
+
+
+
+
+
+
+
+<!------MONTHLY ARCHIVE CODE------>
+
+<p align="right" style="margin-top: 5px; margin-left: 0px; margin-right: 0px; margin-bottom: 5px">
+<form name="monthmenu" action="">
+  <select name="selmonth"
+onchange="location=document.monthmenu.selmonth.options[document.monthmenu.selmonth.selectedIndex].value;">
+    <option  value="">Archives</option>
+<option value="http://ieet.org/index.php/IEET/IEETblog/2014/08">August 2014</option>
+<option value="http://ieet.org/index.php/IEET/IEETblog/2014/07">July 2014</option>
+<option value="http://ieet.org/index.php/IEET/IEETblog/2014/06">June 2014</option>
+<option value="http://ieet.org/index.php/IEET/IEETblog/2014/05">May 2014</option>
+<option value="http://ieet.org/index.php/IEET/IEETblog/2014/04">April 2014</option>
+<option value="http://ieet.org/index.php/IEET/IEETblog/2014/03">March 2014</option>
+<option value="http://ieet.org/index.php/IEET/IEETblog/2014/02">February 2014</option>
+<option value="http://ieet.org/index.php/IEET/IEETblog/2014/01">January 2014</option>
+<option value="http://ieet.org/index.php/IEET/IEETblog/2013/12">December 2013</option>
+<option value="http://ieet.org/index.php/IEET/IEETblog/2013/11">November 2013</option>
+<option value="http://ieet.org/index.php/IEET/IEETblog/2013/10">October 2013</option>
+<option value="http://ieet.org/index.php/IEET/IEETblog/2013/09">September 2013</option>
+<option value="http://ieet.org/index.php/IEET/IEETblog/2013/08">August 2013</option>
+<option value="http://ieet.org/index.php/IEET/IEETblog/2013/07">July 2013</option>
+<option value="http://ieet.org/index.php/IEET/IEETblog/2013/06">June 2013</option>
+<option value="http://ieet.org/index.php/IEET/IEETblog/2013/05">May 2013</option>
+<option value="http://ieet.org/index.php/IEET/IEETblog/2013/04">April 2013</option>
+<option value="http://ieet.org/index.php/IEET/IEETblog/2013/03">March 2013</option>
+<option value="http://ieet.org/index.php/IEET/IEETblog/2013/02">February 2013</option>
+<option value="http://ieet.org/index.php/IEET/IEETblog/2013/01">January 2013</option>
+<option value="http://ieet.org/index.php/IEET/IEETblog/2012/12">December 2012</option>
+<option value="http://ieet.org/index.php/IEET/IEETblog/2012/11">November 2012</option>
+<option value="http://ieet.org/index.php/IEET/IEETblog/2012/10">October 2012</option>
+<option value="http://ieet.org/index.php/IEET/IEETblog/2012/09">September 2012</option>
+<option value="http://ieet.org/index.php/IEET/IEETblog/2012/08">August 2012</option>
+<option value="http://ieet.org/index.php/IEET/IEETblog/2012/07">July 2012</option>
+<option value="http://ieet.org/index.php/IEET/IEETblog/2012/06">June 2012</option>
+<option value="http://ieet.org/index.php/IEET/IEETblog/2012/05">May 2012</option>
+<option value="http://ieet.org/index.php/IEET/IEETblog/2012/04">April 2012</option>
+<option value="http://ieet.org/index.php/IEET/IEETblog/2012/03">March 2012</option>
+<option value="http://ieet.org/index.php/IEET/IEETblog/2012/02">February 2012</option>
+<option value="http://ieet.org/index.php/IEET/IEETblog/2012/01">January 2012</option>
+<option value="http://ieet.org/index.php/IEET/IEETblog/2011/12">December 2011</option>
+<option value="http://ieet.org/index.php/IEET/IEETblog/2011/11">November 2011</option>
+<option value="http://ieet.org/index.php/IEET/IEETblog/2011/10">October 2011</option>
+<option value="http://ieet.org/index.php/IEET/IEETblog/2011/09">September 2011</option>
+<option value="http://ieet.org/index.php/IEET/IEETblog/2011/08">August 2011</option>
+<option value="http://ieet.org/index.php/IEET/IEETblog/2011/07">July 2011</option>
+<option value="http://ieet.org/index.php/IEET/IEETblog/2011/06">June 2011</option>
+<option value="http://ieet.org/index.php/IEET/IEETblog/2011/05">May 2011</option>
+<option value="http://ieet.org/index.php/IEET/IEETblog/2011/04">April 2011</option>
+<option value="http://ieet.org/index.php/IEET/IEETblog/2011/03">March 2011</option>
+<option value="http://ieet.org/index.php/IEET/IEETblog/2011/02">February 2011</option>
+<option value="http://ieet.org/index.php/IEET/IEETblog/2011/01">January 2011</option>
+<option value="http://ieet.org/index.php/IEET/IEETblog/2010/12">December 2010</option>
+<option value="http://ieet.org/index.php/IEET/IEETblog/2010/11">November 2010</option>
+<option value="http://ieet.org/index.php/IEET/IEETblog/2010/10">October 2010</option>
+<option value="http://ieet.org/index.php/IEET/IEETblog/2010/09">September 2010</option>
+<option value="http://ieet.org/index.php/IEET/IEETblog/2010/08">August 2010</option>
+<option value="http://ieet.org/index.php/IEET/IEETblog/2010/07">July 2010</option>
+<option value="http://ieet.org/index.php/IEET/IEETblog/2010/06">June 2010</option>
+<option value="http://ieet.org/index.php/IEET/IEETblog/2010/05">May 2010</option>
+<option value="http://ieet.org/index.php/IEET/IEETblog/2010/04">April 2010</option>
+<option value="http://ieet.org/index.php/IEET/IEETblog/2010/03">March 2010</option>
+<option value="http://ieet.org/index.php/IEET/IEETblog/2010/02">February 2010</option>
+<option value="http://ieet.org/index.php/IEET/IEETblog/2010/01">January 2010</option>
+<option value="http://ieet.org/index.php/IEET/IEETblog/2009/12">December 2009</option>
+<option value="http://ieet.org/index.php/IEET/IEETblog/2009/11">November 2009</option>
+<option value="http://ieet.org/index.php/IEET/IEETblog/2009/10">October 2009</option>
+<option value="http://ieet.org/index.php/IEET/IEETblog/2009/09">September 2009</option>
+<option value="http://ieet.org/index.php/IEET/IEETblog/2009/08">August 2009</option>
+<option value="http://ieet.org/index.php/IEET/IEETblog/2009/07">July 2009</option>
+<option value="http://ieet.org/index.php/IEET/IEETblog/2009/06">June 2009</option>
+<option value="http://ieet.org/index.php/IEET/IEETblog/2009/05">May 2009</option>
+<option value="http://ieet.org/index.php/IEET/IEETblog/2009/04">April 2009</option>
+<option value="http://ieet.org/index.php/IEET/IEETblog/2009/03">March 2009</option>
+<option value="http://ieet.org/index.php/IEET/IEETblog/2009/02">February 2009</option>
+<option value="http://ieet.org/index.php/IEET/IEETblog/2009/01">January 2009</option>
+<option value="http://ieet.org/index.php/IEET/IEETblog/2008/12">December 2008</option>
+<option value="http://ieet.org/index.php/IEET/IEETblog/2008/11">November 2008</option>
+<option value="http://ieet.org/index.php/IEET/IEETblog/2008/10">October 2008</option>
+<option value="http://ieet.org/index.php/IEET/IEETblog/2008/09">September 2008</option>
+<option value="http://ieet.org/index.php/IEET/IEETblog/2008/08">August 2008</option>
+<option value="http://ieet.org/index.php/IEET/IEETblog/2008/07">July 2008</option>
+<option value="http://ieet.org/index.php/IEET/IEETblog/2008/06">June 2008</option>
+<option value="http://ieet.org/index.php/IEET/IEETblog/2008/05">May 2008</option>
+<option value="http://ieet.org/index.php/IEET/IEETblog/2008/04">April 2008</option>
+<option value="http://ieet.org/index.php/IEET/IEETblog/2008/03">March 2008</option>
+<option value="http://ieet.org/index.php/IEET/IEETblog/2008/02">February 2008</option>
+<option value="http://ieet.org/index.php/IEET/IEETblog/2008/01">January 2008</option>
+<option value="http://ieet.org/index.php/IEET/IEETblog/2007/12">December 2007</option>
+<option value="http://ieet.org/index.php/IEET/IEETblog/2007/11">November 2007</option>
+<option value="http://ieet.org/index.php/IEET/IEETblog/2007/10">October 2007</option>
+<option value="http://ieet.org/index.php/IEET/IEETblog/2007/09">September 2007</option>
+<option value="http://ieet.org/index.php/IEET/IEETblog/2007/08">August 2007</option>
+<option value="http://ieet.org/index.php/IEET/IEETblog/2007/07">July 2007</option>
+<option value="http://ieet.org/index.php/IEET/IEETblog/2007/06">June 2007</option>
+<option value="http://ieet.org/index.php/IEET/IEETblog/2007/05">May 2007</option>
+<option value="http://ieet.org/index.php/IEET/IEETblog/2007/04">April 2007</option>
+<option value="http://ieet.org/index.php/IEET/IEETblog/2007/03">March 2007</option>
+<option value="http://ieet.org/index.php/IEET/IEETblog/2007/02">February 2007</option>
+<option value="http://ieet.org/index.php/IEET/IEETblog/2007/01">January 2007</option>
+<option value="http://ieet.org/index.php/IEET/IEETblog/2006/12">December 2006</option>
+<option value="http://ieet.org/index.php/IEET/IEETblog/2006/11">November 2006</option>
+<option value="http://ieet.org/index.php/IEET/IEETblog/2006/10">October 2006</option>
+<option value="http://ieet.org/index.php/IEET/IEETblog/2006/09">September 2006</option>
+<option value="http://ieet.org/index.php/IEET/IEETblog/2006/08">August 2006</option>
+<option value="http://ieet.org/index.php/IEET/IEETblog/2006/07">July 2006</option>
+<option value="http://ieet.org/index.php/IEET/IEETblog/2006/06">June 2006</option>
+<option value="http://ieet.org/index.php/IEET/IEETblog/2006/05">May 2006</option>
+<option value="http://ieet.org/index.php/IEET/IEETblog/2006/04">April 2006</option>
+<option value="http://ieet.org/index.php/IEET/IEETblog/2006/03">March 2006</option>
+<option value="http://ieet.org/index.php/IEET/IEETblog/2006/02">February 2006</option>
+<option value="http://ieet.org/index.php/IEET/IEETblog/2006/01">January 2006</option>
+<option value="http://ieet.org/index.php/IEET/IEETblog/2005/12">December 2005</option>
+<option value="http://ieet.org/index.php/IEET/IEETblog/2005/11">November 2005</option>
+<option value="http://ieet.org/index.php/IEET/IEETblog/2005/10">October 2005</option>
+<option value="http://ieet.org/index.php/IEET/IEETblog/2005/09">September 2005</option>
+<option value="http://ieet.org/index.php/IEET/IEETblog/2005/08">August 2005</option>
+<option value="http://ieet.org/index.php/IEET/IEETblog/2005/07">July 2005</option>
+<option value="http://ieet.org/index.php/IEET/IEETblog/2005/06">June 2005</option>
+<option value="http://ieet.org/index.php/IEET/IEETblog/2005/05">May 2005</option>
+<option value="http://ieet.org/index.php/IEET/IEETblog/2005/04">April 2005</option>
+<option value="http://ieet.org/index.php/IEET/IEETblog/2005/03">March 2005</option>
+<option value="http://ieet.org/index.php/IEET/IEETblog/2005/02">February 2005</option>
+<option value="http://ieet.org/index.php/IEET/IEETblog/2005/01">January 2005</option>
+<option value="http://ieet.org/index.php/IEET/IEETblog/2004/12">December 2004</option>
+<option value="http://ieet.org/index.php/IEET/IEETblog/2004/11">November 2004</option>
+<option value="http://ieet.org/index.php/IEET/IEETblog/2004/10">October 2004</option>
+<option value="http://ieet.org/index.php/IEET/IEETblog/2004/09">September 2004</option>
+<option value="http://ieet.org/index.php/IEET/IEETblog/2004/08">August 2004</option>
+<option value="http://ieet.org/index.php/IEET/IEETblog/2004/07">July 2004</option>
+<option value="http://ieet.org/index.php/IEET/IEETblog/2004/06">June 2004</option>
+<option value="http://ieet.org/index.php/IEET/IEETblog/2004/05">May 2004</option>
+<option value="http://ieet.org/index.php/IEET/IEETblog/2004/04">April 2004</option>
+<option value="http://ieet.org/index.php/IEET/IEETblog/2004/03">March 2004</option>
+<option value="http://ieet.org/index.php/IEET/IEETblog/2004/02">February 2004</option>
+<option value="http://ieet.org/index.php/IEET/IEETblog/2004/01">January 2004</option>
+<option value="http://ieet.org/index.php/IEET/IEETblog/2003/12">December 2003</option>
+<option value="http://ieet.org/index.php/IEET/IEETblog/2003/11">November 2003</option>
+<option value="http://ieet.org/index.php/IEET/IEETblog/2003/10">October 2003</option>
+<option value="http://ieet.org/index.php/IEET/IEETblog/2003/09">September 2003</option>
+<option value="http://ieet.org/index.php/IEET/IEETblog/2003/08">August 2003</option>
+<option value="http://ieet.org/index.php/IEET/IEETblog/2003/07">July 2003</option>
+<option value="http://ieet.org/index.php/IEET/IEETblog/2003/06">June 2003</option>
+<option value="http://ieet.org/index.php/IEET/IEETblog/2003/05">May 2003</option>
+<option value="http://ieet.org/index.php/IEET/IEETblog/2003/04">April 2003</option>
+<option value="http://ieet.org/index.php/IEET/IEETblog/2003/03">March 2003</option>
+<option value="http://ieet.org/index.php/IEET/IEETblog/2003/02">February 2003</option>
+<option value="http://ieet.org/index.php/IEET/IEETblog/2003/01">January 2003</option>
+<option value="http://ieet.org/index.php/IEET/IEETblog/2002/12">December 2002</option>
+<option value="http://ieet.org/index.php/IEET/IEETblog/2002/11">November 2002</option>
+<option value="http://ieet.org/index.php/IEET/IEETblog/2002/10">October 2002</option>
+<option value="http://ieet.org/index.php/IEET/IEETblog/2002/09">September 2002</option>
+<option value="http://ieet.org/index.php/IEET/IEETblog/2002/08">August 2002</option>
+<option value="http://ieet.org/index.php/IEET/IEETblog/2002/07">July 2002</option>
+<option value="http://ieet.org/index.php/IEET/IEETblog/2002/06">June 2002</option>
+<option value="http://ieet.org/index.php/IEET/IEETblog/2002/04">April 2002</option>
+<option value="http://ieet.org/index.php/IEET/IEETblog/2002/03">March 2002</option>
+<option value="http://ieet.org/index.php/IEET/IEETblog/2002/02">February 2002</option>
+<option value="http://ieet.org/index.php/IEET/IEETblog/2002/01">January 2002</option>
+<option value="http://ieet.org/index.php/IEET/IEETblog/2001/11">November 2001</option>
+<option value="http://ieet.org/index.php/IEET/IEETblog/2001/09">September 2001</option>
+<option value="http://ieet.org/index.php/IEET/IEETblog/2001/06">June 2001</option>
+<option value="http://ieet.org/index.php/IEET/IEETblog/2001/05">May 2001</option>
+<option value="http://ieet.org/index.php/IEET/IEETblog/2001/01">January 2001</option>
+<option value="http://ieet.org/index.php/IEET/IEETblog/2000/10">October 2000</option>
+<option value="http://ieet.org/index.php/IEET/IEETblog/2000/09">September 2000</option>
+<option value="http://ieet.org/index.php/IEET/IEETblog/2000/06">June 2000</option>
+<option value="http://ieet.org/index.php/IEET/IEETblog/1999/11">November 1999</option>
+<option value="http://ieet.org/index.php/IEET/IEETblog/1999/10">October 1999</option>
+<option value="http://ieet.org/index.php/IEET/IEETblog/1999/09">September 1999</option>
+<option value="http://ieet.org/index.php/IEET/IEETblog/1999/08">August 1999</option>
+<option value="http://ieet.org/index.php/IEET/IEETblog/1999/05">May 1999</option>
+<option value="http://ieet.org/index.php/IEET/IEETblog/1999/04">April 1999</option>
+<option value="http://ieet.org/index.php/IEET/IEETblog/1998/11">November 1998</option>
+<option value="http://ieet.org/index.php/IEET/IEETblog/1998/10">October 1998</option>
+<option value="http://ieet.org/index.php/IEET/IEETblog/1998/07">July 1998</option>
+<option value="http://ieet.org/index.php/IEET/IEETblog/1998/05">May 1998</option>
+<option value="http://ieet.org/index.php/IEET/IEETblog/1998/01">January 1998</option>
+<option value="http://ieet.org/index.php/IEET/IEETblog/1997/11">November 1997</option>
+<option value="http://ieet.org/index.php/IEET/IEETblog/1997/07">July 1997</option>
+<option value="http://ieet.org/index.php/IEET/IEETblog/1997/06">June 1997</option>
+<option value="http://ieet.org/index.php/IEET/IEETblog/1997/05">May 1997</option>
+<option value="http://ieet.org/index.php/IEET/IEETblog/1997/01">January 1997</option>
+<option value="http://ieet.org/index.php/IEET/IEETblog/1996/06">June 1996</option>
+<option value="http://ieet.org/index.php/IEET/IEETblog/1996/05">May 1996</option>
+<option value="http://ieet.org/index.php/IEET/IEETblog/1996/02">February 1996</option>
+<option value="http://ieet.org/index.php/IEET/IEETblog/1996/01">January 1996</option>
+<option value="http://ieet.org/index.php/IEET/IEETblog/1995/11">November 1995</option>
+<option value="http://ieet.org/index.php/IEET/IEETblog/1995/06">June 1995</option>
+<option value="http://ieet.org/index.php/IEET/IEETblog/1995/02">February 1995</option>
+<option value="http://ieet.org/index.php/IEET/IEETblog/1995/01">January 1995</option>
+<option value="http://ieet.org/index.php/IEET/IEETblog/1994/11">November 1994</option>
+<option value="http://ieet.org/index.php/IEET/IEETblog/1994/04">April 1994</option>
+<option value="http://ieet.org/index.php/IEET/IEETblog/1994/02">February 1994</option>
+<option value="http://ieet.org/index.php/IEET/IEETblog/1994/01">January 1994</option>
+<option value="http://ieet.org/index.php/IEET/IEETblog/1993/01">January 1993</option>
+<option value="http://ieet.org/index.php/IEET/IEETblog/1991/11">November 1991</option>
+<option value="http://ieet.org/index.php/IEET/IEETblog/1991/05">May 1991</option>
+<option value="http://ieet.org/index.php/IEET/IEETblog/1990/12">December 1990</option>
+<option value="http://ieet.org/index.php/IEET/IEETblog/1988/07">July 1988</option>
+<option value="http://ieet.org/index.php/IEET/IEETblog/1987/10">October 1987</option>
+<option value="http://ieet.org/index.php/IEET/IEETblog/1986/03">March 1986</option>
+<option value="http://ieet.org/index.php/IEET/IEETblog/1985/01">January 1985</option>
+<option value="http://ieet.org/index.php/IEET/IEETblog/1983/05">May 1983</option>
+<option value="http://ieet.org/index.php/IEET/IEETblog/1983/01">January 1983</option>
+
+  </select>
+</form>
+</p>
+
+
+
+<!------IEET Mailing Lists------>
+
+<br /><br>
+
+<hr><h3>Subscribe to IEET News Lists</h3>
+
+<a  target="_blank"  href="http://ieet.org/mailman/listinfo/ieet-news"><h4>Daily News Feed</h4></a>
+<a  target="_blank"  href="http://ieet.org/mailman/listinfo/ieet-life"><h4>Longevity Dividend List</h4></a>
+<a  target="_blank"  href="http://ieet.org/mailman/listinfo/existential"><h4>Catastrophic Risks List</h4></a>
+<a  target="_blank"  href="http://ieet.org/mailman/listinfo/ieet-images"><h4>Biopolitics of Popular Culture List</h4></a>
+<a  target="_blank"  href="http://groups.yahoo.com/group/technoprogressive"><h4>Technoprogressive List</h4></a>
+<a  target="_blank"  href="http://groups.yahoo.com/group/trans-spirit"><h4>Trans-Spirit List</h4></a>
+
+<hr>
+
+</td></tr></table>
+
+<!------FOOTER------>
+
+<!-- Google Analytics -->
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-28103890-1', 'auto');  // Replace with your property ID.
+ga('send', 'pageview');
+
+</script>
+<!-- End Google Analytics -->
+
+<table cellspacing="0" cellpadding="0" width="870" border="0" align="center" >
+<tr valign="top" align="center" bgcolor="#006666"  >
+<td valign="top" align="center" bgcolor="#006666"  >
+
+<p style="margin-top: 10px; margin-bottom: 6px">
+<span style="text-decoration: none" >
+<font face="Arial,Helvetica,Geneva,Swiss,SunSans-Regular" size="1" color="#FFFFFF">
+
+<a href="/index.php"><font color="#FFFFFF">HOME</font></a> | 
+<a href="/index.php/IEET/mission"><font color="#FFFFFF">ABOUT</font></a> |
+<a href="/index.php/IEET/fellows"><font color="#FFFFFF">FELLOWS</font></a> | 
+<a href="/index.php/IEET/staff"><font color="#FFFFFF">STAFF</font></a> | 
+<a href="/index.php/IEET/events"><font color="#FFFFFF">EVENTS</font></a> | 
+<a href="/index.php/IEET/support"><font color="#FFFFFF">SUPPORT</font></a>&nbsp; | 
+<a href="/index.php/IEET/staff"><font color="#FFFFFF">CONTACT US</font></a><br/>
+<a href="/index.php/IEET/secure"><font color="#FFFFFF">SECURING THE FUTURE</font></a>&nbsp;| 
+<a href="/index.php/IEET/life"><font color="#FFFFFF">LONGER HEALTHIER LIFE</font></a> |
+<a href="/index.php/IEET/rights"><font color="#FFFFFF">RIGHTS OF THE PERSON</font></a> | 
+<a href="/index.php/IEET/visions"><font color="#FFFFFF">ENVISIONING THE FUTURE</font></a><br/>
+<a href="/index.php/IEET/cyborgbuddha"><font color="#FFFFFF">CYBORG BUDDHA PROJECT</font></a> |
+<a href="/index.php/ieet/africa"><font color="#FFFFFF">AFRICAN FUTURES PROJECT</font></a> |
+<a href="http://jetpress.org"><font color="#FFFFFF">JOURNAL OF EVOLUTION AND TECHNOLOGY</font></a>
+
+</font>
+</span>
+</p>
+</td>
+</tr>
+<tr valign="top" align="center" bgcolor="#006666"  >
+<td valign="top" align="center" bgcolor="#006666"  >
+<font face="Arial,Helvetica,Geneva,Swiss,SunSans-Regular" size="1" color="#FFFFFF">
+
+<a href="http://ieet.org/index.php/IEET/rss_2.0"><img alt="RSS" border="0" style="margin:0px 5px 0px 0px"  src="/images/rssicon.gif" align="top"/><font color="#FFFFFF">IEET Blog</font></a> |
+<a href="http://mailman-mail5.webfaction.com/listinfo/ieet-news"><font color="#FFFFFF">email list</font></a> |
+<a href="http://mailman-mail5.webfaction.com/listinfo/ieet-announce"><font color="#FFFFFF">newsletter</font></a> |
+ <br>
+The IEET is a 501(c)3 non-profit, tax-exempt organization registered in the State of Connecticut in the United States.
+
+</font>
+</td>
+</tr>
+<tr valign="top" align="center" bgcolor="#006666"  >
+<td valign="top" align="center" height="17" >
+
+<p style="margin-top: 10px; margin-bottom: 6px">
+<font face="Arial,Helvetica,Geneva,Swiss,SunSans-Regular" size="1">
+<font color="#FFFFFF"><b>
+Contact: Executive Director, Dr. James J. Hughes, <br/>
+Williams 119, Trinity College, 300 Summit St., Hartford CT 
+06106 USA&nbsp; <br/>
+Email: director @ ieet.org&nbsp;&nbsp;&nbsp;&nbsp; phone: 
+860-297-2376</b>
+</font>
+</font>
+</p>
+
+                </td>
+
+		</tr>
+	</table>
+
+
+
+</td></tr></table>
+
+
+<table border="0" cellpadding="0" cellspacing="0" width="100%"><tr><td>
+</tr></td></tr></td></div></div></div></div></div></div>
+</body>
+</html>

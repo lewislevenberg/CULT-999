@@ -1,0 +1,476 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+
+<meta name="wpd_version" content="0.2">
+<meta name="wpd_baseurl" content="http://www.africacncl.org/ictworking">
+<meta name="wpd_url" content="http://www.africacncl.org/ictworking">
+<meta name="wpd_date" content="2015-10-12T18:13Z">
+
+    <meta charset="UTF-8">
+    <meta name="google" value="notranslate">
+    <title>ICT Working Group</title>
+    <script type="text/javascript" async="" src="quant.js"></script><script src="ga.js" async="" type="text/javascript"></script><script src="quant.js" async="" type="text/javascript"></script><script type="text/javascript" async="" src="ga.js"></script><script type="text/javascript">
+
+                if((typeof showedClientId == 'undefined' || !showedClientId) && 1080 ){
+        var showedClientId = 1080;
+        }
+    </script>
+    <script type="text/javascript" src="jquery.js"></script>
+    <script type="text/javascript" src="jquery-ui.js"></script>
+    
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    
+
+
+
+<script type="text/javascript" src="api.js"></script>
+<script type="text/javascript" src="customInput.jquery.js"></script>
+<script type="text/javascript" src="script_microsite.js"></script>
+<script type="text/javascript" src="jquery.cycle.all.latest.js"></script>
+<script type="text/javascript" src="form-code.js"></script>
+<script type="text/javascript" src="popup_js.js" language="javascript"></script>
+<script type="text/javascript" language="javascript">
+
+                $(function(){
+                        $('.chevron a:gt(0)').hide();
+						$('.blockc b:gt(0)').hide();
+                        setInterval(function(){
+                          $('.chevron a:first-child').next('a').end().appendTo('.chevron');
+                          $('.chevron a:gt(0)').hide();
+                          $('.chevron a:first-child').show();
+						  $('.blockc b:first-child').next('b').end().appendTo('.blockc');
+                          $('.blockc b:gt(0)').hide();
+                          $('.blockc b:first-child').show();
+							},3000);
+							      
+                });
+         function getUrl() {
+         	  return $('#advanced_search_url') ? $('#advanced_search_url').val() : false;
+         }   
+         
+         function sendMessage(frame_id) {
+				var targetFrame = document.getElementById(frame_id);
+				if (getUrl()){
+					targetFrame.contentWindow.postMessage(getUrl(), targetFrame.src);
+				}
+			}
+                
+        </script>
+<script type="text/javascript">
+
+			
+			$(document).ready( function() {	
+				$('#popupBoxClose').click( function() {			
+					unloadPopupBox();
+				});
+				
+				$('#container').click( function() {
+					unloadPopupBox();
+				});
+				
+			});
+		
+		</script>
+<script src="jquery.anythingslider.js"></script>
+    	<script type="text/javascript">
+
+        $(function () {
+               var pageNumber = 0, selYear = null, selMonth = null;
+                function updatePageControls(calendar, html) {
+                    var $pageBtns = $('.cl-page-pickers .ewl-btn').filter('[data-calendar="' + calendar + '"]').show();
+
+                    if (html.indexOf('!-- no-prev-page --') >= 0) {
+                        $pageBtns.filter('[data-pagediff="-1"]').hide();
+                    }
+                    if (html.indexOf('!-- no-next-page --') >= 0) {
+                        $pageBtns.filter('[data-pagediff="1"]').hide();
+                    }
+                }
+
+                $(document)
+                .delegate('.cl-view-btn', 'click', function() {
+                    var $this     = $(this),
+                        calendar  = $this.attr('data-calendar'),
+                        $calTable = $('#' + calendar + ' table'),
+                        toSimple  = $this.hasClass('cl-to-simple'),
+                        siteClient  = $this.attr('data-client')?$this.attr('data-client'):'',
+                        filter = '[data-calendar="' + calendar + '"]',
+                        $monthPicker = $('.cl-month-picker').filter(filter),
+                        $pagePickers = $('.cl-page-pickers').filter(filter);
+			titletype = ($(this).data('titletype')) ? $(this).data('titletype') : '';
+                    API.calendar(toSimple ? 'calendar' : 'list', selMonth, selYear, 0, $('#widgetGroups').html(), titletype, siteClient, function(html) {
+                        toSimple ? $monthPicker.show() : $monthPicker.hide();
+                        toSimple ? $pagePickers.hide() : $pagePickers.show();
+
+                        // updating controls state after AJAX request
+                        if (!toSimple) {
+                            pageNumber = 0;
+                            updatePageControls(calendar, html);
+                        }
+
+                        $calTable.replaceWith(html);
+                    });
+
+                    return false;
+                })
+                .delegate('.event-details', 'click', function() {
+                    var postData = {event: $(this).data('event'), date_id: $(this).data('date_id'), format: 'single' };
+                    API.showEvent(postData);
+                    return false;
+                });
+
+                $('.cl-month-picker').datepicker({
+                    changeMonth: true,
+                    changeYear: true,
+                    showMonthAfterYear: false,
+                    onChangeMonthYear: function(year, month, inst) {
+                        selYear = year;
+                        selMonth = month;
+                        titletype = ($('#mousehoverflag')) ? $('#mousehoverflag').val() : '';
+                        API.calendar('calendar', month, year, 0, $('#widgetGroups').html(), titletype, function(html) {
+                            $('#' + $(inst.input).attr('data-calendar') + ' table').replaceWith(html);
+                        });
+                    }
+                });
+
+                $('.cl-page-pickers .ewl-btn').click(function() {
+                    var data = $(this).data(),
+                     siteClient  = $(this).attr('data-client')?$(this).attr('data-client'):'',
+                        $calendar = $('#' + data.calendar);
+                    API.calendar('list', null, null, (pageNumber += Number(data.pagediff)), $('#widgetGroups').html(),'date',siteClient,  function(html) {
+                        updatePageControls(data.calendar, html);
+                        $calendar.find('table').replaceWith(html);
+                    });
+
+                    return false;
+                });
+                $('.ui-datepicker').show();
+
+				if ($('a.full_Page_readmore')) {
+					$('a.full_Page_readmore').click(function() {
+						newsId = $(this).attr('newsid');
+						template = $(this).attr('newsTemplate') ? $(this).attr('newsTemplate') : '';
+						API.newsdetails(newsId, template, function(html) {
+							$('div.newsPageDetails').html(html);
+                            window.location.hash = 'top';
+						});
+
+						return false;
+					});
+				}
+        });
+        
+        function change_checkbox_value(checkbox){
+            var $checkbox = $(checkbox);
+            if($checkbox.is(':checked')){
+                $checkbox.val("yes");
+            }else{
+                $checkbox.val("no");
+            }
+        }
+        
+    </script>
+    <script type="text/javascript" src="site.js"></script>
+    <script type="text/javascript" src="topmenu.js"></script>
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+
+<link rel="stylesheet" type="text/css" href="ictworking.css" media="all">
+</head>
+<body>
+<div id="ROOT">
+
+<div id="wrap" class="inpageBg">
+  <!-- start header -->
+      <div id="container"> <!-- Main Page -->
+
+	</div>
+	<div id="popup_box">	<!-- OUR PopupBox DIV-->
+		<div id="loginPopupforbutton" style="width: 360px;"><strong>Coming Soon!</strong> The "My CCA Login" portal will allow members to access unique members-only resources, a searchable directory of members and USABC affiliates and a secure B2B messaging communication system. The portal will also allow members to RSVP for new events, view or change current registrations and access payment information.</div>
+		
+		<div id="eclFormcode">
+			<div id="ecl_maillists"><input id="ecl_styles" value="#ecl_maillists * {background:none!important;background-repeat:none!important;border:none!important;clear:none!important;clip:auto!important;cursor:auto!important;float:none!important;font-size:100%!important;font-style:normal!important;font-variant:normal!important;font-weight:normal!important;height:auto!important;letter-spacing:normal!important;line-height:normal!important;margin:0!important;overflow:visible!important;padding:0!important;position:static!important;text-align:left!important;text-decoration:none!important;text-indent:0!important;text-transform:none!important;vertical-align:baseline!important;visibility:visible!important;white-space:normal!important;word-spacing:normal!important;z-index:auto!important}#ecl_maillists .ecl_form_code {padding:0px!important;margin:0px!important;background-color:white!important;margin:auto!important;padding:0px!important;font-family:Arial, Helvetica, sans-serif!important;font-size:10pt!important;color:black!important;}#ecl_maillists .ecl_subscribe {display:inline-block!important;padding-top:7px!important;height:27px!important;text-align:left!important;padding-left:20px!important;font-weight:700!important;font-size:8pt!important;text-transform:uppercase!important;cursor:pointer!important;color:#0F467D!important;padding-right:0px!important;background:url('//ccalive.eweblife.com/www/ecl/images/subscribe.gif') no-repeat !important;padding-bottom:0px!important;width:116px!important;text-decoration:none!important;color:#0f467d!important;}#ecl_maillists .ecl_subscribe:hover {color:#628b2c!important;background-image:url('//ccalive.eweblife.com/www/ecl/images/subscribe_over.gif')!important;}#ecl_maillists .ecl_subscribe:active {color:#628b2c!important;background-image:url('//ccalive.eweblife.com/www/ecl/images/subscribe_click.gif')!important;}#ecl_maillists .ecl_form_code .ecl_span {color:#bfbfbf!important;position:relative!important;top:5px!important;}#ecl_maillists .ecl_form_code .ecl_bold {font-weight:bold!important;}#ecl_maillists .ecl_form_code ul {margin:0!important;padding:0!important;margin:0px!important;}#ecl_maillists .ecl_form_code li {border-top:1px #bfbfbf dotted!important;padding:0px!important;padding-bottom:5px!important;padding-top:5px!important;list-style:none!important;zoom:1!important;}#ecl_maillists .ecl_form_code li.first {border:0!important;}#ecl_maillists .ecl_label {font-weight:bold!important;width:100px!important;display:inline-block!important;}#ecl_maillists .ecl_required {color:red!important;}#ecl_maillists .ecl_input {padding:0px 0px 0px 5px!important;height:27px!important;background-color:transparent!important;border:0!important;vertical-align:middle!important;background-image:url('//ccalive.eweblife.com/www/default/images/text_fields/input_text_250.png') !important;background-repeat: no-repeat!important;width:250px!important;}#ecl_maillists .ecl_table {border-collapse:collapse!important;font-size:10pt!important;}#ecl_maillists .ecl_table tr {background-color:#fff!important;}#ecl_maillists .ecl_table_td {width:31px!important; text-align:center!important; vertical-align:top!important;}#ecl_maillists .ecl_clear {clear:both!important;}#ecl_maillists .ecl_category_header {width:65px!important; float:left!important;}#ecl_maillists .ecl_category_header_text {float:left!important; color:#0F467D!important;font-size:14pt!important;padding-top:5px!important;padding-left:10px!important;}#ecl_maillists .ecl_notice_image {float:left!important;margin-right:5px;!important;}#ecl_maillists .ecl_notice_text {padding:7px 0 0 7px!important;}#ecl_maillists .ecl_form_elem_container {height:34px!important;}#ecl_maillists .ecl_sms_gateway_select {width:200px!important;border: 2px inset #000!important;}" type="hidden"><div class="ecl_form_code"><form action="https://ccalive.eweblife.com/ecl/CCA/signup/member-simple" method="post" id="ecl_form" target="eweblife_ecl" onsubmit="submitForm()"><ul><li><div class="ecl_category_header"><img src="email.png"> <img src="sms.png"></div><div class="ecl_category_header_text">CCA Communications</div><div class="ecl_clear"></div></li><li><table class="ecl_table"><tbody><tr><td class="ecl_table_td"><input name="subscriptions[223][]" id="ecl_maillist_email_1" value="email" onclick="eclSelectMaillist(this, 223)" title="Email" type="checkbox"></td><td class="ecl_table_td">&nbsp;</td><td style="padding-left: 14px ! important;"><span class="ecl_bold">CCA Mailing List</span>: Sign up to stay informed about upcoming events, news, and other CCA happenings.</td></tr></tbody></table></li></ul><div><img src="info.jpg" id="ecl_notice_image" class="ecl_notice_image" style=""> <div class="ecl_notice_text">You don't see your desired format? Some eConnects are only available in Email or Text Message formats.</div></div><br><div class="ecl_clear" style="height: 10px ! important;"></div><p class="ecl_form_elem_container"><label class="ecl_label">Email: <span class="ecl_required">*</span></label> <input name="email" id="ecl_email" class="ecl_input" type="text"> <span class="ecl_required" style="display: none;" id="ecl_email_error">Required</span> <span class="ecl_required" style="display: none;" id="ecl_email_invalid_error">Proper email address required</span></p><p class="ecl_form_elem_container"><label class="ecl_label">First Name: <span class="ecl_required">*</span></label> <input name="first_name" id="ecl_first_name" class="ecl_input" type="text"> <span class="ecl_required" style="display: none;" id="ecl_first_name_error">Required</span></p><p class="ecl_form_elem_container"><label class="ecl_label">Last Name: <span class="ecl_required">*</span></label> <input name="last_name" id="ecl_last_name" class="ecl_input" type="text"> <span class="ecl_required" style="display: none;" id="ecl_last_name_error">Required</span></p><div id="ecl_mobile_phone_container" style="display: none;"><span class="ecl_bold">Mobile Phone Number <span class="ecl_required">*</span></span><p class="ecl_form_elem_container">Since you have selected Text Messaging, please provide your phone number and select your carrier below. Please note: standard txt messaging rates will apply.</p><p class="ecl_form_elem_container"><input name="phone_number" id="ecl_phone_number" class="ecl_input" type="text"> <select name="sms_gateway_id" id="ecl_sms_gateway_id" class="ecl_sms_gateway_select"><option value="">- Select SMS Carrier -</option><option value="15">Alaska Communications</option><option value="14">Alltel (Allied Wireless)</option><option value="16">Ameritech</option><option value="12">AT&amp;T</option><option value="9">AT&amp;T Enterprise Paging</option><option value="13">AT&amp;T Global Smart Messaging Suite</option><option value="10">AT&amp;T Mobility [NUMBER@txt.att.net]</option><option value="11">AT&amp;T Mobility [NUMBER@cingularme.com]</option><option value="19">AT&amp;T Wireless</option><option value="7">BellSouth</option><option value="8">Bluegrass Cellular</option><option value="6">Boost Mobile</option><option value="24">Cellcom</option><option value="23">Cellular One (Dobson)</option><option value="25">Chariton Valley Wireless</option><option value="20">Cingular (GoPhone prepaid)</option><option value="21">Cingular (Postpaid) [NUMBER@cingular.com]</option><option value="22">Cingular (Postpaid) [NUMBER@mobile.mycingular.com]</option><option value="27">Cleartalk Wireless(Cleartalk)</option><option value="26">Cricket</option><option value="28">Edge Wireless</option><option value="4">Element Mobile</option><option value="5">Esendex</option><option value="3">i-wireless (Sprint PCS)</option><option value="2">Kajeet</option><option value="1">MetroPCS</option><option value="39">Nextel</option><option value="35">Nextel (Sprint) [NUMBER@messaging.nextel.com]</option><option value="36">Nextel (Sprint) [NUMBER@page.nextel.com]</option><option value="40">O2</option><option value="41">Orange</option><option value="42">PagePlus</option><option value="37">Pioneer Cellular</option><option value="38">Qwest Wireless</option><option value="33">Simple Mobile</option><option value="32">South Central Communications</option><option value="34">Sprint (PCS)</option><option value="31">Straight Talk</option><option value="29">Syringa Wireless</option><option value="30">T-Mobile</option><option value="45">Teleflip</option><option value="44">Unicel</option><option value="43">US Cellular</option><option value="48">USA Mobility</option><option value="17">Verizon Wireless [NUMBER@message.alltel.com]</option><option value="18">Verizon Wireless [NUMBER@text.wireless.alltel.com]</option><option value="47">Verizon Wireless [NUMBER@vtext.com]</option><option value="49">Viaero</option><option value="46">Virgin Mobile</option></select></p><span class="ecl_required" style="display: none;" id="ecl_phone_number_error">Number can contain digits, parentheses, hyphens and spaces only<br></span><span class="ecl_required" id="ecl_sms_gateway_error" style="display: none;">Please select SMS Carrier</span></div><div><a href="javascript:void(0)" class="ecl_subscribe" onclick="eclSubmitForm();" title="Subscribe">SUBSCRIBE</a><span class="ecl_info"> (Will open a new window or tab of your browser)</span><a href="https://ccalive.eweblife.com/"><img src="logo.jpg" style="width: 100px ! important; margin-left: 10px ! important; border: 0px none ! important; float: right ! important;"></a><div style="clear: both;"></div></div></form></div></div>
+<script type="text/javascript" src="maillists"></script><script type="text/javascript" src="maillists.js"></script>		</div>
+		<a id="popupBoxClose">Close</a>	
+	</div>
+  
+            <div id="header">
+	<div class="header group">
+            <div class="logo"><a href="http://www.africacncl.org/"><img src="logo.png" alt=""></a></div>
+            <div class="headRig">
+            <div class="XML_Block XML_Element" id="_common-header-searchLink" style="float: right;">
+                <form action="http://www.africacncl.org/global-search-results" method="get">
+                    <div class="headSearch"><input placeholder="Search" name="q" type="text"><input class="searchBtn" value="" type="submit"></div>
+                </form>
+            </div>                
+                <div class="XML_Block XML_Element" id="_common-header-loginButton" style="width: 150px;">
+<!--				<a href="javascript:void(0)" onclick="loadPopupBox('loginPopupforbutton')" class="logIn" >My CCA Login <img src="/www/ecm/files/upload/CCA/design/images/logInIcone.png" alt=""  /></a>-->				<a href="http://ccalive.eweblife.com/prm/CCA/auth/login" class="logIn">My CCA Login <img src="logInIcone.png" alt=""></a>
+				
+				</div>
+                
+                <div class="socialSec">
+                    <div class="XML_List XML_Block XML_Element" id="_common-header-socialMedia" style="min-height: 5px; min-width: 200px;">
+																			 
+							<div class="XML_Item XML_Block XML_Element" id="_common-header-socialMedia-0">
+								<span>follow us:</span> 
+																<a href="http://www.facebook.com/CorporateCouncilonAfrica" target="_BLANK" style="background: url('facebook.jpg') no-repeat ; 0px transparent;">
+									<img src="spacer.gif" alt="">
+								</a>
+																<a href="http://www.linkedin.com/company/corporate-council-on-africa" target="_BLANK" style="background: url('Linkedin.jpg') no-repeat ; 0px transparent;">
+									<img src="spacer.gif" alt="">
+								</a>
+																<a href="https://twitter.com/CorpCnclAfrica" target="_BLANK" style="background: url('twittericon.jpg') no-repeat ; 0px transparent;">
+									<img src="spacer.gif" alt="">
+								</a>
+															</div>
+													                    </div>
+						<a href="javascript:void(0)" onclick="loadPopupBox('eclFormcode')" class="sinfo XML_Block XML_Element" id="_common-header-button">Stay  Informed</a>  
+		        </div>
+            </div>
+            <!--start nav -->
+
+            <ul class="mainNav ewlSiteMenu">
+                <li><a class="wi1n  " href="http://www.africacncl.org/">Home</a></li>
+                                <li id="24-index-1" class="slide"><a class="aroNav  wi1n" href="http://www.africacncl.org/about">About</a>
+                    																																																																							                    <ul class="ewlSiteMenu">
+																				<li id="24-index-1-2">
+								<a href="http://www.africacncl.org/Members" class="">Members</a>
+																</li>
+                        														<li id="24-index-1-1">
+								<a href="http://www.africacncl.org/cca-board" class="">Board of Directors</a>
+																</li>
+                        														<li id="24-index-1-3">
+								<a href="http://www.africacncl.org/cca-staff" class="">Staff</a>
+																</li>
+                        														<li id="24-index-1-4">
+								<a href="http://www.africacncl.org/careers" class="">Careers</a>
+																</li>
+                        														<li id="24-index-1-5">
+								<a href="http://www.africacncl.org/africa-e-journal" class="">The Africa e-Journal</a>
+																</li>
+                        														<li id="24-index-1-9">
+								<a href="http://www.africacncl.org/news-media" class="">News and Media</a>
+																</li>
+                                            </ul>
+                                    </li>
+                                <li id="24-index-2" class="slide"><a class="aroNav  " href="http://www.africacncl.org/programs">Programs</a>
+                    																																																																																																								                    <ul class="ewlSiteMenu">
+																																			<li id="24-index-2-1">
+								<a href="http://www.africacncl.org/agribusiness" class=""><span></span>Agribusiness </a>
+																			<ul class="ewlSiteMenu">
+																						<li id="24-index-2-1-2"><a class="aroNav" href="http://www.africacncl.org/agriworking">Agribusiness Working Group</a></li>
+																					</ul>
+																</li>
+                        																													<li id="24-index-2-2">
+								<a href="http://www.africacncl.org/energy" class=""><span></span>Energy</a>
+																			<ul class="ewlSiteMenu">
+																						<li id="24-index-2-2-1"><a class="aroNav" href="http://www.africacncl.org/energyworking">Energy Working Group</a></li>
+																					</ul>
+																</li>
+                        																													<li id="24-index-2-8">
+								<a href="http://www.africacncl.org/finance" class=""><span></span>Finance</a>
+																			<ul class="ewlSiteMenu">
+																						<li id="24-index-2-8-1"><a class="aroNav" href="http://www.africacncl.org/financeworking">Finance Working Group</a></li>
+																					</ul>
+																</li>
+                        																													<li id="24-index-2-5">
+								<a href="http://www.africacncl.org/health" class=""><span></span>Health</a>
+																			<ul class="ewlSiteMenu">
+																						<li id="24-index-2-5-2"><a class="aroNav" href="http://www.africacncl.org/healthworking">Health Working Group</a></li>
+																					</ul>
+																</li>
+                        																													<li id="24-index-2-7">
+								<a href="http://www.africacncl.org/information-communication-technologies" class=""><span></span>ICT</a>
+																			<ul class="ewlSiteMenu">
+																						<li id="24-index-2-7-1"><a class="aroNav" href="http://www.africacncl.org/ictworking">ICT Working Group</a></li>
+																					</ul>
+																</li>
+                        																													<li id="24-index-2-3">
+								<a href="http://www.africacncl.org/infrastructure" class=""><span></span>Infrastructure</a>
+																			<ul class="ewlSiteMenu">
+																						<li id="24-index-2-3-1"><a class="aroNav" href="http://www.africacncl.org/infraworking">Infrastructure Working Group</a></li>
+																					</ul>
+																</li>
+                        																													<li id="24-index-2-4">
+								<a href="http://www.africacncl.org/security" class=""><span></span>Security </a>
+																			<ul class="ewlSiteMenu">
+																						<li id="24-index-2-4-1"><a class="aroNav" href="http://www.africacncl.org/securityworking">Security Working Group</a></li>
+																					</ul>
+																</li>
+                        														<li id="24-index-2-12">
+								<a href="http://www.africacncl.org/trade" class="">Trade Facilitation</a>
+																</li>
+                        														<li id="24-index-2-11">
+								<a href="http://www.africacncl.org/policy" class="">Policy Advocacy</a>
+																</li>
+                                            </ul>
+                                    </li>
+                                <li id="24-index-3" class="slide"><a class="aroNav  " href="http://www.africacncl.org/membership">Membership</a>
+                    																											                    <ul class="ewlSiteMenu">
+																				<li id="24-index-3-2">
+								<a href="http://www.africacncl.org/member-benefits" class="">Member Benefits</a>
+																</li>
+                        														<li id="24-index-3-1">
+								<a href="http://www.africacncl.org/join-now" class="">Apply to Join Now</a>
+																</li>
+                                            </ul>
+                                    </li>
+                                <li id="24-index-4" class="slide"><a class="aroNav  wi1n" href="http://www.africacncl.org/events">Events</a>
+                    																                    <ul class="ewlSiteMenu">
+																				<li id="24-index-4-1">
+								<a href="http://www.africacncl.org/calendar" class="">Event Calendar</a>
+																</li>
+                                            </ul>
+                                    </li>
+                                <li id="24-index-5" class="slide"><a class="aroNav  " href="http://www.africacncl.org/trade-missions-main">Trade Missions</a>
+                    					                </li>
+                                <li id="24-index-6" class="slide"><a class="aroNav  " href="http://www.africacncl.org/contact-us">Contact Us</a>
+                    					                </li>
+                            </ul>
+			
+            <!-- end nav -->
+	</div>
+	</div>
+  <!-- end header -->
+  <!-- start middle -->
+  <div id="middle" class="pagebgB">
+  <div class="middle">
+  <!-- start slider -->
+  <div class="sliderCont group">
+  <div class="slider">
+    <!-- Simple AnythingSlider -->
+    
+<div class="banner XML_Block XML_Element" id="index-2-7-1-fullBannerRotator" style="width: 963px; height: 278px;">
+	<div class="anythingSlider anythingSlider-default activeSlider" style="width: 963px; height: 278px;"><div class="anythingWindow"><div style="width: 963px; height: 278px;" class="anythingSlider anythingSlider-default"><div class="anythingWindow"><ul id="slider" style="width: 963px; left: 0px;" class="anythingBase">
+					<li class="panel" style="width: 963px; height: 278px;">
+								<img src="iStock_000003701905_Large%20972%20x%20278.jpg" alt="" style="width: 100%; height: 100%;">
+			</li>
+				
+	</ul></div><div style="display: none;" class="anythingControls"><a style="display: none;" href="#" class="start-stop playing"><span></span></a><ul style="display: none;" class="thumbNav"></ul></div><span style="display: none;" class="arrow back"><a href="#"><span>«</span></a></span><span style="display: none;" class="arrow forward"><a href="#"><span>»</span></a></span></div></div><div class="anythingControls" style="display: none;"><a href="#" class="start-stop playing" style="display: none;"><span></span></a><ul class="thumbNav" style="display: none;"></ul></div><span class="arrow back" style="display: none;"><a href="#"><span>«</span></a></span><span class="arrow forward" style="display: none;"><a href="#"><span>»</span></a></span></div>
+</div>    <!-- END AnythingSlider -->
+  </div>
+    
+  </div>
+    <div class="bigTxt XML_Block XML_Element bannarImg" id="index-2-7-1-tagLineContent" style="min-height: 4px;">
+                    </div>
+    <!-- white bg -->
+  <div class="whiteBg mar25T"><div class="pageTopBg"><div class="pageBotBg">
+ 
+  <!-- start right pannal -->
+  <div class="XML_List XML_Block XML_Element" id="index-2-7-1-fullWidthBoxes" style="min-height: 4px;">
+                  <div class="pageContant marBot XML_Item XML_Block XML_Element" id="index-2-7-1-fullWidthBoxes-0" "="">
+                <div class="headingBg">
+                                            <img src="aroHead.png" alt="">
+                                        ICT Working Group                </div>
+                  <div class="pageContantMar">
+                                        <div class="riCont fullWidth1">
+                        <p><strong>May 20, 2014</strong> &nbsp; &nbsp;"Innovative Mobile Technologies to Improve Women's and Children's Health"<br>
+<br>
+This panel discussion highlighted three organizations selected to receive catalytic grants from the United Nations' Innovation Working Group (IWG) in support of the Every Woman, Every Child movement: Village Reach, JSI’s SC4CCM Project and Malaria No More. Panelists discussed experiences in scaling up their evidence-based mHealth interventions. Dr. Patricia Mechael, executive director of the mHealth Alliance, began by providing an overview of the grant competition and the process of assisting mobile health projects in moving beyond the pilot phase to achieve scale. Funded by the Norwegian Agency for Development Cooperation through the mHealth Alliance, grants awarded support and encourage the scale-up of innovative mHealth projects that improve the lives of mothers and children. Technical leadership is provided to recipients from the World Health Organization. The first round of awards were administered in 2011, and collectively since then, the three rounds of IWG grantees aspire to reach nearly 31 million people spread across communities in 14 countries with life-saving messaging and services. <a href="http://www.africacncl.org/www/default/ckfinder/userfiles/1080/files/AEJjune2014_v1_4(1).pdf">Read More</a><br>
+<img alt="" src="May%2020%20HWG%20ICT.jpg" style="width: 273px; height: 333px;"><br>
+<br>
+<br>
+<strong>April 4, 2014</strong> &nbsp; &nbsp;"The Internet’s Transformative Potential in Africa"<br>
+<br>
+</p><div>
+
+	“African governments can attract and set agendas, however it is up to the private sector utilizing its knowledge of economies that will truly drive and unlock the internet’s potential”— this statement by Armando Cabral, Director and Office Manager at &nbsp;McKinsey and Company’s, Luanda Office, was the overarching theme covering the April 4th ICT working group. Joined by his colleague, Lohini Moodley, Principal in McKinsey’s Johannesburg office, the two served as guest speakers briefing members on Lions Go Digital — an extensive report exploring the role of the internet as a catalyst for economic growth in the Africa continent. Lohini set the stage by informing members that while today 1 in 6 Africans are online, in urban areas things are rapidly changing with “roughly 1 in 2 Africans online with 25% online daily and 21% spending more than 10 hours per week online.” With more than 200 million people on the continent between the ages of 15 and 25 - the cohort that uses technology the most, this demographic shift will create millions of new Internet users only increasing the current trends. Lohini referenced several innovative, entrepreneurial endeavors that are experimenting with new business models and using technology to address specific challenges such as Jumia, moWoza, iHub and Paga. <a href="http://www.africacncl.org/www/default/ckfinder/userfiles/1080/files/AEJmay2014_v1_7(1).pdf">Read More</a></div>
+<div>
+	<img alt="" src="Lohini.jpg" style="width: 254px; height: 224px;"></div>
+<p></p>
+                        
+                    </div>	
+                  </div>
+                  <div class="linkBg">
+                    <div class="leftrRead right"></div>
+                  </div>
+            </div>
+         
+   </div>
+ <!-- end right end -->
+ <div class="clear"></div>
+  </div></div></div>
+  <!-- end white bg -->
+     </div></div>
+  <!-- end middle -->
+  <!-- start fotter -->
+      <div id="footer">
+        <div class="footer group">
+            <div class="footLeft">
+                <div class="XML_List XML_Block XML_Element" id="_common-footer-footerLinks" style="min-height: 5px;">
+                                                                    <a href="http://www.africacncl.org/about">About</a>
+                                                                            |&nbsp;<a href="http://www.africacncl.org/programs">Programs</a>
+                                                                            |&nbsp;<a href="http://www.africacncl.org/membership">Membership</a>
+                                                                            |&nbsp;<a href="http://www.africacncl.org/events">Events</a>
+                                                                            |&nbsp;<a href="http://www.africacncl.org/trade-missions-main">Trade Missions</a>
+                                                                            |&nbsp;<a href="http://www.africacncl.org/contact-us">Contact Us</a>
+                                                                </div>
+                <div class="XML_Block XML_Element" id="_common-footer-address"> 
+                    <br>
+<br>
+<span style="color: rgb(255, 255, 255);">1100 17th Street, N.W., Suite 1000 Washington, DC 20036<br>
+Tel: (202) 835-1115 Fax: (202) 835-1117</span><br>
+                </div>
+            </div>
+            <div class="footRig right">
+                <div class="XML_Block XML_Element" id="_common-footer-rightsideAddress">
+                    <div style="text-align: right;">
+
+	The Corporate Council on Africa<br>
+	Copyright © 2014. All rights reserved.</div>
+<br>
+                </div>
+                <a href="https://www.eweblife.com/" target="_top"><span style="color: white;">Powered by</span> </a>
+                <a href="https://www.eweblife.com/" target="_top"><img src="ewLogo.png" alt="" class="ewLogo"></a>
+            </div>
+        </div>
+    </div>  <!-- end fotter -->
+</div>
+</div>
+<div id="ewlSiteId" data-client="CCA" style="display: none;">24</div>
+<div id="ewlPage" data-url="ictworking" data-template="Interior_with_fullBanner_page" style="display: none;">index-2-7-1</div>
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-38900155-1']);
+  _gaq.push(['_trackPageview']);
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+
+<!-- Quantcast Tag -->
+<script type="text/javascript">
+
+var _qevents = _qevents || [];
+(function() {
+var elem = document.createElement('script');
+elem.src = (document.location.protocol == "https:" ? "https://secure" : "http://edge") + ".quantserve.com/quant.js";
+elem.async = true;
+elem.type = "text/javascript";
+var scpt = document.getElementsByTagName('script')[0];
+scpt.parentNode.insertBefore(elem, scpt);
+})();
+_qevents.push({
+qacct:"p-a5QXMvBCkwC4N"
+});
+</script>
+
+<noscript>
+
+&lt;div style="display:none;"&gt;
+&lt;img src="//pixel.quantserve.com/pixel/p-a5QXMvBCkwC4N.gif" border="0" height="1" width="1" alt="Quantcast"/&gt;
+&lt;/div&gt;
+</noscript>
+<!-- End Quantcast tag -->
+
+
+
+
+<div id="ui-datepicker-div" class="ui-datepicker ui-widget ui-widget-content ui-helper-clearfix ui-corner-all ui-helper-hidden-accessible" style="display: block;"></div><div id="menu-holder"></div><script id="hiddenlpsubmitdiv" style="display: none;"></script><script>try{(function() { for(var lastpass_iter=0; lastpass_iter < document.forms.length; lastpass_iter++){ var lastpass_f = document.forms[lastpass_iter]; if(typeof(lastpass_f.lpsubmitorig2)=="undefined"){ lastpass_f.lpsubmitorig2 = lastpass_f.submit; if (typeof(lastpass_f.lpsubmitorig2)=='object'){ continue;}lastpass_f.submit = function(){ var form=this; var customEvent = document.createEvent("Event"); customEvent.initEvent("lpCustomEvent", true, true); var d = document.getElementById("hiddenlpsubmitdiv"); if (d) {for(var i = 0; i < document.forms.length; i++){ if(document.forms[i]==form){ if (typeof(d.innerText) != 'undefined') { d.innerText=i.toString(); } else { d.textContent=i.toString(); } } } d.dispatchEvent(customEvent); }form.lpsubmitorig2(); } } }})()}catch(e){}</script><div style="display: block;" id="ui-datepicker-div" class="ui-datepicker ui-widget ui-widget-content ui-helper-clearfix ui-corner-all ui-helper-hidden-accessible"></div><div id="menu-holder"></div></body>
+</html>

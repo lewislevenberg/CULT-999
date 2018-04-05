@@ -1,0 +1,3829 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:dc="http://purl.org/dc/elements/1.1/"
+ xmlns:foaf="http://xmlns.com/foaf/0.1/"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:link="http://purl.org/rss/1.0/modules/link/"
+ xmlns:bib="http://purl.org/net/biblio#"
+ xmlns:vcard="http://nwalsh.com/rdf/vCard#"
+ xmlns:prism="http://prismstandard.org/namespaces/1.2/basic/">
+    <rdf:Description rdf:about="#item_622">
+        <z:itemType>document</z:itemType>
+        <dc:publisher>
+            <foaf:Organization>
+                <foaf:name>World Conference on International Communications</foaf:name>
+            </foaf:Organization>
+        </dc:publisher>
+        <dc:date>2012/12/13</dc:date>
+        <z:language>English</z:language>
+        <dc:title>ITU - World Conference on International Telecommunications (WCIT-12)  - Plenary Meeting - Document DT/55-E- International Telecommunications Regulations</dc:title>
+        <z:shortTitle>ITU Regulations</z:shortTitle>
+    </rdf:Description>
+    <bib:Document rdf:about="http://www.balancingact-africa.com/reports/telecoms-and-interne/african-telecoms-and-0">
+        <z:itemType>webpage</z:itemType>
+        <dcterms:isPartOf>
+           <z:Website></z:Website>
+        </dcterms:isPartOf>
+        <link:link rdf:resource="#item_2121"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://www.balancingact-africa.com/reports/telecoms-and-interne/african-telecoms-and-0</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2012-12-13 14:58:38</dcterms:dateSubmitted>
+        <dc:title>African Telecoms and Internet Markets - Part 1: West Africa (Nov. 2007) | balancingact-africa.com</dc:title>
+    </bib:Document>
+    <z:Attachment rdf:about="#item_2121">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/2121/african-telecoms-and-0.html"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://www.balancingact-africa.com/reports/telecoms-and-interne/african-telecoms-and-0</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2012-12-13 14:58:39</dcterms:dateSubmitted>
+        <dc:title>African Telecoms and Internet Markets - Part 1: West Africa (Nov. 2007) | balancingact-africa.com</dc:title>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Document rdf:about="http://www.nic.ci/">
+        <z:itemType>webpage</z:itemType>
+        <dcterms:isPartOf>
+           <z:Website></z:Website>
+        </dcterms:isPartOf>
+        <link:link rdf:resource="#item_1977"/>
+        <dc:identifier>
+           <dcterms:URI><rdf:value>http://www.nic.ci/</rdf:value></dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2012-12-13 14:33:49</dcterms:dateSubmitted>
+        <dc:title>Site Officiel du NIC.CI .::.</dc:title>
+    </bib:Document>
+    <z:Attachment rdf:about="#item_1977">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/1977/www.nic.ci.html"/>
+        <dc:identifier>
+           <dcterms:URI><rdf:value>http://www.nic.ci/</rdf:value></dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2012-12-13 14:33:50</dcterms:dateSubmitted>
+        <dc:title>Site Officiel du NIC.CI .::.</dc:title>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Book rdf:about="http://www.itu.int/ITU-D/treg/Events/Survey/survey08_en.rtf">
+        <z:itemType>book</z:itemType>
+        <dc:publisher>
+            <foaf:Organization>
+                <vcard:adr>
+                    <vcard:Address>
+                       <vcard:locality>Geneva</vcard:locality>
+                    </vcard:Address>
+                </vcard:adr>
+                <foaf:name>ITU</foaf:name>
+            </foaf:Organization>
+        </dc:publisher>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>International Telecommunication Union</foaf:surname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://www.itu.int/ITU-D/treg/Events/Survey/survey08_en.rtf</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dc:date>2008</dc:date>
+        <dcterms:dateSubmitted>2009-04-01</dcterms:dateSubmitted>
+        <dc:title>Telecommunication Regulatory Survey</dc:title>
+    </bib:Book>
+    <bib:Document rdf:about="http://www.au.int/pages/ECOSOCC">
+        <z:itemType>webpage</z:itemType>
+        <dcterms:isPartOf>
+           <z:Website></z:Website>
+        </dcterms:isPartOf>
+        <link:link rdf:resource="#item_2052"/>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>http://www.au.int/pages/ECOSOCC</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2012-12-13 18:07:41</dcterms:dateSubmitted>
+        <dc:title>ECOSOCC | African Union</dc:title>
+    </bib:Document>
+    <z:Attachment rdf:about="#item_2052">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/2052/ECOSOCC.html"/>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>http://www.au.int/pages/ECOSOCC</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2012-12-13 18:07:42</dcterms:dateSubmitted>
+        <dc:title>ECOSOCC | African Union</dc:title>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Document rdf:about="http://www.itu.int/en/ITU-D/Regional-Presence/Africa/Pages/default.aspx">
+        <z:itemType>webpage</z:itemType>
+        <dcterms:isPartOf>
+           <z:Website><dc:title>ITU</dc:title></z:Website>
+        </dcterms:isPartOf>
+        <link:link rdf:resource="#item_2188"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://www.itu.int/en/ITU-D/Regional-Presence/Africa/Pages/default.aspx</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2012-12-13 21:18:49</dcterms:dateSubmitted>
+        <dc:title>ITU in Africa</dc:title>
+    </bib:Document>
+    <z:Attachment rdf:about="#item_2188">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/2188/default.html"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://www.itu.int/en/ITU-D/Regional-Presence/Africa/Pages/default.aspx</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2012-12-13 21:18:51</dcterms:dateSubmitted>
+        <dc:title>Snapshot</dc:title>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Document rdf:about="http://www.itu.int/en/wcit-12/Pages/overview.aspx">
+        <z:itemType>webpage</z:itemType>
+        <dcterms:isPartOf>
+           <z:Website><dc:title>ITU</dc:title></z:Website>
+        </dcterms:isPartOf>
+        <link:link rdf:resource="#item_2102"/>
+        <link:link rdf:resource="#item_2184"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://www.itu.int/en/wcit-12/Pages/overview.aspx</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2012-12-10 11:06:32</dcterms:dateSubmitted>
+        <dc:title>WCIT-12: Conference Overview</dc:title>
+        <z:shortTitle>WCIT-12</z:shortTitle>
+    </bib:Document>
+    <z:Attachment rdf:about="#item_2102">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/2102/WCIT-12 Conference Overview.html"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://www.itu.int/en/wcit-12/Pages/overview.aspx</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2012-12-10 11:06:33</dcterms:dateSubmitted>
+        <dc:title>Snapshot</dc:title>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <z:Attachment rdf:about="#item_2184">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/2184/WCIT-12 Conference Overview.html"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://www.itu.int/en/wcit-12/Pages/overview.aspx</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2012-12-10 11:11:05</dcterms:dateSubmitted>
+        <dc:title>Snapshot</dc:title>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Book rdf:about="http://www.itu.int/ITU-D/ict/material/handbook.pdf">
+        <z:itemType>book</z:itemType>
+        <dc:publisher>
+            <foaf:Organization>
+                <vcard:adr>
+                    <vcard:Address>
+                       <vcard:locality>Geneva</vcard:locality>
+                    </vcard:Address>
+                </vcard:adr>
+                <foaf:name>ITU</foaf:name>
+            </foaf:Organization>
+        </dc:publisher>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>International Telecommunication Union</foaf:surname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://www.itu.int/ITU-D/ict/material/handbook.pdf</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dc:date>2005</dc:date>
+        <dcterms:dateSubmitted>2006-08-12</dcterms:dateSubmitted>
+        <dc:title>Telecommunication Indicators Handbook</dc:title>
+    </bib:Book>
+    <bib:Report rdf:about="#item_1085">
+        <z:itemType>report</z:itemType>
+        <dc:publisher>
+           <foaf:Organization><foaf:name>ISOC</foaf:name></foaf:Organization>
+        </dc:publisher>
+        <dc:date>2012</dc:date>
+        <z:type>Annual Meeting Report</z:type>
+        <dc:title>West Africa Internet Governance Forum</dc:title>
+    </bib:Report>
+    <bib:Document rdf:about="http://www.oxfordbusinessgroup.com/economic_updates/nigeria-internet-expansion">
+        <z:itemType>webpage</z:itemType>
+        <dcterms:isPartOf>
+           <z:Website></z:Website>
+        </dcterms:isPartOf>
+        <link:link rdf:resource="#item_2167"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://www.oxfordbusinessgroup.com/economic_updates/nigeria-internet-expansion</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2012-12-13 18:03:30</dcterms:dateSubmitted>
+        <dc:title>Nigeria: Internet expansion | ICT | Africa | Oxford Business Group</dc:title>
+    </bib:Document>
+    <z:Attachment rdf:about="#item_2167">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/2167/nigeria-internet-expansion.html"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://www.oxfordbusinessgroup.com/economic_updates/nigeria-internet-expansion</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2012-12-13 18:03:31</dcterms:dateSubmitted>
+        <dc:title>Nigeria: Internet expansion | ICT | Africa | Oxford Business Group</dc:title>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Document rdf:about="http://www.au.int/en/organs/stc">
+        <z:itemType>webpage</z:itemType>
+        <dcterms:isPartOf>
+           <z:Website></z:Website>
+        </dcterms:isPartOf>
+        <link:link rdf:resource="#item_2034"/>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>http://www.au.int/en/organs/stc</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2012-12-13 18:07:46</dcterms:dateSubmitted>
+        <dc:title>The Specialized Technical Committees | African Union</dc:title>
+    </bib:Document>
+    <z:Attachment rdf:about="#item_2034">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/2034/stc.html"/>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>http://www.au.int/en/organs/stc</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2012-12-13 18:07:47</dcterms:dateSubmitted>
+        <dc:title>The Specialized Technical Committees | African Union</dc:title>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Document rdf:about="http://web.worldbank.org/WBSITE/EXTERNAL/TOPICS/EXTINFORMATIONANDCOMMUNICATIONANDTECHNOLOGIES/0,,menuPK:282828~pagePK:149018~piPK:149093~theSitePK:282823,00.html">
+        <z:itemType>webpage</z:itemType>
+        <dcterms:isPartOf>
+           <z:Website></z:Website>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                       <foaf:surname>World Bank</foaf:surname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_2113"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://web.worldbank.org/WBSITE/EXTERNAL/TOPICS/EXTINFORMATIONANDCOMMUNICATIONANDTECHNOLOGIES/0,,menuPK:282828~pagePK:149018~piPK:149093~theSitePK:282823,00.html</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2012-12-14 20:24:02</dcterms:dateSubmitted>
+        <dc:title>Information &amp; Communications Technologies</dc:title>
+    </bib:Document>
+    <z:Attachment rdf:about="#item_2113">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/2113/0,,menuPK282828~pagePK149018~piPK149093~theSitePK282823,00.html"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://web.worldbank.org/WBSITE/EXTERNAL/TOPICS/EXTINFORMATIONANDCOMMUNICATIONANDTECHNOLOGIES/0,,menuPK:282828~pagePK:149018~piPK:149093~theSitePK:282823,00.html</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2012-12-14 20:24:03</dcterms:dateSubmitted>
+        <dc:title>Information &amp; Communications Technologies</dc:title>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Document rdf:about="http://cacm.acm.org/">
+        <z:itemType>webpage</z:itemType>
+        <dcterms:isPartOf>
+           <z:Website></z:Website>
+        </dcterms:isPartOf>
+        <link:link rdf:resource="#item_2101"/>
+        <dc:identifier>
+           <dcterms:URI><rdf:value>http://cacm.acm.org/</rdf:value></dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2012-12-11 02:24:54</dcterms:dateSubmitted>
+        <dc:title>Communications of the ACM</dc:title>
+    </bib:Document>
+    <z:Attachment rdf:about="#item_2101">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/2101/cacm.acm.org.html"/>
+        <dc:identifier>
+           <dcterms:URI><rdf:value>http://cacm.acm.org/</rdf:value></dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2012-12-11 02:24:55</dcterms:dateSubmitted>
+        <dc:title>Communications of the ACM</dc:title>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Document rdf:about="http://www.atu-uat.org/">
+        <z:itemType>webpage</z:itemType>
+        <dcterms:isPartOf>
+           <z:Website></z:Website>
+        </dcterms:isPartOf>
+        <link:link rdf:resource="#item_1925"/>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>http://www.atu-uat.org/</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2012-12-17 08:31:47</dcterms:dateSubmitted>
+        <dc:title>ATU-UAT</dc:title>
+    </bib:Document>
+    <z:Attachment rdf:about="#item_1925">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/1925/www.atu-uat.org.html"/>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>http://www.atu-uat.org/</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2012-12-17 08:31:48</dcterms:dateSubmitted>
+        <dc:title>ATU-UAT</dc:title>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Document rdf:about="http://www.bgpbook.com/arch.html">
+        <z:itemType>webpage</z:itemType>
+        <dcterms:isPartOf>
+           <z:Website></z:Website>
+        </dcterms:isPartOf>
+        <link:link rdf:resource="#item_2069"/>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>http://www.bgpbook.com/arch.html</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2012-12-13 14:22:14</dcterms:dateSubmitted>
+        <dc:title>Network Architecture and Policies: Decisions and Tradeoffs</dc:title>
+    </bib:Document>
+    <z:Attachment rdf:about="#item_2069">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/2069/arch.html"/>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>http://www.bgpbook.com/arch.html</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2012-12-13 14:22:15</dcterms:dateSubmitted>
+        <dc:title>Network Architecture and Policies: Decisions and Tradeoffs</dc:title>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <rdf:Description rdf:about="http://www.uneca.org/aisi/docs/ScanICT.pdf">
+        <z:itemType>document</z:itemType>
+        <dc:publisher>
+            <foaf:Organization>
+               <foaf:name>Addis Ababa: ECA</foaf:name>
+            </foaf:Organization>
+        </dc:publisher>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                       <foaf:surname>Economic Commission for Africa</foaf:surname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>http://www.uneca.org/aisi/docs/ScanICT.pdf</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dc:date>2003</dc:date>
+        <dcterms:dateSubmitted>2006-05-19</dcterms:dateSubmitted>
+        <dc:title>SCAN-ICT. Indicators of Information and Communications Technologies.</dc:title>
+    </rdf:Description>
+    <bib:Document rdf:about="http://www.jthtl.org/">
+        <z:itemType>webpage</z:itemType>
+        <dcterms:isPartOf>
+           <z:Website></z:Website>
+        </dcterms:isPartOf>
+        <link:link rdf:resource="#item_1918"/>
+        <link:link rdf:resource="#item_2157"/>
+        <dc:identifier>
+           <dcterms:URI><rdf:value>http://www.jthtl.org/</rdf:value></dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2012-12-10 23:59:28</dcterms:dateSubmitted>
+        <dc:title>Journal on Telecommunications and High Technology Law (JTHTL) - Home</dc:title>
+    </bib:Document>
+    <z:Attachment rdf:about="#item_1918">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/1918/www.jthtl.org.html"/>
+        <dc:identifier>
+           <dcterms:URI><rdf:value>http://www.jthtl.org/</rdf:value></dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2012-12-10 23:59:29</dcterms:dateSubmitted>
+        <dc:title>Journal on Telecommunications and High Technology Law (JTHTL) - Home</dc:title>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <z:Attachment rdf:about="#item_2157">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/2157/www.jthtl.org.html"/>
+        <dc:identifier>
+           <dcterms:URI><rdf:value>http://www.jthtl.org/</rdf:value></dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2012-12-12 00:17:39</dcterms:dateSubmitted>
+        <dc:title>Journal on Telecommunications and High Technology Law (JTHTL) - Home</dc:title>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Book rdf:about="#item_1484">
+        <z:itemType>book</z:itemType>
+        <dc:publisher>
+            <foaf:Organization>
+               <foaf:name>Article 19</foaf:name>
+            </foaf:Organization>
+        </dc:publisher>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Burnheim</foaf:surname>
+                        <foaf:givenname>Sally</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>(Organization)</foaf:surname>
+                        <foaf:givenname>Article 19</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_2180"/>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Censorship</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Civil rights</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Computers / Internet / General</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Freedom of information</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Freedom of speech</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Human rights</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Information policy</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Information superhighway</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Internet</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Law / Computer &amp; Internet</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Law / General</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Political Science / General</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:date>1999-01</dc:date>
+        <z:libraryCatalog>Google Books</z:libraryCatalog>
+        <z:language>en</z:language>
+        <dc:title>The right to communicate: the internet in Africa</dc:title>
+        <z:shortTitle>The right to communicate</z:shortTitle>
+        <z:numPages>54</z:numPages>
+    </bib:Book>
+    <z:Attachment rdf:about="#item_2180">
+        <z:itemType>attachment</z:itemType>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://books.google.com/books?id=y3UsAAAAYAAJ</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2013-01-31 08:02:40</dcterms:dateSubmitted>
+        <dc:title>Google Books Link</dc:title>
+        <z:linkMode>3</z:linkMode>
+    </z:Attachment>
+    <bib:Document rdf:about="http://www2.afrinic.net/policy.htm">
+        <z:itemType>webpage</z:itemType>
+        <dcterms:isPartOf>
+           <z:Website></z:Website>
+        </dcterms:isPartOf>
+        <link:link rdf:resource="#item_1959"/>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>http://www2.afrinic.net/policy.htm</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2012-12-13 14:34:33</dcterms:dateSubmitted>
+        <dc:title>AfriNIC | AfriNIC Resource Policies Page</dc:title>
+    </bib:Document>
+    <z:Attachment rdf:about="#item_1959">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/1959/policy.html"/>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>http://www2.afrinic.net/policy.htm</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2012-12-13 14:34:34</dcterms:dateSubmitted>
+        <dc:title>AfriNIC | AfriNIC Resource Policies Page</dc:title>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Document rdf:about="http://128.121.86.38/~au/en/dp/hrst/content/african-ict-week-aictw-concept-paper">
+        <z:itemType>webpage</z:itemType>
+        <dcterms:isPartOf>
+           <z:Website></z:Website>
+        </dcterms:isPartOf>
+        <link:link rdf:resource="#item_2080"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://128.121.86.38/~au/en/dp/hrst/content/african-ict-week-aictw-concept-paper</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2012-12-13 18:09:01</dcterms:dateSubmitted>
+        <dc:title>African ICT Week (AICTW) Concept Paper | African Union</dc:title>
+    </bib:Document>
+    <z:Attachment rdf:about="#item_2080">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/2080/african-ict-week-aictw-concept-paper.html"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://128.121.86.38/~au/en/dp/hrst/content/african-ict-week-aictw-concept-paper</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2012-12-13 18:09:02</dcterms:dateSubmitted>
+        <dc:title>African ICT Week (AICTW) Concept Paper | African Union</dc:title>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Document rdf:about="http://www.nixp.net/index.php?option=com_content&amp;view=article&amp;id=25%3Amemorandum-of-understanding&amp;catid=2&amp;Itemid=6">
+        <z:itemType>webpage</z:itemType>
+        <dcterms:isPartOf>
+           <z:Website></z:Website>
+        </dcterms:isPartOf>
+        <link:link rdf:resource="#item_2174"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://www.nixp.net/index.php?option=com_content&amp;view=article&amp;id=25%3Amemorandum-of-understanding&amp;catid=2&amp;Itemid=6</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2012-12-13 14:30:36</dcterms:dateSubmitted>
+        <dc:title>Memorandum of Understanding</dc:title>
+    </bib:Document>
+    <z:Attachment rdf:about="#item_2174">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/2174/index.html"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://www.nixp.net/index.php?option=com_content&amp;view=article&amp;id=25%3Amemorandum-of-understanding&amp;catid=2&amp;Itemid=6</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2012-12-13 14:30:37</dcterms:dateSubmitted>
+        <dc:title>Memorandum of Understanding</dc:title>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Document rdf:about="http://www.researchictafrica.net/data.php">
+        <z:itemType>webpage</z:itemType>
+        <dcterms:isPartOf>
+           <z:Website></z:Website>
+        </dcterms:isPartOf>
+        <link:link rdf:resource="#item_1935"/>
+        <link:link rdf:resource="#item_1942"/>
+        <link:link rdf:resource="#item_2065"/>
+        <link:link rdf:resource="#item_4718"/>
+        <link:link rdf:resource="#item_4750"/>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>http://www.researchictafrica.net/data.php</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2012-12-05 19:41:29</dcterms:dateSubmitted>
+        <z:language>en</z:language>
+        <dc:title>Research ICT Africa</dc:title>
+    </bib:Document>
+    <z:Attachment rdf:about="#item_1935">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/1935/about.html"/>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>http://www.researchictafrica.net/about.php</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2012-12-13 22:03:56</dcterms:dateSubmitted>
+        <dc:title>Snapshot</dc:title>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <z:Attachment rdf:about="#item_1942">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/1942/contact.html"/>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>http://www.researchictafrica.net/contact.php</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2012-12-13 22:03:59</dcterms:dateSubmitted>
+        <dc:title>Snapshot</dc:title>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <z:Attachment rdf:about="#item_2065">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/2065/Research ICT Africa.html"/>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>http://www.researchictafrica.net/data.php</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2012-12-05 19:41:30</dcterms:dateSubmitted>
+        <dc:title>Snapshot</dc:title>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <z:Attachment rdf:about="#item_4718">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/4718/home_archive_reader.html"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://www.researchictafrica.net/home_archive_reader.php?aid=82</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2015-12-17 01:17:55</dcterms:dateSubmitted>
+        <dc:title>Snapshot</dc:title>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <z:Attachment rdf:about="#item_4750">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/4750/publications.html"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://www.researchictafrica.net/publications.php</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2015-12-17 01:18:02</dcterms:dateSubmitted>
+        <dc:title>Snapshot</dc:title>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Document rdf:about="http://www.unicttf.org/">
+        <z:itemType>webpage</z:itemType>
+        <dcterms:isPartOf>
+           <z:Website></z:Website>
+        </dcterms:isPartOf>
+        <link:link rdf:resource="#item_2251"/>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>http://www.unicttf.org/</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2013-03-10 20:23:51</dcterms:dateSubmitted>
+        <dc:title>United Nations Information and Communication Technologies Task Force</dc:title>
+    </bib:Document>
+    <z:Attachment rdf:about="#item_2251">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/2251/www.unicttf.org.html"/>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>http://www.unicttf.org/</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2013-03-10 20:23:52</dcterms:dateSubmitted>
+        <dc:title>United Nations Information and Communication Technologies Task Force</dc:title>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Document rdf:about="http://www.wgig.org/">
+        <z:itemType>webpage</z:itemType>
+        <dcterms:isPartOf>
+           <z:Website></z:Website>
+        </dcterms:isPartOf>
+        <link:link rdf:resource="#item_2253"/>
+        <dc:identifier>
+           <dcterms:URI><rdf:value>http://www.wgig.org/</rdf:value></dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2013-03-10 20:32:12</dcterms:dateSubmitted>
+        <dc:title>The Internet Governance Forum (IGF)</dc:title>
+    </bib:Document>
+    <z:Attachment rdf:about="#item_2253">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/2253/www.wgig.org.html"/>
+        <dc:identifier>
+           <dcterms:URI><rdf:value>http://www.wgig.org/</rdf:value></dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2013-03-10 20:32:13</dcterms:dateSubmitted>
+        <dc:title>The Internet Governance Forum (IGF)</dc:title>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Document rdf:about="http://www.itu.int/wsis/index.html">
+        <z:itemType>webpage</z:itemType>
+        <dcterms:isPartOf>
+           <z:Website></z:Website>
+        </dcterms:isPartOf>
+        <link:link rdf:resource="#item_2255"/>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>http://www.itu.int/wsis/index.html</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2013-03-10 20:32:42</dcterms:dateSubmitted>
+        <dc:title>World Summit on the Information Society</dc:title>
+    </bib:Document>
+    <z:Attachment rdf:about="#item_2255">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/2255/index.html"/>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>http://www.itu.int/wsis/index.html</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2013-03-10 20:32:43</dcterms:dateSubmitted>
+        <dc:title>World Summit on the Information Society</dc:title>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Document rdf:about="http://www.ws.afnog.org/afnog2012/sie/index.html">
+        <z:itemType>webpage</z:itemType>
+        <dcterms:isPartOf>
+           <z:Website></z:Website>
+        </dcterms:isPartOf>
+        <link:link rdf:resource="#item_2360"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://www.ws.afnog.org/afnog2012/sie/index.html</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2013-04-02 21:38:56</dcterms:dateSubmitted>
+        <dc:title>SI-E - AfNOG 2012 Workshop</dc:title>
+    </bib:Document>
+    <z:Attachment rdf:about="#item_2360">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/2360/index.html"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://www.ws.afnog.org/afnog2012/sie/index.html</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2013-04-02 21:38:57</dcterms:dateSubmitted>
+        <dc:title>SI-E - AfNOG 2012 Workshop</dc:title>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Report rdf:about="http://papers.ssrn.com/abstract=2128103">
+        <z:itemType>report</z:itemType>
+        <dc:publisher>
+            <foaf:Organization>
+                <vcard:adr>
+                    <vcard:Address>
+                       <vcard:locality>Rochester, NY</vcard:locality>
+                    </vcard:Address>
+                </vcard:adr>
+                <foaf:name>Social Science Research Network</foaf:name>
+            </foaf:Organization>
+        </dc:publisher>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Ryan</foaf:surname>
+                        <foaf:givenname>Patrick</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Gerson</foaf:surname>
+                        <foaf:givenname>Jason</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_2369"/>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Competition</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>ISPs</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>IXPs</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Telecommunications</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>http://papers.ssrn.com/abstract=2128103</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dc:date>August 12, 2012</dc:date>
+        <dcterms:dateSubmitted>2013-04-10 19:23:34</dcterms:dateSubmitted>
+        <z:type>SSRN Scholarly Paper</z:type>
+        <z:libraryCatalog>papers.ssrn.com</z:libraryCatalog>
+        <dcterms:abstract>IXPs are becoming a critical part of Internet infrastructure, and the way in which an IXP is managed can impact an entire region’s Internet economy.  However, IXPs are not widely understood by policymakers, regulators, and businesspeople.  Our paper takes one additional step to help address this gap by discussing IXPs in a way that is approachable to this group — even if doing so through somewhat shallow, non-technical lens.  In the end, we conclude that a deeper policy understanding about how different IXPs operate can improve the regional Internet economy, mitigate corrosive sectoral distrust, improve Internet quality, and benefit consumers.</dcterms:abstract>
+        <prism:number>ID 2128103</prism:number>
+        <dc:title>A Primer on Internet Exchange Points for Policymakers and Non-Engineers</dc:title>
+    </bib:Report>
+    <z:Attachment rdf:about="#item_2369">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/2369/Ryan and Gerson - 2012 - A Primer on Internet Exchange Points for Policymak.html"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://papers.ssrn.com/sol3/papers.cfm?abstract_id=2128103</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2013-04-10 19:23:36</dcterms:dateSubmitted>
+        <dc:title>Snapshot</dc:title>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Document rdf:about="http://www.nepad.org/regionalintegrationandinfrastructure/infrastructure/ict">
+        <z:itemType>webpage</z:itemType>
+        <dcterms:isPartOf>
+           <z:Website></z:Website>
+        </dcterms:isPartOf>
+        <link:link rdf:resource="#item_3795"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://www.nepad.org/regionalintegrationandinfrastructure/infrastructure/ict</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2015-10-20 02:55:04</dcterms:dateSubmitted>
+        <dc:title>NEPAD e-Africa Programme | NEPAD</dc:title>
+    </bib:Document>
+    <z:Attachment rdf:about="#item_3795">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/3795/ict.html"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://www.nepad.org/regionalintegrationandinfrastructure/infrastructure/ict</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2015-10-20 02:55:05</dcterms:dateSubmitted>
+        <dc:title>NEPAD e-Africa Programme | NEPAD</dc:title>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="http://www.emeraldinsight.com/journals.htm?articleid=17090741&amp;show=abstract">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:1463-6697"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Nwaiwu</foaf:surname>
+                        <foaf:givenname>Fortune</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Diga</foaf:surname>
+                        <foaf:givenname>Kathleen</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Plantinga</foaf:surname>
+                        <foaf:givenname>Paul</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://www.emeraldinsight.com/journals.htm?articleid=17090741&amp;show=abstract</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <bib:pages>9-9</bib:pages>
+        <dc:date>2013/08/02</dc:date>
+        <dcterms:dateSubmitted>2013-06-24 15:42:43</dcterms:dateSubmitted>
+        <z:libraryCatalog>Emerald Publishing</z:libraryCatalog>
+        <dc:title>ICT policy and poverty reduction in Africa</dc:title>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:1463-6697">
+        <prism:volume>15</prism:volume>
+        <prism:number>5</prism:number>
+        <dc:title>info</dc:title>
+        <dc:identifier>ISSN 1463-6697</dc:identifier>
+    </bib:Journal>
+    <bib:Document rdf:about="https://ec.europa.eu/digital-agenda/en/news/communication-internet-policy-and-governance">
+        <z:itemType>webpage</z:itemType>
+        <dcterms:isPartOf>
+           <z:Website></z:Website>
+        </dcterms:isPartOf>
+        <link:link rdf:resource="#item_2941"/>
+        <dc:subject>
+            <z:AutomaticTag>
+                <rdf:value>One or more of the commission specific keywords + European Comission</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>European Union</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>EU</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://ec.europa.eu/digital-agenda/en/news/communication-internet-policy-and-governance</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2014-02-12 16:22:33</dcterms:dateSubmitted>
+        <dc:title>Communication on Internet Policy and Governance</dc:title>
+    </bib:Document>
+    <z:Attachment rdf:about="#item_2941">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/2941/communication-internet-policy-and-governance.html"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://ec.europa.eu/digital-agenda/en/news/communication-internet-policy-and-governance</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2014-02-12 16:22:33</dcterms:dateSubmitted>
+        <dc:title>Snapshot</dc:title>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Document rdf:about="https://opennet.net/research/profiles/nigeria">
+        <z:itemType>webpage</z:itemType>
+        <dcterms:isPartOf>
+           <z:Website></z:Website>
+        </dcterms:isPartOf>
+        <link:link rdf:resource="#item_2947"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://opennet.net/research/profiles/nigeria</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2014-02-11 20:32:28</dcterms:dateSubmitted>
+        <dc:title>Nigeria | OpenNet Initiative</dc:title>
+    </bib:Document>
+    <z:Attachment rdf:about="#item_2947">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/2947/nigeria.html"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://opennet.net/research/profiles/nigeria</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2014-02-11 20:32:29</dcterms:dateSubmitted>
+        <dc:title>Nigeria | OpenNet Initiative</dc:title>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Document rdf:about="http://www.bricscable.com/">
+        <z:itemType>webpage</z:itemType>
+        <dcterms:isPartOf>
+           <z:Website></z:Website>
+        </dcterms:isPartOf>
+        <link:link rdf:resource="#item_2981"/>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>http://www.bricscable.com/</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2014-03-16 10:40:04</dcterms:dateSubmitted>
+        <dc:title>BRICS Cable</dc:title>
+    </bib:Document>
+    <z:Attachment rdf:about="#item_2981">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/2981/www.bricscable.com.html"/>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>http://www.bricscable.com/</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2014-03-16 10:40:05</dcterms:dateSubmitted>
+        <dc:title>BRICS Cable</dc:title>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Document rdf:about="http://www.gixa.org.gh/">
+        <z:itemType>webpage</z:itemType>
+        <dcterms:isPartOf>
+           <z:Website></z:Website>
+        </dcterms:isPartOf>
+        <link:link rdf:resource="#item_3178"/>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>http://www.gixa.org.gh/</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2014-08-11 13:09:41</dcterms:dateSubmitted>
+        <dc:title>Ghana Internet eXchange Association</dc:title>
+    </bib:Document>
+    <z:Attachment rdf:about="#item_3178">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/3178/www.gixa.org.gh.html"/>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>http://www.gixa.org.gh/</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2014-08-11 13:09:43</dcterms:dateSubmitted>
+        <dc:title>Ghana Internet eXchange Association</dc:title>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Document rdf:about="http://ixp.net.ng/about-us-2/">
+        <z:itemType>webpage</z:itemType>
+        <dcterms:isPartOf>
+           <z:Website></z:Website>
+        </dcterms:isPartOf>
+        <link:link rdf:resource="#item_3182"/>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>http://ixp.net.ng/about-us-2/</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2014-08-11 13:09:34</dcterms:dateSubmitted>
+        <dc:title>About Us | INTERNET EXCHANGE POINT OF NIGERIA</dc:title>
+    </bib:Document>
+    <z:Attachment rdf:about="#item_3182">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/3182/about-us-2.html"/>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>http://ixp.net.ng/about-us-2/</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2014-08-11 13:09:36</dcterms:dateSubmitted>
+        <dc:title>About Us | INTERNET EXCHANGE POINT OF NIGERIA</dc:title>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Document rdf:about="http://ieet.org/index.php/IEET/more/chetty20130222">
+        <z:itemType>webpage</z:itemType>
+        <dcterms:isPartOf>
+           <z:Website></z:Website>
+        </dcterms:isPartOf>
+        <link:link rdf:resource="#item_3179"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://ieet.org/index.php/IEET/more/chetty20130222</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2014-08-13 12:04:59</dcterms:dateSubmitted>
+        <dc:title>The state of broadband access in sub-Saharan Africa</dc:title>
+    </bib:Document>
+    <z:Attachment rdf:about="#item_3179">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/3179/chetty20130222.html"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://ieet.org/index.php/IEET/more/chetty20130222</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2014-08-13 12:05:01</dcterms:dateSubmitted>
+        <dc:title>The state of broadband access in sub-Saharan Africa</dc:title>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Document rdf:about="http://www.fcc.gov/national-broadband-plan">
+        <z:itemType>webpage</z:itemType>
+        <dcterms:isPartOf>
+           <z:Website></z:Website>
+        </dcterms:isPartOf>
+        <link:link rdf:resource="#item_3189"/>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>http://www.fcc.gov/national-broadband-plan</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dc:description>The National Broadband Plan, released by the FCC on March 17, 2010, sets out a roadmap for initiatives to stimulate economic growth, spur job creation and boost America's capabilities in education, health care, homeland security and more.</dc:description>
+        <dcterms:dateSubmitted>2014-08-13 12:01:25</dcterms:dateSubmitted>
+        <dcterms:abstract>The National Broadband Plan, released by the FCC on March 17, 2010, sets out a roadmap for initiatives to stimulate economic growth, spur job creation and boost America's capabilities in education, health care, homeland security and more.</dcterms:abstract>
+        <dc:title>National Broadband Plan</dc:title>
+    </bib:Document>
+    <z:Attachment rdf:about="#item_3189">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/3189/national-broadband-plan.html"/>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>https://www.fcc.gov/national-broadband-plan</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2014-08-13 12:01:28</dcterms:dateSubmitted>
+        <dc:title>Snapshot</dc:title>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="http://allafrica.com/stories/201310040034.html">
+        <z:itemType>newspaperArticle</z:itemType>
+        <dcterms:isPartOf>
+           <bib:Newspaper><dc:title>The New Dawn</dc:title></bib:Newspaper>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Juduh</foaf:surname>
+                        <foaf:givenname>Lewis S. Teh &amp; Rewina</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_3203"/>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Liberia</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>West Africa</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>governance</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Business</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>ICT</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Infrastructure</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://allafrica.com/stories/201310040034.html</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dc:date>By Lewis S. Teh &amp; Rewina Juduh</dc:date>
+        <dcterms:dateSubmitted>2014-10-18 15:22:48</dcterms:dateSubmitted>
+        <z:libraryCatalog>allAfrica.com</z:libraryCatalog>
+        <dc:title>Liberia: Postal Ministry Discusses Internet Exchange System</dc:title>
+        <z:shortTitle>Liberia</z:shortTitle>
+    </bib:Article>
+    <z:Attachment rdf:about="#item_3203">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/3203/Juduh - Liberia Postal Ministry Discusses Internet Exchan.html"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://allafrica.com/stories/printable/201310040034.html</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2014-10-18 15:22:49</dcterms:dateSubmitted>
+        <dc:title>AllAfrica Printable</dc:title>
+        <z:linkMode>1</z:linkMode>
+    </z:Attachment>
+    <bib:Document rdf:about="http://wiocc.net/">
+        <z:itemType>blogPost</z:itemType>
+        <dcterms:isPartOf>
+           <z:Blog></z:Blog>
+        </dcterms:isPartOf>
+        <link:link rdf:resource="#item_3218"/>
+        <dc:identifier>
+           <dcterms:URI><rdf:value>http://wiocc.net/</rdf:value></dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2014-10-18 15:36:03</dcterms:dateSubmitted>
+        <dc:title>WIOCC |</dc:title>
+    </bib:Document>
+    <z:Attachment rdf:about="#item_3218">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/3218/wiocc.net.html"/>
+        <dc:identifier>
+           <dcterms:URI><rdf:value>http://wiocc.net/</rdf:value></dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2014-10-18 15:36:05</dcterms:dateSubmitted>
+        <dc:title>Snapshot</dc:title>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="http://allafrica.com/stories/201401060119.html">
+        <z:itemType>newspaperArticle</z:itemType>
+        <dcterms:isPartOf>
+           <bib:Newspaper><dc:title>Liberia Government</dc:title></bib:Newspaper>
+        </dcterms:isPartOf>
+        <link:link rdf:resource="#item_3251"/>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Liberia</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>West Africa</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Business</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Company</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://allafrica.com/stories/201401060119.html</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2014-10-20 19:58:45</dcterms:dateSubmitted>
+        <z:libraryCatalog>allAfrica.com</z:libraryCatalog>
+        <dc:title>Liberia: Executive Mansion Reacts to TLC Africa Article On Suspension of Libtelco Board</dc:title>
+        <z:shortTitle>Liberia</z:shortTitle>
+    </bib:Article>
+    <z:Attachment rdf:about="#item_3251">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/3251/Liberia Executive Mansion Reacts to TLC Africa Ar.html"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://allafrica.com/stories/printable/201401060119.html</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2014-10-20 19:58:46</dcterms:dateSubmitted>
+        <dc:title>AllAfrica Printable</dc:title>
+        <z:linkMode>1</z:linkMode>
+    </z:Attachment>
+    <bib:Document rdf:about="http://www.faulkner.com.mutex.gmu.edu/products/faulknerlibrary/00014338.htm">
+        <z:itemType>webpage</z:itemType>
+        <dcterms:isPartOf>
+            <z:Website>
+               <dc:title>Faulkner Information Services</dc:title>
+            </z:Website>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Kramer</foaf:surname>
+                        <foaf:givenname>Bruce</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_3250"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://www.faulkner.com.mutex.gmu.edu/products/faulknerlibrary/00014338.htm</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2014-10-20 18:09:50</dcterms:dateSubmitted>
+        <dcterms:abstract>Africa has some of the poorest telecommunications markets in the world. Many nations of Africa have struggled with poor economies, lack of investment, spotty telecommunications infrastructure, political instability, and war. Although Africa is now considered the fastest growing telecom sector in the world, it has a lot of work to do before it catches up to the rest of the world, and its ability to continue to grow hinges heavily on international or private investment. Like many parts of the developing world, mobile technologies have helped bring telephone service and Internet access to people who could not afford a landline or do not have access to one. However, the overall mobile adoption rates still trail those found in other parts of the world with similar infrastructure and economic problems, such as the Caribbean or the Middle East.</dcterms:abstract>
+        <dc:title>Telecommunications in Africa</dc:title>
+    </bib:Document>
+    <z:Attachment rdf:about="#item_3250">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/3250/00014338.html"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://www.faulkner.com.mutex.gmu.edu/products/faulknerlibrary/00014338.htm</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2014-10-20 18:09:51</dcterms:dateSubmitted>
+        <dc:title>Telecommunications in Africa</dc:title>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Document rdf:about="http://www.emansion.gov.lr/2press.php?news_id=2834&amp;related=7&amp;pg=sp">
+        <z:itemType>webpage</z:itemType>
+        <dcterms:isPartOf>
+           <z:Website></z:Website>
+        </dcterms:isPartOf>
+        <link:link rdf:resource="#item_3263"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://www.emansion.gov.lr/2press.php?news_id=2834&amp;related=7&amp;pg=sp</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2014-10-20 19:57:57</dcterms:dateSubmitted>
+        <dc:title>President Sirleaf Suspends Entire LIBTELCO Board, Pending Investigation into Their Violation of Public Procurement Act</dc:title>
+    </bib:Document>
+    <z:Attachment rdf:about="#item_3263">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/3263/2press.html"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://www.emansion.gov.lr/2press.php?news_id=2834&amp;related=7&amp;pg=sp</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2014-10-20 19:57:58</dcterms:dateSubmitted>
+        <dc:title>President Sirleaf Suspends Entire LIBTELCO Board, Pending Investigation into Their Violation of Public Procurement Act</dc:title>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <rdf:Description rdf:about="https://en.wikipedia.org/w/index.php?title=Liberia_Telecommunications_Corporation&amp;oldid=568934354">
+        <z:itemType>encyclopediaArticle</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Book>
+               <dc:title>Wikipedia, the free encyclopedia</dc:title>
+            </bib:Book>
+        </dcterms:isPartOf>
+        <link:link rdf:resource="#item_3260"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://en.wikipedia.org/w/index.php?title=Liberia_Telecommunications_Corporation&amp;oldid=568934354</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dc:rights>Creative Commons Attribution-ShareAlike License</dc:rights>
+        <dc:date>2014-09-02T14:40:50Z</dc:date>
+        <dc:description>Page Version ID: 568934354</dc:description>
+        <dcterms:dateSubmitted>2014-10-20 18:19:15</dcterms:dateSubmitted>
+        <z:libraryCatalog>Wikipedia</z:libraryCatalog>
+        <z:language>en</z:language>
+        <dcterms:abstract>The Liberia Telecommunications Corporation (Libtelco) is a telecommunications company providing services in Liberia. Headquartered in Monrovia, the company provides telephone, Internet, fax and radio services to the Greater Monrovia area. Prior to the passage of the Telecommunications Act of 2007, Libtelco possessed a legal monopoly over the country's fixed line services, and today remains the sole company licensed by the Liberia Telecommunications Authority to provide fixed line telephone services.</dcterms:abstract>
+        <dc:title>Liberia Telecommunications Corporation</dc:title>
+    </rdf:Description>
+    <z:Attachment rdf:about="#item_3260">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/3260/index.html"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://en.wikipedia.org/w/index.php?title=Liberia_Telecommunications_Corporation&amp;oldid=568934354</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2014-10-20 18:19:18</dcterms:dateSubmitted>
+        <dc:title>Snapshot</dc:title>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Document rdf:about="http://www.ghana.gov.gh/index.php/2012-02-08-08-32-47/general-news/5455-godi-and-csos-hold-meeting-on-ghana-open-data-portal">
+        <z:itemType>webpage</z:itemType>
+        <dcterms:isPartOf>
+           <z:Website></z:Website>
+        </dcterms:isPartOf>
+        <link:link rdf:resource="#item_3326"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://www.ghana.gov.gh/index.php/2012-02-08-08-32-47/general-news/5455-godi-and-csos-hold-meeting-on-ghana-open-data-portal</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2014-11-11 22:17:45</dcterms:dateSubmitted>
+        <dc:title>GODI And CSOs Hold Meeting On Ghana Open Data Portal</dc:title>
+    </bib:Document>
+    <z:Attachment rdf:about="#item_3326">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/3326/5455-godi-and-csos-hold-meeting-on-ghana-open-data-portal.html"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://www.ghana.gov.gh/index.php/2012-02-08-08-32-47/general-news/5455-godi-and-csos-hold-meeting-on-ghana-open-data-portal</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2014-11-11 22:17:46</dcterms:dateSubmitted>
+        <dc:title>GODI And CSOs Hold Meeting On Ghana Open Data Portal</dc:title>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Document rdf:about="http://webfoundation.org/projects/ghana-open-data-initiative-godi/">
+        <z:itemType>webpage</z:itemType>
+        <dcterms:isPartOf>
+           <z:Website><dc:title>World Wide Web Foundation</dc:title></z:Website>
+        </dcterms:isPartOf>
+        <link:link rdf:resource="#item_3325"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://webfoundation.org/projects/ghana-open-data-initiative-godi/</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2014-11-11 22:17:18</dcterms:dateSubmitted>
+        <dcterms:abstract>Founded by Tim Berners-Lee, inventor of the Web, the World Wide Web Foundation empowers people to bring about positive change.</dcterms:abstract>
+        <dc:title>Ghana Open Data Initiative (GODI)</dc:title>
+    </bib:Document>
+    <z:Attachment rdf:about="#item_3325">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/3325/ghana-open-data-initiative-godi.html"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://webfoundation.org/projects/ghana-open-data-initiative-godi/</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2014-11-11 22:17:20</dcterms:dateSubmitted>
+        <dc:title>Snapshot</dc:title>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Document rdf:about="http://data.gov.gh/">
+        <z:itemType>webpage</z:itemType>
+        <dcterms:isPartOf>
+           <z:Website></z:Website>
+        </dcterms:isPartOf>
+        <link:link rdf:resource="#item_3330"/>
+        <dc:identifier>
+           <dcterms:URI><rdf:value>http://data.gov.gh/</rdf:value></dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2014-11-11 22:17:06</dcterms:dateSubmitted>
+        <dc:title>Data Portal Ghana</dc:title>
+    </bib:Document>
+    <z:Attachment rdf:about="#item_3330">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/3330/data.gov.gh.html"/>
+        <dc:identifier>
+           <dcterms:URI><rdf:value>http://data.gov.gh/</rdf:value></dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2014-11-11 22:17:07</dcterms:dateSubmitted>
+        <dc:title>Data Portal Ghana</dc:title>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Document rdf:about="http://www.africa.upenn.edu/Global_Comm/afr_inet96.html">
+        <z:itemType>webpage</z:itemType>
+        <dcterms:isPartOf>
+           <z:Website></z:Website>
+        </dcterms:isPartOf>
+        <link:link rdf:resource="#item_3829"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://www.africa.upenn.edu/Global_Comm/afr_inet96.html</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2015-03-19 07:17:07</dcterms:dateSubmitted>
+        <dc:title>African Connectivity, Problems, Solutions and Actions: Some Recommendations from Inet'96</dc:title>
+    </bib:Document>
+    <z:Attachment rdf:about="#item_3829">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/3829/afr_inet96.html"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://www.africa.upenn.edu/Global_Comm/afr_inet96.html</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2015-03-19 07:17:09</dcterms:dateSubmitted>
+        <dc:title>African Connectivity, Problems, Solutions and Actions: Some Recommendations from Inet'96</dc:title>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Document rdf:about="http://blog.jobberman.com/press-release-one-africa-media-oam-acquires-100-of-jobberman-founders-become-directors-and-shareholders-of-oam/?utm_source=Technology+in+Africa+Newsletter+List&amp;utm_campaign=077f007dc6-iAfrikan_Weekly_2015_165_4_2015&amp;utm_medium=email&amp;utm_term=0_42a6d9fdf1-077f007dc6-114195369">
+        <z:itemType>blogPost</z:itemType>
+        <dcterms:isPartOf>
+           <z:Blog></z:Blog>
+        </dcterms:isPartOf>
+        <link:link rdf:resource="#item_3877"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://blog.jobberman.com/press-release-one-africa-media-oam-acquires-100-of-jobberman-founders-become-directors-and-shareholders-of-oam/?utm_source=Technology+in+Africa+Newsletter+List&amp;utm_campaign=077f007dc6-iAfrikan_Weekly_2015_165_4_2015&amp;utm_medium=email&amp;utm_term=0_42a6d9fdf1-077f007dc6-114195369</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2015-05-04 12:01:31</dcterms:dateSubmitted>
+        <dc:title>PRESS RELEASE: One Africa Media (OAM) Acquires 100% of Jobberman | Founders Become Directors and Shareholders Of OAM | Jobberman Insider</dc:title>
+        <z:shortTitle>PRESS RELEASE</z:shortTitle>
+    </bib:Document>
+    <z:Attachment rdf:about="#item_3877">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/3877/press-release-one-africa-media-oam-acquires-100-of-jobberman-founders-become-directors-and-shar.html"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://blog.jobberman.com/press-release-one-africa-media-oam-acquires-100-of-jobberman-founders-become-directors-and-shareholders-of-oam/?utm_source=Technology+in+Africa+Newsletter+List&amp;utm_campaign=077f007dc6-iAfrikan_Weekly_2015_165_4_2015&amp;utm_medium=email&amp;utm_term=0_42a6d9fdf1-077f007dc6-114195369</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2015-05-04 12:01:31</dcterms:dateSubmitted>
+        <dc:title>Snapshot</dc:title>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Document rdf:about="https://fourier.networks.imdea.org/external/techrep_amc/">
+        <z:itemType>webpage</z:itemType>
+        <dcterms:isPartOf>
+           <z:Website></z:Website>
+        </dcterms:isPartOf>
+        <link:link rdf:resource="#item_4354"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://fourier.networks.imdea.org/external/techrep_amc/</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2015-10-15 18:06:31</dcterms:dateSubmitted>
+        <dc:title>AFRICAN MEASUREMENT CAMPAIGNS: TECHNICAL REPORT</dc:title>
+    </bib:Document>
+    <z:Attachment rdf:about="#item_4354">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/4354/Centrality.html"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://fourier.networks.imdea.org/external/techrep_amc/Centrality/Centrality.html</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2015-10-15 18:06:32</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Document rdf:about="http://mybroadband.co.za/nephp/1863.html">
+        <z:itemType>webpage</z:itemType>
+        <dcterms:isPartOf>
+           <z:Website><dc:title>MyBroadband</dc:title></z:Website>
+        </dcterms:isPartOf>
+        <link:link rdf:resource="#item_4536"/>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>http://mybroadband.co.za/nephp/1863.html</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2015-11-11 18:14:10</dcterms:dateSubmitted>
+        <dcterms:abstract>An enquiry into whether Telkom should be allowed to retain its monopoly on an undersea cable that provides most of SA’s international bandwidth is on hold, pending clarification from government. A decision on whether Telkom’s stake in the Sat-3 cable should be declared an essential service is crucial to the cost of voice and data services.</dcterms:abstract>
+        <dc:title>ICASA ENQUIRY INTO TELKOM’S SAT-3 MONOPOLY AWAITS GOVERNMENT RESPONSE</dc:title>
+    </bib:Document>
+    <z:Attachment rdf:about="#item_4536">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/4536/1863.html"/>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>http://mybroadband.co.za/nephp/1863.html</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2015-11-11 18:14:10</dcterms:dateSubmitted>
+        <dc:title>Snapshot</dc:title>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Document rdf:about="http://www.africacncl.org/ictworking">
+        <z:itemType>webpage</z:itemType>
+        <dcterms:isPartOf>
+           <z:Website></z:Website>
+        </dcterms:isPartOf>
+        <link:link rdf:resource="#item_4567"/>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>http://www.africacncl.org/ictworking</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2015-11-12 18:13:34</dcterms:dateSubmitted>
+        <dc:title>ICT Working Group</dc:title>
+    </bib:Document>
+    <z:Attachment rdf:about="#item_4567">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/4567/ictworking.html"/>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>http://www.africacncl.org/ictworking</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2015-11-12 18:13:35</dcterms:dateSubmitted>
+        <dc:title>ICT Working Group</dc:title>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Document rdf:about="http://www.internetsociety.org/events/afpif">
+        <z:itemType>webpage</z:itemType>
+        <dcterms:isPartOf>
+           <z:Website></z:Website>
+        </dcterms:isPartOf>
+        <link:link rdf:resource="#item_4559"/>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>http://www.internetsociety.org/events/afpif</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2015-11-12 18:12:57</dcterms:dateSubmitted>
+        <dc:title>African Peering and Interconnection Forum (AfPIF) | Internet Society</dc:title>
+    </bib:Document>
+    <z:Attachment rdf:about="#item_4559">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/4559/afpif.html"/>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>http://www.internetsociety.org/events/afpif</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2015-11-12 18:12:58</dcterms:dateSubmitted>
+        <dc:title>African Peering and Interconnection Forum (AfPIF) | Internet Society</dc:title>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Document rdf:about="http://blogs.cfr.org/cyber/2015/12/22/the-top-five-cyber-policy-issues-of-2015-the-wsis10-review/">
+        <z:itemType>blogPost</z:itemType>
+        <dcterms:isPartOf>
+            <z:Blog>
+               <dc:title>Council on Foreign Relations - Net Politics</dc:title>
+            </z:Blog>
+        </dcterms:isPartOf>
+        <link:link rdf:resource="#item_4769"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://blogs.cfr.org/cyber/2015/12/22/the-top-five-cyber-policy-issues-of-2015-the-wsis10-review/</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2015-12-27 16:13:05</dcterms:dateSubmitted>
+        <dcterms:abstract>Over the next few days, Net Politics will countdown the top five developments in cyber policy of 2015. Each policy event ...</dcterms:abstract>
+        <dc:title>Net Politics » The Top Five Cyber Policy Issues of 2015: The WSIS+10 Review</dc:title>
+        <z:shortTitle>Net Politics » The Top Five Cyber Policy Issues of 2015</z:shortTitle>
+    </bib:Document>
+    <z:Attachment rdf:about="#item_4769">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/4769/Net Politics » The Top Five Cyber Policy Issues of.html"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://blogs.cfr.org/cyber/2015/12/22/the-top-five-cyber-policy-issues-of-2015-the-wsis10-review/</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2015-12-27 16:13:06</dcterms:dateSubmitted>
+        <dc:title>Snapshot</dc:title>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Document rdf:about="https://publicadministration.un.org/wsis10/">
+        <z:itemType>webpage</z:itemType>
+        <dcterms:isPartOf>
+           <z:Website></z:Website>
+        </dcterms:isPartOf>
+        <link:link rdf:resource="#item_4749"/>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>https://publicadministration.un.org/wsis10/</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2015-12-28 13:41:36</dcterms:dateSubmitted>
+        <dc:title>WSIS+10 | United Nations General Assembly High-Level Meeting &gt; Home</dc:title>
+    </bib:Document>
+    <z:Attachment rdf:about="#item_4749">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/4749/wsis10.html"/>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>https://publicadministration.un.org/wsis10/</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2015-12-28 13:41:37</dcterms:dateSubmitted>
+        <dc:title>WSIS+10 | United Nations General Assembly High-Level Meeting &gt; Home</dc:title>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Document rdf:about="http://pages.au.int/axis/about">
+        <z:itemType>webpage</z:itemType>
+        <dcterms:isPartOf>
+           <z:Website></z:Website>
+        </dcterms:isPartOf>
+        <link:link rdf:resource="#item_4765"/>
+        <link:link rdf:resource="#item_4772"/>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>http://pages.au.int/axis/about</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2016-03-29 14:19:45</dcterms:dateSubmitted>
+        <dc:title>About AXIS | African Union</dc:title>
+    </bib:Document>
+    <z:Attachment rdf:about="#item_4765">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/4765/about.html"/>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>http://pages.au.int/axis/about</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2016-03-29 14:22:43</dcterms:dateSubmitted>
+        <dc:title>About AXIS | African Union</dc:title>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <z:Attachment rdf:about="#item_4772">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/4772/about.html"/>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>http://pages.au.int/axis/about</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2016-03-29 14:19:46</dcterms:dateSubmitted>
+        <dc:title>About AXIS | African Union</dc:title>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Document rdf:about="http://www.worldbank.org/projects/P122402/west-africa-regional-communications-infrastructure-project-apl-1b?lang=en">
+        <z:itemType>webpage</z:itemType>
+        <dcterms:isPartOf>
+           <z:Website></z:Website>
+        </dcterms:isPartOf>
+        <link:link rdf:resource="#item_4722"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://www.worldbank.org/projects/P122402/west-africa-regional-communications-infrastructure-project-apl-1b?lang=en</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2016-01-24 05:27:44</dcterms:dateSubmitted>
+        <dc:title>Projects : West Africa Regional Communications Infrastructure Project - APL-1B | The World Bank</dc:title>
+    </bib:Document>
+    <z:Attachment rdf:about="#item_4722">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/4722/west-africa-regional-communications-infrastructure-project-apl-1b.html"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://www.worldbank.org/projects/P122402/west-africa-regional-communications-infrastructure-project-apl-1b?lang=en</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2016-01-24 05:27:45</dcterms:dateSubmitted>
+        <dc:title>Projects : West Africa Regional Communications Infrastructure Project - APL-1B | The World Bank</dc:title>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Document rdf:about="http://www.icafrica.org/en/knowledge-publications/article/west-africa-regional-communications-infrastructure-program-pid-135/">
+        <z:itemType>webpage</z:itemType>
+        <dcterms:isPartOf>
+           <z:Website></z:Website>
+        </dcterms:isPartOf>
+        <link:link rdf:resource="#item_4733"/>
+        <link:link rdf:resource="#item_4735"/>
+        <link:link rdf:resource="#item_4789"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://www.icafrica.org/en/knowledge-publications/article/west-africa-regional-communications-infrastructure-program-pid-135/</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2016-01-23 19:20:40</dcterms:dateSubmitted>
+        <dc:title>West Africa Regional Communications Infrastructure Program—PID</dc:title>
+    </bib:Document>
+    <z:Attachment rdf:about="#item_4733">
+        <z:itemType>attachment</z:itemType>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://www.icafrica.org/en/knowledge-publications/article/west-africa-regional-communications-infrastructure-program-pid-135/</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2016-01-24 05:25:35</dcterms:dateSubmitted>
+        <dc:title>Snapshot</dc:title>
+        <z:linkMode>1</z:linkMode>
+    </z:Attachment>
+    <z:Attachment rdf:about="#item_4735">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/4735/west-africa-regional-communications-infrastructure-program-pid-135.html"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://www.icafrica.org/en/knowledge-publications/article/west-africa-regional-communications-infrastructure-program-pid-135/</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2016-01-24 05:28:34</dcterms:dateSubmitted>
+        <dc:title>Snapshot</dc:title>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <z:Attachment rdf:about="#item_4789">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/4789/West Africa Regional Communications Infrastructure.html"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://www.icafrica.org/en/knowledge-publications/article/west-africa-regional-communications-infrastructure-program-pid-135/</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2016-01-23 19:20:41</dcterms:dateSubmitted>
+        <dc:title>Snapshot</dc:title>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Document rdf:about="http://www.africaneconomicoutlook.org/en/theme/ict-africa/technology-infrastructure-and-services-in-africa/">
+        <z:itemType>webpage</z:itemType>
+        <dcterms:isPartOf>
+           <z:Website></z:Website>
+        </dcterms:isPartOf>
+        <link:link rdf:resource="#item_4755"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://www.africaneconomicoutlook.org/en/theme/ict-africa/technology-infrastructure-and-services-in-africa/</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2016-01-24 05:27:30</dcterms:dateSubmitted>
+        <dc:title>Technology Infrastructure and Services in Africa - African Economic Outlook</dc:title>
+    </bib:Document>
+    <z:Attachment rdf:about="#item_4755">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/4755/technology-infrastructure-and-services-in-africa.html"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://www.africaneconomicoutlook.org/en/theme/ict-africa/technology-infrastructure-and-services-in-africa/</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2016-01-24 05:27:31</dcterms:dateSubmitted>
+        <dc:title>Technology Infrastructure and Services in Africa - African Economic Outlook</dc:title>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Document rdf:about="http://ghanaigf.org/wp-content/uploads/2016/08/GHANA-INTERNET-GOVERNANCE-FORUM-2016-PROGRAM-SCHEDULE.pdf">
+        <z:itemType>webpage</z:itemType>
+        <dcterms:isPartOf>
+           <z:Website></z:Website>
+        </dcterms:isPartOf>
+        <link:link rdf:resource="#item_4949"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://ghanaigf.org/wp-content/uploads/2016/08/GHANA-INTERNET-GOVERNANCE-FORUM-2016-PROGRAM-SCHEDULE.pdf</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2016-08-18 12:39:37</dcterms:dateSubmitted>
+        <dc:title>Ghana IGF Program</dc:title>
+    </bib:Document>
+    <z:Attachment rdf:about="#item_4949">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/4949/GHANA-INTERNET-GOVERNANCE-FORUM-2016-PROGRAM-SCHEDULE.html"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://ghanaigf.org/wp-content/uploads/2016/08/GHANA-INTERNET-GOVERNANCE-FORUM-2016-PROGRAM-SCHEDULE.pdf</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2016-08-18 12:39:38</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Recording rdf:about="https://www.youtube.com/watch?v=CFQrtgaD5js&amp;feature=youtu.be">
+        <z:itemType>videoRecording</z:itemType>
+        <z:directors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                       <foaf:surname>IA CONSULT</foaf:surname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </z:directors>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.youtube.com/watch?v=CFQrtgaD5js&amp;feature=youtu.be</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2016-08-18 11:25:48</dcterms:dateSubmitted>
+        <z:libraryCatalog>YouTube</z:libraryCatalog>
+        <z:runningTime>0 seconds</z:runningTime>
+        <dcterms:abstract>Ghana IGF 2016</dcterms:abstract>
+        <dc:title>Ghana IGF 2016</dc:title>
+    </bib:Recording>
+    <bib:Document rdf:about="http://ghanaigf.org/">
+        <z:itemType>webpage</z:itemType>
+        <dcterms:isPartOf>
+           <z:Website></z:Website>
+        </dcterms:isPartOf>
+        <link:link rdf:resource="#item_4952"/>
+        <dc:identifier>
+           <dcterms:URI><rdf:value>http://ghanaigf.org/</rdf:value></dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2016-08-18 11:19:50</dcterms:dateSubmitted>
+        <dc:title>Ghana IGF 2016</dc:title>
+    </bib:Document>
+    <z:Attachment rdf:about="#item_4952">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/4952/ghanaigf.org.html"/>
+        <dc:identifier>
+           <dcterms:URI><rdf:value>http://ghanaigf.org/</rdf:value></dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2016-08-18 11:19:51</dcterms:dateSubmitted>
+        <dc:title>Ghana IGF 2016</dc:title>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Document rdf:about="https://www.imf.org/en/News/Articles/2016/10/08/AM16-TR100716-Transcript-of-African-Department-Press-Briefing">
+        <z:itemType>webpage</z:itemType>
+        <dcterms:isPartOf>
+           <z:Website></z:Website>
+        </dcterms:isPartOf>
+        <link:link rdf:resource="#item_4971"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.imf.org/en/News/Articles/2016/10/08/AM16-TR100716-Transcript-of-African-Department-Press-Briefing</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2016-10-09 03:47:53</dcterms:dateSubmitted>
+        <dc:title>IMF - Transcript of African Department Press Briefing</dc:title>
+    </bib:Document>
+    <z:Attachment rdf:about="#item_4971">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/4971/AM16-TR100716-Transcript-of-African-Department-Press-Briefing.html"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.imf.org/en/News/Articles/2016/10/08/AM16-TR100716-Transcript-of-African-Department-Press-Briefing</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2016-10-09 03:47:54</dcterms:dateSubmitted>
+        <dc:title>Transcript of African Department Press Briefing</dc:title>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Document rdf:about="https://www.oecd.org/gov/regulatory-policy/measuring-regulatory-performance.htm">
+        <z:itemType>webpage</z:itemType>
+        <dcterms:isPartOf>
+           <z:Website></z:Website>
+        </dcterms:isPartOf>
+        <link:link rdf:resource="#item_5020"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.oecd.org/gov/regulatory-policy/measuring-regulatory-performance.htm</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2016-10-15 00:39:13</dcterms:dateSubmitted>
+        <dc:title>Measuring Regulatory Performance - OECD</dc:title>
+    </bib:Document>
+    <z:Attachment rdf:about="#item_5020">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/5020/measuring-regulatory-performance.html"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.oecd.org/gov/regulatory-policy/measuring-regulatory-performance.htm</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2016-10-15 00:39:15</dcterms:dateSubmitted>
+        <dc:title>Measuring Regulatory Performance - OECD</dc:title>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Document rdf:about="http://www.proexca.es/Portals/0/Documents/EstudiosMercado/Africa/Informe_Telecomunicaciones_en_Ghana.pdf">
+        <z:itemType>webpage</z:itemType>
+        <dcterms:isPartOf>
+           <z:Website></z:Website>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Trujillo</foaf:surname>
+                        <foaf:givenname>Atteneri Nabila Benítez</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_5191"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://www.proexca.es/Portals/0/Documents/EstudiosMercado/Africa/Informe_Telecomunicaciones_en_Ghana.pdf</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dc:date>2010</dc:date>
+        <dcterms:dateSubmitted>2017-02-19 00:41:23</dcterms:dateSubmitted>
+        <z:language>Spanish</z:language>
+        <dcterms:abstract>In 2010 there were 165 authorised Internet service providers of which 29 were operating.[6]</dcterms:abstract>
+        <dc:title>Market Report: Telecomunications in Ghana</dc:title>
+    </bib:Document>
+    <z:Attachment rdf:about="#item_5191">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/5191/Informe_Telecomunicaciones_en_Ghana.html"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://www.proexca.es/Portals/0/Documents/EstudiosMercado/Africa/Informe_Telecomunicaciones_en_Ghana.pdf</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2017-02-19 00:41:24</dcterms:dateSubmitted>
+        <dc:title>ESTUDIO DE MERCADO - Informe_Telecomunicaciones_en_Ghana.pdf</dc:title>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Document rdf:about="http://archive.unu.edu/unupress/unupbooks/uu19ie/uu19ie0d.htm">
+        <z:itemType>webpage</z:itemType>
+        <dcterms:isPartOf>
+           <z:Website></z:Website>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Nwachuku</foaf:surname>
+                        <foaf:givenname>Michael A.</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_5192"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://archive.unu.edu/unupress/unupbooks/uu19ie/uu19ie0d.htm</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dc:date>1994</dc:date>
+        <dcterms:dateSubmitted>2017-02-19 00:12:36</dcterms:dateSubmitted>
+        <dc:title>3: Development of information technology in Nigeria</dc:title>
+    </bib:Document>
+    <z:Attachment rdf:about="#item_5192">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/5192/uu19ie0d.html"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://archive.unu.edu/unupress/unupbooks/uu19ie/uu19ie0d.htm</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2017-02-19 00:12:37</dcterms:dateSubmitted>
+        <dc:title>3: Development of information technology in Nigeria</dc:title>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Document rdf:about="http://www.lta.gov.lr/doc/ICT%20_%20Telecom%20Policy%20Main%20Body.pdf">
+        <z:itemType>webpage</z:itemType>
+        <dcterms:isPartOf>
+           <z:Website></z:Website>
+        </dcterms:isPartOf>
+        <link:link rdf:resource="#item_5167"/>
+        <link:link rdf:resource="#item_5197"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://www.lta.gov.lr/doc/ICT%20_%20Telecom%20Policy%20Main%20Body.pdf</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2017-02-19 01:05:18</dcterms:dateSubmitted>
+        <dcterms:abstract>This document presents the Government of Liberia’s Policy for the Telecommunications and Information 
+Communication
+s Technology (ICT) sectors.</dcterms:abstract>
+        <dc:title>ICT _ Telecom Policy Main Body.pdf</dc:title>
+    </bib:Document>
+    <z:Attachment rdf:about="#item_5167">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/5167/ICT _ Telecom Policy Main Body.html"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://www.lta.gov.lr/doc/ICT%20_%20Telecom%20Policy%20Main%20Body.pdf</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2017-02-19 01:09:08</dcterms:dateSubmitted>
+        <dc:title>ICT _ Telecom Policy Main Body.pdf</dc:title>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <z:Attachment rdf:about="#item_5197">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/5197/ICT _ Telecom Policy Main Body.html"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://www.lta.gov.lr/doc/ICT%20_%20Telecom%20Policy%20Main%20Body.pdf</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2017-02-19 01:05:19</dcterms:dateSubmitted>
+        <dc:title>ICT _ Telecom Policy Main Body.pdf</dc:title>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Document rdf:about="http://www.forum.org.ng/system/files/Nigeria_IT_Policy.pdf">
+        <z:itemType>webpage</z:itemType>
+        <dcterms:isPartOf>
+           <z:Website></z:Website>
+        </dcterms:isPartOf>
+        <link:link rdf:resource="#item_5187"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://www.forum.org.ng/system/files/Nigeria_IT_Policy.pdf</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2017-02-19 00:09:54</dcterms:dateSubmitted>
+        <dc:title>itpolicy - Nigeria_IT_Policy.pdf</dc:title>
+    </bib:Document>
+    <z:Attachment rdf:about="#item_5187">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/5187/Nigeria_IT_Policy.html"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://www.forum.org.ng/system/files/Nigeria_IT_Policy.pdf</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2017-02-19 00:09:55</dcterms:dateSubmitted>
+        <dc:title>itpolicy - Nigeria_IT_Policy.pdf</dc:title>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Document rdf:about="http://researchictafrica.net/countries/nigeria/Nigeria_National_Broadband_Plan_2013-2018.pdf">
+        <z:itemType>webpage</z:itemType>
+        <dcterms:isPartOf>
+           <z:Website></z:Website>
+        </dcterms:isPartOf>
+        <link:link rdf:resource="#item_5188"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://researchictafrica.net/countries/nigeria/Nigeria_National_Broadband_Plan_2013-2018.pdf</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2017-02-19 00:14:59</dcterms:dateSubmitted>
+        <dc:title>Nigeria_National_Broadband_Plan_2013-2018.pdf</dc:title>
+    </bib:Document>
+    <z:Attachment rdf:about="#item_5188">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/5188/Nigeria_National_Broadband_Plan_2013-2018.html"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://researchictafrica.net/countries/nigeria/Nigeria_National_Broadband_Plan_2013-2018.pdf</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2017-02-19 00:15:00</dcterms:dateSubmitted>
+        <dc:title>Nigeria_National_Broadband_Plan_2013-2018.pdf</dc:title>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Document rdf:about="http://tlcafrica.com/news_libtelco_will_launch_liberia_first_fiber_optic_cable.htm">
+        <z:itemType>webpage</z:itemType>
+        <dcterms:isPartOf>
+           <z:Website><dc:title>TLC Africa</dc:title></z:Website>
+        </dcterms:isPartOf>
+        <link:link rdf:resource="#item_5208"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://tlcafrica.com/news_libtelco_will_launch_liberia_first_fiber_optic_cable.htm</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2017-02-19 20:52:36</dcterms:dateSubmitted>
+        <dcterms:abstract>LIBTELCO will on January 18, 2013 launch Liberia first post war Fiber Optic Broadband cable
+
+MONROVIA – January 16, 2013: The Liberia Telecommunications Corporation LIBTELCO will on January 18, 2013 launch Liberia first post war Fiber Optic Broadband cable.
+
+ACE submarine cable was officially launched on December 18, 2012 in Banjul, Gambia and in the last thirty (30) days live traffic test has been ongoing in preparation for today’s commercial launch.
+
+Following the launch of fiber optic the quality of internet and telecommunications will improve greatly in Liberia thus opening new corridors for economic growth and development in the country.
+
+Fiber Optic will enhance post war Liberia development in diverse ways. To mention a few, it will afford superior and unhindered access to news and information; create new business and career opportunities for Liberians as well as greater access to global markets for Liberian goods and services. In addition, Liberians will have improved access to banking systems and services. The list goes on.
+
+According to Ben Wolo, LIBTELCO’s Managing Director, the full implementation of broadband services to Liberia will rest upon the completion of the metro-Monrovia fiber optic backbone. At completion, this ring will loop the entire Monrovia and its environs. This fiber network will also off- shoot to Brewerville, Fendell, RIA and Firestone.
+
+In keeping with LIBTELCO’s mandate to provide telecommunication services to all parts of Liberia and the Government of Liberia policy of providing Universal Access to all Liberians, the high speed broadband connectivity will be extended to other parts of the country gradually.
+
+As a way of ensuring immediate and easy access to the high speed internet gateway, LIBTELCO will deploy wireless hotspot service through its base stations all across its coverage area.
+
+For too long Liberians have encountered difficulties in using the internet due to poor quality in certain places, therefore, the government was committed to improving such condition with the launch of the Fiber Optic internet service.
+
+ACE submarine cable, when completed, will span more than 17,000 kilometers along the West coast of Africa connecting 25 countries including Liberia.
+
+Liberia’s position was secured as a member of the ACE Consortium, when LIBTELCO Managing Director Ben Wolo, signed the Construction and Maintenance Agreement (C&amp;MA) on behalf of the Cable Consortium of Liberia (CCL) on June 5, 2010, in Paris France.
+
+CCL is a Public Private Venture formed under a Special Purpose Vehicle to manage the ACE cable landing in Liberia.
+
+This project, $25 million dollars in investment, was initiated by LIBTELCO and facilitated by the Government of Liberia. The current shareholders are LIBTELCO 20%; Cellcom and Lonestar 10% each, while the Government of Liberia (GoL) holds the remaining 60% that will eventually be divested.</dcterms:abstract>
+        <dc:title>LIBTELCO will on January 18, 2013 launch Liberia first post war Fiber Optic Broadband cable</dc:title>
+    </bib:Document>
+    <z:Attachment rdf:about="#item_5208">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/5208/news_libtelco_will_launch_liberia_first_fiber_optic_cable.html"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://tlcafrica.com/news_libtelco_will_launch_liberia_first_fiber_optic_cable.htm</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2017-02-19 20:52:37</dcterms:dateSubmitted>
+        <dc:title>TLC Africa</dc:title>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Document rdf:about="http://www.africaprogresspanel.org/publications/policy-papers/2015-africa-progress-report/">
+        <z:itemType>blogPost</z:itemType>
+        <dcterms:isPartOf>
+           <z:Blog></z:Blog>
+        </dcterms:isPartOf>
+        <link:link rdf:resource="#item_5216"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://www.africaprogresspanel.org/publications/policy-papers/2015-africa-progress-report/</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2017-02-21 16:02:17</dcterms:dateSubmitted>
+        <dcterms:abstract>The Africa Progress Report 2015 explains the bold steps that leaders globally and in Africa must take to achieve this vision. Above all, the report shows that the global climate moment is also Africa’s moment – Africa’s moment to lead the world.</dcterms:abstract>
+        <dc:title>Africa Progress Report 2015 – Africa Progress Panel</dc:title>
+    </bib:Document>
+    <z:Attachment rdf:about="#item_5216">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/5216/2015-africa-progress-report.html"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://www.africaprogresspanel.org/publications/policy-papers/2015-africa-progress-report/</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2017-02-21 16:02:17</dcterms:dateSubmitted>
+        <dc:title>Snapshot</dc:title>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <rdf:Description rdf:about="https://www.opic.gov/sites/default/files/files/9000032167.pdf">
+        <z:itemType>document</z:itemType>
+        <dc:publisher>
+           <foaf:Organization><foaf:name>OPIC</foaf:name></foaf:Organization>
+        </dc:publisher>
+        <link:link rdf:resource="#item_5217"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.opic.gov/sites/default/files/files/9000032167.pdf</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2017-02-21 16:04:03</dcterms:dateSubmitted>
+        <dcterms:abstract>his P
+roject 
+is expected to
+have a 
+highly
+d
+evelopmental impact 
+on Nigeria by 
+providing
+reliable and affordable electricity
+solutions
+to thousands of households 
+with limited or no access 
+to electricity. 
+The Project’s off
+-
+grid solar energy kits offer a 
+clean source of electricity,
+providing an alternative to
+kerosene 
+lamps and diesel generato
+rs.
+The Project aligns with 
+Sustainable Development Goal Seven, which aims to ensure 
+access to affordable, reliable, sustainable, and modern energy 
+for all.
+Currently, approximately 
+half of the population of
+Nigeria 
+is 
+connected to the power grid
+, and on
+ly an estimated 
+25 percent of the population has access to regular supply of 
+electricity.
+1
+Nigeria has the highest rate of power outages in 
+Sub
+-
+Saharan Africa with a reported average of over 32 outages 
+per month with an average duration of eight hours per
+outage.</dcterms:abstract>
+        <dc:title>INFORMATION SUMMARY FOR THE PUBLIC</dc:title>
+    </rdf:Description>
+    <z:Attachment rdf:about="#item_5217">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/5217/9000032167.html"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.opic.gov/sites/default/files/files/9000032167.pdf</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2017-02-21 16:04:04</dcterms:dateSubmitted>
+        <dc:title>9000032167.pdf</dc:title>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Document rdf:about="https://www.internetsociety.org/news/african-unionau-selects-internet-society-support-establishment-internet-exchange-points-across">
+        <z:itemType>webpage</z:itemType>
+        <dcterms:isPartOf>
+           <z:Website></z:Website>
+        </dcterms:isPartOf>
+        <link:link rdf:resource="#item_5245"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.internetsociety.org/news/african-unionau-selects-internet-society-support-establishment-internet-exchange-points-across</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dc:date>23 Aug 2012</dc:date>
+        <dcterms:dateSubmitted>2017-03-07 14:43:42</dcterms:dateSubmitted>
+        <dc:title>African Union(AU) Selects the Internet Society to Support Establishment of Internet Exchange Points across Africa | Internet Society</dc:title>
+    </bib:Document>
+    <z:Attachment rdf:about="#item_5245">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/5245/african-unionau-selects-internet-society-support-establishment-internet-exchange-points-across.html"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.internetsociety.org/news/african-unionau-selects-internet-society-support-establishment-internet-exchange-points-across</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2017-03-07 14:43:43</dcterms:dateSubmitted>
+        <dc:title>African Union(AU) Selects the Internet Society to Support Establishment of Internet Exchange Points across Africa | Internet Society</dc:title>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Document rdf:about="https://esa-un-org.mutex.gmu.edu/unpd/wpp/publications/files/key_findings_wpp_2015.pdf">
+        <z:itemType>webpage</z:itemType>
+        <dcterms:isPartOf>
+           <z:Website></z:Website>
+        </dcterms:isPartOf>
+        <link:link rdf:resource="#item_5276"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://esa-un-org.mutex.gmu.edu/unpd/wpp/publications/files/key_findings_wpp_2015.pdf</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2017-03-09 10:38:13</dcterms:dateSubmitted>
+        <dc:title>Microsoft Word - Key Findings WPP 2015_Final.docx - key_findings_wpp_2015.pdf</dc:title>
+    </bib:Document>
+    <z:Attachment rdf:about="#item_5276">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/5276/key_findings_wpp_2015.html"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://esa-un-org.mutex.gmu.edu/unpd/wpp/publications/files/key_findings_wpp_2015.pdf</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2017-03-09 10:38:14</dcterms:dateSubmitted>
+        <dc:title>Microsoft Word - Key Findings WPP 2015_Final.docx - key_findings_wpp_2015.pdf</dc:title>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Document rdf:about="http://www.liberianobserver.com/news/liberia-commissions-%E2%80%98internet-exchange-point%E2%80%99">
+        <z:itemType>webpage</z:itemType>
+        <dcterms:isPartOf>
+           <z:Website></z:Website>
+        </dcterms:isPartOf>
+        <link:link rdf:resource="#item_5305"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://www.liberianobserver.com/news/liberia-commissions-%E2%80%98internet-exchange-point%E2%80%99</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2017-03-09 11:46:19</dcterms:dateSubmitted>
+        <dc:title>Liberia Commissions ‘Internet Exchange Point’ | The Liberian Observer</dc:title>
+    </bib:Document>
+    <z:Attachment rdf:about="#item_5305">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/5305/liberia-commissions-‘internet-exchange-point’.html"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://www.liberianobserver.com/news/liberia-commissions-%E2%80%98internet-exchange-point%E2%80%99</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2017-03-09 11:46:20</dcterms:dateSubmitted>
+        <dc:title>Liberia Commissions ‘Internet Exchange Point’ | The Liberian Observer</dc:title>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <rdf:Description rdf:about="https://www.google.org/docs/liberia-internet-ecosystem.pdf">
+        <z:itemType>document</z:itemType>
+        <dc:publisher>
+           <foaf:Organization><foaf:name>Google</foaf:name></foaf:Organization>
+        </dc:publisher>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                   <foaf:Person><foaf:surname>Google</foaf:surname></foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dcterms:isReferencedBy rdf:resource="#item_5441"/>
+        <link:link rdf:resource="#item_5416"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.google.org/docs/liberia-internet-ecosystem.pdf</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dc:date>May 2011</dc:date>
+        <dcterms:dateSubmitted>2017-04-07 21:58:38</dcterms:dateSubmitted>
+        <dcterms:abstract>This is a key moment for investment in and 
+progressive policy 
+toward
+the Internet in Liberia.  
+T
+he Africa C
+oast to Euro
+pe (ACE) project 
+is expected to land within the next two years
+, 
+bringing Liberia its
+first 
+access to a submarine cable
+.  Combined with low
+-
+cost, last
+-
+mile 
+wireless solutions
+and the falling cost of Internet
+-
+enabled devices
+, the Internet has the 
+potential t
+o reach broad segments of the Liberian population.
+Growth in Internet adoption is a key pillar of economic development and sustainable growth. 
+A r
+ecent World Bank study
+found that a 10% change in broadband adoption is associated 
+with a 1.38% increase in G
+DP per capita growth in developing countries (Qiang and 
+Rossotto 45).  
+Furthermore, access to the Internet enables improved human development 
+outcomes through increased efficiency in the public and non
+-
+governmental sectors.  I
+n the 
+absence of progressive p
+olicies and
+a competitive telecommunications market environment
+, 
+however, 
+regulator
+y and commercial landscapes can
+impede this 
+development
+opportunity.
+Section one of this paper provides background on the current Internet landscape in Liberia.  
+Section tw
+o lays out best practices that Google has observed across developing markets 
+that
+, if applied in Liberia,
+could ac
+celerate the growth of its
+Internet ecosystem.
+Ideas
+appropriate for Liberia’s state of development include
+:
+●
+Establishing open acce
+ss principles for connections to submarine cables and 
+domestic backhaul networks.
+●
+Creating an effective Intern
+et Exchange Point and caching
+popular content and 
+applications.
+●
+Allowing open use of available WiFi spectrum.
+●
+Implementing projects to 
+foster the 
+growth of user and developer communities.
+●
+Getting public sector information online and making it easily accessible.</dcterms:abstract>
+        <dc:title>Ideas for Liberia's Internet Ecosystem</dc:title>
+    </rdf:Description>
+    <bib:Memo rdf:about="#item_5441">
+        <rdf:value>&lt;p&gt;p 12: Appendix B: Selected Countries’ Telecommunications Policies Below are examples of three countries that Google believes have progressive telecommunications polices and Internet ecosystems that may be applicable in Liberi a. ● Singapore: Singapore is creating Netco type organizations and related policies for their new deployments. Details can be found at: www . ida . gov . sg . ● Indonesia: Indonesia is the first country in the world where the traffic from mobile devices exceeds the traffic from desktop/laptop computers. Details can be found at: metrics . admob . com . ● India: In India, legislation exists that encourages tower and other infrastructure sharing, which reduces costs to consumers. It took pressure to make this happen, however -- industry participants were initially reluctant. Details can be found at: www . ictregulationtoolkit . org / en / PracticeNote .3157. html .&lt;/p&gt;</rdf:value>
+    </bib:Memo>
+    <z:Attachment rdf:about="#item_5416">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/5416/liberia-internet-ecosystem.html"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.google.org/docs/liberia-internet-ecosystem.pdf</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2017-04-07 21:58:39</dcterms:dateSubmitted>
+        <dc:title>liberia-internet-ecosystem.pdf</dc:title>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Document rdf:about="https://www.surveymonkey.com/r/FBWXHPJ">
+        <z:itemType>webpage</z:itemType>
+        <dcterms:isPartOf>
+           <z:Website></z:Website>
+        </dcterms:isPartOf>
+        <link:link rdf:resource="#item_5435"/>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>https://www.surveymonkey.com/r/FBWXHPJ</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2017-04-07 21:36:25</dcterms:dateSubmitted>
+        <dc:title>Internet Policy Dialogue in Ghana Survey</dc:title>
+    </bib:Document>
+    <z:Attachment rdf:about="#item_5435">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/5435/FBWXHPJ.html"/>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>https://www.surveymonkey.com/r/FBWXHPJ</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2017-04-07 21:36:26</dcterms:dateSubmitted>
+        <dc:title>Internet Policy Dialogue in Ghana Survey</dc:title>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Document rdf:about="http://1e8q3q16vyc81g8l3h3md6q5f5e.wpengine.netdna-cdn.com/wp-content/uploads/2014/03/USAID-GBI-Final-Report-Ghana-Digital-Divide-Study-FINAL.pdf">
+        <z:itemType>webpage</z:itemType>
+        <dcterms:isPartOf>
+           <z:Website></z:Website>
+        </dcterms:isPartOf>
+        <link:link rdf:resource="#item_5429"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://1e8q3q16vyc81g8l3h3md6q5f5e.wpengine.netdna-cdn.com/wp-content/uploads/2014/03/USAID-GBI-Final-Report-Ghana-Digital-Divide-Study-FINAL.pdf</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2017-04-07 21:35:51</dcterms:dateSubmitted>
+        <dc:title>Microsoft Word - USAID GBI Final Report Ghana Digital Divide Study FINAL.docx - USAID-GBI-Final-Report-Ghana-Digital-Divide-Study-FINAL.pdf</dc:title>
+    </bib:Document>
+    <z:Attachment rdf:about="#item_5429">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/5429/USAID-GBI-Final-Report-Ghana-Digital-Divide-Study-FINAL.html"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://1e8q3q16vyc81g8l3h3md6q5f5e.wpengine.netdna-cdn.com/wp-content/uploads/2014/03/USAID-GBI-Final-Report-Ghana-Digital-Divide-Study-FINAL.pdf</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2017-04-07 21:35:52</dcterms:dateSubmitted>
+        <dc:title>Microsoft Word - USAID GBI Final Report Ghana Digital Divide Study FINAL.docx - USAID-GBI-Final-Report-Ghana-Digital-Divide-Study-FINAL.pdf</dc:title>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Document rdf:about="http://a4ai.org/liberia/">
+        <z:itemType>webpage</z:itemType>
+        <dcterms:isPartOf>
+           <z:Website></z:Website>
+        </dcterms:isPartOf>
+        <link:link rdf:resource="#item_5404"/>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>http://a4ai.org/liberia/</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2017-04-07 21:54:53</dcterms:dateSubmitted>
+        <dc:title>Liberia | Alliance for Affordable Internet</dc:title>
+    </bib:Document>
+    <z:Attachment rdf:about="#item_5404">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/5404/liberia.html"/>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>http://a4ai.org/liberia/</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2017-04-07 21:54:54</dcterms:dateSubmitted>
+        <dc:title>Liberia | Alliance for Affordable Internet</dc:title>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Document rdf:about="http://allafrica.com/stories/201305050031.html">
+        <z:itemType>webpage</z:itemType>
+        <dcterms:isPartOf>
+           <z:Website></z:Website>
+        </dcterms:isPartOf>
+        <link:link rdf:resource="#item_5438"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://allafrica.com/stories/201305050031.html</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2017-04-07 21:39:56</dcterms:dateSubmitted>
+        <dc:title>Ghana: National Broadband Policy Framework - Into the Policy Makers' Mind - allAfrica.com</dc:title>
+    </bib:Document>
+    <z:Attachment rdf:about="#item_5438">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/5438/201305050031.html"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://allafrica.com/stories/201305050031.html</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2017-04-07 21:39:57</dcterms:dateSubmitted>
+        <dc:title>Ghana: National Broadband Policy Framework - Into the Policy Makers' Mind - allAfrica.com</dc:title>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <rdf:Description rdf:about="https://a4ai.org/wp-content/uploads/2014/03/Ghana_ICT4AD_Policy-2003.pdf">
+        <z:itemType>document</z:itemType>
+        <dc:publisher>
+            <foaf:Organization>
+               <foaf:name>Government of Ghana</foaf:name>
+            </foaf:Organization>
+        </dc:publisher>
+        <link:link rdf:resource="#item_5396"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://a4ai.org/wp-content/uploads/2014/03/Ghana_ICT4AD_Policy-2003.pdf</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dc:date>2003</dc:date>
+        <dcterms:dateSubmitted>2017-04-07 21:28:15</dcterms:dateSubmitted>
+        <dcterms:abstract>A  POLICY STATEMENT FOR THE REALIZATION OF THE VISION TO TRANSFORM GHANA INTO AN INFORMATION-RICH KNOWLEDGE-BASED SOCIETY AND ECONOMY THROUGH THE DEVELOPMENT, DEPLOYMENT AND EXPLOITATION OF ICTs WITHIN THE ECONOMY AND SOCIETY</dcterms:abstract>
+        <dc:title>THE GHANA ICT FOR ACCELERATED DEVELOPMENT (ICT4AD) POLICY</dc:title>
+        <z:shortTitle>Ghana - ICT4AD Policy</z:shortTitle>
+    </rdf:Description>
+    <z:Attachment rdf:about="#item_5396">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/5396/2003 - THE GHANA ICT FOR ACCELERATED DEVELOPMENT (ICT4AD).html"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://1e8q3q16vyc81g8l3h3md6q5f5e.wpengine.netdna-cdn.com/wp-content/uploads/2014/03/Ghana_ICT4AD_Policy-2003.pdf</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2017-04-07 21:28:16</dcterms:dateSubmitted>
+        <dc:title>2003 - THE GHANA ICT FOR ACCELERATED DEVELOPMENT (ICT4AD).html</dc:title>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Document rdf:about="http://a4ai.org/wp-content/uploads/2014/03/Ghana_Broadband_Strategy_v8.pdf">
+        <z:itemType>webpage</z:itemType>
+        <dcterms:isPartOf>
+           <z:Website></z:Website>
+        </dcterms:isPartOf>
+        <link:link rdf:resource="#item_5434"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://a4ai.org/wp-content/uploads/2014/03/Ghana_Broadband_Strategy_v8.pdf</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2017-04-07 21:26:17</dcterms:dateSubmitted>
+        <dc:title>A National Broadband Strategy for Economic Growth and Development - Post-Stakeholder Workshop Concept Paper</dc:title>
+    </bib:Document>
+    <z:Attachment rdf:about="#item_5434">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/5434/Ghana_Broadband_Strategy_v8.html"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://1e8q3q16vyc81g8l3h3md6q5f5e.wpengine.netdna-cdn.com/wp-content/uploads/2014/03/Ghana_Broadband_Strategy_v8.pdf</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2017-04-07 21:26:18</dcterms:dateSubmitted>
+        <dc:title>Ghana_Broadband_Strategy_v8.pdf</dc:title>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <rdf:Description rdf:about="http://a4ai.org/wp-content/uploads/2014/03/Ghana_Telecom_Policy_2005.pdf">
+        <z:itemType>document</z:itemType>
+        <dc:publisher>
+            <foaf:Organization>
+               <foaf:name>Government of Ghana</foaf:name>
+            </foaf:Organization>
+        </dc:publisher>
+        <link:link rdf:resource="#item_5425"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://a4ai.org/wp-content/uploads/2014/03/Ghana_Telecom_Policy_2005.pdf</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dc:date>2005</dc:date>
+        <dcterms:dateSubmitted>2017-04-07 21:34:24</dcterms:dateSubmitted>
+        <dc:title>Republic of Ghana Ministry of Communications National Telecommunications Policy</dc:title>
+        <z:shortTitle>Ghana - National Telecommunications Policy</z:shortTitle>
+        <z:archive>Ministry of Communications</z:archive>
+    </rdf:Description>
+    <z:Attachment rdf:about="#item_5425">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/5425/2005 - Republic of Ghana Ministry of Communications Natio.html"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://1e8q3q16vyc81g8l3h3md6q5f5e.wpengine.netdna-cdn.com/wp-content/uploads/2014/03/Ghana_Telecom_Policy_2005.pdf</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2017-04-07 21:34:25</dcterms:dateSubmitted>
+        <dc:title>2005 - Republic of Ghana Ministry of Communications Natio.html</dc:title>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:ConferenceProceedings rdf:about="http://a4ai.org/wp-content/uploads/2014/03/National-Broadband-Policy_28June2013_rev2.pdf">
+        <z:itemType>presentation</z:itemType>
+        <link:link rdf:resource="#item_5439"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://a4ai.org/wp-content/uploads/2014/03/National-Broadband-Policy_28June2013_rev2.pdf</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2017-04-07 21:34:44</dcterms:dateSubmitted>
+        <dc:title>Ghana - National Broadband Policy</dc:title>
+    </bib:ConferenceProceedings>
+    <z:Attachment rdf:about="#item_5439">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/5439/National-Broadband-Policy_28June2013_rev2.html"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://1e8q3q16vyc81g8l3h3md6q5f5e.wpengine.netdna-cdn.com/wp-content/uploads/2014/03/National-Broadband-Policy_28June2013_rev2.pdf</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2017-04-07 21:34:45</dcterms:dateSubmitted>
+        <dc:title>National-Broadband-Policy_28June2013_rev2.pdf</dc:title>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Document rdf:about="http://1e8q3q16vyc81g8l3h3md6q5f5e.wpengine.netdna-cdn.com/wp-content/uploads/2014/03/Vol-2-Paper-8-Ghana-ICT-Sector-Performance-Review-2010.pdf">
+        <z:itemType>webpage</z:itemType>
+        <dcterms:isPartOf>
+           <z:Website></z:Website>
+        </dcterms:isPartOf>
+        <link:link rdf:resource="#item_5426"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://1e8q3q16vyc81g8l3h3md6q5f5e.wpengine.netdna-cdn.com/wp-content/uploads/2014/03/Vol-2-Paper-8-Ghana-ICT-Sector-Performance-Review-2010.pdf</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2017-04-07 21:35:32</dcterms:dateSubmitted>
+        <dc:title>final-Ghana_SPR-Master14sept - Vol-2-Paper-8-Ghana-ICT-Sector-Performance-Review-2010.pdf</dc:title>
+    </bib:Document>
+    <z:Attachment rdf:about="#item_5426">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/5426/Vol-2-Paper-8-Ghana-ICT-Sector-Performance-Review-2010.html"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://1e8q3q16vyc81g8l3h3md6q5f5e.wpengine.netdna-cdn.com/wp-content/uploads/2014/03/Vol-2-Paper-8-Ghana-ICT-Sector-Performance-Review-2010.pdf</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2017-04-07 21:35:33</dcterms:dateSubmitted>
+        <dc:title>final-Ghana_SPR-Master14sept - Vol-2-Paper-8-Ghana-ICT-Sector-Performance-Review-2010.pdf</dc:title>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Document rdf:about="http://moc.gov.gh/eastern-corridor-fiber-optic-backbone">
+        <z:itemType>webpage</z:itemType>
+        <dcterms:isPartOf>
+           <z:Website></z:Website>
+        </dcterms:isPartOf>
+        <link:link rdf:resource="#item_5406"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://moc.gov.gh/eastern-corridor-fiber-optic-backbone</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2017-04-07 21:48:07</dcterms:dateSubmitted>
+        <dc:title>Eastern Corridor Fiber Optic Backbone | Ministry of Communications</dc:title>
+    </bib:Document>
+    <z:Attachment rdf:about="#item_5406">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/5406/eastern-corridor-fiber-optic-backbone.html"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://moc.gov.gh/eastern-corridor-fiber-optic-backbone</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2017-04-07 21:48:08</dcterms:dateSubmitted>
+        <dc:title>Eastern Corridor Fiber Optic Backbone | Ministry of Communications</dc:title>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Document rdf:about="#item_5378">
+        <z:itemType>webpage</z:itemType>
+        <dcterms:isPartOf>
+           <z:Website></z:Website>
+        </dcterms:isPartOf>
+        <dcterms:isReferencedBy rdf:resource="#item_5405"/>
+        <link:link rdf:resource="#item_5422"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://www.lta.gov.lr/doc/ICT%20_%20Telecom%20Policy%20Main%20Body.pdf</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2017-04-07 21:50:36</dcterms:dateSubmitted>
+        <dcterms:abstract>This document presents the Government of Liberia’s Policy for the Telecommunications and Information 
+Communication
+s Technology (ICT) sectors. The Government of Liberia (GoL) understands the important 
+role that telecommunications and ICT play in the P
+overty Reduction Strategy (PRS) policy, which is built 
+on the following four pillars – 
+i.
+Enhancing National Security
+ii.
+Strengthening Governance &amp; Rule of Law
+iii.
+Revitalizing the Economy
+iv.
+Rehabilitating Infrastructure and Delivering Basic Services</dcterms:abstract>
+        <dc:title>Government of Liberia’s Policy for the Telecommunications and Information Communications Technology (ICT) sectors.</dc:title>
+    </bib:Document>
+    <bib:Memo rdf:about="#item_5405">
+        <rdf:value>&lt;p&gt;see figure 1, p 4, for pyramid graphic.&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;</rdf:value>
+    </bib:Memo>
+    <z:Attachment rdf:about="#item_5422">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/5422/ICT _ Telecom Policy Main Body.html"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://www.lta.gov.lr/doc/ICT%20_%20Telecom%20Policy%20Main%20Body.pdf</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2017-04-07 21:50:37</dcterms:dateSubmitted>
+        <dc:title>ICT _ Telecom Policy Main Body.pdf</dc:title>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Document rdf:about="http://allafrica.com/stories/201310031472.html">
+        <z:itemType>webpage</z:itemType>
+        <dcterms:isPartOf>
+           <z:Website></z:Website>
+        </dcterms:isPartOf>
+        <link:link rdf:resource="#item_5401"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://allafrica.com/stories/201310031472.html</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2017-04-07 21:36:58</dcterms:dateSubmitted>
+        <dc:title>Ghana: Prioritise Internet Penetration, Access in Ghana - allAfrica.com</dc:title>
+    </bib:Document>
+    <z:Attachment rdf:about="#item_5401">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/5401/201310031472.html"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://allafrica.com/stories/201310031472.html</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2017-04-07 21:36:59</dcterms:dateSubmitted>
+        <dc:title>Ghana: Prioritise Internet Penetration, Access in Ghana - allAfrica.com</dc:title>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Document rdf:about="http://www.jhellerstein.com/liberiatelecompolicy.pdf">
+        <z:itemType>webpage</z:itemType>
+        <dcterms:isPartOf>
+           <z:Website></z:Website>
+        </dcterms:isPartOf>
+        <link:link rdf:resource="#item_5430"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://www.jhellerstein.com/liberiatelecompolicy.pdf</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2017-04-07 22:03:22</dcterms:dateSubmitted>
+        <dc:title>REPUBLIC OF LIBERIA National Telecommunications Policy and Strategy Telecom Sector Policy Document</dc:title>
+    </bib:Document>
+    <z:Attachment rdf:about="#item_5430">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/5430/liberiatelecompolicy.html"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://www.jhellerstein.com/liberiatelecompolicy.pdf</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2017-04-07 22:03:23</dcterms:dateSubmitted>
+        <dc:title>Liberia Policy no ack - liberiatelecompolicy.pdf</dc:title>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Document rdf:about="https://www.afrinic.net/en/community/policy-development/policy-proposals">
+        <z:itemType>webpage</z:itemType>
+        <dcterms:isPartOf>
+           <z:Website></z:Website>
+        </dcterms:isPartOf>
+        <link:link rdf:resource="#item_5452"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.afrinic.net/en/community/policy-development/policy-proposals</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2017-06-08 01:45:02</dcterms:dateSubmitted>
+        <dc:title>Policy Proposals</dc:title>
+    </bib:Document>
+    <z:Attachment rdf:about="#item_5452">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/5452/policy-proposals.html"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.afrinic.net/en/community/policy-development/policy-proposals</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2017-06-08 01:45:03</dcterms:dateSubmitted>
+        <dc:title>Policy Proposals</dc:title>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Document rdf:about="https://www.afrinic.net/en/library/policies/1829-afrinic-consolidated-policy-manual">
+        <z:itemType>webpage</z:itemType>
+        <dcterms:isPartOf>
+           <z:Website></z:Website>
+        </dcterms:isPartOf>
+        <link:link rdf:resource="#item_5454"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.afrinic.net/en/library/policies/1829-afrinic-consolidated-policy-manual</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2017-06-08 01:46:20</dcterms:dateSubmitted>
+        <dc:title>AFRINIC Consolidated Policy Manual</dc:title>
+    </bib:Document>
+    <z:Attachment rdf:about="#item_5454">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/5454/1829-afrinic-consolidated-policy-manual.html"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.afrinic.net/en/library/policies/1829-afrinic-consolidated-policy-manual</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2017-06-08 01:46:21</dcterms:dateSubmitted>
+        <dc:title>AFRINIC Consolidated Policy Manual</dc:title>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Document rdf:about="https://www.ip-watch.org/2017/06/14/wsis-forum-close-link-internet-human-rights/">
+        <z:itemType>blogPost</z:itemType>
+        <dcterms:isPartOf>
+           <z:Blog><dc:title>Intellectual Property Watch</dc:title></z:Blog>
+        </dcterms:isPartOf>
+        <link:link rdf:resource="#item_5505"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.ip-watch.org/2017/06/14/wsis-forum-close-link-internet-human-rights/</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dc:date>2017-06-14T13:21:54+02:00</dc:date>
+        <dcterms:dateSubmitted>2017-06-18 15:07:43</dcterms:dateSubmitted>
+        <dcterms:abstract>There is “no question” that there is a link between the infrastructure of the internet and human rights, Nicolas Seidler, senior policy advisor at the Internet Society, said at an information society event this week. Human rights are becoming “increasingly part of the design of the internet,” Niels ten Oever, head of digital at ARTICLE 19, said at the same event.</dcterms:abstract>
+        <dc:title>WSIS Forum: Close Link Between Internet And Human Rights</dc:title>
+        <z:shortTitle>WSIS Forum</z:shortTitle>
+    </bib:Document>
+    <z:Attachment rdf:about="#item_5505">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/5505/wsis-forum-close-link-internet-human-rights.html"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.ip-watch.org/2017/06/14/wsis-forum-close-link-internet-human-rights/</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2017-06-18 15:07:43</dcterms:dateSubmitted>
+        <dc:title>Snapshot</dc:title>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Document rdf:about="https://lup.lub.lu.se/luur/download?func=downloadFile&amp;recordOId=1332751&amp;fileOId=1332752">
+        <z:itemType>webpage</z:itemType>
+        <dcterms:isPartOf>
+           <z:Website></z:Website>
+        </dcterms:isPartOf>
+        <link:link rdf:resource="#item_5499"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://lup.lub.lu.se/luur/download?func=downloadFile&amp;recordOId=1332751&amp;fileOId=1332752</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2017-06-25 17:54:24</dcterms:dateSubmitted>
+        <dc:title>Microsoft Word - uppsats.doc - download</dc:title>
+    </bib:Document>
+    <z:Attachment rdf:about="#item_5499">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/5499/download.html"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://lup.lub.lu.se/luur/download?func=downloadFile&amp;recordOId=1332751&amp;fileOId=1332752</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2017-06-25 17:54:26</dcterms:dateSubmitted>
+        <dc:title>Microsoft Word - uppsats.doc - download</dc:title>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Document rdf:about="https://www.thisdaylive.com/index.php/2017/06/25/nigeria-morocco-and-the-future-of-ecowas/">
+        <z:itemType>blogPost</z:itemType>
+        <dcterms:isPartOf>
+           <z:Blog><dc:title>THISDAYLIVE</dc:title></z:Blog>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Editor</foaf:surname>
+                        <foaf:givenname>Online</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_5495"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.thisdaylive.com/index.php/2017/06/25/nigeria-morocco-and-the-future-of-ecowas/</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dc:date>2017-06-25T00:31:22+00:00</dc:date>
+        <dcterms:dateSubmitted>2017-06-25 16:57:56</dcterms:dateSubmitted>
+        <dcterms:abstract>Mohammed K. Ibrahim The virtual absence of Nigeria from the 51st Ordinary Session of the Authority of Heads of State and Government of the Economic Community of West African States (ECOWAS), which …</dcterms:abstract>
+        <dc:title>Nigeria, Morocco and The Future of ECOWAS</dc:title>
+    </bib:Document>
+    <z:Attachment rdf:about="#item_5495">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/5495/nigeria-morocco-and-the-future-of-ecowas.html"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.thisdaylive.com/index.php/2017/06/25/nigeria-morocco-and-the-future-of-ecowas/</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2017-06-25 16:58:00</dcterms:dateSubmitted>
+        <dc:title>Snapshot</dc:title>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Document rdf:about="https://www.itu.int/net4/wsis/forum/2017/">
+        <z:itemType>webpage</z:itemType>
+        <dcterms:isPartOf>
+           <z:Website><dc:title>WSIS Forum 2017</dc:title></z:Website>
+        </dcterms:isPartOf>
+        <link:link rdf:resource="#item_5514"/>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>https://www.itu.int/net4/wsis/forum/2017/</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2017-06-18 15:08:11</dcterms:dateSubmitted>
+        <dcterms:abstract>The annual WSIS Forum is a global multi-stakeholder platform facilitating the implementation of the WSIS Action Lines for advancing sustainable development. The Forum provides the ICT for development community with an opportunity for information exchange, knowledge creation and sharing of best practices, while identifying emerging trends and fostering partnerships, taking into account the evolving Information and Knowledge Societies. The WSIS Forum is constantly evolving and strengthening the alignment between the WSIS Action Lines and the Sustainable Development Goals.</dcterms:abstract>
+        <dc:title>WSIS Forum 2017 | Information and Knowledge Societies for SDGs</dc:title>
+    </bib:Document>
+    <z:Attachment rdf:about="#item_5514">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/5514/2017.html"/>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>https://www.itu.int/net4/wsis/forum/2017/</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2017-06-18 15:08:11</dcterms:dateSubmitted>
+        <dc:title>Snapshot</dc:title>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Document rdf:about="http://www.af-ix.net/ixps-list">
+        <z:itemType>webpage</z:itemType>
+        <dcterms:isPartOf>
+           <z:Website></z:Website>
+        </dcterms:isPartOf>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>http://www.af-ix.net/ixps-list</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2018-01-17 01:12:03</dcterms:dateSubmitted>
+        <dc:title>The African IXP Association | A member of the Internet eXchange Federation</dc:title>
+    </bib:Document>
+    <bib:Document rdf:about="https://au.int/en/african-internet-exchange-system-axis-project-overview">
+        <z:itemType>webpage</z:itemType>
+        <dcterms:isPartOf>
+           <z:Website></z:Website>
+        </dcterms:isPartOf>
+        <link:link rdf:resource="#item_5636"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://au.int/en/african-internet-exchange-system-axis-project-overview</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2018-01-17 01:10:21</dcterms:dateSubmitted>
+        <dc:title>African Internet Exchange System (AXIS) Project Overview | African Union</dc:title>
+    </bib:Document>
+    <z:Attachment rdf:about="#item_5636">
+        <z:itemType>attachment</z:itemType>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://au.int/en/african-internet-exchange-system-axis-project-overview</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2018-01-17 01:10:22</dcterms:dateSubmitted>
+        <dc:title>African Internet Exchange System (AXIS) Project Overview | African Union</dc:title>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:ConferenceProceedings rdf:about="https://www.slideshare.net/InternetSociety/digital-divide-and-ixps-in-west-africa">
+        <z:itemType>presentation</z:itemType>
+        <z:presenters>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                       <foaf:surname>Internet Society</foaf:surname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </z:presenters>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.slideshare.net/InternetSociety/digital-divide-and-ixps-in-west-africa</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dc:date>10:08:28 UTC</dc:date>
+        <z:type>Internet</z:type>
+        <dcterms:abstract>The role of IXPs in bridging the Digital Divide
+Presentation by Betel</dcterms:abstract>
+        <dc:title>Digital Divide and IXPs in West Africa</dc:title>
+    </bib:ConferenceProceedings>
+    <bib:Document rdf:about="http://www.gixa.org.gh/about/gixa/">
+        <z:itemType>webpage</z:itemType>
+        <dcterms:isPartOf>
+           <z:Website></z:Website>
+        </dcterms:isPartOf>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>http://www.gixa.org.gh/about/gixa/</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2018-01-17 01:14:49</dcterms:dateSubmitted>
+        <dc:title>GIXA - GIXA</dc:title>
+    </bib:Document>
+    <bib:Document rdf:about="http://ixp.net.ng/">
+        <z:itemType>blogPost</z:itemType>
+        <dcterms:isPartOf>
+           <z:Blog></z:Blog>
+        </dcterms:isPartOf>
+        <link:link rdf:resource="#item_5633"/>
+        <dc:identifier>
+           <dcterms:URI><rdf:value>http://ixp.net.ng/</rdf:value></dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2018-01-17 01:14:50</dcterms:dateSubmitted>
+        <z:language>en-US</z:language>
+        <dc:title>INTERNET EXCHANGE POINT OF NIGERIA | INTERNET EXCHANGE POINT OF NIGERIA</dc:title>
+    </bib:Document>
+    <z:Attachment rdf:about="#item_5633">
+        <z:itemType>attachment</z:itemType>
+        <dc:identifier>
+           <dcterms:URI><rdf:value>http://ixp.net.ng/</rdf:value></dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2018-01-17 01:14:57</dcterms:dateSubmitted>
+        <dc:title>Snapshot</dc:title>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:ConferenceProceedings rdf:about="https://www.slideshare.net/InternetSociety/shaping-the-future-of-the-intenet-in-africa">
+        <z:itemType>presentation</z:itemType>
+        <z:presenters>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                       <foaf:surname>Internet Society</foaf:surname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </z:presenters>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.slideshare.net/InternetSociety/shaping-the-future-of-the-intenet-in-africa</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dc:date>11:17:34 UTC</dc:date>
+        <z:type>Internet</z:type>
+        <dcterms:abstract>By Dawit Bekele, Director, African Regional Bureau, Internet Society</dcterms:abstract>
+        <dc:title>Shaping the Future of the Internet in Africa</dc:title>
+    </bib:ConferenceProceedings>
+    <bib:Document rdf:about="http://www.gispa.org.gh/">
+        <z:itemType>webpage</z:itemType>
+        <dcterms:isPartOf>
+           <z:Website></z:Website>
+        </dcterms:isPartOf>
+        <link:link rdf:resource="#item_5402"/>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>http://www.gispa.org.gh/</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2018-01-17 01:14:47</dcterms:dateSubmitted>
+        <dc:title>Home – GISPA</dc:title>
+    </bib:Document>
+    <z:Attachment rdf:about="#item_5402">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/5402/www.gispa.org.gh.html"/>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>http://www.gispa.org.gh/</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2017-03-30 22:13:29</dcterms:dateSubmitted>
+        <dc:title>Home – GISPA</dc:title>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Document rdf:about="http://www.nepad.org/resource/economic-community-west-african-states-ecowas">
+        <z:itemType>webpage</z:itemType>
+        <dcterms:isPartOf>
+           <z:Website></z:Website>
+        </dcterms:isPartOf>
+        <link:link rdf:resource="#item_5697"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://www.nepad.org/resource/economic-community-west-african-states-ecowas</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2018-02-18 19:37:22</dcterms:dateSubmitted>
+        <dc:title>ECONOMIC COMMUNITY OF WEST AFRICAN STATES (ECOWAS) | NEPAD</dc:title>
+    </bib:Document>
+    <z:Attachment rdf:about="#item_5697">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/5697/economic-community-west-african-states-ecowas.html"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://www.nepad.org/resource/economic-community-west-african-states-ecowas</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2018-02-18 19:37:23</dcterms:dateSubmitted>
+        <dc:title>ECONOMIC COMMUNITY OF WEST AFRICAN STATES (ECOWAS) | NEPAD</dc:title>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Document rdf:about="http://www.lta.gov.lr/doc/EOI-Back%20Bone%20Consultancy.pdf">
+        <z:itemType>webpage</z:itemType>
+        <dcterms:isPartOf>
+           <z:Website></z:Website>
+        </dcterms:isPartOf>
+        <link:link rdf:resource="#item_5802"/>
+        <link:link rdf:resource="#item_5718"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://www.lta.gov.lr/doc/EOI-Back%20Bone%20Consultancy.pdf</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2018-02-24 12:36:50</dcterms:dateSubmitted>
+        <dc:title>EOI-Back Bone Consultancy</dc:title>
+    </bib:Document>
+    <z:Attachment rdf:about="#item_5802">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/5802/EOI-Back Bone Consultancy_1.pdf"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://www.lta.gov.lr/doc/EOI-Back%20Bone%20Consultancy_1.pdf</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2018-03-05 02:50:38</dcterms:dateSubmitted>
+        <dc:title>EOI-Back Bone Consultancy_1.pdf</dc:title>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <z:Attachment rdf:about="#item_5718">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/5718/EOI-Back Bone Consultancy.pdf"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://www.lta.gov.lr/doc/EOI-Back%20Bone%20Consultancy.pdf</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2018-02-24 12:36:50</dcterms:dateSubmitted>
+        <dc:title>EOI-Back Bone Consultancy.pdf</dc:title>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Document rdf:about="https://a4ai.org/wp-content/uploads/2017/03/A4AI-2017-Affordability-Report_Ghana_Online.pdf">
+        <z:itemType>webpage</z:itemType>
+        <dcterms:isPartOf>
+           <z:Website></z:Website>
+        </dcterms:isPartOf>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://a4ai.org/wp-content/uploads/2017/03/A4AI-2017-Affordability-Report_Ghana_Online.pdf</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2018-02-27 01:58:55</dcterms:dateSubmitted>
+        <dc:title>A4AI-2017-Affordability-Report_Ghana_Online.pdf</dc:title>
+    </bib:Document>
+    <bib:Document rdf:about="https://a4ai.org/wp-content/uploads/2017/03/A4AI-2017-Africa-Affordability-Report_Online.pdf">
+        <z:itemType>webpage</z:itemType>
+        <dcterms:isPartOf>
+           <z:Website></z:Website>
+        </dcterms:isPartOf>
+        <link:link rdf:resource="#item_5729"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://a4ai.org/wp-content/uploads/2017/03/A4AI-2017-Africa-Affordability-Report_Online.pdf</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2018-02-27 01:58:49</dcterms:dateSubmitted>
+        <dc:title>A4AI-2017-Africa-Affordability-Report_Online.pdf</dc:title>
+    </bib:Document>
+    <z:Attachment rdf:about="#item_5729">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/5729/A4AI-2017-Africa-Affordability-Report_Online.pdf"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://a4ai.org/wp-content/uploads/2017/03/A4AI-2017-Africa-Affordability-Report_Online.pdf</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2018-02-27 01:58:49</dcterms:dateSubmitted>
+        <dc:title>A4AI-2017-Africa-Affordability-Report_Online.pdf</dc:title>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Document rdf:about="http://a4ai.org/wp-content/uploads/2014/03/USAID-GBI-Final-Report-Ghana-Digital-Divide-Study-FINAL.pdf">
+        <z:itemType>webpage</z:itemType>
+        <dcterms:isPartOf>
+           <z:Website></z:Website>
+        </dcterms:isPartOf>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://a4ai.org/wp-content/uploads/2014/03/USAID-GBI-Final-Report-Ghana-Digital-Divide-Study-FINAL.pdf</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2018-02-27 02:06:05</dcterms:dateSubmitted>
+        <dc:title>USAID-GBI-Final-Report-Ghana-Digital-Divide-Study-FINAL.pdf</dc:title>
+    </bib:Document>
+    <z:Attachment rdf:about="#item_5754">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/5754/Approved_ICT_Policy-2012.pdf"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://a4ai.org/wp-content/uploads/2014/03/Approved_ICT_Policy-2012.pdf</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2018-02-28 04:28:25</dcterms:dateSubmitted>
+        <dc:title>Approved_ICT_Policy-2012.pdf</dc:title>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Document rdf:about="http://www.biztechafrica.com/article/ghana-reviews-ict-policy/671/">
+        <z:itemType>webpage</z:itemType>
+        <dcterms:isPartOf>
+           <z:Website><dc:title>BiztechAfrica</dc:title></z:Website>
+        </dcterms:isPartOf>
+        <link:link rdf:resource="#item_5761"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://www.biztechafrica.com/article/ghana-reviews-ict-policy/671/</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2018-02-28 19:23:14</dcterms:dateSubmitted>
+        <dcterms:abstract>Ghana is reviewing its national ICT for accelerated development policy to meet changing priorities.</dcterms:abstract>
+        <dc:title>Ghana reviews ICT policy</dc:title>
+    </bib:Document>
+    <z:Attachment rdf:about="#item_5761">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/5761/671.html"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://www.biztechafrica.com/article/ghana-reviews-ict-policy/671/</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2018-02-28 19:23:33</dcterms:dateSubmitted>
+        <dc:title>Snapshot</dc:title>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Legislation rdf:about="https://nca.org.gh/regulatory-framework/legislations/the-electronic-communications-act-of-ghana-act-775-of-2008/">
+        <z:itemType>statute</z:itemType>
+        <link:link rdf:resource="#item_5764"/>
+        <link:link rdf:resource="#item_5765"/>
+        <link:link rdf:resource="#item_5766"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://nca.org.gh/regulatory-framework/legislations/the-electronic-communications-act-of-ghana-act-775-of-2008/</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2018-02-28 19:24:21</dcterms:dateSubmitted>
+        <dc:date>2008</dc:date>
+        <prism:number>775</prism:number>
+        <dc:title>The Electronic Communications Act of Ghana, Act 775 of 2008 » National Communications Authority</dc:title>
+        <z:shortTitle>Electronic Communications Act</z:shortTitle>
+    </bib:Legislation>
+    <z:Attachment rdf:about="#item_5764">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/5764/Ghana-Electronic-Communications-Amendment-Act-Act-787.pdf"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://nca.org.gh/assets/Uploads/Ghana-Electronic-Communications-Amendment-Act-Act-787.pdf</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2018-02-28 19:26:30</dcterms:dateSubmitted>
+        <dc:title>Ghana-Electronic-Communications-Amendment-Act-Act-787.pdf</dc:title>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <z:Attachment rdf:about="#item_5765">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/5765/NCA-Electronic-Communications-Act-776.pdf"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://nca.org.gh/assets/Uploads/NCA-Electronic-Communications-Act-776.pdf</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2018-02-28 19:24:28</dcterms:dateSubmitted>
+        <dc:title>NCA-Electronic-Communications-Act-776.pdf</dc:title>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <z:Attachment rdf:about="#item_5766">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/5766/the-electronic-communications-act-of-ghana-act-775-of-2008.html"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://nca.org.gh/regulatory-framework/legislations/the-electronic-communications-act-of-ghana-act-775-of-2008/</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2018-02-28 19:24:22</dcterms:dateSubmitted>
+        <dc:title>The Electronic Communications Act of Ghana, Act 775 of 2008 » National Communications Authority</dc:title>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Document rdf:about="https://nita.gov.gh/">
+        <z:itemType>webpage</z:itemType>
+        <dcterms:isPartOf>
+           <z:Website></z:Website>
+        </dcterms:isPartOf>
+        <link:link rdf:resource="#item_5771"/>
+        <dc:identifier>
+           <dcterms:URI><rdf:value>https://nita.gov.gh/</rdf:value></dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2018-02-28 19:34:35</dcterms:dateSubmitted>
+        <dc:title>National Information Technology Agency – NITA</dc:title>
+    </bib:Document>
+    <z:Attachment rdf:about="#item_5771">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/5771/nita.gov.gh.html"/>
+        <dc:identifier>
+           <dcterms:URI><rdf:value>https://nita.gov.gh/</rdf:value></dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2018-02-28 19:34:43</dcterms:dateSubmitted>
+        <dc:title>National Information Technology Agency – NITA</dc:title>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Legislation rdf:about="https://nca.org.gh/assets/Uploads/Electronic-Communications-Regulations-LI1993.pdf">
+        <z:itemType>statute</z:itemType>
+        <link:link rdf:resource="#item_5767"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://nca.org.gh/assets/Uploads/Electronic-Communications-Regulations-LI1993.pdf</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2018-02-28 19:28:19</dcterms:dateSubmitted>
+        <z:code>L I</z:code>
+        <z:codeNumber>1993</z:codeNumber>
+        <dc:date>2011</dc:date>
+        <dc:title>Ghana Electronic Communications Regulations LI 1993</dc:title>
+        <z:shortTitle>Ghana - LI 1993</z:shortTitle>
+    </bib:Legislation>
+    <z:Attachment rdf:about="#item_5767">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/5767/Electronic-Communications-Regulations-LI1993.pdf"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://nca.org.gh/assets/Uploads/Electronic-Communications-Regulations-LI1993.pdf</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2018-02-28 19:28:19</dcterms:dateSubmitted>
+        <dc:title>Electronic-Communications-Regulations-LI1993.pdf</dc:title>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Legislation rdf:about="http://www.lta.gov.lr/doc/LTA%20Act%20%202007.pdf">
+        <z:itemType>statute</z:itemType>
+        <link:link rdf:resource="#item_5774"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://www.lta.gov.lr/doc/LTA%20Act%20%202007.pdf</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2018-02-28 19:53:39</dcterms:dateSubmitted>
+        <dc:date>2007</dc:date>
+        <dc:title>Liberia Telecommunications Act</dc:title>
+    </bib:Legislation>
+    <z:Attachment rdf:about="#item_5774">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/5774/LTA Act  2007.pdf"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://www.lta.gov.lr/doc/LTA%20Act%20%202007.pdf</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2018-02-28 19:53:39</dcterms:dateSubmitted>
+        <dc:title>LTA Act  2007.pdf</dc:title>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <rdf:Description rdf:about="http://nitda.gov.ng/wp-content/uploads/2016/06/National-ICT-Policy.pdf">
+        <z:itemType>document</z:itemType>
+        <dc:publisher>
+            <foaf:Organization>
+               <foaf:name>The Ministry Of Communication Technology</foaf:name>
+            </foaf:Organization>
+        </dc:publisher>
+        <link:link rdf:resource="#item_5773"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://nitda.gov.ng/wp-content/uploads/2016/06/National-ICT-Policy.pdf</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dc:date>2012</dc:date>
+        <dcterms:dateSubmitted>2018-02-28 19:44:53</dcterms:dateSubmitted>
+        <dc:title>Nigeria National Information and Communication Technology (ICT) Policy</dc:title>
+        <z:shortTitle>Nigeria National ICT Policy</z:shortTitle>
+    </rdf:Description>
+    <z:Attachment rdf:about="#item_5773">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/5773/National-ICT-Policy.pdf"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://nitda.gov.ng/wp-content/uploads/2016/06/National-ICT-Policy.pdf</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2018-02-28 19:44:53</dcterms:dateSubmitted>
+        <dc:title>National-ICT-Policy.pdf</dc:title>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Legislation rdf:about="https://nca.org.gh/assets/Uploads/Electronic-Communications-Tribunal-Regulations-2016-L.I.-2235.pdf">
+        <z:itemType>statute</z:itemType>
+        <link:link rdf:resource="#item_5762"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://nca.org.gh/assets/Uploads/Electronic-Communications-Tribunal-Regulations-2016-L.I.-2235.pdf</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2018-02-28 19:25:56</dcterms:dateSubmitted>
+        <z:code>L I</z:code>
+        <z:codeNumber>2235</z:codeNumber>
+        <dc:date>2016</dc:date>
+        <dc:title>Ghana Electronic Communications Tribunal Regulations 2016 L.I. 2235</dc:title>
+        <z:shortTitle>Ghana - LI 2235</z:shortTitle>
+    </bib:Legislation>
+    <z:Attachment rdf:about="#item_5762">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/5762/Electronic-Communications-Tribunal-Regulations-2016-L.I.-2235.pdf"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://nca.org.gh/assets/Uploads/Electronic-Communications-Tribunal-Regulations-2016-L.I.-2235.pdf</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2018-02-28 19:25:56</dcterms:dateSubmitted>
+        <dc:title>Electronic-Communications-Tribunal-Regulations-2016-L.I.-2235.pdf</dc:title>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Legislation rdf:about="https://www.moc.gov.gh/sites/default/files/downloads/National%20Information%20Technology%20Agency%20Act%20771.pdf">
+        <z:itemType>statute</z:itemType>
+        <link:link rdf:resource="#item_5772"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.moc.gov.gh/sites/default/files/downloads/National%20Information%20Technology%20Agency%20Act%20771.pdf</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2018-02-28 19:39:04</dcterms:dateSubmitted>
+        <dc:date>2008</dc:date>
+        <prism:number>771</prism:number>
+        <dc:title>Ghana National Information Technology Agency Act 771</dc:title>
+        <z:shortTitle>Ghana - NITA Act 771</z:shortTitle>
+    </bib:Legislation>
+    <z:Attachment rdf:about="#item_5772">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/5772/National Information Technology Agency Act 771.pdf"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.moc.gov.gh/sites/default/files/downloads/National%20Information%20Technology%20Agency%20Act%20771.pdf</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2018-02-28 19:39:04</dcterms:dateSubmitted>
+        <dc:title>National Information Technology Agency Act 771.pdf</dc:title>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Document rdf:about="http://www.lta.gov.lr/content.php?sub=141&amp;related=51&amp;res=141&amp;third=141">
+        <z:itemType>webpage</z:itemType>
+        <dcterms:isPartOf>
+           <z:Website></z:Website>
+        </dcterms:isPartOf>
+        <link:link rdf:resource="#item_5781"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://www.lta.gov.lr/content.php?sub=141&amp;related=51&amp;res=141&amp;third=141</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2018-02-28 19:59:49</dcterms:dateSubmitted>
+        <dc:title>Liberia Telecommunications Authority - Published Regulations</dc:title>
+    </bib:Document>
+    <z:Attachment rdf:about="#item_5781">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/5781/content.html"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://www.lta.gov.lr/content.php?sub=141&amp;related=51&amp;res=141&amp;third=141</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2018-02-28 19:59:49</dcterms:dateSubmitted>
+        <dc:title>Liberia Telecommunications Authority</dc:title>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <rdf:Description rdf:about="https://www.academia.edu/4143262/A_REVIEW_OF_TELECOM_SECTOR_REFORM_IN_THE_REPUBLIC_OF_LIBERIA">
+        <z:itemType>conferencePaper</z:itemType>
+        <dcterms:isPartOf>
+           <bib:Journal></bib:Journal>
+        </dcterms:isPartOf>
+        <dc:publisher>
+            <foaf:Organization>
+                <vcard:adr>
+                    <vcard:Address>
+                        <vcard:locality>Goodenough College, London, England</vcard:locality>
+                    </vcard:Address>
+                </vcard:adr>
+            </foaf:Organization>
+        </dc:publisher>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Howard</foaf:surname>
+                        <foaf:givenname>Kolubahzizi</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_5786"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.academia.edu/4143262/A_REVIEW_OF_TELECOM_SECTOR_REFORM_IN_THE_REPUBLIC_OF_LIBERIA</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dc:date>2005</dc:date>
+        <dcterms:dateSubmitted>2018-02-28 20:03:50</dcterms:dateSubmitted>
+        <z:libraryCatalog>www.academia.edu</z:libraryCatalog>
+        <bib:presentedAt>
+            <bib:Conference>
+               <dc:title>Fourth Annual MCM Conference</dc:title>
+            </bib:Conference>
+        </bib:presentedAt>
+        <z:language>en</z:language>
+        <dcterms:abstract>The purpose of this document is to present a review of the telecommunications sector in the Republic of Liberia as well as the actions taken by the Government of Liberia to produce sector reform, and make concluding statements about the steps taken and give some recommendations that could enhance the reform process. In this connection, we shall present the background of Liberia, the present legal and policy framework, the present market structure of the Liberian telecom sector, actions taken by the Government to achieve sector reform and our conclusions. The ultimate objective being the achievement of a reform process that accomplishes the following: the creation of an enabling legal policy environment; the establishment of an transparent regulatory framework and institution; the reduction of the role of government as an operator in the sector through private participation; and the full liberalisation of the Liberian telecom market to new entrants and competition.</dcterms:abstract>
+        <dc:title>A REVIEW OF TELECOM SECTOR REFORM IN THE REPUBLIC OF LIBERIA</dc:title>
+    </rdf:Description>
+    <z:Attachment rdf:about="#item_5786">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/5786/A_REVIEW_OF_TELECOM_SECTOR_REFORM_IN_THE_REPUBLIC_OF_LIBERIA.html"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.academia.edu/4143262/A_REVIEW_OF_TELECOM_SECTOR_REFORM_IN_THE_REPUBLIC_OF_LIBERIA</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2018-02-28 20:04:00</dcterms:dateSubmitted>
+        <dc:title>Snapshot</dc:title>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <rdf:Description rdf:about="#item_5787">
+        <z:itemType>document</z:itemType>
+        <dc:publisher>
+            <foaf:Organization>
+                <foaf:name>Liberia Ministry of Posts &amp; Telecommunications</foaf:name>
+            </foaf:Organization>
+        </dc:publisher>
+        <link:link rdf:resource="#item_5800"/>
+        <link:link rdf:resource="#item_5782"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://www.lta.gov.lr/doc/ICT%20_%20Telecom%20Policy%20Main%20Body.pdf</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dc:date>2010</dc:date>
+        <dcterms:dateSubmitted>2018-02-28 20:02:06</dcterms:dateSubmitted>
+        <dc:title>Liberia National Telecommunications &amp; ICT Policy - 2010 - 2015</dc:title>
+        <z:shortTitle>Liberia - National ICT Policy</z:shortTitle>
+    </rdf:Description>
+    <z:Attachment rdf:about="#item_5800">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/5800/ICT _ Telecom Policy Header.pdf"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://www.lta.gov.lr/doc/ICT%20_%20Telecom%20Policy%20Header.pdf</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2018-03-05 02:36:09</dcterms:dateSubmitted>
+        <dc:title>ICT _ Telecom Policy Header.pdf</dc:title>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <z:Attachment rdf:about="#item_5782">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/5782/ICT _ Telecom Policy Main Body.pdf"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://www.lta.gov.lr/doc/ICT%20_%20Telecom%20Policy%20Main%20Body.pdf</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2018-02-28 20:02:06</dcterms:dateSubmitted>
+        <dc:title>ICT _ Telecom Policy Main Body.pdf</dc:title>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <rdf:Description rdf:about="http://a4ai.org/wp-content/uploads/2014/03/The-Nigerian-National-Broadband-Plan-2013_19May2013-FINAL.pdf">
+        <z:itemType>document</z:itemType>
+        <link:link rdf:resource="#item_5755"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://a4ai.org/wp-content/uploads/2014/03/The-Nigerian-National-Broadband-Plan-2013_19May2013-FINAL.pdf</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dc:date>2013</dc:date>
+        <dcterms:dateSubmitted>2018-02-28 04:28:30</dcterms:dateSubmitted>
+        <dcterms:abstract>A submission by the Presidential Committee on Broadban d</dcterms:abstract>
+        <dc:title>The Nigerian National Broadband Plan 2013 - 2018</dc:title>
+    </rdf:Description>
+    <z:Attachment rdf:about="#item_5755">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/5755/The-Nigerian-National-Broadband-Plan-2013_19May2013-FINAL.pdf"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://a4ai.org/wp-content/uploads/2014/03/The-Nigerian-National-Broadband-Plan-2013_19May2013-FINAL.pdf</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2018-02-28 04:28:30</dcterms:dateSubmitted>
+        <dc:title>The-Nigerian-National-Broadband-Plan-2013_19May2013-FINAL.pdf</dc:title>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <rdf:Description rdf:about="http://a4ai.org/wp-content/uploads/2014/03/National-Policy-on-Telecommunications.pdf">
+        <z:itemType>document</z:itemType>
+        <link:link rdf:resource="#item_5753"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://a4ai.org/wp-content/uploads/2014/03/National-Policy-on-Telecommunications.pdf</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dc:date>2000</dc:date>
+        <dcterms:dateSubmitted>2018-02-28 04:28:20</dcterms:dateSubmitted>
+        <dc:title>Nigeria National Policy on Telecommunications</dc:title>
+    </rdf:Description>
+    <z:Attachment rdf:about="#item_5753">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/5753/National-Policy-on-Telecommunications.pdf"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://a4ai.org/wp-content/uploads/2014/03/National-Policy-on-Telecommunications.pdf</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2018-02-28 04:28:20</dcterms:dateSubmitted>
+        <dc:title>National-Policy-on-Telecommunications.pdf</dc:title>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <rdf:Description rdf:about="http://eliberia.gov.lr/sites/elibdocs/ictpolicies/universalaccess.pdf">
+        <z:itemType>document</z:itemType>
+        <dc:publisher>
+            <foaf:Organization>
+               <foaf:name>Ministry of Posts and Telecommunications</foaf:name>
+            </foaf:Organization>
+        </dc:publisher>
+        <link:link rdf:resource="#item_5803"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://eliberia.gov.lr/sites/elibdocs/ictpolicies/universalaccess.pdf</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dc:date>2015</dc:date>
+        <dcterms:dateSubmitted>2018-03-05 02:55:31</dcterms:dateSubmitted>
+        <dcterms:abstract>This National Universal Access Program Strategy (NUAPS) identifies the compelling need to bridge access gap in the ICT sector by subsidizing basic ICT services such as voice and data in under-served and un-served areas that meet  established threshold nationwide. It also provides the need to invest in infrastructures that service providers can co-share to drive the provision of universal access service. This strategy further provides guidance for the implementation of Universal Access programs as stipulated in the National ICT and Telecommunication that Cabinet adopted in June 2011.</dcterms:abstract>
+        <dc:title>Liberia - National Universal Access Program Strategy  2015 – 2018</dc:title>
+        <z:shortTitle>Liberia - NUAPS</z:shortTitle>
+    </rdf:Description>
+    <z:Attachment rdf:about="#item_5803">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/5803/2015 - Liberia - National Universal Access Program Strate.pdf"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://eliberia.gov.lr/sites/elibdocs/ictpolicies/universalaccess.pdf</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2018-03-05 02:55:31</dcterms:dateSubmitted>
+        <dc:title>2015 - Liberia - National Universal Access Program Strate.pdf</dc:title>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <rdf:Description rdf:about="http://www.lta.gov.lr/doc/Policy%20Directive%20on%20gov.lr%20second%20level%20domain.pdf">
+        <z:itemType>document</z:itemType>
+        <dc:publisher>
+            <foaf:Organization>
+               <foaf:name>Liberia Telecommunications Authority</foaf:name>
+            </foaf:Organization>
+        </dc:publisher>
+        <link:link rdf:resource="#item_5801"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://www.lta.gov.lr/doc/Policy%20Directive%20on%20gov.lr%20second%20level%20domain.pdf</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dc:date>2011</dc:date>
+        <dcterms:dateSubmitted>2018-03-05 02:45:38</dcterms:dateSubmitted>
+        <dc:title>Policy Directive on gov.lr second level domain.pdf</dc:title>
+    </rdf:Description>
+    <z:Attachment rdf:about="#item_5801">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/5801/Policy Directive on gov.lr second level domain.pdf"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://www.lta.gov.lr/doc/Policy%20Directive%20on%20gov.lr%20second%20level%20domain.pdf</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2018-03-05 02:45:38</dcterms:dateSubmitted>
+        <dc:title>Policy Directive on gov.lr second level domain.pdf</dc:title>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Legislation rdf:about="http://www.uspf.gov.ng/files/Nigerian_Communications_Act_2003.pdf">
+        <z:itemType>statute</z:itemType>
+        <link:link rdf:resource="#item_5806"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://www.uspf.gov.ng/files/Nigerian_Communications_Act_2003.pdf</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2018-03-05 15:20:36</dcterms:dateSubmitted>
+        <z:session>2003</z:session>
+        <dcterms:abstract>An Act To Establish The National Frequency Management Council And The Universal Access Fund And To Reform The Nigerian Communications Commission And Repeal The Nigerian Communications Commission Act 1992; And For Related Matters</dcterms:abstract>
+        <dc:date>2003</dc:date>
+        <prism:number>19</prism:number>
+        <dc:title>Nigerian Communications Act, 2003</dc:title>
+        <z:shortTitle>Nigerian Communications Act, 2003</z:shortTitle>
+    </bib:Legislation>
+    <z:Attachment rdf:about="#item_5806">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/5806/Nigerian_Communications_Act_2003.pdf"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://www.uspf.gov.ng/files/Nigerian_Communications_Act_2003.pdf</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2018-03-05 15:20:36</dcterms:dateSubmitted>
+        <dc:title>Nigerian_Communications_Act_2003.pdf</dc:title>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+</rdf:RDF>

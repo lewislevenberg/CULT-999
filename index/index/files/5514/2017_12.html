@@ -1,0 +1,91 @@
+<html>
+<head>
+<meta content="text/html; charset=UTF-8" http-equiv="Content-Type">
+
+
+<meta content="0.2" name="wpd_version">
+<meta content="https://www.itu.int/net4/wsis/forum/2017/" name="wpd_baseurl">
+<meta content="https://www.itu.int/net/wsis/newsroom/wsisFlash/interspire_subscribe.html" name="wpd_url">
+<meta content="2017-05-18T15:08Z" name="wpd_date">
+
+<meta http-equiv="Content-Language" content="en">
+<meta name="itu-template" content="none">
+<title>WSIS Flash Subscription</title>
+
+
+<link media="all" href="2017_12.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+<form method="post" action="https://www.itu.int/ITU-D/hcb/newsletter/form.php?form=3" id="frmSS3" onsubmit="return CheckForm3(this);">
+	<div class="subForm label">Your Email Address:</div>
+	<div class="subForm input">
+		<input name="email" value="" style="background-image: url('il8IalkCLBfNVAAAAABJRU5ErkJggg=='); background-repeat: no-repeat; background-attachment: scroll; background-size: 16px 18px; background-position: 98% 50%;" type="text">
+	</div>
+	<div class="subForm label">First Name:</div>
+	<div class="subForm input">
+		<input name="CustomFields[2]" id="CustomFields_2_3" value="" type="text">
+	</div>
+	<div class="subForm label">Last Name:</div>
+	<div class="subForm input">
+		<input name="CustomFields[3]" id="CustomFields_3_3" value="" type="text">
+	</div>
+	<div class="subForm label">Preferred Format:</div>
+	<div class="subForm select">
+		<select name="format">
+			<option value="h">HTML</option>
+			<option value="t">Text</option>
+		</select>
+	</div>
+	<div class="subForm button">
+		<input value="Subscribe" type="submit">
+	</div>
+</form>
+
+<script type="text/javascript">
+
+// <![CDATA[
+
+			function CheckMultiple3(frm, name) {
+				for (var i=0; i < frm.length; i++)
+				{
+					fldObj = frm.elements[i];
+					fldId = fldObj.id;
+					if (fldId) {
+						var fieldnamecheck=fldObj.id.indexOf(name);
+						if (fieldnamecheck != -1) {
+							if (fldObj.checked) {
+								return true;
+							}
+						}
+					}
+				}
+				return false;
+			}
+		function CheckForm3(f) {
+			var email_re = /[a-z0-9!#$%&'*+\/=?^_`{|}~-]+(?:\.[a-z0-9!#$%&'*+\/=?^_`{|}~-]+)*@(?:[a-z0-9](?:[a-z0-9-]*[a-z0-9])?\.)+[a-z0-9](?:[a-z0-9-]*[a-z0-9])?/i;
+			if (!email_re.test(f.email.value)) {
+				alert("Please enter your email address.");
+				f.email.focus();
+				return false;
+			}
+		
+						if (f.format.selectedIndex == -1) {
+							alert("Please choose a format to receive your email campaigns in");
+							f.format.focus();
+							return false;
+						}
+			var fname = "CustomFields_3_3";
+			var fld = document.getElementById(fname);
+			if (fld.value == "") {
+				alert("Please enter a value for field Last Name");
+				fld.focus();
+				return false;
+			}					
+				return true;
+			}
+		
+// ]]>
+</script>
+
+</body>
+</html>

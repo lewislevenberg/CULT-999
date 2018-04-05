@@ -1,0 +1,1159 @@
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><script language="JavaScript">
+var beforeload = (new Date()).getTime();
+var totalTime = 0;
+var clientTime = 0;
+var serverTime = 0;
+var XmlHttpObj1;
+function Sign(X) { return X>0 ? "+" : X<0 ? "-" : " " }	
+function CreateXmlHttpObj1() {
+	try {XmlHttpObj1 = new ActiveXObject("Msxml2.XMLHTTP");}
+	catch(e) {try{XmlHttpObj1 = new ActiveXObject("Microsoft.XMLHTTP");} 
+		catch(oc) {XmlHttpObj1 = null;}}
+	if(!XmlHttpObj1 && typeof XMLHttpRequest != "undefined") {XmlHttpObj1 = new XMLHttpRequest();}}
+
+function updateTime() {
+			var sQuery = "abstract_id=2128103";
+			var sURL = "";
+
+			var sNameDom = "papers.ssrn.com";
+			var sIP = "71.190.191.124";
+			var sBrowser = "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.31 (KHTML, like Gecko) Chrome/26.0.1410.63 Safari/537.31";			
+			var sProtocol = location.protocol;
+			var requestUrl = sProtocol+ "//"+sNameDom+"/AjaxStatic.cfm?file=updateLoadTime";		
+			
+			var mydate= new Date();
+			var sTZOffset = mydate.getTimezoneOffset()/60;
+			var getSign = Sign(sTZOffset);
+			
+			if (getSign == '-') {sTZOffset = "GMT+ "+ Math.abs(sTZOffset)+":00";}
+			else {if (getSign == '+') {sTZOffset = "GMT- "+ Math.abs(sTZOffset)+":00";}
+				  else {sTZOffset = "GMT";}
+			}
+		
+			CreateXmlHttpObj1();
+			if(XmlHttpObj1) {
+				XmlHttpObj1.open('POST',requestUrl,false);
+				XmlHttpObj1.setRequestHeader('Content-Type','application/x-www-form-urlencoded');
+				XmlHttpObj1.send("url1=" +encodeURIComponent(sURL)+ "&qry=" +encodeURIComponent(sQuery)+ "&ip=" +sIP+ "&zone=" +encodeURIComponent(sTZOffset)+ "&ua=" +encodeURIComponent(sBrowser)+ "&setime=" +serverTime+ "&totime=" +totalTime);
+		
+			}
+}
+
+function loadingTime() {
+	//calculate the current time in afterload 
+	var afterload = (new Date()).getTime();	
+	//calculate the seconds
+	clientTime = (afterload-beforeload)/1000;
+	serverTime =  parseFloat(document.getElementById("serverTime").innerHTML);
+	totalTime = (clientTime + serverTime).toFixed(3);
+	document.getElementById("loadingtime").innerHTML = "and delivered in " + totalTime + " seconds";
+	updateTime();
+}
+function addLoadEvent(func) {
+  var oldonload = window.onload;
+  if (typeof window.onload != 'function') {
+    window.onload = func;
+  } else {
+    window.onload = function() {
+      if (oldonload) {
+        oldonload();
+      }
+      func();
+    }
+  }
+}
+</script>
+
+
+
+
+
+
+
+
+
+	
+	
+	
+	
+	
+	
+		
+			
+				
+			
+			
+		
+
+		
+		
+			
+		
+	
+
+	
+
+	
+
+
+
+	
+	
+	
+	
+
+	<script type="text/javascript" src="http://papers.ssrn.com/sol3/Scripts/jquery.js"></script>
+
+	<script language="javascript">
+		//Language functions
+		function changeLanguage(strCode){
+			$.ajax({
+				
+					url: '/sol3/AltLanguage_ajax.cfm?type=changeLanguage&partid=1&strCode=' + strCode.value,
+				
+				cache: false,
+				success: function(data) {
+					window.location.reload();
+				}
+			});
+		}
+	</script>
+
+
+
+
+
+	
+    <link href="http://hq.ssrn.com/css/style.css" type="text/css" rel="stylesheet">
+	<link href="css/sol3.css" type="text/css" rel="stylesheet">
+	<link href="css/papers.css" type="text/css" rel="stylesheet">
+    <link rel="image_src" href="http://papers.ssrn.com/sol3/images/iSSRN_a.png">
+
+	
+
+	<title>A Primer on Internet Exchange Points for Policymakers and Non-Engineers by Patrick Ryan, Jason Gerson :: SSRN</title>
+    
+<meta name="description" content="IXPs are becoming a critical part of Internet infrastructure, and the way in which an IXP is managed can impact an entire region’s Internet economy.  However, I">
+<meta name="keywords" content=" SSRN, A Primer on Internet Exchange Points for Policymakers and Non-Engineers, Patrick Ryan, Jason Gerson">
+<meta name="citation_author" content="Ryan, Patrick">
+<meta name="citation_author" content="Gerson, Jason">
+<meta name="citation_title" content="A Primer on Internet Exchange Points for Policymakers and Non-Engineers">
+<meta name="citation_date" content="August 12, 2012">
+<meta name="citation_doi" content="10.2139/ssrn.2128103">
+<meta name="citation_abstract_html_url" content="http://papers.ssrn.com/abstract=2128103">
+<meta name="citation_keywords" content="IXPs, ISPs, Competition, Telecommunications">
+<meta name="citation_pdf_url" content="http://papers.ssrn.com/sol3/Delivery.cfm?abstractid=2128103"> 
+
+	
+	
+
+
+	
+	<script type="text/javascript" src="http://static.ssrn.com/libraries/JQuery/jquery.min.js"></script>
+    <script language="JavaScript">
+        function openDigg() {
+            var ua = navigator.userAgent.toLowerCase();
+            var isSafari = (ua.indexOf('safari') > -1);
+            if (document.getElementById('diggarea').style.display=='none') {
+                document.getElementById('diggarea').style.display='block';
+                document.getElementById('downloadFullText').style.display='none';
+                document.getElementById('openShareLink').className = 'menuItemsOpened';
+				if (document.getElementById('hardCopyLink')){
+					document.getElementById('hardcopySection').style.display='none';
+					document.getElementById('hardCopyLink').className = 'menuItems';
+				}
+                if (document.getElementById('openDownloadLink'))
+                    document.getElementById('openDownloadLink').className = 'menuItemsDownload';
+				if (document.getElementById('captchaSectionForm')) {
+					document.getElementById('captchaSectionForm').style.display='none';
+				}
+            }
+            else {
+                document.getElementById('diggarea').style.display='none';
+                document.getElementById('openShareLink').className = 'menuItems';
+            }
+        }
+     	var bSafari_Ver5 = 'False';
+	 	var bMac = 'False';
+		var bIE = 'False';
+
+		function openHardCopy() {
+            var ua = navigator.userAgent.toLowerCase();
+            var isSafari = (ua.indexOf('safari') > -1);
+
+            if (document.getElementById('hardcopySection').style.display=='none') {
+                document.getElementById('hardcopySection').style.display='block';
+                document.getElementById('diggarea').style.display='none';
+				document.getElementById('downloadFullText').style.display='none';
+                document.getElementById('hardCopyLink').className = 'menuItemsDownloadOpened';
+				if (document.getElementById('openDownloadLink')){
+					document.getElementById('openDownloadLink').className =	'menuItems';
+				}
+                document.getElementById('openShareLink').className = 'menuItems';
+				if (document.getElementById('captchaSectionForm')) {
+					document.getElementById('captchaSectionForm').style.display='none';
+				}
+			}
+            else {
+                document.getElementById('hardcopySection').style.display='none';
+                document.getElementById('hardCopyLink').className = 'menuItems';
+				if (document.getElementById('openDownloadLink')){
+					document.getElementById('openDownloadLink').className =	'menuItemsDownload';
+				}
+	            }
+        }
+
+        function openKindleSendMail(ab_id) {
+        	window.open("Email_Kindle.cfm?abid="+ab_id,"Email_Kindle","toolbar=no,menubar=no,scrollbars=no,resizable=no,width=600,height=270");
+
+        }
+
+        function openPermalink(param) {
+            var ua = navigator.userAgent.toLowerCase();
+            var isSafari = (ua.indexOf('safari') > -1);
+
+            if (document.getElementById('permalink').style.display=='none') {
+                document.getElementById('permalink').style.display='block';
+                param.className='menuItemsShareSelected';
+				if (document.getElementById('captchaSectionForm')) {
+					document.getElementById('captchaSectionForm').style.display='none';
+				}
+            }
+            else {
+                document.getElementById('permalink').style.display='none';
+                param.className='menuItems';
+            }
+        }
+
+        function openDelicious() {
+            document.getElementById('permalink').style.display='none';
+            window.open("http://del.icio.us/post?v=4&noui&jump=close&url="+ encodeURIComponent(location.href) +"&title="+ encodeURIComponent(document.getElementById('titleDigg').value), "delicious", "toolbar=no,width=700,height=400");
+            return false;
+        }
+
+        function changeCountShow() {
+            if (document.getElementById('firstthree').style.display=='none') {
+                document.getElementById('firstten').style.display='none';
+                document.getElementById('firstthree').style.display='block';
+            }
+            else {
+                document.getElementById('firstthree').style.display='none';
+                document.getElementById('firstten').style.display='block';
+            }
+        }
+
+        function openProblemWindow() {
+            currWindow = window.open ("AcrobatIssues.html", "Acrobat_Issues","toolbar=no,menubar=no,scrollbars=yes,width=650,height=400");
+        }
+
+        function WinOpen(id) {
+            //currWindow = window.open ("http://papers2.ssrn.com/paper.taf?pip_jrnl=209249","PIP","toolbar=yes,menubar=yes,scrollbars=yes,resizable=yes,width=500,height=350");
+            sUrl = "PIP_Journal.cfm?pip_jrnl=" + id;
+            currWindow = window.open (sUrl,"PIP","toolbar=yes,menubar=yes,scrollbars=yes,resizable=yes,width=500,height=350");
+        }
+
+        ///////////////////////////////////////////////////////////////////////////////////
+        // Check if fieldValue is Integer												 //
+        ///////////////////////////////////////////////////////////////////////////////////
+        //-------------------------------------------------------------------------------//
+        var decimalpoint=".";
+        function checkinteger(fieldValue)
+        {
+            if (fieldValue.length > 0){
+                if (isNaN(fieldValue) || fieldValue == ""){
+                    return false;
+                }else{
+                    if (fieldValue.indexOf(decimalpoint) > -1){
+                        return false;
+                    }else{return true;}
+                }
+            }else{return true;}
+        }
+        //-------------------------------------------------------------------------------//
+	var XmlHttpObj;
+
+	function CreateXmlHttpObj() {
+	// try creating for IE (note: we don't know the user's browser type here, just attempting IE first.)
+		try {XmlHttpObj = new ActiveXObject("Msxml2.XMLHTTP");}
+		catch(e) {
+			try {XmlHttpObj = new ActiveXObject("Microsoft.XMLHTTP");}
+			catch(oc){ XmlHttpObj = null;}
+		}
+		// if unable to create using IE specific code then try creating for Mozilla (FireFox)
+		if(!XmlHttpObj && typeof XMLHttpRequest != "undefined") {
+			XmlHttpObj = new XMLHttpRequest();
+		}
+	}
+
+
+	function openCaptcha() {
+		var dt = new Date();
+		var action;
+		action = 1;
+
+		var requestUrl;
+		requestUrl = "ctCheckCaptchaStatus.cfm?id=" + encodeURIComponent(action) + "&dt=" + encodeURIComponent(dt);
+
+		CreateXmlHttpObj();
+
+		// verify XmlHttpObj variable was successfully initialized
+		if(XmlHttpObj) {
+			XmlHttpObj.onreadystatechange = StateChangeHandler;
+			XmlHttpObj.open("GET", requestUrl, true);
+			XmlHttpObj.send(null);
+		}
+	}
+
+	function StateChangeHandler() {
+		// state ==4 indicates receiving response data from server is completed
+		if(XmlHttpObj.readyState == 4) {
+			// To make sure valid response is received from the server, 200 means response received is OK
+			if(XmlHttpObj.status == 200) {
+				var srta = (XmlHttpObj.responseText).replace(/^\s+/g,'').replace(/\s+$/g,'');
+				if ( srta == 'no'){
+					if (document.getElementById('hardCopyLink')){
+						document.getElementById('hardcopySection').style.display='none';
+						document.getElementById('hardCopyLink').className = 'menuItems';
+					}
+                	document.getElementById('openShareLink').className = 'menuItems';
+					if (document.getElementById('diggarea')) {
+						document.getElementById('diggarea').style.display='none';
+					}
+					if (document.getElementById('captchaSection')){
+		    	    	document.getElementById('captchaSection').style.display='block';
+						document.getElementById('captchaSectionForm').style.display='block';
+					}
+					Recaptcha.focus_response_field();
+				}
+				else {
+					clickDownloadLink();
+				}
+			}
+		}
+	}
+
+	function closeCaptcha() {
+		if (document.getElementById('captchaSectionForm')) {
+			document.getElementById('captchaSectionForm').style.display='none';
+		}
+	}
+
+	function clickDownloadLink() {
+		closeCaptcha();
+		if (bIE == "True"){
+			document.getElementById('captchaLink').click();
+		}
+		else {
+			$(document).ready(function(){
+			     $("#captchaLink").click(function(){
+		          window.location = ($(this).attr("href"));
+			     }).trigger("click");
+			});
+		}
+	}
+
+
+	function verifyCaptcha() {
+		var dt = new Date();
+		sChallange = document.form1.recaptcha_challenge_field.value ;
+		sResponse = document.form1.recaptcha_response_field.value ;
+
+		var requestUrl;
+		requestUrl = "ctVerifyCaptcha.cfm?challange=" + encodeURIComponent(sChallange) + "&response=" + encodeURIComponent(sResponse) + "&dt=" + encodeURIComponent(dt);
+
+		CreateXmlHttpObj();
+
+		// verify XmlHttpObj variable was successfully initialized
+		if(XmlHttpObj) {
+			XmlHttpObj.onreadystatechange = StateChangeHandler1;
+			XmlHttpObj.open("GET", requestUrl, true);
+			XmlHttpObj.send(null);
+		}
+	}
+
+	function StateChangeHandler1() {
+		// state ==4 indicates receiving response data from server is completed
+		if(XmlHttpObj.readyState == 4) {
+			// To make sure valid response is received from the server, 200 means response received is OK
+			if(XmlHttpObj.status == 200) {
+				var srta = (XmlHttpObj.responseText).replace(/^\s+/g,'').replace(/\s+$/g,'');
+				if ( srta == 'true'){
+					clickDownloadLink();
+				}
+				else {
+					Recaptcha.reload();
+				}
+			}
+		}
+	}
+    </script>
+
+    <script type="text/javascript" src="../sol3/scripts/tooltip2.js"></script>
+    <script type="text/javascript" src="../sol3/scripts/searchhi.js"></script>
+    
+<base href="http://papers.ssrn.com/sol3/papers.cfm?abstract_id=2128103"></head>
+
+
+
+  	
+	
+	
+	
+	
+		
+	
+	
+		
+	
+
+	
+		
+			<body marginheight="0" marginwidth="0" topmargin="0" leftmargin="0" rightmargin="0">
+		
+	
+
+
+
+
+
+	
+
+
+
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+	<tbody><tr>
+		<td align="left" colspan="3">
+			
+			
+	
+
+
+
+
+
+
+
+
+
+	<link href="http://static.ssrn.com/css/SearchHeader.css" type="text/css" rel="stylesheet">
+	
+		<table width="100%" border="0" cellpadding="0" cellspacing="0">	
+			<tbody><tr>
+				<td background="http://static.ssrn.com/Images/Header/fondo_encabezado.jpg">
+					<a href="http://www.ssrn.com" target="_top">
+						<img src="http://static.ssrn.com/Images/Header/logo_social.jpg" width="133" height="51" border="no">
+					</a>
+					<img src="http://static.ssrn.com/Images/Header/social.jpg" width="420" height="51">
+				</td>
+			</tr>
+		</tbody></table>	
+	
+
+		</td>
+	</tr>
+	<tr>
+		<td valign="top" colspan="3" bgcolor="#CCCCCC" style="border-bottom: 2px solid #4C4C75">
+			
+			
+
+
+
+	
+
+
+	
+	
+	
+	
+
+
+
+	
+
+
+
+	<table valign="middle" border="0" cellpadding="0" cellspacing="0" width="100%">
+	<tbody><tr>
+		<td class="tdLinks" color="CCCCCC" background="" width="100%">
+		<nobr>
+			<div style="position:relative">
+				
+				
+				
+					
+				
+
+				
+
+				<div style="float:left;padding-right:20px;">
+					<a class="textMenu" href="http://www.ssrn.com" target="_parent">Home</a>
+					<a class="textMenu" href="http://papers.ssrn.com" target="_parent">Search</a>
+					<a class="textMenu" href="http://papers.ssrn.com/sol3/DisplayJournalBrowse.cfm" target="_parent">Browse</a>
+					<a class="textMenu" href="http://hq.ssrn.com/submissions/CreateNewAbstract.cfm" target="_parent">Submit</a>
+					<a class="textMenu" href="http://papers.ssrn.com/subscriptionforms/mainmenu.cfm" target="_parent">Subscribe</a>
+					<a class="textMenu" href="http://papers.ssrn.com/sol3/ShoppingCart.cfm" target="_parent">Shopping Cart</a>
+					<a class="textMenu" href="http://hq.ssrn.com/Briefcase/myBriefcase.cfm" target="_parent">My Briefcase</a>
+					<a class="textMenu" href="http://papers.ssrn.com/sol3/topten/topTenPapers.cfm" target="_parent">Top Papers</a>
+					<a class="textMenu" href="http://www.ssrn.com/institutes/top_authors_transfer_files/top_authors_transfer_files.html" target="_parent">Top Authors</a>
+					<a class="textMenu" href="http://www.ssrn.com/institutes/top_institutions_transfer_files/top_institutions_transfer_files.html" target="_parent">Top Institutions</a>
+					<a class="textMenu" href="http://ssrnblog.com/" target="new">SSRN Blog</a>
+				</div>
+
+			</div>
+		</nobr>
+		</td>
+	<td color="FFFFFF" background="" width="100%">
+	</td>
+	</tr>
+	</tbody></table>
+
+
+
+
+
+
+
+		</td>
+    </tr>
+</tbody></table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+	
+</table>
+<br>
+
+
+
+	
+
+
+
+
+		
+
+        
+
+	
+	<table width="100%">
+		<tbody><tr>
+			
+				<td valign="top" width="100%">
+					<div id="bodyHolder">
+<div id="containerTabs" style="width: 100%;" dir="ltr">
+<div class="selectedTab" style="position:relative; top:10px;margin-top: -9px;float:left;">
+<table style="vertical-align: top;" border="0" cellpadding="0" cellspacing="0">
+<tbody><tr>
+<td style="vertical-align: top; padding: 2px 0;" class="leftdeselect">&nbsp;</td>
+<td style="vertical-align: top; padding: 3px;" dir="ltr">
+<h3>Abstract</h3>
+<input type="text" style=" border: solid 1px #cccccc;background-color: #F2F2F2;color: #003366;width: 100%;" readonly="" size="30" value="http://ssrn.com/abstract=2128103" onclick="javascript:this.focus();this.select();">
+</td>
+<td style="vertical-align: top; padding: 0;" class="rightdeselect">&nbsp;</td>
+</tr>
+</tbody></table>
+</div>
+</div>
+<p style="margin-top: 3px;"><br>&nbsp;</p>
+<div id="outerLightBlue" style="position:relative;">
+<br>
+<div style="position:absolute;top:10px;width: 100%;">
+<center>
+<table style="background-color:dee4ff;">
+<tbody><tr>
+<td style="white-space: nowrap;" align="center">
+<a class="downloadBt" href="Delivery.cfm/SSRN_ID2128103_code355448.pdf?abstractid=2128103&amp;mirid=1" onclick="openDownloadFulltext();" id="openDownloadLink1" title="Download Full-Text PDF">Download This Paper</a>
+|
+<a class="menuItems" style="font-weight:bolder;" href="javascript:void(0);" onclick="openDigg();" id="openShareLink">Share</a>
+|
+<a class="menuItems" style="font-weight:bolder;" href="#" onclick="window.open(&quot;Email_Friend.cfm?abid=2128103&quot;,&quot;Email_Friend&quot;,&quot;toolbar=no,menubar=no,scrollbars=yes,resizable=yes,width=740,height=600&quot;)">Email</a>
+|<a class="menuItems" style="font-weight:bolder;" title="Add to My Briefcase" href="http://hq.ssrn.com/briefcase/myBriefcase.cfm?abid=2128103" target="_blank">Add to Briefcase</a>
+| <a class="menuItems" style="font-weight:bolder;" title="Purchase Bound Hard Copy" href="javascript:void(0);" onclick="openHardCopy();" id="hardCopyLink">Purchase Bound Hard Copy</a>
+</td>
+</tr>
+</tbody></table>
+</center>
+</div>
+<div style="padding-bottom: 5px; padding-top: 3px; border-left:1px white solid;border-right:1px white solid;border-top:1px white solid;">
+<br>
+<table align="center" width="90%">
+<tbody><tr>
+<td align="center">
+<div style="display:none; align:center" id="diggarea">
+<!-- AddThis Share Buttons BEGIN -->
+<div align="center" class="addthis_toolbox addthis_default_style" style="width:900px; margin:0 auto">
+<a class="addthis_button_facebook addThBtn" style="font-weight:bolder; "> Facebook</a>
+<span class="addthis_separator addThBtn">|</span>
+<a class="addthis_button_twitter addThBtn" style="font-weight:bolder;"> Twitter</a>
+<span class="addthis_separator addThBtn">|</span>
+<a class="addthis_button_citeulike addThBtn" style="font-weight:bolder;"> CiteULike</a>
+<span class="addthis_separator">|</span>
+<a class="menuItems" style="font-weight:bolder; width: auto;float:left;" href="javascript:void(0);" onclick="openPermalink(this);" title="Permalink">Permalink</a>
+</div>
+<div id="permalink" style="display: none; align: center;">
+Using the URL or DOI link below will<br>
+ensure access to this page indefinitely<br>
+<input type="text" class="simField" readonly="" size="35" value="http://ssrn.com/abstract=2128103" onclick="javascript:this.focus();this.select();"><br>
+<input type="text" class="simField" readonly="" size="35" value="http://dx.doi.org/10.2139/ssrn.2128103" onclick="javascript:this.focus();this.select();"><br>
+</div>
+<script type="text/javascript" src="http://s7.addthis.com/js/250/addthis_widget.js#pubid=ra-4fb149d9407dcd4b"></script>
+<!-- AddThis Share Buttons END -->
+</div>
+<div id="downloadFullText" style="display:none" class="downloadText">
+<a name="PaperDownload"> </a>
+<table align="center" width="80%">
+<tbody><tr align="center">
+<td colspan="5">
+<strong>	
+Based on your IP address, your paper is being delivered by:
+</strong>&nbsp;&nbsp;
+</td>
+</tr>
+<tr align="center">
+<td><a href="Delivery.cfm/SSRN_ID2128103_code355448.pdf?abstractid=2128103&amp;mirid=1" onclick="switchMirror(1);"><img src="../sol3//images/ssrntiny.gif" id="id1" onmouseover="this.src='../sol3//images/ssrntiny_over.gif'" onmouseout="this.src='../sol3//images/ssrntiny.gif'"></a></td>
+<td><a href="Delivery.cfm/SSRN_ID2128103_code355448.pdf?abstractid=2128103&amp;mirid=2" onclick="switchMirror(2);"><img src="../sol3//images/chicago.gif" id="id2" onmouseover="this.src='../sol3//images/chicago_over.gif'" onmouseout="this.src='../sol3//images/chicago.gif'"></a></td>
+<td><a href="Delivery.cfm/SSRN_ID2128103_code355448.pdf?abstractid=2128103&amp;mirid=3" onclick="switchMirror(3);"><img src="../sol3//images/ecgi.gif" id="id3" onmouseover="this.src='../sol3//images/ecgi_over.gif'" onmouseout="this.src='../sol3//images/ecgi.gif'"></a></td>
+<td><a href="Delivery.cfm/SSRN_ID2128103_code355448.pdf?abstractid=2128103&amp;mirid=4" onclick="switchMirror(4);"><img src="../sol3//images/korea.gif" id="id4" onmouseover="this.src='../sol3//images/korea_over.gif'" onmouseout="this.src='../sol3//images/korea.gif'"></a></td>
+<td><a href="Delivery.cfm/SSRN_ID2128103_code355448.pdf?abstractid=2128103&amp;mirid=5" onclick="switchMirror(5);"><img src="../sol3//images/stanford.gif" id="id5" onmouseover="this.src='../sol3//images/stanford_over.gif'" onmouseout="this.src='../sol3//images/stanford.gif'"></a></td>
+</tr>
+<tr align="center">
+<td class="selectedMirror">New York, USA
+<div id="processingMessage1" style="display: none;">
+<span>Processing request.</span>							
+<img src="http://hq.ssrn.com/submissions/Images/progress_bar_2.gif" border="1" title="Processing request." width="65" height="13">
+</div>
+</td>
+<td class="selectedMirror">Illinois, USA
+<div id="processingMessage2" style="display: none;">
+<span>Processing request.</span>							
+<img src="http://hq.ssrn.com/submissions/Images/progress_bar_2.gif" border="1" title="Processing request." width="65" height="13">
+</div>                                
+</td>
+<td class="selectedMirror" nowrap="">Brussels, Belgium
+<div id="processingMessage3" style="display: none;">
+<span>Processing request.</span>							
+<img src="http://hq.ssrn.com/submissions/Images/progress_bar_2.gif" border="1" title="Processing request." width="65" height="13">
+</div>                                
+</td>
+<td class="selectedMirror">Seoul, Korea
+<div id="processingMessage4" style="display: none;">
+<span>Processing request.</span>							
+<img src="http://hq.ssrn.com/submissions/Images/progress_bar_2.gif" border="1" title="Processing request." width="65" height="13">
+</div>                                
+</td>
+<td class="selectedMirror">California, USA
+<div id="processingMessage5" style="display: none;">
+<span>Processing request.</span>							
+<img src="http://hq.ssrn.com/submissions/Images/progress_bar_2.gif" border="1" title="Processing request." width="65" height="13">
+</div>                                
+</td>
+</tr>
+<tr>
+<td colspan="5" align="center">
+<br>
+<b>If you have any problems downloading this paper,<br>please click on another Download Location above, or <a href="http://www.ssrn.com/update/general/ssrn_faq.html#dl_help" target="_blank" class="menuItems">view our FAQ</a></b>
+<br><b>File name:</b> SSRN-id2128103. ; &nbsp; <b>Size:</b>    403K
+</td>
+</tr>
+</tbody></table>
+<br>
+<script language="JavaScript">
+function formatCurrency(num) {
+num = num.toString().replace(/\$|\,/g,'');
+if(isNaN(num))
+num = "0";
+sign = (num == (num = Math.abs(num)));
+num = Math.floor(num*100+0.50000000001);
+cents = num%100;
+num = Math.floor(num/100).toString();
+if(cents<10)
+cents = "0" + cents;
+for (var i = 0; i < Math.floor((num.length-(1+i))/3); i++)
+num = num.substring(0,num.length-(4*i+3))+','+
+num.substring(num.length-(4*i+3));
+return (((sign)?'':'-') + '$' + num + '.' + cents);
+}
+function CheckVals(checkout){
+var dir = 'http://papers.ssrn.com/sol3/ShoppingCart.cfm?funct=add';
+if (!checkinteger(document.form1.txtQuantity.value)){
+alert("Illegal character. Must be an integer.");
+return false;
+}
+if (document.form1.txtQuantity.value.length < 1){
+alert("Please enter the quantity of papers you would like to purchase!");
+return false;
+} 
+else if (document.form1.txtQuantity.value < 1){
+alert("You have to enter a number greater then 0 for the quantity!");
+return false;
+}
+calcTotal();
+dir+='&txtQuantity=' + document.form1.txtQuantity.value
+dir+='&txtTotalPrice=' + document.form1.txtTotalPrice.value;
+dir+='&txtAbID=2128103';
+if (checkout && checkout == 'yes') {
+dir+='&checkout=yes';
+}
+document.location.href=dir;
+}					
+function switchMirror ( mirror ) {
+showBar(mirror);
+setTimeout("hideBar(" + mirror + ")", 8000 );	
+// hide the rest of the progress bars
+for (i=1; document.getElementById('processingMessage'+i);i++) {
+if (i != mirror) hideBar(i);
+}
+}
+</script>														  
+</div>
+<div id="hardcopySection" style="display:none;" class="downloadText">
+<br>
+<table align="center" width="90%">
+<tbody><tr>
+<td>
+<form name="form2" method="post">
+<table cellpadding="3" align="center">
+<tbody><tr>
+<td rowspan="3"><a class="menuItems" href="javascript:void(0);" onclick="window.open(&quot;BoundHardCopy.cfm?img=2&quot;,&quot;SampleCover&quot;,&quot;toolbar=no,menubar=no,scrollbars=no,resizable=yes,width=580,height=540&quot;)"><img src="images/Purchase_thumb.gif" alt="Sample Cover"></a> </td>
+<td colspan="1" style="text-align: center; padding-left: 30px;"><b>You will receive a <a class="menuItems" href="javascript:void(0);" onclick="window.open(&quot;BoundHardCopy.cfm?img=2&quot;,&quot;BoundHardCopy&quot;,&quot;toolbar=no,menubar=no,scrollbars=no,resizable=yes,width=580,height=540&quot;)">perfect bound</a>, 8.5 x 11 inch, black and white printed copy of this PDF document with a glossy color cover. Currently shipping to U.S. addresses only. Your order will ship within 3 business days. For more details, <a class="menuItems" href="http://www.ssrn.com/update/general/ssrn_faq.html#purchase_bhc" title="SSRN FAQ" target="_blank">view our FAQ</a>.</b></td>
+</tr>
+<tr>
+<td style="text-align: center; padding-top:15px;">
+<b>Quantity:</b>
+<input type="text" style="text-decoration:none;" name="txtQuantityHC" value="1" maxlength="6" size="6" onkeyup="calcTotalHC();">
+<span id="totalprice"><b>Total Price = $9.99 plus shipping (U.S. Only)</b></span>
+<input type="hidden" name="txtTotalPriceHC" value="9.99">
+<input type="hidden" name="txtPriceHC" value="9.99">
+<input type="hidden" name="txtAbIDHC" value="2128103">
+</td>
+</tr>
+<tr>
+<td align="center" colspan="1" style="padding-top:10px;">
+<input type="button" name="cmdAddCart" value="Add to Cart" style="text-decoration:none;" onclick="CheckValsHC();">&nbsp;
+<input type="button" name="cmdCheckout" value="Add to Cart &amp; Checkout" style="text-decoration:none;" onclick="CheckValsHC('yes');">
+<br><p style="font-weight: bold;">If you have any problems with this purchase, please contact us for assistance by email: <a class="menuItems" href="mailto:support@ssrn.com">Support@SSRN.com </a> or by phone: 877-SSRNHelp (877 777 6435) in the United States, or +1 585 442 8170 outside of the United States. We are open Monday through Friday between the hours of 8:30AM and 6:00PM, United States Eastern.</p>
+</td>
+</tr>
+</tbody></table>
+</form>
+</td>
+</tr>
+</tbody></table>
+<script language="JavaScript">
+function calcTotalHC(){
+var lngTotal;
+lngTotal = (document.form2.txtPriceHC.value * document.form2.txtQuantityHC.value);
+document.form2.txtTotalPriceHC.value = lngTotal;
+lngTotal =  formatCurrency(lngTotal);
+document.getElementById("totalprice").innerHTML = "<b>Total Price = "+ lngTotal +" plus shipping (U.S. Only)</b>";
+}
+function CheckValsHC(checkout){
+var dir = 'http://papers.ssrn.com/sol3/ShoppingCart.cfm?funct=addHC';
+if (!checkinteger(document.form2.txtQuantityHC.value)){
+alert("Illegal character. Must be an integer.");
+return false;
+}
+if (document.form2.txtQuantityHC.value.length < 1){
+alert("Please enter the quantity of papers you would like to purchase!");
+return false;
+} 
+else if (document.form2.txtQuantityHC.value < 1){
+alert("You have to enter a number greater then 0 for the quantity!");
+return false;
+}
+calcTotalHC();
+dir+='&txtQuantity=' + document.form2.txtQuantityHC.value
+dir+='&txtTotalPrice=' + document.form2.txtTotalPriceHC.value;
+dir+='&txtAbID=2128103';
+if (checkout && checkout == 'yes') {
+dir+='&checkout=yes';
+}
+document.location.href=dir;
+}
+</script>														  
+</div>
+</td>
+</tr>
+</tbody></table>
+</div>
+<div id="innerWhite">
+<div id="abstractTitle">
+<h1 style="font-size: 18px;">A Primer on Internet Exchange Points for Policymakers and Non-Engineers</h1>
+</div>
+<center>
+<font face="Myriad Roman, Arial, Helvetica, Sans-serif;" size="2">
+<br><a href="http://papers.ssrn.com/sol3/cf_dev/AbsByAuth.cfm?per_id=355448" class="textlink" style="font-size:14px;font-weight:bold;" target="_blank" title="View other papers by this author"><h2 style="font-size:14px;font-weight:bold; margin: 0px; display: inline;">Patrick S. Ryan </h2></a><br>Google Inc.; University of Colorado at Boulder, Interdisciplinary Telecommunications Program; Catholic University of Leuven (KUL) - Interdisciplinary Center for Law and Information Technology (ICRI)<br><br><a href="http://papers.ssrn.com/sol3/cf_dev/AbsByAuth.cfm?per_id=1880898" class="textlink" style="font-size:14px;font-weight:bold;" target="_blank" title="View other papers by this author"><h2 style="font-size:14px;font-weight:bold; margin: 0px; display: inline;">Jason  Gerson </h2></a><br>Georgetown University<br>
+</font>
+<br>
+<font size="2" face="Myriad Roman, Arial, Helvetica, Sans-serif;">August 11, 2012</font><br>
+<br>
+</center>
+<br>
+<strong>
+<font size="2" face="Myriad Roman, Arial, Helvetica, Sans-serif;">Abstract: </font>
+</strong>&nbsp;&nbsp;&nbsp;&nbsp;
+<br>
+<font size="2" face="Myriad Roman, Arial, Helvetica, Sans-serif;">
+IXPs are becoming a critical part of Internet infrastructure, and the way in which an IXP is managed can impact an entire region’s Internet economy.  However, IXPs are not widely understood by policymakers, regulators, and businesspeople.  Our paper takes one additional step to help address this gap by discussing IXPs in a way that is approachable to this group — even if doing so through somewhat shallow, non-technical lens.  In the end, we conclude that a deeper policy understanding about how different IXPs operate can improve the regional Internet economy, mitigate corrosive sectoral distrust, improve Internet quality, and benefit consumers. </font><p><font size="2" face="Myriad Roman, Arial, Helvetica, Sans-serif;">
+</font>
+</p><p><font size="2" face="Myriad Roman, Arial, Helvetica, Sans-serif;"><b>Number of Pages in PDF File:</b> 28</font></p>
+<p>
+<font size="2" face="Myriad Roman, Arial, Helvetica, Sans-serif;"><b>Keywords:</b> IXPs, ISPs, Competition, Telecommunications</font>
+</p>
+
+<p>
+<font size="2" face="Myriad Roman, Arial, Helvetica, Sans-serif;"><b>JEL Classification:</b> L96, K23, L4</font>
+</p>
+
+<font size="2" face="Myriad Roman, Arial, Helvetica, Sans-serif;">
+working papers series
+</font>
+<br><br><br><center>
+</center>
+</div>
+<div class="clearBtn"></div>
+<a class="downloadBt downloadBtRight" href="Delivery.cfm/SSRN_ID2128103_code355448.pdf?abstractid=2128103&amp;mirid=1" onclick="openDownloadFulltext();" id="openDownloadLink2" title="Download Full-Text PDF">Download This Paper</a>
+<h4 style="margin-left: 15px;" class="dateInfo">
+Date posted: <font style="font-weight:normal">August 12, 2012</font>
+&nbsp;
+</h4>
+<div id="suggestedCitation" class="regtext11">
+<h4 style="margin-left: 15px; !important; font-weight: bold !important;">Suggested Citation</h4><p style="margin-left: 15px !important; margin-right: 10px !important;" class="regtext11"></p><div class="simField" style="text-decoration:none;font-size:11px;overflow: hidden;	margin-left: 15px;width: 544px;">Ryan, Patrick S. and Gerson, Jason, A Primer on Internet Exchange Points for Policymakers and Non-Engineers (August 11, 2012).  Available at SSRN: http://ssrn.com/abstract=2128103 or http://dx.doi.org/10.2139/ssrn.2128103</div><p></p>
+</div>
+<div id="ContactInfo">
+<h4 style="margin-left: 15px !important; margin-bottom: 0px !important;">Contact Information</h4><table id="affiliations" style="width:90%"><tbody><tr> <td class="affilliationHold" width="60%"><h5 style="margin-top: 15px !important; margin-bottom:5px !important;">Patrick S. Ryan  (Contact Author)</h5><div class="affiliation"> <span class="boldMe">Google Inc.</span> ( <a href="javascript:void(0)" onclick="window.open('GetAuthorEmail.cfm?abid=2128103&amp;pag=papers','Author_Email','toolbar=no,menubar=no,scrollbars=yes,resizable=no,width=700,height=470')" class="textlink">email</a> )<div class="affilAddress">1600 Amphitheatre Parkway<br>Second Floor<br>Mountain View, CA  94043<br>United States<br>303-835-3574 (Phone)<br></div></div></td><td></td></tr><tr> <td class="affilliationHold" width="60%"><div class="affiliation"> <span class="boldMe">University of Colorado at Boulder, Interdisciplinary Telecommunications Program</span> ( <a href="javascript:void(0)" onclick="window.open('GetAuthorEmail.cfm?abid=2128103&amp;pag=papers','Author_Email','toolbar=no,menubar=no,scrollbars=yes,resizable=no,width=700,height=470')" class="textlink">email</a> )<div class="affilAddress">Interdisciplinary Telecommunications Program<br>Boulder, CO  80309<br>United States<br>303-835-3574 (Phone)<br>303-265-9737 (Fax)<br></div></div></td><td></td></tr><tr> <td class="affilliationHold" width="60%"><div class="affiliation"> <span class="boldMe">Catholic University of Leuven (KUL) - Interdisciplinary Center for Law and Information Technology (ICRI)</span> ( <a href="javascript:void(0)" onclick="window.open('GetAuthorEmail.cfm?abid=2128103&amp;pag=papers','Author_Email','toolbar=no,menubar=no,scrollbars=yes,resizable=no,width=700,height=470')" class="textlink">email</a> )<div class="affilAddress">Tiensestraat 41<br>Leuven, B-3000<br>Belgium<br>303-835-3574 (Phone)<br>303-265-9737 (Fax)<br></div></div></td><td></td></tr><tr> <td class="affilliationHold" width="60%"><h5 style="margin-top: 15px !important; margin-bottom:5px !important;">Jason Gerson </h5><div class="affiliation"> <span class="boldMe">Georgetown University</span> ( <a href="javascript:void(0)" onclick="window.open('GetAuthorEmail.cfm?abid=2128103&amp;pag=papers','Author_Email','toolbar=no,menubar=no,scrollbars=yes,resizable=no,width=700,height=470')" class="textlink">email</a> )<div class="affilAddress">Washington, DC  20057<br>United States<br></div></div></td><td></td></tr></tbody></table>
+</div>
+</div>
+</div>
+				</td>
+				<td valign="top" width="170px">
+					<table style="vertical-align: top;" width="170px">
+<tbody><tr>
+<td>
+<div style="position:relative; margin-top:-18px;">
+<form name="formSuggestions" id="openbox3" style="display: none;">
+<table width="100%" cellspacing="0" cellpadding="0" class="leftColBox" style="z-index: 100;">
+<tbody><tr>
+<td style="width:93%; vertical-align: middle;" class="leftColBoxHead"><nobr><strong>Feedback to SSRN (Beta)</strong></nobr></td>
+<td style="width:7%; vertical-align: middle;" class="leftColBoxHead">
+<a href="javascript:void(0);" onclick="closeBox3();">
+<img class="leftboxarrow" src="http://static.ssrn.com/images/expanded.gif"></a>
+</td>
+</tr>    
+<tr>
+<td colspan="2" style="line-height: 10px; padding: 5px;background-color:#ffffff">
+<p>What type of feedback would you like to send?</p>
+<span style="display: block; font-style: italic; margin-left: 5px; margin-bottom: 5px;">
+please choose one</span>
+<span style="margin-left: 10px; display: block; " id="selections">
+<input type="radio" name="rdoOption" value="4721" id="sugtype">
+<label>&nbsp;&nbsp;Problem</label><br>
+<input type="radio" name="rdoOption" value="4723" id="sugtype">
+<label>&nbsp;&nbsp;Suggestion</label><br>
+<input type="radio" name="rdoOption" value="4724" id="sugtype">
+<label>&nbsp;&nbsp;Compliment</label><br>
+<input type="radio" name="rdoOption" value="4725" id="sugtype" checked="">
+<label>&nbsp;&nbsp;Comment</label><br>
+</span>
+<textarea name="txtEmail" id="sugemail" rows="5" columns="5" style="overflow: auto; width: 145px; margin-top: 5px; color:#999999; font-size: 11px; font-family: Myriad Roman, Arial, Helvetica, Sans-serif; text-decoration: none;" onclick="if(this.value &amp;&amp; this.value == '[enter your comments here]') { this.value=''; this.style.color='black'; }else{this.select();}">[enter your comments here]</textarea>
+<p align="center">
+<input name="txtReferer" value="/UserHome.cfm" type="hidden">
+<input name="btnSuggest" id="btnSuggest" type="button" value="Submit" onclick="sendSuggest();">
+</p>
+</td>
+</tr>
+</tbody></table>
+</form>
+<table id="closedbox3" width="100%" style="" cellspacing="0" cellpadding="0" class="leftColBox">
+<tbody><tr>
+<td style="width:93%; vertical-align: middle;" class="leftColBoxHead"><nobr><strong>Feedback to SSRN (Beta)</strong></nobr></td>
+<td style="width:7%; vertical-align: middle;" class="leftColBoxHead">
+<a href="javascript:void(0);" onclick="openBox3();">
+<img class="leftboxarrow" src="http://static.ssrn.com/images/collapsed.gif"></a>
+</td>
+</tr>
+</tbody></table>
+<script language="javascript" type="text/javascript">
+var url = "http://papers.ssrn.com/AjaxStatic.cfm?file=SuggBoxProcess"; // The server-side script
+var isWorking = false;
+var windowwidth = 0;
+var windowheight = 0;
+TZOffset = 0;
+if (window.outerWidth) {
+w_width = window.outerWidth;
+w_height = window.outerHeight;
+}
+else if (document.body.clientWidth) {
+w_width = document.body.clientWidth;
+w_height = document.body.clientHeight;
+}
+var mydate= new Date();
+var TZOffset = mydate.getTimezoneOffset()/60;
+function sendSuggest() {
+if (document.formSuggestions.txtEmail.value.length > 1000) {
+alert("Please make sure your suggestion is less then 1000 characters long.");
+}
+else {
+if (!isWorking && http) {
+var SugType = "";
+var SugPageFrom = "/sol3/papers.cfm";
+var IpAddr = "71.190.191.124";
+var FullUrl = "papers.ssrn.com";
+var SugEmail = document.getElementById("sugemail").value;
+SugEmail = escape(SugEmail).replace(/\+/g, '%2B');
+var lngItems = document.formSuggestions.elements.length;
+for (i=0;i<lngItems;i++) {
+if (document.formSuggestions.elements[i].type == 'radio') {
+if (document.formSuggestions.elements[i].checked == true) {
+SugType = document.formSuggestions.elements[i].value;
+}
+}
+}
+http.open('POST',url,false);
+http.setRequestHeader('Content-Type','application/x-www-form-urlencoded');
+http.send("rdoOption="+SugType+"&txtEmail="+SugEmail+"&SugPageFrom="+SugPageFrom+"&IPAddr="+IpAddr+"&FullUrl="+FullUrl+"&w_width="+w_width+"&w_height="+w_height+"&TZOffset="+TZOffset);
+}
+document.formSuggestions.reset();
+closeBox3();
+}
+}
+function getHTTPObject() {
+var xmlhttp;
+if (!xmlhttp && typeof XMLHttpRequest != 'undefined') {
+try {
+xmlhttp = new XMLHttpRequest();
+}
+catch (e) {
+xmlhttp = false;
+}
+}
+return xmlhttp;
+}
+var http = getHTTPObject(); // We create the HTTP Object
+function closeBox3() {
+document.getElementById('openbox3').style.display='none';
+document.getElementById('closedbox3').style.display='block';
+}
+function openBox3() {
+document.getElementById('closedbox3').style.display='none';
+document.getElementById('openbox3').style.display='block';
+}    
+</script>
+</div>
+</td>
+</tr>
+<tr>
+<td>
+<br><br>
+<div class="statistics">
+<font style="font-size: 12px;">Paper statistics</font>
+<br>
+<div class="lineDiv1"></div>
+<table width="99%" border="0" style="margin-top:0px; margin-bottom:0px;" cellpadding="0" cellspacing="0">
+<tbody><tr>
+<td align="left">
+<span class="statisticsText">Abstract Views:</span>
+</td>
+<td align="right" width="40px">
+<span class="statNumber">     1,169</span>
+</td>
+</tr>
+</tbody></table>
+<table width="99%" border="0" style="margin-top:0px; margin-bottom:0px;" cellpadding="0" cellspacing="0">
+<tbody><tr>
+<td align="left">
+<span class="statisticsText">Downloads:</span>
+</td>
+<td align="right" width="40px">
+<span class="statNumber">      315</span>
+</td>
+</tr>
+</tbody></table>
+<table width="99%" border="0" style="margin-top:0px; margin-bottom:0px;" cellpadding="0" cellspacing="0">
+<tbody><tr>
+<td align="left">
+<span class="statisticsText">Download Rank:</span>
+</td>
+<td align="right" width="40px">
+<span class="statNumber">    44,483</span>
+</td>
+</tr>
+</tbody></table>
+</div>
+<script type="text/javascript" src="/Scripts/jquery.js"></script>
+<script language="javascript">
+var times = 0; //  track the number of times the MORE link has been clicked (to avoid fraud)
+// Track Recommendations appearances
+function trackAppearances ()	{
+times++; // to avoid fraud - we only track these the first time the additional recommendations are shown
+var ab_id_source = '2128103';
+var list_of_ab_id_target = '';
+var initial_limit = '3';
+var algorithm = '1';
+var fraud = '1';
+if (times == 1) {
+$.ajax({
+url: 'TrackRecommendationsAppearances.cfm?ab_id_source=' + ab_id_source + '&list_of_ab_id_target=' + list_of_ab_id_target + '&initial_limit=' + initial_limit + '&algorithm=' + algorithm + '&fraud=' + fraud,
+cache: false,
+success: function(data) {
+}
+});
+}
+}
+</script>
+</td>
+</tr>
+<tr>
+<td>
+<script type="text/javascript"><!--
+google_ad_client = "pub-2197154964274421";
+google_alternate_ad_url = "http://papers.ssrn.com/sol3/google_adsense_script.html";
+google_ad_width = 170;
+google_ad_height = 600;
+google_ad_format = "160x600_as";
+google_ad_type = "text";
+google_ad_channel ="";
+google_color_border = "CCCCCC";
+google_color_bg = "FFFFFF";
+google_color_link = "000000";
+google_color_url = "666666";
+google_color_text = "333333";
+//--></script>
+<script type="text/javascript" src="http://pagead2.googlesyndication.com/pagead/show_ads.js"></script>
+</td>
+</tr>
+</tbody></table>
+				</td>
+			
+		</tr><tr>
+	</tr></tbody></table>
+
+<!--Includes footer -->
+<!-- includes piwik Trakcer -->
+
+
+
+	 
+
+
+<!-- Piwik --> 
+<script type="text/javascript">
+var pkBaseURL = (("https:" == document.location.protocol) ? "https://piwik.ssrn.com/" : "http://piwik.ssrn.com/");
+document.write(unescape("%3Cscript src='" + pkBaseURL + "piwik.js' type='text/javascript'%3E%3C/script%3E"));
+</script><script type="text/javascript">
+try {
+var piwikTracker = Piwik.getTracker(pkBaseURL + "piwik.php", 7);
+piwikTracker.trackPageView();
+piwikTracker.enableLinkTracking();
+} catch( err ) {}
+</script><noscript><p><img src="http://piwik.ssrn.com/piwik.php?idsite=7" style="border:0" alt=""></p></noscript>
+<!-- End Piwik Tracking Code -->
+
+<!--Includesss footer -->
+
+
+
+	
+	<p align="center" class="ssrn_ft">© 2013 Social Science Electronic Publishing, Inc. All Rights Reserved.&nbsp;
+	<a href="http://www.ssrn.com/update/general/ssrn_faq.html" target="_blank" title="SSRN's Database and Services (FAQ)">FAQ</a>&nbsp;&nbsp;
+	<a href="http://www.ssrn.com/terms_of_use.html" target="_blank" title="Terms of Use">Terms of Use</a>&nbsp;&nbsp;
+	<a href="http://www.ssrn.com/privacy_policy.html" target="_blank" title="Privacy Policy">Privacy Policy</a>&nbsp;&nbsp;
+	<a href="http://www.ssrn.com/dmca_notice_policy.html" target="_blank" title="Copyright">Copyright</a>
+	<br>This page was processed by apollo8 in <span id="serverTime">  0.703</span> seconds
+    <span id="loadingtime"></span></p>
+	<a href="/bots.not.allowed/"></a>
+	
+	
+	
+	
+	
+	
+
+
+<script language="javascript">
+	if (window.loadingTime) {
+	addLoadEvent(loadingTime); }
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+
+
+
+	
+
+ <script language="JavaScript">
+   	var ua = navigator.userAgent.toLowerCase();
+	var isSafari = (ua.indexOf('safari') > -1);
+ 	var bMac = 'False';
+	var bCaptcha = 'no';
+	function showBar(mirrorID){
+		if (document.getElementById('processingMessage'+mirrorID)) {
+			document.getElementById('processingMessage'+mirrorID).style.display="";
+		}
+	}
+
+	function hideBar(mirrorID){
+		if (document.getElementById('processingMessage'+mirrorID)) {
+			document.getElementById('processingMessage'+mirrorID).style.display="none";
+		}
+	}
+    function openDownloadFulltext() {
+        if (document.getElementById('downloadFullText').style.display=='none') {
+        	document.getElementById('downloadFullText').style.display='block';
+            document.getElementById('diggarea').style.display='none';
+			if (document.getElementById('openDownloadLink')){
+	            document.getElementById('openDownloadLink').className = 'menuItemsDownloadOpened';
+			}
+            document.getElementById('openShareLink').className = 'menuItems';
+   			if (document.getElementById('hardCopyLink')){
+				document.getElementById('hardcopySection').style.display='none';
+				document.getElementById('hardCopyLink').className = 'menuItems';
+				}
+			showBar(1);
+			setTimeout("hideBar(1)", 8000 );
+		}
+		return true;
+	}
+
+	if (bCaptcha == "yes" && bIE == "True"){
+		document.form1.recaptcha_response_field.style.top = "18px" ;
+	}
+</script></body></html>

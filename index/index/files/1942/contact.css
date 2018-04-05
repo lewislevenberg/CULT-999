@@ -1,0 +1,53 @@
+
+/* ::::: http://www.researchictafrica.net/css/ria.css ::::: */
+
+#wrapper { width: 1100px; margin: 0px auto; padding: 0px; position: relative; background: url('frame-body.jpg') repeat-y scroll 0% 0% rgb(255, 255, 255); }
+#content { width: 1000px; height: 100%; margin-left: 50px; position: relative; }
+#header { width: 1000px; height: 160px; background: url('header.jpg') no-repeat scroll right top rgb(255, 255, 255); }
+#menu_bar_bg { background: url('menu_bg_strip.jpg') repeat-x scroll 0% 0% transparent; height: 35px; width: 1000px; }
+.menu { width: 100%; font: 14px/34px "Trebuchet MS",Arial,Helvetica,sans-serif; letter-spacing: 0.05em; background: none repeat scroll 0% 0% transparent; }
+.menu ul { margin: 0px 0px -1px; padding: 0px; float: left; }
+.menu ul li { display: inline; }
+.menu ul li a { float: left; text-decoration: none; color: rgb(255, 255, 255); padding: 2px 20px 0px 28px; }
+.menu ul li a:visited { text-decoration: none; }
+.menu ul li a:hover, .menu ul li a:active, .menu ul li .current { color: rgb(255, 153, 0); text-decoration: none; }
+#main_panel { width: 1000px; position: relative; min-height: 800px; background-color: rgb(255, 255, 255); }
+#left_panel { float: left; width: 680px; min-height: 450px; padding: 0px 25px 45px 20px; font: 13px "Trebuchet MS",Verdana,sans-serif; color: rgb(51, 51, 51); text-align: justify; background-color: rgb(255, 255, 255); }
+#right_panel { width: 255px; min-height: 450px; float: left; font: 12px "Trebuchet MS",Verdana,sans-serif; color: rgb(51, 51, 51); padding: 0px 10px; background-color: rgb(230, 230, 230); }
+#single_panel { float: left; width: 955px; min-height: 450px; padding: 0px 20px 45px; font: 13px "Trebuchet MS",Verdana,sans-serif; color: rgb(51, 51, 51); text-align: justify; background-color: rgb(255, 255, 255); }
+#footer_bar { clear: both; width: 985px; margin: 0px auto; position: relative; z-index: 3; height: 25px; padding: 7px 0px 0px 15px; color: rgb(204, 204, 204); background: url('menu_bg_strip.jpg') repeat-x scroll 0% 0% transparent; }
+#downloads_panel_top { margin-top: 425px; width: 245px; height: 30px; padding-left: 10px; background: url('download-top.jpg') no-repeat scroll left top transparent; }
+#downloads_panel_body { width: 255px; background-color: rgb(255, 255, 255); }
+#archive_panel_top { margin-top: 40px; width: 245px; height: 30px; padding-left: 10px; background: url('archive-top.jpg') no-repeat scroll left top transparent; }
+#footer { position: relative; z-index: 2; clear: both; }
+#footer_content { width: 1000px; margin: 0px auto; position: relative; padding: 20px 0px; }
+.country-heading { font: bold 38px "Trebuchet MS",Verdana,sans-serif; letter-spacing: 0.03em; color: rgb(0, 0, 0); display: inline; margin-left: 10px; }
+.country-line { display: block; width: 680px; border-bottom: 2px solid rgb(0, 0, 0); margin: 5px 0px 15px; }
+.article-heading { font: bold 20px "Trebuchet MS",Verdana,sans-serif; color: rgb(204, 41, 43); display: block; border-bottom: 1px solid rgb(204, 41, 43); padding-bottom: 3px; margin-top: 25px; margin-bottom: 5px; }
+.heading { font: bold 14px "Trebuchet MS",Verdana,sans-serif; color: rgb(51, 51, 51); display: block; margin-top: 20px; margin-bottom: 2px; }
+.sub-heading { font: bold 14px "Trebuchet MS",Verdana,sans-serif; color: rgb(0, 0, 0); display: block; margin-top: 10px; margin-bottom: 2px; }
+.people-heading { font: bold 15px "Trebuchet MS",Verdana,sans-serif; color: rgb(0, 0, 0); border-bottom: 1px solid rgb(153, 153, 153); display: block; margin-top: 28px; padding-bottom: 2px; }
+.side-heading { font: bold 19px "Trebuchet MS",Verdana,sans-serif; color: rgb(204, 41, 43); display: block; border-bottom: 1px solid rgb(204, 204, 204); padding-bottom: 3px; margin-top: 25px; margin-bottom: 5px; }
+.side-sub-heading { font: bold 14px "Trebuchet MS",Verdana,sans-serif; color: rgb(0, 0, 0); display: block; margin-top: 15px; }
+.downloads-heading { font: bold 15px/33px "Trebuchet MS",Verdana,sans-serif; display: block; letter-spacing: 0.05em; color: rgb(255, 255, 255); }
+.footer { font: 12px "Arial",Verdana,sans-serif; color: rgb(0, 0, 0); text-decoration: none; }
+.small { font: 12px "Arial",Verdana,sans-serif; color: rgb(102, 102, 102); }
+.article_date { font: 12px "Trebuchet MS",Verdana,sans-serif; color: rgb(153, 153, 153); display: block; margin-bottom: 15px; }
+.read_link { font-size: 11px; }
+a:link { color: rgb(204, 41, 43); text-decoration: none; outline: medium none; }
+a:active { color: rgb(204, 41, 43); text-decoration: none; }
+a:visited { color: rgb(204, 41, 43); text-decoration: none; }
+a:hover { color: rgb(204, 41, 43); text-decoration: none; }
+a.footer:link { color: rgb(204, 204, 204); text-decoration: none; }
+a.footer:active { color: rgb(204, 204, 204); text-decoration: none; }
+a.footer:visited { color: rgb(204, 204, 204); text-decoration: none; }
+a.footer:hover { color: rgb(255, 255, 255); text-decoration: none; }
+:-moz-any-link:focus { outline: medium none; }
+a.button { position: relative; overflow: hidden; background-color: rgb(255, 255, 255); border-right: 1px solid rgb(102, 102, 102); border-width: medium 1px 1px; border-style: none solid solid; border-color: -moz-use-text-color rgb(102, 102, 102) rgb(102, 102, 102); -moz-border-top-colors: none; -moz-border-right-colors: none; -moz-border-bottom-colors: none; -moz-border-left-colors: none; border-image: none; padding: 4px 5px 3px; display: block; width: 243px; font: bold 12px/16px "Trebuchet MS",Verdana,sans-serif; text-align: left; text-decoration: none; color: rgb(51, 51, 51); outline: medium none; }
+a.button:hover { background-color: rgb(230, 230, 230); text-decoration: none; color: rgb(204, 41, 43); outline: medium none; }
+a.archive { position: relative; overflow: hidden; background-color: rgb(255, 255, 255); border-right: 1px solid rgb(102, 102, 102); border-width: medium 1px 1px; border-style: none solid solid; border-color: -moz-use-text-color rgb(102, 102, 102) rgb(102, 102, 102); -moz-border-top-colors: none; -moz-border-right-colors: none; -moz-border-bottom-colors: none; -moz-border-left-colors: none; border-image: none; padding: 4px 5px 3px; display: block; width: 243px; font: bold 12px/16px "Trebuchet MS",Verdana,sans-serif; text-align: left; text-decoration: none; color: rgb(51, 51, 51); outline: medium none; }
+a.archive:hover { background-color: rgb(230, 230, 230); text-decoration: none; color: rgb(204, 41, 43); outline: medium none; }
+a.country_btn { display: block; padding-bottom: 4px; font: bold 12px "Trebuchet MS",Verdana,sans-serif; text-decoration: none; color: rgb(102, 102, 102); outline: medium none; }
+a.country_btn:hover { text-decoration: none; color: rgb(204, 41, 43); outline: medium none; }
+a.country_btn:active { text-decoration: none; }
+.checkOver { overflow: auto; width: 200px; height: 95px; }

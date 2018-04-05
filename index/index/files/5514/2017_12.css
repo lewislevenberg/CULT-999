@@ -1,0 +1,6 @@
+
+/* ::::: null ::::: */
+
+.subForm { font-family: Tahoma; font-size: 11px; font-weight: bold; color: rgb(105, 105, 105); line-height: 150%; margin: 0px auto; padding: 2px 0px; }
+.subForm.input input, .subform.select select { width: 180px; height: 24px; font-family: Tahoma; font-size: 14px; }
+.subform.button input { font-family: Tahoma; font-size: 12px; padding: 4px 10px; margin: 10px auto; }

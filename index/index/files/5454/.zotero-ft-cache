@@ -1,0 +1,1749 @@
+Your IP address is 108.58.101.234
+
+    Home
+    About us
+    Services
+    Community
+    Library
+    Initiatives
+    MyAFRINIC
+    FAQs
+    Incidents
+
+Library Policy documents
+Related articles
+The Policy Development Process 	Public Policy Meetings 	View Current Policies
+	Policy Manual 	View recent discussions
+(mailing list)
+The Policy Development Working Group (PDWG) 	Meeting Minutes 	View Policy Proposals
+(under discussion) 	
+
+Participate in the policy discussions (mailing list)
+	
+
+Propose a policy
+Filters
+AFRINIC Consolidated Policy Manual
+
+ 
+Last Updated: 26 July 2016
+Version: 1.0
+
+ 
+
+Contents
+
+1.0 Introduction
+
+2.0 General Definitions
+
+3.0 The Policy Development Process (PDP)
+
+3.1 Scope of the PDP
+
+3.2 Policy Development Principles
+
+3.3 Policy Development Working Group (PDWG)
+
+3.4 Policy Development Process
+
+3.5 Conflict Resolution
+
+3.6 Varying the Process
+
+4.0 Hierarchy of number resource distribution
+
+5.0 IPv4
+
+5.1 IPv4 Address Space
+
+5.2 Goals of the Internet Registry System
+
+5.3 Registration Requirements
+
+5.4 Soft Landing
+
+5.5 IPv4 LIR/ISP Allocations
+
+5.6 IPv4 End-User (PI) Assignments
+
+6.0 IPv6
+
+6.1 Utilisation
+
+6.2 HD-Ratio
+
+6.3 Goals of IPv6 address space management
+
+6.4 IPv6 Policy Principles
+
+6.5 Policies for allocations and assignments
+
+6.6 Assignments for Internet Experiments
+
+6.7 HD-Ratio (HD) and Utilisation Threshold (T)
+
+6.8 PI Assignments
+
+7.0 ASN
+
+7.1 Introduction
+
+7.2 Scope
+
+7.3 Definitions
+
+7.4 Eligibility for an AS Number assignment
+
+7.5 Assignment Procedures
+
+7.6 Registration Requirements
+
+7.7 Returning unused ASNs
+
+7.8 Miscellaneous
+
+8.0 “Abuse” Contact Information
+
+8.1 Introduction
+
+8.2 Policy details
+
+8.3 Advantages and disadvantages of the policy
+
+9.0 Temporary Resource Allocation & Assignment
+
+9.1 Documenting the temporary activity
+
+9.2 Assignments of IP resources
+
+9.3 Administrative fees
+
+10.0 Reverse delegation
+
+10.1 Introduction
+
+10.2 Obtaining Delegation of an in-addr.arpa sub-zone
+
+10.3 Reverse Delegation for Provider Aggregatable (PA) Address Space
+
+10.4 Reverse Delegation for Provider Independent (PI) Address Space
+
+10.5 Validity of the Reverse Delegation
+
+10.6 IPv6 Reverse Delegation
+
+11.0 Resource Reservations for Internet Exchange Points
+
+12.0 Anycast Resource Assignments
+
+ 
+
+1.0   Introduction
+
+Policies for managing IP number resources in the AFRINIC service region are created through a Policy Development Process (PDP) which describes the steps through which policy proposals are submitted, considered, debated (by the community) and adopted (by AFRINIC). This document contains ratified and implemented policies that have gone through the PDP.
+
+AFRINIC is a non-for-profit independent organisation serving as one of the five Regional Internet Registries (RIRs). Its service region incorporates the African continent and part of the Indian Ocean (Seychelles, Mauritius, Madagascar, Comoros and Reunion).  
+
+ 
+
+2.0   General Definitions
+
+The following terms and their definitions are of particular importance to the understanding of the goals, environment, and policies described in this document.
+
+ 
+2.1 Internet Registry (IR)
+
+An Internet Registry (IR) is an organization that is responsible for distributing IP address space to its customers and for registering those addresses. IRs are classified according to their primary function and territorial scope within the hierarchical structure.
+ 
+2.2 Regional Internet Registry (RIR)
+
+Earlier, Regional Internet Registries (RIRs) were established under the authority and initiatives of the internet communities in their respective regions. Currently, the ICANN authorises establishment of RIRs to serve and represent large geographical regions. The primary role of RIRs is to manage and distribute public Internet address space within their respective regions.
+
+ 
+
+Currently, there are five RIRs: APNIC , ARIN , LACNIC , RIPE NCC and AFRINIC.
+
+ 
+2.3 Local Internet Registry (LIR)
+
+A Local Internet Registry (LIR) is an IR that receives allocations from an RIR and primarily assigns address space to 'end-users'. LIRs are generally ISPs. Their customers are other ISPs and possibly end-users. LIRs must be members of AFRINIC.
+ 
+2.4 Allocation
+
+To "allocate" means to distribute address space to LIRs for the purpose of subsequent distribution.
+ 
+2.5 Sub-Allocation
+
+To "sub-allocate" means to distribute address space (by LIRs) to ISPs for the purpose of subsequent distribution.
+
+ 
+2.6 Assignment
+
+An assignment is an IP block given by an LIR to the end-users for their own usage. To "assign" means to delegate address space to an ISP or End User for specific use within the Internet infrastructure they operate. Assignments must only be made for specific purposes documented by specific organisations and are not to be sub-assigned to other parties.
+ 
+2.7  PA (Provider Aggregatable) IP space
+
+PA space is what has been allocated to LIRs from which they can assign or sub-allocate to end-users / downstream networks as non-portable block. If the end-user / downstream network changes provider, the address space assigned or sub-allocated by the previous service provider (LIR) should be returned and the network renumbered.
+
+ 
+2.8 PI (Provider Independent) IP space
+
+PI (or portable) space cannot be aggregated and can only be assigned by RIR through an LIR. PI space is expensive to route and might not be globally routable. Sub-allocations cannot be made from this type of address space by the end user or LIR.
+
+ 
+3.0 The Policy Development Process (PDP)
+
+This section describes the AFRINIC Policy Development Process (PDP). Policies are documented AFRINIC community decisions that directly determine the rules by which AFRINIC manages and administers Internet number resources.
+
+The procedures described herein are designed to be fair, open and objective and are intended to:
+
+    Provide ample opportunity for participation and comment by all interested parties;
+    Establish widespread Internet community consensus.
+
+These procedures adopt generally accepted practices and provide the flexibility to adapt to a variety of circumstances that can occur in a process.
+
+ 
+3.1  Scope of the PDP
+
+The Policy Development Process covers the development and modification of policies for handling Internet Number Resources within the AFRINIC service region. Changes to the Policy Development Process itself will also follow the process.
+
+Internet number resource policies are distinctly separate from AFRINIC general business practices and procedures. General business practices and procedures are not within the purview of the Policy Development Process. 
+
+ 
+3.2  Policy Development Principles
+
+All policies are developed by the Internet community following the three principles of openness, transparency and fairness. The Internet community initiates and discusses the proposals. If consensus is reached on the draft policy, it is recommended to the AFRINIC Board of Directors for adoption as a policy.
+ 
+3.2.1 Openness
+
+All policies are developed in an open forum in which anyone may participate. There are no qualifications for participation.
+
+ 
+3.2.2 Transparency
+
+All aspects of the Policy Development Process are documented and publicly available via the AFRINIC website. The discussions are publicly archived. All procedures that are developed to implement the policy are documented by AFRINIC and are publicly available.
+
+ 
+3.2.3 Fairness
+
+The policies are to ensure fair distribution of resources and facilitating the operation of the Internet. Actions are taken within a reasonable period of time.
+
+ 
+3.3  The Policy Development Working Group (PDWG)
+
+The Policy Development Working Group (PDWG) discusses about the proposals. Anyone may participate via the Internet or in person. PDWG work is carried out through the Resource Policy Discussion mailing list ( rpd@afrinic.net This e-mail address is being protected from spambots. You need JavaScript enabled to view it ) and the bi-annual AFRINIC Public Policy Meetings (PPM). Any person, participating either in person or remotely, is considered to be part of the Policy Development Working Group.
+
+The Policy Development Working Group has two Chairs to perform its administrative functions. The PDWG Chairs are chosen by the AFRINIC community during the Public Policy Meeting and serve staggered two-year terms. The term ends during the first Public Policy Meeting corresponding to the end of the term for which they were appointed. A term may begin or end no sooner than the first day of the Public Policy Meeting and no later than the last day of the Public Policy Meeting as determined by the mutual agreement of the current Chair and the new Chair.
+
+If the Working Group Chair is unable to serve his or her full term, the Working Group may select a replacement to serve the remainder of the term. If the Working Group Chairs are unable to attend the Public Policy Meeting, the Working Group shall nominate a Chair for the session. Anyone present at the meeting, whether in person or by remote participation, may participate in the selection process for a temporary Chair.
+
+ 
+3.4  Policy Development Process
+
+Anyone can submit a proposal. Policy proposals are submitted to the Resource Policy Discussion mailing list (( rpd@afrinic.net This e-mail address is being protected from spambots. You need JavaScript enabled to view it ) by the author. AFRINIC will provide administrative support and assist the author(s) in drafting the proposal, if requested. AFRINIC shall also provide relevant facts and statistics if requested during the discussion.
+
+ 
+3.4.1 Draft Policy Proposal
+
+During the development of a policy, draft versions of the document are made available for review and comment by publishing them on the AFRINIC website and posting them to the rpd@afrinic.net This e-mail address is being protected from spambots. You need JavaScript enabled to view it mailing list. Each draft policy is assigned a unique identifier by AFRINIC and the AFRINIC website shall also contain the version history and the status of all proposals.
+
+The draft policy shall be available for review for at least four weeks before the next Public Policy Meeting. The author(s) shall make the necessary changes to the draft policy according to the feedback received. The Working Group Chair(s) may request AFRINIC to provide an analysis (technical, financial, legal or other), of the impact of the draft policy proposal.
+
+ A draft policy expires after one calendar year unless it is approved by the AFRINIC Board of Directors as a policy. The timeout period is restarted when the draft policy is replaced by a more recent version of the proposal. A draft policy can be withdrawn by the author(s) by sending a notification to the Resource Policy Discussion mailing list.
+ 
+3.4.2 Public Policy Meeting
+
+The draft policy is placed on the agenda of an open public policy meeting. The agenda of the meeting shall be announced on the Resource Policy Discussion mailing list at least two weeks prior to the meeting. No change can be made to a draft policy within one week of the meeting. This is so that a stable version of the draft policy can be considered at the meeting. The Chair(s) determine(s) whether rough consensus has been achieved during the Public Policy Meeting.
+
+The Chair(s) shall publish the minutes of proceedings of the Public Policy Meeting not later than three weeks after the meeting.
+
+ 
+3.4.3 Last Call
+
+A final review of the draft policy is initiated by the Working Group Chair(s) by sending an announcement to the Resource Policy Discussion mailing list. The Last Call period shall be at least two weeks. The Working Group Chair(s) shall evaluate the feedback received during the Public Policy Meeting during this period and decide whether consensus has been achieved.
+
+ 
+3.4.4 Approval
+
+The Working Group Chair(s) shall recommend the draft policy to the AFRINIC Board of Directors for approval if it has the consensus of the Policy Development Working Group. The recommendation shall include a report of the discussions of the draft policy and feedback from the Last Call. The draft policy shall be ratified by the AFRINIC Board of Directors.
+
+ 
+3.4.5 Implementation
+
+The adoption and implementation date of the policy is announced on the Resource Policy Discussion mailing list. The implementation date should be less than six months after the end of the Last Call unless a waiver is requested.
+ 
+3.5 Conflict Resolution
+
+A person who disagrees with the actions taken by the Chair(s) shall discuss the matter with the PDWG Chair(s) or with the PDWG. If the disagreement cannot be resolved in this way, the person may file an appeal with an Appeal Committee appointed by the AFRINIC Board of Directors. An appeal can only be filed if it is supported by three (3) persons from the Working Group who have participated in the discussions.
+
+The appeal must be submitted within two weeks of the public knowledge of the decision. The Appeal Committee shall issue a report on its review of the complaint to the Working Group. The Appeal Committee may direct that the Chair(s) decision be annulled if the Policy Development Process has not been followed.
+
+Anyone may request the recall of a Working Group Chair at any time, upon written request with justification to the AFRINIC Board of Directors. The request must be supported by at least five (5) other persons from the Working Group. The AFRINIC Board of Directors shall appoint a recall committee, excluding the persons requesting the recall and the Working Group Chairs. The recall committee shall investigate the circumstances of the justification for the recall and determine the outcome.
+
+ 
+3.6 Varying the Process
+
+The process outlined in this document may vary in the case of an emergency. Variance is for use when a one-time waiving of some provision of this document is required. The decision to vary the process is taken by the Working Group Chair. There must be an explanation about why the variance is needed. The review period, including the Last Call, shall not be less than four weeks. If there is consensus, the policy is approved and it must be presented at the next Public Policy Meeting.
+
+ 
+
+3.7 Draft Policy Template
+
+ The Draft Policy text shall be submitted on the following template:
+Unique identifier (assigned by AFRINIC):  
+Draft Policy Name:  
+Author(s):  
+ (a) Name  
+ (b) Email address  
+ (c) Affiliation, if applicable  
+
+ 
+
+ Draft Proposal Version: 
+Submission Date:  
+Related Policies:  
+Obsoletes:  
+
+ 
+
+ Amends:  
+
+ 
+
+ 1. Summary of the problem being addressed by this proposal  
+2. Summary of how this proposal addresses the problem  
+3. Proposal (Please use sub-numbering to make it easy for referencing).
+The proposal must show exact sections to be modified, added or removed from the Consolidated
+Policy Manual.  
+4. Revision History  
+5. References  
+
+
+ 
+4.0 Hierarchy of number resource distribution
+
+Internet Number Resources are distributed in a hierarchical structure in which IANA (The Internet Assigned Numbers Authority) allocates blocks of number resources to AFRINIC, to be redistributed throughout the African region. AFRINIC redistributes to its members and also delegates to them the authority to make assignments and sub-allocations to customers where appropriate and in accordance with the policies and procedures described in this document.
+
+ 
+5.0 IPv4
+
+This section describes the guidelines for the responsible management IPv4 address space in the AFRINIC service region. The guidelines are developed through an open, bottom up policy development process of the Policy Development Working Group.
+
+ 
+5.1 IPv4 Address Space
+
+For the purpose of this document, IPv4 addresses are 32-bit binary numbers (used as identifiers in the IPv4 protocol) and are usually in three types:
+
+ 
+
+5.1.1 Public/global IP addresses that are assigned to be globally unique according to the goals described in section 6 of this document.
+
+ 
+
+5.1.2 Private IPv4 address space is set aside for use in private IPv4 networks. Anyone may use these addresses in their private networks without registration. Hosts with private IPv4 addresses cannot be reached from the Internet unless enabled through NAT (Network Address Translation). Note that some Internet services may not work properly under NAT. See RFC 2993 for engineering / technical implications of using NAT. RFC1918 also describes the blocks set aside for private use.
+
+ 
+
+5.1.3 IP ranges reserved for experiments: These are described in RFC3330 ( http://www.ietf.org/rfc/rfc3330.txt ). Some ranges are also reserved for multicast.
+
+ 
+5.2 Goals of the Internet Registry System
+
+ 
+5.2.1   Goals
+
+It is AFRINIC's primary duty, as a custodian of a public resource, to ensure that for all IPv4 allocations and assignments, the following goals are met:
+
+ 
+
+5.2.1.1 Uniqueness - In order that each host on the public Internet can be uniquely identified, each public unicast IPv4 address must be globally unique.
+
+ 
+
+5.2.1.2 Registration - Every assignment and allocation of public Internet address space must be registered in the AFRINIC whois database. This is necessary to ensure uniqueness and to provide information for Internet trouble shooting at all levels.
+
+ 
+
+5.2.1.3 Aggregation - Distributing Ipv4 addresses in a hierarchical manner permits the aggregation of routing information. This helps to ensure proper operation of Internet routing, and to limit the expansion of Internet routing tables (RFC2519).
+
+ 
+
+5.2.1.4 Conservation - To maximize the lifetime of the public Internet address space resource, addresses must be distributed according to actual need and on the basis of immediate use. Therefore, stockpiling of address space and maintaining reservations must, in general, be avoided.
+ 
+5.2.2 Conflict of goals
+
+The goals of conservation and aggregation often conflict with each other. Some or all of the goals may occasionally be in conflict with the interests of individual IRs or end-users. Therefore, IRs evaluating requests for allocations and assignments must carefully analyse all relevant considerations and must seek to balance the needs of the applicant with the needs of the Internet community as a whole. These policies are intended to help IRs balance these needs fairly. Documenting the decision-making process for each allocation or assignment helps ensure the process remains transparent and honest.
+ 
+5.2.3 Documentation
+
+In order to properly evaluate requests, an RIR must carefully examine all relevant documentation relating to the networks in question. Such documentation may include network engineering plans, sub-netting plans, descriptions of network topology, and descriptions of network routing plans. All documentation should conform to a consistent standard and any estimates and predictions that are documented must be realistic and justifiable.
+ 
+5.2.4 Fairness
+
+All policies and practices relating to the use of public address space will apply fairly and equitably to all existing and potential members of AFRINIC regardless of their location, nationality, size, or any other factor.
+ 
+5.3 Registration Requirements
+
+ 
+5.3.1 All communication with AFRINIC will be in English.
+
+ 
+
+5.3.2 All allocations, PI assignments, PA assignments, sub-allocations and other types of resource assignments will be registered in the AFRINIC database. Any unregistered resources will be considered invalid. The registration data (name, IP block/range, contacts, status, etc..) must be correct at all times. This is necessary to support network operations.
+
+ 
+5.4 Soft Landing
+
+This section describes how AFRINIC shall assign, allocate, and manage IPv4 resources during the "Exhaustion Phase" which begins when AFRINIC first needs to assign or allocate IP addresses from the final /8 block of IPv4 address space.
+
+In order to ensure a smooth transition to IPv6, AFRINIC's pool should be managed to provide members with address space after the IPv4 pool is depleted. This will help in maintaining IPv4 networks while deploying IPv6 networks - a practice that characterizes the transition period. This section proposes a strategy for allocation and Assignment and maintenance of AFRINIC's IPv4 pool post exhaustion. Enforcement of the “soft landing” policy begins when AFRINIC starts to allocation space from the final IANA allocated/8.
+
+This IPv4 Soft Landing policy applies to the management of address space that will be available to AFRINIC after the current IPv4 pool is depleted. The purpose of this document is to ensure that address space is assigned and/or allocated in a manner that is acceptable to the AFRINIC community especially during this time of IPv4 exhaustion.
+
+ 
+
+5.4.1 Definitions Specific to the Soft-Landing Section:
+
+    Existing LIR's - An Existing LIR is a LIR that assigns address space to 'end-users' and has already been assigned or allocated IPv4 address space by AFRINIC.
+    New LIR  - A New LIR, is a LIR that assigns address space to 'end-users' and is a member of AFRINIC but has not been assigned or allocated any IPv4 address space prior to the Exhaustion phase.
+    End User  - An End User is an organization that receives assignments of IP addresses exclusively for use in its operational networks
+    Final /8 block of IPv4 address space, or "Final /8" - The Final /8 block of IPv4 address space, or "Final /8", is the /8 block of IPv4 address space that has been allocated by the IANA to AFRINIC in terms of section 2.2 C of the Global Policy for the Allocation of the Remaining IPv4 Address Space at the time of exhaustion of the IANA pool of IPv4 address space.
+
+ 
+
+5.4.2 Current Phase
+
+The "Current Phase" is the status quo at the time of adoption of the soft landing policy. During this phase, AFRINIC will continue allocating or assigning IPv4 addresses to LIRs and End Users using allocation and assignment policy guidelines already in place.
+
+ 
+
+The current phase will continue until an otherwise-valid request for IPv4 address space from any LIR or end user to AFRINIC either:
+
+(a) Cannot be fulfilled with the IPv4 address space available in the AFRINIC pool (with the exception of the Final /8), or
+
+(b) Can be fulfilled, but would leave the AFRINIC IPv4 address pool empty (with the exception of the Final /8).
+
+The request that results in either of the above conditions being fulfilled will be the last
+
+IPv4 address space request that AFRINIC will accept from any LIR or End User in the Current Phase. If the request can be processed in terms of the Current Phase policies, then it will be so processed; otherwise, it will be processed in terms of Exhaustion Phase policies.
+
+AFRINIC will publically announce that the Exhaustion Phase has begun at this point. For the avoidance of doubt all applications that are currently in the process at this point will be evaluated as per the new policy.
+
+ 
+
+5.4.3 Exhaustion Phase
+
+During the Exhaustion Phase, the following allocation and assignment guidelines will be used. They apply to both LIRs and End Users, and to all IPv4 address space allocated, assigned, or otherwise managed by AFRINIC during the transition to and after the beginning of the Exhaustion Phase, regardless of whether or not such IPv4 address space is a part of the Final /8. The exhaustion phase will be divided into two parts:
+
+ 
+
+5.4.3.1 Exhaustion Phase 1
+
+During this phase, allocation/assignment of address space will continue as in the Current phase (/24 for a EU and /22 for a LIR) but the maximum will change from /10 to /13.
+
+ 
+
+Allocations and assignments will be made from the Final /8 or from any other IPv4 address space available to AFRINIC, until no more than a /11 of non-reserved space is available in the Final /8. At this point the Exhaustion Phase 2 will begin. For the avoidance of doubt all applications will be in the process at this point will be evaluated as per the new policy.
+
+ 
+
+5.4.3.2   Exhaustion Phase 2
+
+During this phase a minimum allocation/assignment size will be /24, and the maximum will be /22 per allocation/assignment.
+
+ 
+
+5.4.4   For any LIR or End User requesting IPv4 address space during the Exhaustion: There is no explicit limit on the number of times an organization may request additional IPv4 address space during the Exhaustion Period.
+
+ 
+
+5.4.5   The current allocation and assignment period of 12 months shall be changed to 8 months . The current allocation and assignment period of 12 months shall be changed to 8 months. This will help to ensure that LIRs request only for resources they need in the short to medium term, and promote fairness in the equitable distribution of the last IPv4 address pool. This assignment period will remain the same throughout the life span of this Policy.
+
+ 
+
+5.4.6   Allocation Criteria
+
+ 
+
+5.4.6.1  In order to receive IPv4 allocations or assignments during the Exhaustion Phase, the LIR or End User must have used at least 90% of all previous allocations or assignments (including those made during both the Current Phase and the Exhaustion Phase). In the case of new LIRs or End Users with no previous allocations or assignments, this requirement does not apply to their first allocation or assignment request.
+
+ 
+
+5.4.6.2  AFRINIC resources are for AFRINIC service region and any use outside the region should be solely in support of connectivity back to the AFRINIC region.
+
+ 
+
+5.4.7  IPv4 Address Space Reserve
+
+ 
+
+5.4.7.1  A /12 IPv4 address block will be in reserve out of the final /8. This /12 IPv4 address block shall be preserved by AFRINIC for some future uses, as yet unforeseen. The Internet is innovative and we cannot predict with certainty what might happen. Therefore, it is prudent to keep this block in reserve, just in case some future requirement creates a demand for IPv4 addresses.
+
+ 
+
+5.4.7.2  When AFRINIC, can no longer meet any more requests for address space (from the Final /8 or from any other available address space), the Board may at its discretion and considering the demand and other factors at the time replenish the exhaustion pool with whatever address space (or part thereof) that may be available to AFRINIC at the time, in a manner that is in the best interest of the community.
+
+ 
+
+5.5  IPv4 LIR/ISP Allocations
+
+ 
+
+5.5.1 Allocation policies and guidelines
+
+ 
+
+5.5.1.1   Introduction
+
+ 
+
+5.5.1.1.1  AFRINIC allocates ranges of IPv4 addresses to Local Internet Registries (LIRs). LIRs reassign or sub-allocate that space to their customers. All LIR's assigning address space allocated from AFRINIC are also advised to adopt a set of policies that are consistent with the policies described in this document.
+
+ 
+
+5.5.1.1.2  Determination of IP address space allocation size is the responsibility of AFRINIC staff. In an effort to ensure that Classless Inter-Domain Routing (CIDR) is implemented and utilized as efficiently as possible, AFRINIC will issue blocks of IPv4 addresses on appropriate "CIDR-supported" bit boundaries. (CIDR - "Classless Inter-Domain Routing", is explained in RFC1517-1959, http://www.ietf.org/rfc.htm ).
+
+ 
+
+5.5.1.1.3  If an LIR plans to exchange or transfer address space, it needs to contact AFRINIC so that the changes are properly registered. The LIR remains responsible for all the allocations registered in the AFRINIC database until they have been transferred to another LIR or returned to AFRINIC. LIR's must ensure that all policies are applied.
+
+ 
+
+5.5.1.2    First IPv4 Allocation
+
+ 
+
+5.5.1.2.1   AFRINIC's minimum allocation is /22 or 1024 IPv4 addresses.
+
+ 
+
+5.5.1.2.2   The organisation must be an AFRINIC member in good standing, and;
+
+ 
+
+5.5.1.2.3   Must show an existing efficient utilization of IP addresses from their upstream provider. Justification may be based on a combination of immediate need and existing usage, in which case, the existing assignments must be renumbered into the LIR's new allocation.The verification of previous efficient utilisation is based on assignments (and sub-allocations) registered in the RIPE, ARIN, LACNIC and APNIC databases and only these registered assignments will be considered valid.
+
+ 
+
+5.5.1.3   Slow start mechanism for first allocations
+
+AFRINIC shall apply a slow start mechanism to all new LIRs. With respect to allocations made by AFRINIC, the first allocation an LIR receives will be the size of the minimum practical allocation unless otherwise justified.
+
+The slow start policy is used by all RIR's to prevent allocations of large blocks of address space that may then remain substantially unassigned. AFRINIC will implement the slow start mechanism in a consistent and fair manner for every LIR, and will apply the same principles and standards to every applicant for address space.
+
+ 
+
+5.5.1.4 Additional Allocation
+
+ 
+
+5.5.1.4.1  An LIR may receive an additional allocation when about 80% of all the address space currently allocated to it has been used in valid assignments and/or sub-allocations. A new allocation can also be made if single assignment or sub-allocation requires more addresses than those currently held by the LIR.
+
+ 
+
+5.5.1.4.2  Reservations are not considered as valid assignments or sub-allocations. It may be useful for internal aggregation to keep some IP blocks free for future growth. These internal reservations are however not counted as valid usage and must be assigned or sub-allocated before requesting for an additional allocation.
+
+ 
+
+5.5.1.4.3  AFRINIC will always try to allocate contiguous address ranges, allowing the LIR to minimise the number of route announcements it makes. However, it will not always be possible to allocate a range contiguous with the LIR's previous allocation.
+
+ 
+
+5.5.1.5   Sub-Allocations
+
+The minimum size of a sub-allocation is /24. It allows a reasonable number of small assignments to be made by a downstream ISP. An LIR may not sub-allocate IPv4 space above its sub-allocation window (see section 10.0 for sub-allocation windows).
+
+LIR's may make sub-allocations to multiple downstream ISP's. (Downstream ISP's efficiently using a sub-allocation qualify to receive a /22 allocation should they want to become an LIR).
+
+The LIR is responsible for ensuring that address space allocated to it, and subsequently, the address space that it sub-allocates, is used in accordance with the community's policies and guidelines.
+
+LIRs are advised to make use of the slow-start mechanism when making sub-allocations to downstream ISPs. Here, the LIR ensures that the space sub-allocated is efficiently used and the LIR can also monitor and determine the ability of the downstream ISP to operate within the policies set by the community.
+
+Sub-allocations form part of an LIR's aggregatable space. Therefore, an LIR should ensure that IP space is not retained by the downstream ISP if the reseller ceases to obtain connectivity from the LIR's network (sub-allocations are non-portable).
+
+ 
+
+5.5.1.6   PA Assignment policies and guidelines
+
+LIR's must request approval from AFRINIC for all sub-allocations above their Sub-Allocation Window.
+
+The following guidelines are intended to help LIRs and end-users in their search for equitable compromises:
+
+ 
+
+5.5.1.7 Documentation
+
+The information required by AFRINIC to justify an end-user's IP address requirements include addressing needs, network infrastructure and future plans. Such information is required when an LIR is requesting IP space for their end-users at the time of sending in the request. In order to ensure that previous sub-allocation are not duplicated, the current address space usage is also required. This information is essential in making the appropriate sub-allocation approvals, and the level of detail will depend on the size of the request and complexity of the network. The LIR should ensure that the necessary information is completed before making a sub-allocation request to AFRINIC.
+
+When making sub-allocation from their SAW, LIR's should also ensure that such information is given by the end-user.
+
+ 
+
+5.5.1.8 Network infrastructure (of LIR) vs End-User networks
+
+IP addresses used solely for connecting an end-user to a service provider (e.g., point-to-point links) are considered as part of the service provider's infrastructure. Such addresses should only be registered as part of the service provider's infrastructure. When an end user has a network using public address space, this space must be registered with the contacts of the end-user. If the end-user is an individual rather than an organisation, the space may be registered with the contact information of the service provider but with the end-user referenced in the AFRINIC whois database object.
+
+ 
+
+5.5.1.9 Utilisation
+
+  Immediate utilisation of assignments should be at least 25% of the assigned space. After one year, unless special circumstances are defined, it should be at least 50%.
+
+ 
+
+5 .5.1.10   Reservations not supported
+
+End-users are not permitted to reserve address space based on long term plans. This violates the goal of conservation and fragments the address space when initial forecasts are not met. If an LIR wants to assign address space for customers, it must make the assignments from any unallocated or unassigned address space it currently holds. For the purposes evaluating allocation requests, space reserved by an LIR for other customers is considered unused.
+
+ 
+
+5.5.1.11 Validity of an assignment
+
+Assignments remain valid as long as the original criteria on which the assignment was based are still in place and the assignment is registered in the AFRINIC database. An assignment is therefore invalid if it is not registered in the database and if the purpose for which it was registered has changed or no longer holds.
+
+ 
+
+5.5.1.12 Re-numbering
+
+This is replacing IP addresses on a one-to-one basis. Valid assignments can be replaced with the same number of addresses if the original assignment criteria are still met. The addresses to be replaced must still be in use. When a renumbering request exceeds the LIR's sub-allocation window, the request should be sent to AFRINIC for approval.
+
+A period of three months is normally considered sufficient to migrate a network to the new IP space. Once a network has been renumbered, AFRINIC staff will remove the old assignment from the AFRINIC database. In case the three months’ period is not sufficient, the LIR should inform AFRINIC about the additional time they might take to completely renumber.
+
+ 
+
+5.5.1.13 Sub-Allocation Window (SAW)
+
+ 
+
+5.5.1.13.1 A sub-allocation window (SAW) refers to the maximum number of IPv4 addresses that the LIR may sub-allocate to the end-users without seeking approval from AFRINIC. The SAW size is expressed in CIDR notation.
+
+ 
+
+5.5.1.13.2 AFRINIC will review sub-allocation made by the LIR's using their SAW in to ensure that policies are followed correctly. LIR's should also ensure that documentation for sub-allocation made using the SAW be similar to that requested for larger requests.
+
+ 
+
+5.5.1.13.3 Below are a few guidelines for the SAW:
+
+    All new LIRs have a SAW of zero. All sub-allocations will need prior approval by AFRINIC.
+    The LIR cannot make any sub-allocation to the end-user above their SAW in a 12 months’ period (1 year). At the end of a calendar year from the approval of a SAW, the SAW is refreshed for one more year. In case the LIR's SAW is exhausted for a particular end-user, approval must be sought from AFRINIC for any other sub-allocation to the same end-user.
+    LIR's are welcome to approach AFRINIC for a review of their SAW. They may also seek a second opinion from AFRINIC even for a sub-allocation that could be made with their SAW if they chose. Before a SAW is raised, the following will be considered:
+
+    All required documentation is normally presented.
+    Previous sub-allocation assignments from this sub-allocation are all registered in the database correctly.
+    Current SAW has not been misused/abused.
+
+d)New LIR's are advised to train their contacts to handle address space assignments according to the policies and procedures in this document. If, due to inexperienced contacts at the LIR, errors due to poor judgement consistently happen, the SAW may be lowered or removed to allow AFRINIC staff to assist in training the LIR's staff in the AFRINIC community's policies.
+
+ 
+
+5.5.1.14 Record keeping by LIRs
+
+LIR's must keep and maintain records of any documentation regarding assignments and sub-allocations to end-users. It is needed for future reference when evaluating requests from the same organisation and for any audits by AFRINIC. These documents should be kept electronically for easier access. It's advisable that these records should include but not be limited to:
+
+    The original request.
+    Supporting documentation.
+    Related correspondence between LIR and end-user.
+    Decision of the assignment, and reasons behind any unusual decision.
+    Role of person that made the decision.
+
+ 
+
+5.6  IPv4 End-User (PI) Assignments
+
+AFRINIC assigns blocks of IPv4 addresses to end-users who request address space for their internal use in running their own networks, but not for sub-delegation or reassignment of those addresses outside their organization. End-users must meet some requirements for justifying the assignment of an address block.
+
+ 
+
+5.6.1 Minimum assignment
+
+In general, the minimum block of IP address space assigned by AFRINIC to end- users is a /24. If assignments smaller than /24 are needed, end-users should contact their upstream provider. Prefixes assigned to End-User will be from a block reserved for that purpose.
+
+ 
+
+5.6.2 First End-user assignment criteria
+
+The requesting End users must:
+
+    Be an AFRINIC member in good standing
+    Show either an existing efficient utilization of at less /25 from their upstream provider.
+    Justify an immediate need of at less 50% of total requested size based on their Network Infrastructure. For example, a new company.
+
+ 
+
+5.6.3 Additional PI Assignment
+
+Utilization rate of address space is a key factor in justifying a new assignment of IP address space. Requestors must show exactly how previous address assignments have been utilized and must provide appropriate details to verify their one-year growth projection. The basic criteria that must be met are:
+
+    A 25% immediate utilization rate, and 
+    A 50% utilization rate within one year. 
+
+A greater utilization rate may be required based on individual network requirements. Private IP address: End-users not currently connected to an ISP and/or plan not to be connected to the Internet are encouraged to use private IP numbers reserved for non-connected networks (see RFC 1918).
+
+ 
+
+5.6.4 PI Assignments to critical Infrastructure
+
+ 
+
+5.6.4.1 AFRINIC will make End-User assignment to critical infrastructure providers of the Internet such as public internet exchange points and core DNS service providers. These allocations will be no longer than a /24 using IPv4. Multiple allocations may be granted in certain situations. - Exchange point assignment MUST be assigned from specific blocks reserved only for this purpose.
+
+ 
+
+5.6.4.2 AFRINIC will make a list of these blocks publicly available.
+
+ 
+
+5.6.4.3 Exchange point operators must provide justification for the allocation, including: connection policy, location, other participants (minimum of three total), ASN, and contact information. This policy does not preclude exchange point operators from   requesting address space under other policies such as becoming LIR.
+
+ 
+
+5.6.4.4 Definitions:
+
+5.6.4.4.1 Exchange Point: An Internet Exchange Point is defined as a physical network infrastructure (layer 2) operated by a single entity whose purpose is to facilitate the exchange of Internet traffic between ISPs. There must be a minimum of three ISPs connected and there must be a clear and open policy for others to join. Addresses needed for other purposes (e.g. additional services provided to the members) should be acquired through the appropriate means (e.g. an upstream ISP).
+
+ 
+
+5.6.4.4.2 Core DNS service provider:  A core DNS service provider is a company who provides DNS service for the root level of the DNS tree (ICANN-sanctioned root operators).
+
+ 
+6.0 IPv6
+
+This section defines registry policies for the assignment and allocation of globally unique IPv6 addresses to Internet Service Providers (ISPs) and other organisations in the AFRINIC region. It provides recommendations to the addressing registries (AFRINIC, APNIC, ARIN, LACNIC and RIPE-NCC) on policies for assigning IPv6 address blocks to end sites.
+
+ 
+
+In particular, it recommends the assignment of /48 in the general case, /64 when it is known that one and only one subnet is needed and /128 when it is absolutely known that one and only one device is connecting. For more details about this document please read the  RFC-3177
+
+ 
+
+6.1 Utilisation
+
+Unlike IPv4, IPv6 is generally assigned to End Sites in fixed amounts (e.g. /48). The actual usage of addresses within each assignment will be low when compared to IPv4 assignments. In IPv6,"utilisation" is only measured in terms of the bits to the left of the /48 boundary. In other words, "utilisation" refers to the assignment of /48s to End Sites and not the number of addresses assigned within individual /48s at those End Sites.
+
+ 
+
+Throughout this document, the term "utilisation" refers to the allocation of /48s to End Sites and not the number of addresses assigned within individual /48s within those End Sites.
+
+ 
+
+6.2 HD-Ratio
+
+The HD-Ratio is a way of measuring the efficiency of address assignment [RFC 3194]. It is an adaptation of the H-Ratio originally defined in [RFC1715] and is expressed as follows:
+
+ 
+
+            Log (number of allocated objects)    
+
+HD =      -------------------------------------------
+
+          Log (maximum number of allocatable objects) 
+
+ 
+
+where (in the case of this document) the objects are IPv6 site addresses (/48s) assigned from an IPv6 prefix of a given size.
+
+ 
+6.3 Goals of IPv6 address space management
+
+IPv6 address space is a public resource that must be managed in a prudent manner with regards to the long-term interests of the Internet. Responsible address space management involves balancing a set of sometimes competing goals. The following are the goals relevant to IPv6 address policy.
+
+ 
+
+6.3.1 Uniqueness:
+
+Every assignment and/or allocation of address space must guarantee uniqueness worldwide. This is an absolute requirement for ensuring that every public host on the Internet can be uniquely identified.
+
+ 
+
+6.3.2 Registration
+
+Internet address space must be registered in a registry database accessible to appropriate members of the Internet community. This is necessary to ensure the uniqueness of each Internet address and to provide reference information for Internet troubleshooting at all levels, ranging from all RIRs and IRs to End Users.
+
+ 
+
+The goal of registration should be applied within the context of reasonable privacy considerations and applicable laws.
+
+ 
+
+6.3.3 Aggregation
+
+ 
+
+Wherever possible, address space should be distributed in a hierarchical manner, according to the topology of network infrastructure. This is necessary to permit the aggregation of routing information by ISPs and to limit the expansion of Internet routing tables.
+
+This goal is particularly important in IPv6 addressing, where the size of the total address pool creates significant implications for both internal and external routing.
+
+IPv6 address policies should seek to avoid fragmentation of address ranges.
+
+ 
+
+Further, RIRs should apply practices that maximise the potential for subsequent allocations to be made contiguous with past allocations currently held. However, there can be no guarantee of contiguous allocation.
+
+ 
+
+6.3.4 Conservation
+
+ 
+
+Although IPv6 provides an extremely large pool of address space, address policies should avoid unnecessarily wasteful practices. Requests for address space should be supported by appropriate documentation and stockpiling of unused addresses should be avoided.
+
+ 
+
+6.3.5 Fairness
+
+ 
+
+All policies and practices relating to the use of public address space should apply fairly and equitably to all existing and potential members of the Internet community, regardless of their location, nationality, size, or any other factor.
+
+ 
+
+6.3.6 Minimized overhead
+
+ 
+
+It is desirable to minimise the overhead associated with obtaining address space. Overhead includes the need to go back to RIRs for additional space too frequently, the overhead associated with managing address space that grows through a number of small successive incremental expansions rather than through fewer, but larger, expansions.
+
+ 
+
+6.3.7 Conflict of goals
+
+ 
+
+The goals described above will often conflict with each other, or with the needs of individual IRs or End Users. All IRs evaluating requests for allocations and assignments must make judgments, seeking to balance the needs of the applicant with the needs of the Internet community as a whole.
+
+ 
+
+In IPv6 address policy, the goal of aggregation is considered to be the most important.
+
+ 
+
+6.4 IPv6 Policy Principles
+
+To address the goals described in the previous section, the policies in this document discuss and follow the basic principles described below.
+
+ 
+
+6.4.1 Address space not to be considered property.
+
+It is contrary to the goals of this document and is not in the interests of the Internet community as a whole for address space to be considered freehold property.
+
+The policies in this document are based upon the understanding that globally unique IPv6 unicast address space is licensed for use rather than owned.
+
+ 
+
+6.4.2 Routability not guaranteed
+
+There is no guarantee that any address allocation or assignment will be globally routable. However, RIRs must apply procedures that reduce the possibility of fragmented address space which may lead to a loss of routability.
+
+ 
+
+6.4.3 Minimum allocation
+
+RIRs will apply a minimum size for IPv6 allocations to facilitate prefix-based filtering. The minimum allocation size for IPv6 address space is /32.
+
+ 
+
+6.4.4 Consideration of IPv4 infrastructure
+
+Where an existing IPv4 service provider requests IPv6 space for eventual transition of existing services to IPv6, the number of present IPv4 customers may be used to justify a larger request than would be justified if based solely on the IPv6 infrastructure.
+
+ 
+
+6.5 Policies for allocations and assignments
+
+ 
+
+6.5.1 Initial allocation
+
+ 
+
+6.5.1.1 Initial allocation criteria
+
+To qualify for an initial allocation of IPv6 address space, an organization must:
+
+    Be an LIR;
+    Not be an end site;
+    Show a detailed plan to provide IPv6 connectivity to organizations in the AFRINIC region.
+    Show a reasonable plan for making /48 IPv6 assignments to end sites in the AFRINIC region within twelve months.
+
+ 
+
+6.5.1.2 Initial allocation size
+
+Organizations that meet the initial allocation criteria are eligible to receive a minimum allocation of /32.
+
+Organizations may qualify for an initial allocation greater than /32 by submitting documentation that reasonably justifies the request. If so, the allocation size will be based on the number of existing users and the extent of the organization's infrastructure.
+
+ 
+
+6.5.2 Subsequent allocation
+
+Organizations that hold an existing IPv6 allocation may receive a subsequent allocation in accordance with the following policies.
+
+ 
+
+6.5.2.1 Subsequent allocation criteria
+
+Subsequent allocation will be provided when an organization (LIR) satisfies the evaluation threshold of past address utilization in terms of the number of sites in units of /48 assignments. The HD- Ratio [RFC 3194] is used to determine the utilization thresholds that justify the allocation of additional address as described below.
+
+ 
+
+6.5.2.2 Applied HD-Ratio
+
+The HD-Ratio value of 0.94 is adopted as indicating an acceptable address utilization for justifying the allocation of additional address space. Section 7 provides a table showing the number of assignments that are necessary to achieve an acceptable utilization value for a given address block size.
+
+ 
+
+6.5.2.3 Subsequent Allocation Size
+
+When an organization has achieved an acceptable utilization for its allocated address space, it is immediately eligible to obtain an additional allocation that results in a doubling of the address space allocated to it. Where possible, the allocation will be made from an adjacent address block, meaning that its existing allocation is extended by one bit to the left.
+
+If an organization needs more address space, it must provide documentation justifying its requirements for a two-year period. The allocation made will be based on this requirement.
+
+ 
+
+6.5.3 LIR-to-ISP allocation
+
+There is no specific policy for an organization (LIR) to allocate address space to subordinate ISPs. Each LIR organization may develop its own policy for subordinate ISPs to encourage optimum utilization of the total address block allocated to the LIR. However, all /48 assignments to end sites are required to be registered either by the LIR or its subordinate ISPs in such a way that the RIR can properly evaluate the HD-Ratio when a subsequent allocation becomes necessary.
+
+ 
+
+6.5.4 Assignment
+
+LIRs must make IPv6 assignments in accordance with the following provisions.
+
+ 
+
+6.5.4.1 Assignment address space size
+
+Assignments are to be made using the following guidelines:
+
+    /48 in the general case, except for very large subscribers.
+    /64 when it is known that one and only one subnet is needed by design
+    /128 when it is absolutely known that one and only one device is connecting.
+
+AFRINIC is not concerned about which address size an LIR actually assigns. Accordingly, AFRINIC will not request the detailed information on IPv6 user networks (as in IPv4 ) , except for the cases described in Section 4.4 and for the purposes of measuring utilization as defined in this document.
+
+ 
+
+6.5.4.2 Assignment of multiple /48s to a single end site
+
+When a single end site requires an additional /48 address block, it must request the assignment with documentation or materials that justify the request. Requests for multiple or additional /48s will be processed and reviewed (i.e., evaluation of justification) at the RIR level.
+
+ 
+
+Note: There is no experience at the present time with the assignment of multiple /48s to the same end site. Having AFRINIC review all such assignments is intended to be a temporary measure until some experience has been gained and some common policies can be developed. In addition, additional work at defining policies in this space will likely be carried out in the near future.
+
+ 
+
+6.5.4.3 Assignment to operator's infrastructure
+
+An organization (LIR) may assign a /48 per PoP as the service infrastructure of an IPv6 service operator. Each assignment to a PoP is regarded as one assignment regardless of the number of users using the PoP. A separate assignment can be obtained for the in-house operations of the operator.
+
+ 
+
+6.5.5 Registration
+
+When an organization (LIR) holding an IPv6 address allocation makes IPv6 address assignments, it must register assignment information in the AFRINIC database. Information is registered in units of assigned /48 networks. When more than a /48 is assigned to an organization, the assigning organization is responsible for ensuring that the address space is registered in the AFRINIC database.
+
+AFRINIC will use registered data to calculate the HD-Ratio at the time of application for subsequent allocation and to check for changes in assignments over time.
+
+ 
+
+AFRINIC shall maintain systems and practices that protect the security of personal and commercial information that is used in request evaluation, but which is not required for public registration.
+
+ 
+
+6.5.6 Reverse lookup
+
+When an AFRINIC delegates IPv6 address space to an organization, it also delegates the responsibility to manage the reverse lookup zone that corresponds to the allocated IPv6 address space. Each organization should properly manage its reverse lookup zone. When making an address assignment, the organization must delegate to an assignee organization, upon request, the responsibility to manage the reverse lookup zone that corresponds to the assigned address.
+
+ 
+
+6.5.7 Existing IPv6 address space holders  
+
+Organizations that received /35 IPv6 allocations under the previous IPv6 address policy [RIRv6-Policies] are immediately entitled to have their allocation expanded to a /32 address block, without providing justification, so long as they satisfy the criteria above. The /32 address block will contain the already allocated smaller address block (one or multiple /35 address blocks in many cases) that was already reserved by the RIR for a subsequent allocation to the organization. Requests for additional space beyond the minimum /32 size will be evaluated as discussed elsewhere in the document.
+
+ 
+
+6.6 Assignments for Internet Experiments
+
+Organisations often require deployment tests for new Internet services and technologies. These require numbering resources for the duration of the test.
+
+The policy goal of resource conservation is of reduced importance when resources are issued on a temporary basis.
+
+ 
+
+6.6.1 Defining the experiment
+
+An organisation receiving numbering resources must document the experiment. This may be in the form of a current IETF Experimental RFC – See RFC2026 or an "experiment proposal" detailing the resources required and the activities to be carried out.
+
+The assignment size will be equal to the existing minimum allocation size on the date the request is received. Where the experiment requires a variation to this rule it should be noted in the resource request.
+
+ 
+
+6.6.2 Publication  
+
+The experiment proposal must be made public (e.g. published on web site), upon registration of the resources by AFRINIC. Following the conclusion of the experiment the results must be published free of charge and free from disclosure constraints.
+
+ 
+
+6.6.3 Non-commercial basis
+
+Resources issued for an experiment must not be used for commercial purposes.
+
+ 
+
+6.6.4 Period of the Temporary Resource Registration.
+
+The resources will be issued on a temporary basis for a period of one year. Renewal of the resource's registration is possible on receipt of a new request that details any continuation of the experiment during the extended period.
+
+ 
+
+The resources issued cannot be used for a commercial service following the conclusion of the experiment.
+
+ 
+
+6.6.5 Registration
+
+AFRINIC will register the resources issued in the AFRINIC whois Database.
+
+ 
+
+6.7 HD-Ratio (HD) and Utilisation Threshold (T)
+
+The HD-Ratio is not intended to replace the traditional utilisation measurement that ISPs perform with IPv4 today. Indeed, the HD-Ratio still requires counting the number of assigned objects. The primary value of the HD-Ratio is its usefulness at determining reasonable target utilisation threshold values for an address space of a given size. This document uses the HD-Ratio to determine the thresholds at which a given allocation has achieved an acceptable level of utilisation and the assignment of additional address space becomes justified.
+
+ 
+
+The utilisation threshold T, expressed as a number of individual /48 prefixes to be allocated from IPv6 prefix P, can be calculated as:
+
+T = 2 ((48-P)*HD)
+
+ 
+
+Thus, the utilisation threshold for an organisation requesting subsequent allocation of IPv6 address block is specified as a function of the prefix size and target HD ratio. This utilisation refers to the allocation of /48s to End Sites, and not the utilisation of those /48s within those End Sites. It is an address allocation utilisation ratio and not an address assignment utilisation ratio.
+
+In accordance with the recommendations of [RFC 3194], this document adopts an HD-Ratio of 0.94 as the utilisation threshold for IPv6 address space allocations.
+
+ 
+
+The following table provides equivalent absolute and percentage address utilisation figures for IPv6 prefixes, corresponding to an HD-Ratio of 0.94.
+
+ 
+P 	48-P 	Total /48s 	Threshold 	Util%
+48 	0 	1 	1 	100.0%
+47 	1 	2 	2 	95.93%
+46 	2 	4 	4 	92.02%
+45 	3 	8 	7 	88.27%
+44 	4 	16 	14 	84.67%
+43 	5 	32 	26 	81.23%
+42 	6 	64 	50 	77.92%
+41 	7 	128 	96 	74.74%
+40 	8 	256 	184 	71.70%
+39 	9 	512 	352 	68.78%
+38 	10 	1024 	676 	65.98%
+37 	11 	2048 	1296 	63.29%
+36 	12 	4096 	2487 	60.71%
+35 	13 	8192 	4771 	58.24%
+34 	14 	16384 	9153 	55.86%
+33 	15 	32768 	17560 	53.59%
+32 	16 	65536 	33689 	51.41%
+31 	17 	131072 	64634 	49.31%
+30 	18 	262144 	124002 	47.30%
+29 	19 	524288 	237901 	45.38%
+28 	20 	1048576 	456419 	43.53%
+27 	21 	2097152 	875653 	41.75%
+26 	22 	4194304 	1679965 	40.05%
+25 	23 	8388608 	3223061 	38.42%
+24 	24 	16777216 	6183533 	36.86%
+23 	25 	33554432 	11863283 	35.36%
+22 	26 	67108864 	22760044 	33.92%
+21 	27 	134217728 	43665787 	32.53%
+20 	28 	268435456 	83774045 	31.21%
+19 	29 	536870912 	160722871 	29.94%
+18 	30 	1073741824 	308351367 	28.72%
+17 	31 	2147483648 	591580804 	27.55%
+16 	32 	4294967296 	1134964479 	26.43%
+15 	33 	
+
+8589934592
+	
+
+2177461403
+	
+
+25.35%
+14 	34 	17179869184 	4177521189 	24.32%
+13 	35 	34359738368 	8014692369 	23.33%
+12 	36 	68719476736 	15376413635 	22.38%
+11 	37 	137438953472 	29500083768 	21.46%
+10 	38 	274877906944 	56596743751 	20.59%
+9 	39 	549755813888 	108582451102 	19.75%
+8 	40 	1099511627776 	208318498661 	18.95%
+7 	41 	2199023255552 	399664922315 	18.17%
+6 	42 	4398046511104 	766768439460 	17.43%
+5 	43 	8796093022208 	1471066903609 	16.72%
+4 	44 	17592186044416 	2822283395519 	16.04%
+
+ 
+
+6.8 PI Assignments
+
+The current policy does not allow IPv6 provider independent (PI) address assignment to any 'end-sites'. In addition, lack of IPv6 transport will compel many 'end-sites' to tunnel. Thus, to avoid renumbering when IPv6 transport will be available, a provider independent assignment seems reasonable. More so, not all LIR's have IPv6 address space allocations. This makes it impossible for end-users to get PA IPv6 address space from such upstreams (LIR's). This policy is also aimed at providing IPv6 address space to such end-users as long as they already have or qualify to get PI IPv4 addresses.
+
+ 
+
+6.8.1 Introduction
+
+This policy allows 'end-sites' to be assigned IPv6 provider independent (PI) addresses.
+
+'End-sites' include End-Users who already have or qualify to get IPv4 PI addresses and critical Infrastructure providers such as TLD root server operators and public Internet exchange Points (IXP's).
+
+ 
+
+6.8.2 Assignment Criteria
+
+    Assignment target - End-sites which provide Public Internet services for a single administrative organisations' network, regardless of their size.
+    Assignment criteria:
+
+    The end-site must not be an IPv6 LIR
+    The end-site must become an AFRINIC End User Member and pay the normal AFRINIC fee for its' membership category
+    The end site must either be a holder of IPv4 PI address space or qualify for an IPv4 PI assignment from AFRINIC under the IPv4 policy currently in effect.
+    The end-site must justify the need for the IPv6 PI address space.
+    The 'end-site' must show a plan to use and announce the IPv6 provider independent address space within twelve (12) months. After that period, if not announced, the assigned IPv6 PI address space should be reclaimed and returned to the free pool by AFRINIC.
+
+ 
+
+6.8.3 Provider Independent (PI) address space:
+
+    a.The provider independent (PI) assignment should be made from a specific block.
+    b.The initial provider independent assignment size to an end-site should be a /48, or a shorter prefix if the end-site can justify it
+
+ 
+7.0 ASN
+
+This section contains policies and guidelines concerning requesting, assigning and registering AS (Autonomous System) numbers in the AFRINIC region.
+
+ 
+
+7.1   Introduction
+
+AFRINIC (the African Network Information Center) is the regional Internet Registry for Africa and part of the Indian Ocean region (Seychelles, Mauritius, Madagascar, Comoros). It is responsible for distributing public Internet address space and related resources (including Autonomous System Numbers) in the region and coordinating the development and implementation of the policies to manage those resources.
+
+ 
+
+The policies described in this document have been developed by the Internet community through a consensus process facilitated by AFRINIC. They are to be implemented by AFRINIC.
+
+ 
+
+7.2 Scope
+
+This document describes the policies relating to the distribution, management, and use of Autonomous System (AS) numbers in the AFRINIC service region. These policies apply to IPv4 and IPv6 networks. Policies of other regions other than the AFRINIC service region are outside the scope of this document.
+
+ 
+
+7.3 Definitions
+
+The following terms and definitions are used in this document.
+
+     a. Autonomous System (AS)
+
+An Autonomous System (AS) is a connected group of one or more IP prefixes run by one or more network operators under a single and clearly defined routing policy.
+
+      b. Autonomous System Number (ASN)
+
+An Autonomous System Number (ASN) is a unique integer associated with an AS.  ASN is used as an identifier to allow the AS to exchange dynamic routing information with other Autonomous Systems.
+
+Exterior routing protocols (such as the Border Gateway Protocol (BGP) described in RFC 1771) are used with ASNs to exchange information between networks. An AS will normally use some interior gateway protocol to exchange routing information on its internal networks.
+
+    c. Multi-homed Network
+
+A multi-homed AS is one which is connected to more than one other AS. An AS also qualifies as multi-homed if it is connected to a public Internet Exchange Point.
+
+     d. Routing policy
+
+The routing policy of an AS is a description of how network prefixes are exchanged between that AS and other Autonomous Systems.
+
+     e. aut-num object
+
+An aut-num object is an object in the whois database used to register ASN assignment details.
+
+ 
+
+7.4 Eligibility for an AS Number assignment
+
+It is important to determine which sites require unique AS Numbers and which do not require a unique AS Number should use one or more of the AS Numbers reserved for private use. Those numbers are: 64512 through 65535 (RFC1930).
+
+ 
+
+In order to qualify for an AS number, the requesting organization must fulfill the following requirements:
+
+7.4.1 A unique routing policy (its policy differs from its border gateway peers).
+
+7.4.2 A multi-homed site.
+
+7.4.3 An organization will also be eligible if it can demonstrate that it will meet the above criteria upon receiving an ASN (or within a reasonably short time thereafter).
+
+7.4.4 Be an AFRINIC member in a good standing (End-User or LIR type)
+
+ 
+
+All requests for ASNs under these criteria will be evaluated using the guidelines described in RFC1930 "Guidelines for the creation, selection and registration of an Autonomous System (AS).
+
+ 
+
+7.5 Ownership and Routing Considerations
+
+ 
+
+7.5.1 Ownership
+
+The Internet community regards ASNs as a public resource that should only be distributed according to demonstrated need. Neither assignment nor registration confers ownership of resources. Organizations that use ASNs are considered "custodians" rather than "owners" of the resource, and are not entitled to sell or otherwise transfer that resource to other parties.
+
+ 
+
+7.5.2 Routing considerations
+
+ 
+
+Responsible management of ASNs is necessary to help limit the expansion of global routing tables. Aggregating contiguous IP address prefixes within single Autonomous Systems helps to minimize the number of routes announced to the global Internet.
+
+ 
+
+7.6 Assignment Procedures
+
+AFRINIC assigns AS Numbers for Autonomous Systems located in the AFRINIC service region and accepts requests from LIRs, non-LIR's members and non-members fulfilling the eligibility requirements in Section 5.0 of this document.
+
+AFRINIC may ask for such information that may help to understand the planned routing policy and to decide if an AS Number is actually needed.
+
+ 
+
+7.6.1 Using ASNs for LIRs network
+
+Assignments to ISPs that will use the ASN in their own network are subject to the following terms:
+
+    The requesting ISP is responsible for maintaining the registration described in Section 8.
+    The requesting ISP is entitled to continue using the ASN, even if they change network peers or service providers.
+
+LIRs with AFRINIC will not be charged any annual maintenance fee for ASNs.
+
+ 
+
+7.6.2 Providing ASNs to non-LIRs
+
+Assignments to any other organizations that are not LIRs are subject to the following terms:
+
+    The company that will actually use the ASN must meet the criteria above.
+    The requesting company is responsible for maintaining the registration described below.
+    A one-time registration fee will be charged for each ASN assigned, as described in AFRINIC's Fee Schedule. Every three years thereafter, AFRINIC will invoice the organization for an annual maintenance fee, payable on the anniversary date of the original assignment.
+
+7.7   Registration Requirements
+
+All ASNs assigned must be publicly registered in the AFRINIC whois database. AFRINIC will create the 'aut-num' object in the database.
+
+All attributes of the 'aut-num' object must be properly registered in accordance with the AFRINIC whois database documentation.
+
+ 
+
+7.7.1 Registering contact persons
+
+Administrative and technical contact persons must be registered for each ASN assigned. The registered administrative contact ('admin-c') is the person responsible for the ASN and should generally be someone who is physically located at the site of the AS.
+
+The technical contact ('tech-c') need not be physically located at the site of the AS, but must be a person who is responsible for the day-to-day operation of that AS.
+
+ 
+
+7.7.2 Registering routing policy
+
+AFRINIC recommends that the routing policy of the AS is registered in whois Database each ASN assigned.
+
+ 
+
+7.7.3 Updating registration details
+
+LIR's responsible for ASNs should update the 'aut-num' object in the AFRINIC whois database if any of the registration information changes.
+
+ 
+
+7.8   Returning unused ASNs
+
+If an ASN is not being used by the organization that originally received it, it should be returned. AFRINIC will then return it to the public pool of AS Numbers for reassignment to another Autonomous System in the AFRINIC region.
+
+ 
+
+7.9   Miscellaneous
+
+AFRINIC may publish other guidelines related to ASNs including charging (maintenance recovery fees) details and related agreements, request forms, a further description of evaluation procedures, practices that LIR requesting ASNs are expected to adopt and information that may assist organizations to request ASNs.
+
+Any other guidelines published will be developed within the community (where necessary) and will be consistent with the goals and policies described in this document.
+
+ 
+8.0  “Abuse” Contact Information
+
+ 
+
+8.1   Introduction
+
+This policy specifies a dedicated object that shall be used as the preferred place to publish abuse public contact information within the AFRINIC service region.
+
+The mentioned object can be referenced in the inetnum, inet6num and aut-num objects in the AFRINIC whois Database. It provides a more accurate and efficient way for abuse reports to reach the correct network contact.
+
+ 
+
+8.2   Policy details:
+
+To make available a new or use an already existing whois database object that implements the following properties:
+
+(a) A unique reference by inetnum, inet6num and aut-num
+
+(b) Contains 2 email attributes:
+
+(i) "e-mail:" for personal communication
+
+(ii) "abuse-mailbox:" for automatic report handling
+
+The object should be accessible through the whois protocol. AFRINIC to publish a Best Practice Paper that encourages all members actively  to use the object for publishing abuse contact information.
+
+ 
+
+8.3 Advantages and disadvantages of the policy
+
+ 
+
+8.3.1 Advantages
+
+    Networks will be able to supply their own, direct contact information for abuse departments.
+    Abuse complaints will not be sent to the "wrong" contact any more.
+    This permits greater administrative and operational flexibility, and faster abuse handling will be possible.
+
+ 
+
+8.3.2 Disadvantages
+
+ 
+
+This object, like all other existing objects, will face the data accuracy problem. This policy aims to address the issue of a missing place for abuse contact information and will not improve data accuracy in the whois database. Nevertheless, it is suggested to AFRINIC to offer a way to receive reports about not working or not accurate objects.
+
+ 
+9.0  Temporary Resource Allocation & Assignment
+
+In some circumstances, organisations may require IP resources for a certain period of time, usually one month and less. This could be for exhibitions, conferences, conventions, etc.
+
+ 
+
+AFRINIC will therefore assign numbering resources to entities requiring temporary IP numbers for a fixed period of time. In this document, "IP resources" refers to unicast IPv4/v6 addresses and AS numbers.
+
+ 
+
+9.1   Documenting the temporary activity
+
+The activity requiring temporary IP resources should be publicly documented and available, preferably on a website. Entities requiring such IP resources are expected to demonstrate an understanding that when the activity or experiment for which they require the IP resources ends, the IP resources will be returned to AFRINIC.
+
+A "publicly accessible document" is a document that is publicly and openly available free of charge and free of any constraints of disclosure.
+
+AFRINIC will not recognize any activity under this policy if such an activity cannot be publicly disclosed.
+
+ 
+
+9.2   Assignments of IP resources
+
+ 
+
+Resources are assigned on a lease basis for a period of one month. The assignment can be renewed on application to AFRINIC providing the necessary information. The size of the assigned IP resource will be determined from the plan submitted by the requesting entity.
+
+ 
+
+9.2.1 Required Documentation:
+
+The requesting organisation should contact AFRINIC with the following information:
+
+    Details of Organisation: Legal Organisation name, Country Where Registered, Postal Address, Physical Address, Telephone and Fax Numbers, website (this is a must).
+    Details of activity requiring the temporary assignment: Website detailing the activity or Website with a link to similar previous activities, Links from other (relevant) sites about this activity, and the date when the above activity ends.
+    The planned use of these IP resources: List subnet size required, and for what it will be used plus any AS numbers and reverse delegation, if required.
+    The intended date of return of the IP resources above.
+
+ 
+
+9.3 Administrative fees
+
+AFRINIC may charge administrative fees (if necessary) for assignment of the temporary IP numbers above.
+
+ 
+10.0  Reverse delegation
+
+This section describes the policy for reverse delegation of IPv4 and IPv6 assignments and allocations in the AFRINIC service region. Please note that AFRINIC registers only reverse delegations and is not involved in the domain name registration system.
+
+ 
+
+10.1    Introduction
+
+ 
+
+AFRINIC provides support to enable applications to map to a domain name from an IP address. Reverse delegation is achieved by use of the in-addr.arpa (IPv4) and ip6.arpa (IPv6) domains.
+
+ 
+
+10.2 Obtaining Delegation of an in-addr.arpa sub-zone
+
+AFRINIC only accepts requests for reverse delegation under in-addr.arpa from AFRINIC active LIRs. End Users must send their requests to the LIR from which they obtained the addresses, or in the case of Provider Independent addresses, to any of the LIRs of their choice. AFRINIC will carry out tests to ensure that the name server for the zone that the reverse delegation is being requested is up and configured as per the recommendations in RFC1912.
+
+ 
+
+10.3 Reverse Delegation for Provider Aggregatable (PA) Address Space
+
+AFRINIC will only make delegations on 8-bit boundaries (/16 or /24). Multiple delegations may be requested to cover CIDR prefixes shorter blocks bigger than a /24.
+
+ 
+
+10.4   Reverse Delegation for Provider Independent (PI) Address Space
+
+AFRINIC will reverse delegate a zone in in-addr.arpa to an End User that has been assigned PI space.
+
+For delegations of address blocks smaller than a /24 the method described in "Classless IN-ADDR.ARPA Delegation"[RFC 2317] will be used.
+
+ 
+
+10.5   Validity of the Reverse Delegation
+
+AFRINIC accepts requests for delegation and modifications of delegations from LIRs whose membership status is up-to-date.
+
+ 
+
+10.6   IPv6 Reverse Delegation
+
+IETF consensus was reached that the ip6.arpa domain be used for address to DNS name mapping for the IPv6 address space. Refer to RFC2874  and  RFC3596 .
+
+Delegation of the ip6.arpa domain is done by the Intenet Assigned Numbers Authority (IANA). Names within this zone are delegated to Regional Internet Registries in accordance with their respective delegation of IPv6 address space.
+
+ 
+11.0  Resource Reservations for Internet Exchange Points
+
+This policy requests AFRINIC to reserve, and publish IPv4 resources, and ASNs for use by IXPs only. 
+
+ 
+
+11.1 Introduction
+
+It is widely considered that Internet Exchange Points (IXPs) are one of the critical elements needed for Internet economies to develop. Africa is still in the process of developing these, and is, at the same time, faced with the imminent exhaustion of its IPv4 resources. 
+
+Not having IPv4 addresses to grow, or start, new IXPs would create unnecessary and unneeded routing complexity for Internet connected networks, looking to peer at IXPs to further their network scope.
+
+AFRINIC already has an existing policy to make allocations to IXPs  [1] , but that policy does not specifically reserve IPV4 space to ensure that there will be such, for future IXPs to grow and develop.  Additionally, this policy reserves a set of ASNs between 0 - 65535 for use by IXPs, for IXP BGP Route Servers. 
+
+ 
+
+11.2 Distinction between IXP peering and management networks
+
+We distinguish between two kinds of IP number resources needed and used at IXPs. 
+
+An IXP peering LAN is the contiguous network address block that the IXP would use to assign unique IP addresses to each peering member, for each peering participant to exchange network traffic across the shared peering infrastructure. Best practice has the IXP peering LAN not being visible in a view of the global routing table, among other things to reduce the attack vectors for ISP border routers via the IXP. 
+
+ 
+
+From a network identification, monitoring and analysis perspective, it is thus desirable, that the "peering LAN" space be provided from a contiguous block. The IXP management LAN is the management network that the IXP uses to provision services at the IXP, like monitoring, statistics, mail, ticket systems, provisioning of transit to DNS Roots, etc. Management networks, are meant to be reachable globally, for instance to publish data and allow remote access for common good network infrastructure (such as root and TLD DNS servers) and research projects. 
+
+ 
+
+11.3 BGP Route Servers use 
+
+Typically, IXPs use BGP route servers to help manage peering sessions between different participants.  The route servers implement IXP routing policy in the form of BGP communities, typically in the form of A:B, where A,B represent A=IXP BGP route server and B=participant ASN. 
+
+ 
+
+Current BGP implementations utilise 6 bytes for the extended community attribute. Therefore, an IXP with a 4-byte ASN in use at its route server would not be able to successfully implement the A:B BGP community mapping, if an IXP participant has a 4-byte ASN. This situation is likely to be experienced by more IXPs, as additional 4-byte ASNs are allocated through the current AFRINIC process. 
+
+ 
+
+If IXP route server communities include the IXP ASN and the peer's ASN (expected to be 4-byte), and a total of only 6 bytes are available, it follows that IXP route servers ASN could not be longer than occupying more than 2 bytes. 
+
+ 
+
+11.4 Policy Detail
+
+To ensure that there are sufficient resources for IXPs to develop, this policy proposes that AFRINIC reserve IPv4 addresses for IXP peering LANs out of an address block marked particularly, and exclusively, for IXP peering LAN use. 
+
+ 
+
+Assignments for IXP peering LANs must be from one dedicated block, published as such by AFRINIC. The Peering LAN assignments for each IXP should ensure that the adjacent /24 IP block is reserved (based on the minimum end-user assignment policy size of /24) to support future growth of the IXP. This will enable an IXP to increase its peering LAN resources to /23 without having to renumber to a new contiguous IP block allocation. 
+
+ 
+
+Assignments for IXP management addresses should NOT be provided from the same block as the IXP peering LANs. 
+
+ 
+
+It is proposed that a /16 block be reserved for future requirements for IXP peering LANs in the AFRINIC service region, and that AFRINIC publish this block as such. In addition, the assignments for the IXP peering LAN should reserve the adjacent contiguous /24 IP block to the requesting IXP for future growth.
+
+ 
+
+These reservations shall be upheld until such a time that the available pool of the /16 can no longer allocate /23 assignments. Thereafter, new requests may be assigned from the reserved space held for future IXP growth.  It is further proposed to reserve the equivalent of an additional /16 block for IXP management prefixes, separate from the peering LANs. 
+
+ 
+
+It is proposed that AFRINIC reserves a block of ASNs between 0 - 65535 for use in BGP route servers at IXPs in the AFRINIC service region. The number of ASNs to be reserved should be the larger of 114, or half of the remaining ASNs between 0 - 65535 within AFRINIC's block at the date of ratification of this policy.  AFRINIC will allocate these resources on a first come first served basis. 
+
+ 
+
+11.5 Evaluation criteria
+
+This policy does not suggest new evaluation criteria for what determines a valid IXP. 
+
+ 
+12.0  Anycast Resource Assignments
+
+This policy allows an organization to receive an IPv4/IPv6 allocation or assignment and an AS Number purely for anycast or GPRS Roaming Exchange (GRX) usage.
+
+ 
+
+12.1 Summary
+
+This policy allows the use of:
+
+    •One (1) /24 of IPv4 for anycast services from a PA allocation of an LIR or direct end-user assignment.
+    •One /48 of IPv6 for anycast services from an IPv6 LIR allocation or direct end-user assignment.
+    •An AS Number for anycast purposes.
+
+AFRINIC staff will consider anycast IPv4/IPv6 blocks assigned to be "fully utilised" by the LIR when considering utilisation for first allocation or for an additional allocation to an LIR.
+
+ 
+
+12.2 Policy
+
+ 
+
+12.2.1 An organization may obtain one (1) /24 IPv4 and/or one (1) /48 IPv6 prefix for anycast or GRX purposes from an allocation or an AFRINIC issued direct end-user assignment. An AS Number should also be issued for the same purposes if requested. These resources must be used for the sole purpose of providing anycast services. The IPv4/IPv6 prefixes will count as being fully utilised when an organization applies for additional resources. The utilization criteria that apply to all IPv4 and IPv6 initial allocation or assignment requests shall be waived for anycast assignment requests.
+
+ 
+
+12.2.2 Blocks used for anycast services cannot be further assigned or sub-allocated. They shall be tagged with the status attribute in the AFRINIC whois service as "ASSIGNED ANYCAST".
+
+ 
+INDEX
+
+Abbreviations
+
+    AFRINIC:  The African Network Information Centre
+    APNIC: Asia Pacific Network Information Centre
+    ARIN: American Registry for Internet Numbers
+    SAW: Sub-allocation Window
+    IANA: Internet Assigned Numbers Authority
+    ICANN: Internet Community for Assigned Names and Numbers
+    IP: Internet Protocol
+    LACNIC: Latin American and Caribbean Network Information Centre
+    LIR: Local Internet Registry
+    PA: Provider Aggregatable
+    PI: Provider Independent
+    RIR: Regional Internet Registry
+
+ 
+
+Discussions are taking place on the policy working group mailing list if you want to subscribe to the mailing send your subscription request to  rpd-request [at] afrinic.net with ' Subscribe ' as subject line
+
+Mailing list archives can be found at https://lists.afrinic.net/pipermail/rpd
+
+    Library
+        News & Publications
+        Policy documents
+            Current Policies
+            Archive
+        Member support docs
+        Corporate documents
+        Training materials
+        Call for Comments
+
+ 
+sitemap 32 Sitemap   |   Privacy Statement      	AFRINIC RSS feeds   linkedin   twitter 16   Facebook 32   flickr   youtube
+ 
+  	  	  	  	  	  	  	 
+About Us 	Services 	Community 	Library 	Initiatives 	MyAFRINIC 	FAQ 	ICANN-ASWG
+Origins
+
+Structure
+–› BoD
+–›  CoE
+–›  Our Team
+
+Bylaws
+AGMM
+Our Members
+Partners & Support 
+Careers
+Branding
+Contact us
+Office hours
+	Registration services
+–› Membership eligibility
+–› Membership types
+–› Membership fees
+–› Online Payment
+–› RSA
+
+Whois
+Statistics
+Training
+Virtual lab
+IPv6 programme
+IP utilities
+Peering
+BPKI
+AFRINIC IRR
+	AFRINIC events
+–› Events calendar
+–› Sponsorship
+–› Fellowship
+–› Presentation guides
+–› Events archive
+–› Official Visits
+
+Policy Developement.
+–› Policy support guides
+–› Policy proposals
+–› PDWG
+
+Elections.
+–› BOD election
+–› PDWG election
+–› NRO-NC/ ASO-AC election
+–› AFRINIC NomCom
+–› Voting
+
+BoD Candidates 2015
+
+PDWG Co-Chair Candidates 2015
+
+Email & Mailing Lists
+
+IANA Oversight
+
+IPv4 Exhaustion
+
+Internet Governance
+–› NRO and ASO
+–› IANA Globalisation
+–› IGF
+–› AF*
+–› WTDC
+–› IG Stakeholders 	News & Publications
+–› Press release
+–› Factsheets
+
+Policies
+–› Current
+–› Proposals
+–› Archive
+
+Documents
+–› Members support
+–› Corporate
+–› Training materials
+
+Call for Comments 	Resource Certification
+DNSSec
+Root Server Copy
+DNS Support
+	About
+Register
+Terms & Policies
+Login 	AFRINIC Members
+Billing
+General Queries
+MyAFRINIC
+Non Members
+WHOIS
+	Terms of Reference
+Strategy Matrix
+SWOT Analysis
+Questionnaires
+Assessment
+ 
+© 2005 - 2016 AFRINIC - All Rights Reserved      Back to Top
+
+Web analytics api
+[x] close
+
+    Origins
+    Structure
+    Board of Directors
+    Bylaws
+    AGMM
+    Governance Committee
+    Service Region
+    Our Members
+    Partners & support
+    Careers
+    Contact us
+    Office hours
+
+    Council of Elders
+    Our Team
+
+    AFRINIC SLC
+    Registration services
+    WHOIS
+    Statistics
+    Training
+    IPv6 programme
+    IP tools
+    Peering
+    BPKI
+    AFRINIC IRR
+
+    AFRINIC events
+    Policy development
+    Working Groups
+    Elections
+    Email & mailing lists
+    IANA Oversight
+    IPv4 Exhaustion
+    Internet Governance
+    Operational Reports
+    AfGWG
+    FIRE Africa
+    Code of Conduct
+
+    Governance Committee
+    NomCom
+    Election Committee
+    NRO NC - ASO AC
+    DBWG
+    IANA Review Comm.
+    Board Committees
+    Inactive Committee
+
+    Introduction
+    ICANN and IANA
+    NRO
+    IGF
+    AF*
+    WTDC
+    IG Stakeholders
+
+    Global policies
+
+    News & publications
+    Policy documents
+    Member support docs
+    Corporate documents
+    Call for Comments on documents
+
+    AFRINIC/RIPE ATLAS
+    Resource certification
+    Root server copy
+    DNS support
+    DNSSEC
+
+    Billing
+    WHOIS
+    General Queries
+    MyAFRINIC
+    Non Members
+    AFRINIC Members
+    BPKI
+    IPv4 Exhaustion
+
+    Current Status
+    Incidents Archive
+

@@ -1,0 +1,56 @@
+
+/* ::::: http://www.ws.afnog.org/afnog2012/workshop.css ::::: */
+
+body { color: black; background-color: white; font-family: sans-serif,Helvetica,Arial; }
+.center { text-align: center; }
+.centered-image { text-align: center; max-width: 99%; }
+.centered-image img { max-width: 100%; height: auto; min-height: 2em; }
+.floatright { float: right; clear: both; margin: 0px; border: 0px none; padding: 15px 10px 15px 20px; max-width: 33%; }
+div.floatright * img.floatright, div.floatright * img, div.floatright > img.floatright, div.floatright > img { float: none; clear: both; margin: 5px 0px; border: 0px none; padding: 0px; max-width: 100%; height: auto; }
+.top-right-logo { float: right; border: 0px none; padding: 15px 10px 15px 20px; max-width: 25%; min-width: 100px; }
+.top-right-logo > img { max-width: 100%; height: auto; }
+.headers-with-right-logo-margin { margin-right: 20%; }
+.arrowlinks { text-align: left; font-size: small; }
+@media print {
+  .arrowlinks { display: none; }
+}
+.sectionjumps { font-size: small; text-align: center; }
+@media print {
+  .sectionjumps { display: none; }
+}
+.bottomlinks { text-align: center; font-size: medium; }
+@media print {
+  .bottomlinks { display: none; }
+}
+.bottombuttons { text-align: center; font-size: medium; }
+@media print {
+  .bottombuttons { display: none; }
+}
+.copyright { font-size: medium; font-weight: bold; }
+h1 { text-align: center; }
+h2, h3, h4, h5, h6 { text-align: left; }
+h1.topcontext, h1.topheader, h1.topsubhead { text-align: center; font-weight: bold; }
+h1.topcontext { font-size: large; }
+h1.topheader { font-size: xx-large; }
+h1.topsubhead { font-size: x-large; }
+.todo { color: black; background-color: rgb(255, 136, 255); }
+.todo-note, .fixme { color: black; background-color: rgb(255, 136, 255); font-size: large; font-weight: bold; text-align: center; padding: 10px; border: thick solid red; margin: 10px; }
+@media print {
+  a, a:link, a:visited, a:active, a:hover { text-decoration: inherit; color: inherit; background-color: inherit; }
+}
+
+/* ::::: http://www.ws.afnog.org/afnog2012/sie/sie.css ::::: */
+
+.fixedbottomright { border: 0px none; position: absolute; left: auto; bottom: 0px; right: 0px; width: auto; height: auto; float: right; }
+.fixedbottomright { position: fixed; }
+ul.topics > li { font-size: large; font-weight: bold; padding-top: 0.5em; padding-bottom: 0.5em; }
+ul.topics li * { font-size: medium; font-weight: normal; padding-top: 0px; padding-bottom: 0px; }
+ul.topics > li > ul > li { padding-top: 0.5em; }
+table.timetable { width: 100%; }
+table.timetable tr td, table.timetable tr th { font-size: medium; text-align: left; vertical-align: top; border: thin solid black; padding: 0.5ex; }
+table.timetable .empty { border: 0px none; }
+table.timetable .day { font-size: large; font-weight: bold; vertical-align: middle; text-align: center; padding: 1ex; }
+table.timetable .time { font-size: large; font-weight: bold; vertical-align: middle; text-align: left; }
+table.timetable .topic { padding: 1ex 0px; }
+table.timetable .slot { text-align: left; }
+table.timetable .commonslot { font-weight: bold; vertical-align: middle; text-align: center; }

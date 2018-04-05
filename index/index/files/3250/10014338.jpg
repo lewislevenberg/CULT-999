@@ -1,0 +1,68 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN">
+<HTML>
+
+<HEAD>
+	<META HTTP-EQUIV="Content-Type" CONTENT="text/html;CHARSET=iso-8859-1">
+	<TITLE>Digital Programs and Systems [Gateway]</TITLE>
+</HEAD>
+<BODY BGCOLOR="#FFFBF0">
+<FORM ACTION="login" METHOD="POST" ENCTYPE="application/x-www-form-urlencoded">
+<P ALIGN="CENTER">
+
+<H2 ALIGN="CENTER"><FONT COLOR="#000066" face="Verdana, Arial, Helvetica, sans-serif">University Libraries Database / e-Journal Gateway</FONT></H2>
+<P>
+<P ALIGN="CENTER"><strong><font size="2" face="Verdana, Arial, Helvetica, sans-serif">Access is limited to current Mason students, faculty and staff</strong></font></p>
+<p>
+<TABLE WIDTH="60%" BORDER="0" align="center" CELLSPACING="0" CELLPADDING="5">
+
+	<TR>
+	  <TD BGCOLOR="#FFFFCC"><div align="right"><font size="2" face="Verdana, Arial, Helvetica, sans-serif">Enter your MASON email username (e.g., smit205):</font>
+	    </div>
+        <font size="2">
+        <label></label>
+      </font></TD>
+      <TD BGCOLOR="#FFFFCC"><font size="2">
+        <label>
+        <input name="user" type="text" id="user" size="8" maxlength="20">
+        <font face="Verdana, Arial, Helvetica, sans-serif"><em>@gmu.edu</em></font></label>
+      </font></TD>
+	</TR>
+	<TR>
+	  <TD BGCOLOR="#FFFFCC"><div align="right"><font size="2" face="Verdana, Arial, Helvetica, sans-serif">Enter your MASON email password: </font></div></TD>
+      <TD BGCOLOR="#FFFFCC"><font size="2">
+        <label>
+        <input name="pass" type="password" id="pass" size="30" maxlength="30">
+        </label>
+      </font></TD>
+	</TR>
+</TABLE>
+<p> 
+<CENTER>
+<INPUT TYPE="HIDDEN" NAME="url" SIZE="-1" VALUE="http://www.faulkner.com/products/faulknerlibrary/image/10014338.jpg">
+<INPUT TYPE="SUBMIT" Value="Enter" NAME="Enter">
+</CENTER>
+</FORM>
+<p>&nbsp;<p>&nbsp;<p>
+<center>
+<table width="65%" border="0" align="center" cellpadding="5" cellspacing="3">
+ 
+  <tr>
+    <td height="78" colspan="2" bgcolor="#CCCCCC"><div align="center">
+    <font size="2" face="Verdana, Arial, Helvetica, sans-serif">
+    <p>We use Mason's email system to validate off-campus users.<p><i>
+      If you have forgotten your email account password,<br>
+      or never activated your email account,<br> visit this site and follow the appropriate link:</i></p>
+      <a href="https://mail.gmu.edu">https://mail.gmu.edu</a></p>
+      &nbsp;
+      Our Frequently Asked Questions page offers additional information on access:
+      <p>
+      <a href="http://lso.gmu.edu/ezproxy_faq.html">http://lso.gmu.edu/ezproxy_faq.html</a><br>
+</font>
+    </div></td>
+  </tr>
+  </table>
+  </center>
+
+</BODY>
+
+</HTML>

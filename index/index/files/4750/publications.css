@@ -1,0 +1,101 @@
+
+/* ::::: http://www.researchictafrica.net/css/riaNEW.css ::::: */
+
+#wrapper { width: 1100px; margin: 0px auto; padding: 0px; position: relative; background: url('frame-body.jpg') repeat-y scroll 0% 0% rgb(255, 255, 255); }
+#content { width: 1000px; height: 100%; margin-left: 50px; position: relative; }
+#header { width: 1000px; height: 135px; background-color: rgb(255, 255, 255); font-family: "Lato",Arial,sans-serif; }
+#search { position: absolute; top: 25px; right: 30px; }
+input { outline: medium none; }
+input[type="search"] { font-family: inherit; font-size: 100%; }
+input[type="search"] { background: url('search-icon.png') no-repeat scroll 9px center rgb(237, 237, 237); border: 1px solid rgb(204, 204, 204); padding: 7px 10px 7px 35px; width: 100px; border-radius: 10em; transition: all 0.5s ease 0s; }
+input[type="search"]:focus { width: 282px; background-color: rgb(255, 255, 255); border: 1px solid rgb(153, 153, 153); box-shadow: 0px 0px 5px rgba(102, 102, 102, 0.5); }
+input:-moz-placeholder { color: rgb(214, 214, 214); }
+#slogan { position: absolute; top: 84px; right: 30px; font-size: 13px; color: rgb(153, 153, 153); }
+#menu_bar_bg { background: url('menu_bg_strip.jpg') repeat-x scroll 0% 0% transparent; height: 35px; width: 1000px; }
+#main_panel { width: 1000px; position: relative; min-height: 800px; background-color: rgb(255, 255, 255); }
+#left_panel { float: left; width: 680px; min-height: 450px; padding: 0px 25px 65px 20px; font-family: "Lato",Arial,sans-serif; font-size: 13px; font-weight: normal; color: rgb(51, 51, 51); text-align: justify; background-color: rgb(255, 255, 255); }
+#right_panel { width: 255px; min-height: 450px; float: left; font-family: "Lato",Arial,sans-serif; font-size: 12px; font-weight: normal; color: rgb(51, 51, 51); padding: 0px 10px; background-color: rgb(230, 230, 230); }
+#single_panel { float: left; width: 955px; min-height: 450px; padding: 0px 20px 45px; font-family: "Lato",Arial,sans-serif; font-size: 13px; font-weight: normal; color: rgb(51, 51, 51); text-align: justify; background-color: rgb(255, 255, 255); }
+#footer_bar { clear: both; width: 985px; margin: 0px auto; position: relative; z-index: 3; height: 25px; padding: 7px 0px 0px 15px; color: rgb(204, 204, 204); background: url('menu_bg_strip.jpg') repeat-x scroll 0% 0% transparent; }
+#downloads_panel_top { margin-top: 425px; width: 245px; height: 30px; padding-left: 10px; background: url('menu_bg_strip.jpg') repeat-x scroll 0% 0% transparent; }
+#downloads_panel_body { width: 255px; background-color: rgb(255, 255, 255); }
+#archive_panel_top { margin-top: 40px; width: 245px; height: 30px; padding-left: 10px; background: url('archive-top.jpg') no-repeat scroll left top transparent; }
+#footer { position: relative; z-index: 2; clear: both; }
+#footer_content { width: 1000px; margin: 0px auto; position: relative; padding: 20px 0px; }
+.country-heading { font-family: "Lato",Arial,sans-serif; font-size: 34px; font-weight: bold; letter-spacing: 0.03em; color: rgb(0, 0, 0); display: inline; margin-left: 10px; }
+.country-line { display: block; width: 680px; border-bottom: 2px solid rgb(0, 0, 0); margin: 5px 0px 15px; }
+.article-heading { font-family: "Lato",Arial,sans-serif; font-size: 20px; font-weight: 700; color: rgb(204, 41, 43); display: block; border-bottom: 1px solid rgb(204, 41, 43); padding-bottom: 3px; margin-top: 25px; margin-bottom: 5px; }
+.heading { font-family: "Lato",Arial,sans-serif; font-size: 14px; font-weight: bold; color: rgb(51, 51, 51); display: block; margin-top: 20px; margin-bottom: 2px; }
+.sub-heading { font-family: "Lato",Arial,sans-serif; font-size: 14px; font-weight: bold; color: rgb(0, 0, 0); display: block; margin-top: 10px; margin-bottom: 2px; }
+.people-heading { font-family: "Lato",Arial,sans-serif; font-size: 15px; font-weight: bold; color: rgb(0, 0, 0); border-bottom: 1px solid rgb(153, 153, 153); display: block; margin-top: 28px; padding-bottom: 2px; }
+.side-heading { font-family: "Lato",Arial,sans-serif; font-size: 19px; font-weight: bold; color: rgb(204, 41, 43); display: block; border-bottom: 1px solid rgb(204, 204, 204); padding-bottom: 3px; margin-top: 25px; margin-bottom: 5px; }
+.side-sub-heading { font-family: "Lato",Arial,sans-serif; font-size: 14px; font-weight: bold; color: rgb(0, 0, 0); display: block; margin-top: 15px; }
+.downloads-heading { font-family: "Lato",Arial,sans-serif; font-size: 15px; font-weight: bold; display: block; letter-spacing: 0.05em; color: rgb(255, 255, 255); line-height: 33px; }
+.footer { font: 12px "Arial",Verdana,sans-serif; color: rgb(0, 0, 0); text-decoration: none; }
+.small { font: 12px "Arial",Verdana,sans-serif; color: rgb(102, 102, 102); }
+.article_date { font-family: "Lato",Arial,sans-serif; font-size: 12px; color: rgb(153, 153, 153); display: block; margin-bottom: 15px; }
+.read_link { font-size: 11px; }
+a:link { color: rgb(204, 41, 43); text-decoration: none; outline: medium none; }
+a:active { color: rgb(204, 41, 43); text-decoration: none; }
+a:visited { color: rgb(204, 41, 43); text-decoration: none; }
+a:hover { color: rgb(204, 41, 43); text-decoration: none; }
+a.footer:link { color: rgb(204, 204, 204); text-decoration: none; }
+a.footer:active { color: rgb(204, 204, 204); text-decoration: none; }
+a.footer:visited { color: rgb(204, 204, 204); text-decoration: none; }
+a.footer:hover { color: rgb(255, 255, 255); text-decoration: none; }
+:-moz-any-link:focus { outline: medium none; }
+a.button { position: relative; overflow: hidden; background-color: rgb(255, 255, 255); border-right: 1px solid rgb(102, 102, 102); border-width: medium 1px 1px; border-style: none solid solid; border-color: -moz-use-text-color rgb(102, 102, 102) rgb(102, 102, 102); -moz-border-top-colors: none; -moz-border-right-colors: none; -moz-border-bottom-colors: none; -moz-border-left-colors: none; border-image: none; padding: 4px 5px 3px; display: block; width: 243px; font: bold 12px/16px "Trebuchet MS",Verdana,sans-serif; text-align: left; text-decoration: none; color: rgb(51, 51, 51); outline: medium none; }
+a.button:hover { background-color: rgb(230, 230, 230); text-decoration: none; color: rgb(204, 41, 43); outline: medium none; }
+a.archive { position: relative; overflow: hidden; background-color: rgb(255, 255, 255); border-right: 1px solid rgb(102, 102, 102); border-width: medium 1px 1px; border-style: none solid solid; border-color: -moz-use-text-color rgb(102, 102, 102) rgb(102, 102, 102); -moz-border-top-colors: none; -moz-border-right-colors: none; -moz-border-bottom-colors: none; -moz-border-left-colors: none; border-image: none; padding: 4px 5px 3px; display: block; width: 243px; font: bold 12px/16px "Trebuchet MS",Verdana,sans-serif; text-align: left; text-decoration: none; color: rgb(51, 51, 51); outline: medium none; }
+a.archive:hover { background-color: rgb(230, 230, 230); text-decoration: none; color: rgb(204, 41, 43); outline: medium none; }
+a.country_btn { display: block; padding-bottom: 4px; font: bold 12px "Trebuchet MS",Verdana,sans-serif; text-decoration: none; color: rgb(102, 102, 102); outline: medium none; }
+a.country_btn:hover { text-decoration: none; color: rgb(204, 41, 43); outline: medium none; }
+a.country_btn:active { text-decoration: none; }
+.checkOver { overflow: auto; width: 200px; height: 95px; }
+.commtxt { background-color: rgb(251, 251, 251); border: 1px solid rgb(230, 230, 230); border-radius: 3px; color: rgb(156, 156, 156); font-family: inherit; font-size: 12px; padding: 8px 6px; }
+.commtxt:focus { border: 1px solid rgb(179, 179, 179); }
+
+/* ::::: http://www.researchictafrica.net/menu/menu.css ::::: */
+
+div#menu { height: 35px; padding-left: 10px; width: auto; float: left; }
+div#menu ul { margin: 0px; padding: 0px; list-style: outside none none; float: left; }
+div#menu ul.menu { padding-right: 0px; }
+div#menu li { position: relative; margin: 0px; padding: 0px; display: block; float: left; z-index: 99; width: auto; }
+div#menu ul ul li { z-index: 99; }
+div#menu li div { list-style: outside none none; float: left; position: absolute; z-index: 100; top: 29px; left: 0px; visibility: hidden; width: 170px; padding: 0px 0px 7px 1px; background: url('submenu-bottom_160.gif') no-repeat scroll 7px bottom transparent; margin: 6px 0px 0px -6px; }
+div#menu li:hover > div { visibility: visible; }
+div#menu a { position: relative; z-index: 99; height: 41px; display: block; float: left; line-height: 41px; text-decoration: none; white-space: nowrap; width: auto; padding-right: 1px; text-align: center; }
+div#menu span { display: block; cursor: pointer; background-repeat: no-repeat; background-position: 95% 0px; text-align: center; }
+div#menu a { padding: 0px 30px 0px 0px; line-height: 40px; height: 35px; margin-right: 3px; background: none repeat scroll 0% 0% transparent; }
+div#menu span { padding-left: 15px; color: rgb(255, 255, 255); font-family: "Lato",Arial,sans-serif; font-size: 15px; background: none repeat scroll 0% 0% transparent; line-height: 37px; }
+div#menu span { padding-left: 15px; color: rgb(255, 255, 255); font-family: "Lato",Arial,sans-serif; font-size: 15px; background: none repeat scroll 0% 0% transparent; line-height: 37px; }
+div#menu span.current { color: rgb(255, 153, 0); }
+div#menu a:hover, div#menu a.over { color: rgb(255, 153, 0); background: none repeat scroll 0% 0% transparent; }
+div#menu a:hover span, div#menu a.over span { color: rgb(255, 153, 0); background: none repeat scroll 0% 0% transparent; }
+div#menu li.current a, div#menu ul.menu > li:hover > a { color: rgb(255, 153, 0); background: none repeat scroll 0% 0% transparent; }
+div#menu li.current span { color: rgb(255, 153, 0); background: none repeat scroll 0% 0% transparent; }
+div#menu li.current a span { color: rgb(255, 153, 0); background: none repeat scroll 0% 0% transparent; }
+div#menu ul.menu > li:hover > a span { color: rgb(255, 153, 0); background: none repeat scroll 0% 0% transparent; }
+div#menu li {  }
+div#menu li.last { background: none repeat scroll 0% 0% transparent; }
+div#menu li.current a, div#menu li.current a span, div#menu.js-active a:hover, div#menu.js-active a:hover span, div#menu.js-active a, div#menu.js-active span { background: none repeat scroll 0% 0% transparent; color: rgb(255, 153, 0); }
+div#menu.js-active ul.menu > li:hover > a, div#menu.js-active ul.menu > li:hover > a span { color: rgb(255, 153, 0); background: none repeat scroll 0% 0% transparent; }
+div#menu li.current a.over { color: rgb(255, 153, 0); background: none repeat scroll 0% 0% transparent; }
+div#menu li.current a.over span { color: rgb(255, 153, 0); background: none repeat scroll 0% 0% transparent; }
+div#menu a.over span { color: rgb(255, 153, 0); background: none repeat scroll 0% 0% transparent; }
+div#menu ul ul li { background: none repeat scroll 0% 0% transparent; padding: 0px; }
+div#menu ul ul { padding-top: 5px; }
+div#menu ul ul a { padding: 0px 0px 0px 5px; height: auto; float: none; display: block; line-height: 26px; font-size: 14px; z-index: -95; white-space: normal; width: 150px; margin: 0px 6px; text-transform: none; color: rgb(102, 102, 102); }
+div#menu ul ul a span { padding: 0px 8px; line-height: 26px; font-size: 14px; color: rgb(102, 102, 102); }
+div#menu li.current ul a, div#menu li.current ul a span { background: none repeat scroll 0% 0% transparent; color: rgb(255, 153, 0); }
+div#menu ul ul a:hover { background: none repeat scroll 0% 0% transparent; }
+div#menu ul ul a:hover span { background: none repeat scroll 0% 0% transparent; }
+div#menu ul ul a.parent {  }
+div#menu ul ul a.parent span {  }
+div#menu ul ul a.parent:hover {  }
+div#menu ul ul a.parent:hover span {  }
+div#menu ul ul span { margin-top: 0px; text-align: left; }
+div#menu ul ul li.last { background: none repeat scroll 0% 0% transparent; }
+div#menu ul ul li { width: 100%; }
+div#menu li.back { background-image: none; width: 10px; height: 35px; z-index: 98; position: absolute; padding: 0px; margin: 0px; }
+div#menu li.back .left { padding: 0px; width: auto; background: none repeat scroll 0% 0% transparent; height: 35px; margin: 0px 5px 0px 10px; float: none; position: relative; top: 0px; left: 0px; visibility: visible; }

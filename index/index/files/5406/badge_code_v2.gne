@@ -1,0 +1,27 @@
+var b_txt = '';
+
+// write the badge
+	
+	
+		 	 		
+	b_txt+= '<div class="flickr_badge_image" id="flickr_badge_image1"><a href="http://www.flickr.com/photos/145951858@N03/32760004113/"><img src="http://farm4.staticflickr.com/3792/32760004113_e2ed3f487a_s.jpg" alt="A photo on Flickr" title="Hon. George Andah &amp; Joe Anokye - DG(NCA)" height="75" width="75"></a></div>';
+	
+		 	 		
+	b_txt+= '<div class="flickr_badge_image" id="flickr_badge_image2"><a href="http://www.flickr.com/photos/145951858@N03/32073263914/"><img src="http://farm3.staticflickr.com/2060/32073263914_66d3bb5cde_s.jpg" alt="A photo on Flickr" title="Ambassador of Finland Calls on Minister of Communications" height="75" width="75"></a></div>';
+	
+		 	 		
+	b_txt+= '<div class="flickr_badge_image" id="flickr_badge_image3"><a href="http://www.flickr.com/photos/145951858@N03/33415940272/"><img src="http://farm3.staticflickr.com/2840/33415940272_7e9974c7eb_s.jpg" alt="A photo on Flickr" title="Hon Ursula- Owusu-Ekuful" height="75" width="75"></a></div>';
+	
+		 	 		
+	b_txt+= '<div class="flickr_badge_image" id="flickr_badge_image4"><a href="http://www.flickr.com/photos/145951858@N03/32535766130/"><img src="http://farm3.staticflickr.com/2289/32535766130_6cf840ed83_s.jpg" alt="A photo on Flickr" title="Her Excellency Pirjo Suomela-Chowdburry and Hon. Ursula Owusu-Ekuful, Minister for Communications" height="75" width="75"></a></div>';
+	
+		 	 		
+	b_txt+= '<div class="flickr_badge_image" id="flickr_badge_image5"><a href="http://www.flickr.com/photos/145951858@N03/31983106463/"><img src="http://farm1.staticflickr.com/279/31983106463_85636b4343_s.jpg" alt="A photo on Flickr" title="President Nana Akufo-Addo in Group Picture of second batch of sworn in Ministers" height="75" width="75"></a></div>';
+	
+		 	 		
+	b_txt+= '<div class="flickr_badge_image" id="flickr_badge_image6"><a href="http://www.flickr.com/photos/145951858@N03/32760004723/"><img src="http://farm3.staticflickr.com/2911/32760004723_f727e213ce_s.jpg" alt="A photo on Flickr" title="Hon. George Andah" height="75" width="75"></a></div>';
+
+
+b_txt += '<span style="position:absolute;left:-999em;top:-999em;visibility:hidden" class="flickr_badge_beacon"><img src="http://geo.yahoo.com/p?s=792600102&t=e8b2c088e9703e6ab29e9b8c6b58191c&r=http%3A%2F%2Fmoc.gov.gh%2Feastern-corridor-fiber-optic-backbone&fl_ev=0&lang=en&intl=us" width="0" height="0" alt="" /></span>';
+
+document.write(b_txt);
