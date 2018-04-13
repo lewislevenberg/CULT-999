@@ -45,3 +45,5 @@ output_filtered_bigrams = open('filtered_bigrams.txt', 'w')
 print >>output_filtered_bigrams, filtered_bigrams 
 output_filtered_bigrams.close()
 
+# draw up key terms from bigrams vs their location in corpus
+text_clean.dispersion_plot(["internet", "infrastructure", "backbone", "network", "policy", "information", "telecommunications", "country", "state", "ghana", "nigeria", "liberia", "national", "regulations", "public", "private", "sector", "quality", "services", "government", "economic", "political", "social", "commission", "population", "african", "market", "computer", "law"])
